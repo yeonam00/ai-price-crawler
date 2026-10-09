@@ -1,0 +1,562 @@
+{
+ "collected_at": "2026-10-09T20:14:59+00:00",
+ "site_count": 53,
+ "success_count": 30,
+ "model_count": 8942,
+ "sites": [
+  {
+   "id": "pleum",
+   "name": "pleum router",
+   "url": "https://router.pleum.ai/models",
+   "method": "browser",
+   "ok": false,
+   "model_count": 0,
+   "error": "가격 표를 찾지 못함 (raw 파일의 page_text/unparsed_tables 확인 -> 전용 파서 필요)",
+   "seconds": 11.2,
+   "carried_over": 0
+  },
+  {
+   "id": "gabia_aihub",
+   "name": "가비아 ai hub",
+   "url": "https://aihub.gabiacloud.com/model-catalog",
+   "method": "browser",
+   "ok": true,
+   "model_count": 140,
+   "error": null,
+   "seconds": 12.8
+  },
+  {
+   "id": "bizrouter",
+   "name": "biz router",
+   "url": "https://bizrouter.ai/models",
+   "method": "browser",
+   "ok": false,
+   "model_count": 0,
+   "error": "가격 표를 찾지 못함 (raw 파일의 page_text/unparsed_tables 확인 -> 전용 파서 필요)",
+   "seconds": 8.9,
+   "carried_over": 0
+  },
+  {
+   "id": "openrouter",
+   "name": "openrouter",
+   "url": "https://openrouter.ai/models",
+   "method": "api:openrouter",
+   "ok": true,
+   "model_count": 458,
+   "error": null,
+   "seconds": 0.2
+  },
+  {
+   "id": "vercel",
+   "name": "vercel",
+   "url": "https://vercel.com/ai-gateway/models",
+   "method": "api:vercel",
+   "ok": true,
+   "model_count": 413,
+   "error": null,
+   "seconds": 0.5
+  },
+  {
+   "id": "litellm",
+   "name": "lite llm",
+   "url": "https://models.litellm.ai/",
+   "method": "api:litellm",
+   "ok": true,
+   "model_count": 4510,
+   "error": null,
+   "seconds": 0.1
+  },
+  {
+   "id": "cloudflare",
+   "name": "cloudflare",
+   "url": "https://developers.cloudflare.com/ai/models/",
+   "method": "browser",
+   "ok": false,
+   "model_count": 0,
+   "error": "가격 표를 찾지 못함 (raw 파일의 page_text/unparsed_tables 확인 -> 전용 파서 필요)",
+   "seconds": 5.7,
+   "carried_over": 0
+  },
+  {
+   "id": "requesty",
+   "name": "requesty",
+   "url": "https://www.requesty.ai/models",
+   "method": "browser",
+   "ok": true,
+   "model_count": 206,
+   "error": null,
+   "seconds": 6.8
+  },
+  {
+   "id": "edenai",
+   "name": "eden ai",
+   "url": "https://app.edenai.run/models",
+   "method": "browser",
+   "ok": false,
+   "model_count": 0,
+   "error": "가격 표를 찾지 못함 (raw 파일의 page_text/unparsed_tables 확인 -> 전용 파서 필요)",
+   "seconds": 9.8,
+   "carried_over": 0
+  },
+  {
+   "id": "fal",
+   "name": "fal",
+   "url": "https://fal.ai/pricing",
+   "method": "browser",
+   "ok": true,
+   "model_count": 46,
+   "error": null,
+   "seconds": 5.2
+  },
+  {
+   "id": "replicate",
+   "name": "replicate",
+   "url": "https://replicate.com/pricing",
+   "method": "browser",
+   "ok": true,
+   "model_count": 19,
+   "error": null,
+   "seconds": 4.4
+  },
+  {
+   "id": "azure",
+   "name": "azure",
+   "url": "https://azure.microsoft.com/en-us/pricing/details/azure-openai/",
+   "method": "browser",
+   "ok": true,
+   "model_count": 181,
+   "error": null,
+   "seconds": 11.0
+  },
+  {
+   "id": "bedrock",
+   "name": "bedrock",
+   "url": "https://aws.amazon.com/bedrock/pricing/",
+   "method": "browser",
+   "ok": true,
+   "model_count": 194,
+   "error": null,
+   "seconds": 11.7
+  },
+  {
+   "id": "google_cloud",
+   "name": "google cloud",
+   "url": "https://cloud.google.com/gemini-enterprise-agent-platform/generative-ai/pricing",
+   "method": "browser",
+   "ok": true,
+   "model_count": 243,
+   "error": null,
+   "seconds": 8.6
+  },
+  {
+   "id": "openai",
+   "name": "openai",
+   "url": "https://developers.openai.com/api/docs/pricing",
+   "method": "browser",
+   "ok": true,
+   "model_count": 61,
+   "error": null,
+   "seconds": 5.0
+  },
+  {
+   "id": "anthropic",
+   "name": "claude",
+   "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+   "method": "browser",
+   "ok": true,
+   "model_count": 23,
+   "error": null,
+   "seconds": 6.6
+  },
+  {
+   "id": "google",
+   "name": "google",
+   "url": "https://ai.google.dev/gemini-api/docs/pricing",
+   "method": "browser",
+   "ok": true,
+   "model_count": 61,
+   "error": null,
+   "seconds": 21.9
+  },
+  {
+   "id": "deepseek",
+   "name": "deepseek",
+   "url": "https://api-docs.deepseek.com/quick_start/pricing/",
+   "method": "browser",
+   "ok": true,
+   "model_count": 4,
+   "error": null,
+   "seconds": 5.7
+  },
+  {
+   "id": "xai",
+   "name": "grok",
+   "url": "https://docs.x.ai/developers/pricing",
+   "method": "browser",
+   "ok": true,
+   "model_count": 35,
+   "error": null,
+   "seconds": 22.1
+  },
+  {
+   "id": "zai",
+   "name": "Z-ai",
+   "url": "https://docs.z.ai/guides/overview/pricing",
+   "method": "browser",
+   "ok": true,
+   "model_count": 29,
+   "error": null,
+   "seconds": 3.5
+  },
+  {
+   "id": "xiaomi_mimo",
+   "name": "xiaomi-mimo",
+   "url": "https://mimo.mi.com/docs/en-US/price/pay-as-you-go",
+   "method": "browser",
+   "ok": true,
+   "model_count": 18,
+   "error": null,
+   "seconds": 18.8
+  },
+  {
+   "id": "alibaba_qwen",
+   "name": "알리바바-qwen",
+   "url": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
+   "method": "browser",
+   "ok": true,
+   "model_count": 1355,
+   "error": null,
+   "seconds": 14.6
+  },
+  {
+   "id": "kling",
+   "name": "kling-kuaishou",
+   "url": "https://kling.ai/document-api/pricing/base/video",
+   "method": "browser",
+   "ok": true,
+   "model_count": 20,
+   "error": null,
+   "seconds": 7.5
+  },
+  {
+   "id": "bfl_flux",
+   "name": "flux-blackforestlabs",
+   "url": "https://bfl.ai/pricing",
+   "method": "browser",
+   "ok": false,
+   "model_count": 0,
+   "error": "가격 표를 찾지 못함 (raw 파일의 page_text/unparsed_tables 확인 -> 전용 파서 필요)",
+   "seconds": 4.3,
+   "carried_over": 0
+  },
+  {
+   "id": "minimax",
+   "name": "minimax",
+   "url": "https://platform.minimax.io/docs/pricing/overview",
+   "method": "browser",
+   "ok": true,
+   "model_count": 46,
+   "error": null,
+   "seconds": 4.5
+  },
+  {
+   "id": "seedance",
+   "name": "seedance",
+   "url": "https://docs.byteplus.com/ko/docs/modelark/model-pricing",
+   "method": "browser",
+   "ok": true,
+   "model_count": 120,
+   "error": null,
+   "seconds": 20.8
+  },
+  {
+   "id": "elevenlabs",
+   "name": "elevenlabs",
+   "url": "https://elevenlabs.io/pricing/api",
+   "method": "browser",
+   "ok": false,
+   "model_count": 0,
+   "error": "가격 표를 찾지 못함 (raw 파일의 page_text/unparsed_tables 확인 -> 전용 파서 필요)",
+   "seconds": 6.7,
+   "carried_over": 0
+  },
+  {
+   "id": "ideogram",
+   "name": "ideogram",
+   "url": "https://ideogram.ai/pricing/?pricing_tab=api",
+   "method": "browser",
+   "ok": false,
+   "model_count": 0,
+   "error": "가격 표를 찾지 못함 (raw 파일의 page_text/unparsed_tables 확인 -> 전용 파서 필요)",
+   "seconds": 3.9,
+   "carried_over": 0
+  },
+  {
+   "id": "relace",
+   "name": "relace",
+   "url": "https://docs.relace.ai/docs/open-models/quickstart",
+   "method": "browser",
+   "ok": true,
+   "model_count": 9,
+   "error": null,
+   "seconds": 3.8
+  },
+  {
+   "id": "inference_net",
+   "name": "inference.net",
+   "url": "https://inference.net/models/",
+   "method": "browser",
+   "ok": false,
+   "model_count": 0,
+   "error": "가격 표를 찾지 못함 (raw 파일의 page_text/unparsed_tables 확인 -> 전용 파서 필요)",
+   "seconds": 7.7,
+   "carried_over": 0
+  },
+  {
+   "id": "sailresearch",
+   "name": "sail research",
+   "url": "https://docs.sailresearch.com/pricing",
+   "method": "browser",
+   "ok": true,
+   "model_count": 39,
+   "error": null,
+   "seconds": 8.2
+  },
+  {
+   "id": "decart",
+   "name": "decart",
+   "url": "https://cogito.decart.ai/models",
+   "method": "browser",
+   "ok": true,
+   "model_count": 2,
+   "error": null,
+   "seconds": 6.4
+  },
+  {
+   "id": "morph",
+   "name": "morph",
+   "url": "https://www.morphllm.com/models",
+   "method": "browser",
+   "ok": false,
+   "model_count": 0,
+   "error": "가격 표를 찾지 못함 (raw 파일의 page_text/unparsed_tables 확인 -> 전용 파서 필요)",
+   "seconds": 3.3,
+   "carried_over": 0
+  },
+  {
+   "id": "dekallm",
+   "name": "deka llm",
+   "url": "https://www.cloudeka.id/en/products/deka-llm-en/",
+   "method": "browser",
+   "ok": false,
+   "model_count": 0,
+   "error": "가격 표를 찾지 못함 (raw 파일의 page_text/unparsed_tables 확인 -> 전용 파서 필요)",
+   "seconds": 13.6,
+   "carried_over": 0
+  },
+  {
+   "id": "deepinfra",
+   "name": "deepinfra",
+   "url": "https://deepinfra.com/pricing",
+   "method": "browser",
+   "ok": true,
+   "model_count": 171,
+   "error": null,
+   "seconds": 3.4
+  },
+  {
+   "id": "streamlake",
+   "name": "streamlake",
+   "url": "https://www.streamlake.ai/document/DOC/mgrnm4xm362hvp5wyce",
+   "method": "browser",
+   "ok": true,
+   "model_count": 46,
+   "error": null,
+   "seconds": 10.2
+  },
+  {
+   "id": "atlascloud",
+   "name": "atlas cloud",
+   "url": "https://www.atlascloud.ai/models",
+   "method": "browser",
+   "ok": false,
+   "model_count": 0,
+   "error": "가격 표를 찾지 못함 (raw 파일의 page_text/unparsed_tables 확인 -> 전용 파서 필요)",
+   "seconds": 7.2,
+   "carried_over": 0
+  },
+  {
+   "id": "digitalocean",
+   "name": "digital ocean",
+   "url": "https://docs.digitalocean.com/products/inference/details/pricing/",
+   "method": "browser",
+   "ok": true,
+   "model_count": 139,
+   "error": null,
+   "seconds": 18.8
+  },
+  {
+   "id": "gmicloud",
+   "name": "gmicloud",
+   "url": "https://console.gmicloud.ai/?group=LLM",
+   "method": "browser",
+   "ok": false,
+   "model_count": 0,
+   "error": "가격 표를 찾지 못함 (raw 파일의 page_text/unparsed_tables 확인 -> 전용 파서 필요)",
+   "seconds": 8.6,
+   "carried_over": 0
+  },
+  {
+   "id": "coreweave",
+   "name": "coreweave",
+   "url": "https://coreweave.com/forge-pricing/inference-agents",
+   "method": "browser",
+   "ok": false,
+   "model_count": 0,
+   "error": "가격 표를 찾지 못함 (raw 파일의 page_text/unparsed_tables 확인 -> 전용 파서 필요)",
+   "seconds": 23.1,
+   "carried_over": 0
+  },
+  {
+   "id": "nextbit",
+   "name": "nextBit",
+   "url": "https://www.nextbit256.com/inference/models-api",
+   "method": "browser",
+   "ok": true,
+   "model_count": 13,
+   "error": null,
+   "seconds": 8.0
+  },
+  {
+   "id": "phala",
+   "name": "Phala",
+   "url": "https://phala.com/models",
+   "method": "browser",
+   "ok": false,
+   "model_count": 0,
+   "error": "가격 표를 찾지 못함 (raw 파일의 page_text/unparsed_tables 확인 -> 전용 파서 필요)",
+   "seconds": 5.6,
+   "carried_over": 0
+  },
+  {
+   "id": "novita",
+   "name": "Novita ai",
+   "url": "https://novita.ai/pricing",
+   "method": "browser",
+   "ok": true,
+   "model_count": 201,
+   "error": null,
+   "seconds": 4.8
+  },
+  {
+   "id": "makora",
+   "name": "Makora",
+   "url": "https://www.makora.com/#models",
+   "method": "browser",
+   "ok": false,
+   "model_count": 0,
+   "error": "가격 표를 찾지 못함 (raw 파일의 page_text/unparsed_tables 확인 -> 전용 파서 필요)",
+   "seconds": 18.4,
+   "carried_over": 0
+  },
+  {
+   "id": "baidu_qianfan",
+   "name": "Baidu Qianfan",
+   "url": "https://cloud.baidu.com/doc/qianfan/s/wmh4sv6ya",
+   "method": "browser",
+   "ok": false,
+   "model_count": 0,
+   "error": "가격 표를 찾지 못함 (raw 파일의 page_text/unparsed_tables 확인 -> 전용 파서 필요)",
+   "seconds": 19.1,
+   "carried_over": 0
+  },
+  {
+   "id": "baseten",
+   "name": "Baseten",
+   "url": "https://www.baseten.co/library/",
+   "method": "browser",
+   "ok": false,
+   "model_count": 0,
+   "error": "가격 표를 찾지 못함 (raw 파일의 page_text/unparsed_tables 확인 -> 전용 파서 필요)",
+   "seconds": 6.3,
+   "carried_over": 0
+  },
+  {
+   "id": "together",
+   "name": "Together",
+   "url": "https://www.together.ai/pricing",
+   "method": "browser",
+   "ok": true,
+   "model_count": 140,
+   "error": null,
+   "seconds": 10.3
+  },
+  {
+   "id": "siliconflow",
+   "name": "SiliconFlow",
+   "url": "https://www.siliconflow.com/pricing",
+   "method": "browser",
+   "ok": false,
+   "model_count": 0,
+   "error": "가격 표를 찾지 못함 (raw 파일의 page_text/unparsed_tables 확인 -> 전용 파서 필요)",
+   "seconds": 6.7,
+   "carried_over": 0
+  },
+  {
+   "id": "modal",
+   "name": "Modal",
+   "url": "https://modal.com/library",
+   "method": "browser",
+   "ok": false,
+   "model_count": 0,
+   "error": "가격 표를 찾지 못함 (raw 파일의 page_text/unparsed_tables 확인 -> 전용 파서 필요)",
+   "seconds": 6.2,
+   "carried_over": 0
+  },
+  {
+   "id": "parasail",
+   "name": "parasail",
+   "url": "https://www.parasail.io/models",
+   "method": "browser",
+   "ok": false,
+   "model_count": 0,
+   "error": "가격 표를 찾지 못함 (raw 파일의 page_text/unparsed_tables 확인 -> 전용 파서 필요)",
+   "seconds": 7.2,
+   "carried_over": 0
+  },
+  {
+   "id": "fireworks",
+   "name": "fireworks",
+   "url": "https://fireworks.ai/models",
+   "method": "browser",
+   "ok": false,
+   "model_count": 0,
+   "error": "가격 표를 찾지 못함 (raw 파일의 page_text/unparsed_tables 확인 -> 전용 파서 필요)",
+   "seconds": 22.2,
+   "carried_over": 0
+  },
+  {
+   "id": "venice",
+   "name": "venice",
+   "url": "https://docs.venice.ai/models/overview",
+   "method": "browser",
+   "ok": false,
+   "model_count": 0,
+   "error": "가격 표를 찾지 못함 (raw 파일의 page_text/unparsed_tables 확인 -> 전용 파서 필요)",
+   "seconds": 14.8,
+   "carried_over": 0
+  },
+  {
+   "id": "friendli",
+   "name": "Friendli",
+   "url": "https://friendli.ai/models",
+   "method": "browser",
+   "ok": false,
+   "model_count": 0,
+   "error": "가격 표를 찾지 못함 (raw 파일의 page_text/unparsed_tables 확인 -> 전용 파서 필요)",
+   "seconds": 13.6,
+   "carried_over": 0
+  }
+ ],
+ "changed": true
+}
