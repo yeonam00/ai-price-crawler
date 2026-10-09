@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+output/dump/
+output/prices_*.json
+output/raw_*.json
