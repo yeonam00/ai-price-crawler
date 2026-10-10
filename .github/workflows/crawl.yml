@@ -30,11 +30,14 @@ jobs:
       - name: Crawl
         run: python crawl.py --ci
 
+      - name: Track lowest prices (closed models)
+        run: python track.py
+
       - name: Commit results
         run: |
           git config user.name "price-crawler[bot]"
           git config user.email "actions@users.noreply.github.com"
-          git add output/last_run.json output/latest.json output/history output/.fingerprint
+          git add output   # .gitignore 가 prices_*/raw_*/dump 는 제외
           if git diff --cached --quiet; then
             echo "변경 없음"
           else
