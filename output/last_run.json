@@ -1,8 +1,8 @@
 {
- "collected_at": "2026-10-21T16:10:30+00:00",
+ "collected_at": "2026-10-21T20:57:04+00:00",
  "site_count": 53,
- "success_count": 29,
- "model_count": 8461,
+ "success_count": 30,
+ "model_count": 8469,
  "sites": [
   {
    "id": "pleum",
@@ -12,7 +12,7 @@
    "ok": false,
    "model_count": 0,
    "error": "가격 표를 찾지 못함 (raw 파일의 page_text/unparsed_tables 확인 -> 전용 파서 필요)",
-   "seconds": 12.4,
+   "seconds": 10.7,
    "carried_over": 0
   },
   {
@@ -23,7 +23,7 @@
    "ok": true,
    "model_count": 154,
    "error": null,
-   "seconds": 7.3
+   "seconds": 9.8
   },
   {
    "id": "bizrouter",
@@ -33,7 +33,7 @@
    "ok": false,
    "model_count": 0,
    "error": "가격 표를 찾지 못함 (raw 파일의 page_text/unparsed_tables 확인 -> 전용 파서 필요)",
-   "seconds": 10.1,
+   "seconds": 7.8,
    "carried_over": 0
   },
   {
@@ -42,9 +42,9 @@
    "url": "https://openrouter.ai/models",
    "method": "api:openrouter",
    "ok": true,
-   "model_count": 468,
+   "model_count": 469,
    "error": null,
-   "seconds": 2.3
+   "seconds": 0.2
   },
   {
    "id": "vercel",
@@ -52,9 +52,9 @@
    "url": "https://vercel.com/ai-gateway/models",
    "method": "api:vercel",
    "ok": true,
-   "model_count": 482,
+   "model_count": 485,
    "error": null,
-   "seconds": 2.4
+   "seconds": 0.2
   },
   {
    "id": "litellm",
@@ -64,7 +64,7 @@
    "ok": true,
    "model_count": 4244,
    "error": null,
-   "seconds": 0.2
+   "seconds": 0.1
   },
   {
    "id": "cloudflare",
@@ -74,7 +74,7 @@
    "ok": false,
    "model_count": 0,
    "error": "가격 표를 찾지 못함 (raw 파일의 page_text/unparsed_tables 확인 -> 전용 파서 필요)",
-   "seconds": 4.0,
+   "seconds": 6.0,
    "carried_over": 0
   },
   {
@@ -85,7 +85,7 @@
    "ok": true,
    "model_count": 213,
    "error": null,
-   "seconds": 5.8
+   "seconds": 18.2
   },
   {
    "id": "edenai",
@@ -95,7 +95,7 @@
    "ok": false,
    "model_count": 0,
    "error": "가격 표를 찾지 못함 (raw 파일의 page_text/unparsed_tables 확인 -> 전용 파서 필요)",
-   "seconds": 16.5,
+   "seconds": 10.9,
    "carried_over": 0
   },
   {
@@ -116,7 +116,7 @@
    "ok": true,
    "model_count": 19,
    "error": null,
-   "seconds": 3.9
+   "seconds": 4.2
   },
   {
    "id": "azure",
@@ -126,7 +126,7 @@
    "ok": true,
    "model_count": 182,
    "error": null,
-   "seconds": 14.6
+   "seconds": 11.5
   },
   {
    "id": "bedrock",
@@ -136,7 +136,7 @@
    "ok": true,
    "model_count": 192,
    "error": null,
-   "seconds": 9.0
+   "seconds": 8.9
   },
   {
    "id": "google_cloud",
@@ -146,7 +146,7 @@
    "ok": true,
    "model_count": 256,
    "error": null,
-   "seconds": 9.5
+   "seconds": 9.3
   },
   {
    "id": "openai",
@@ -156,7 +156,7 @@
    "ok": true,
    "model_count": 49,
    "error": null,
-   "seconds": 3.6
+   "seconds": 4.6
   },
   {
    "id": "anthropic",
@@ -166,7 +166,7 @@
    "ok": true,
    "model_count": 23,
    "error": null,
-   "seconds": 8.2
+   "seconds": 10.2
   },
   {
    "id": "google",
@@ -176,7 +176,7 @@
    "ok": true,
    "model_count": 65,
    "error": null,
-   "seconds": 7.2
+   "seconds": 6.5
   },
   {
    "id": "deepseek",
@@ -186,7 +186,7 @@
    "ok": true,
    "model_count": 4,
    "error": null,
-   "seconds": 4.3
+   "seconds": 4.4
   },
   {
    "id": "xai",
@@ -196,7 +196,7 @@
    "ok": true,
    "model_count": 35,
    "error": null,
-   "seconds": 19.6
+   "seconds": 6.6
   },
   {
    "id": "zai",
@@ -206,7 +206,7 @@
    "ok": true,
    "model_count": 30,
    "error": null,
-   "seconds": 11.3
+   "seconds": 3.9
   },
   {
    "id": "xiaomi_mimo",
@@ -216,7 +216,7 @@
    "ok": true,
    "model_count": 14,
    "error": null,
-   "seconds": 16.5
+   "seconds": 18.5
   },
   {
    "id": "alibaba_qwen",
@@ -226,7 +226,7 @@
    "ok": true,
    "model_count": 884,
    "error": null,
-   "seconds": 10.0
+   "seconds": 15.6
   },
   {
    "id": "kling",
@@ -234,9 +234,9 @@
    "url": "https://kling.ai/document-api/pricing/base/video",
    "method": "browser",
    "ok": true,
-   "model_count": 20,
+   "model_count": 23,
    "error": null,
-   "seconds": 9.3
+   "seconds": 7.6
   },
   {
    "id": "bfl_flux",
@@ -246,7 +246,7 @@
    "ok": false,
    "model_count": 0,
    "error": "가격 표를 찾지 못함 (raw 파일의 page_text/unparsed_tables 확인 -> 전용 파서 필요)",
-   "seconds": 4.3,
+   "seconds": 4.9,
    "carried_over": 0
   },
   {
@@ -257,7 +257,7 @@
    "ok": true,
    "model_count": 40,
    "error": null,
-   "seconds": 18.2
+   "seconds": 4.1
   },
   {
    "id": "seedance",
@@ -267,7 +267,7 @@
    "ok": true,
    "model_count": 124,
    "error": null,
-   "seconds": 19.8
+   "seconds": 19.0
   },
   {
    "id": "elevenlabs",
@@ -277,7 +277,7 @@
    "ok": false,
    "model_count": 0,
    "error": "가격 표를 찾지 못함 (raw 파일의 page_text/unparsed_tables 확인 -> 전용 파서 필요)",
-   "seconds": 11.3,
+   "seconds": 11.2,
    "carried_over": 0
   },
   {
@@ -285,11 +285,10 @@
    "name": "ideogram",
    "url": "https://ideogram.ai/pricing/?pricing_tab=api",
    "method": "browser",
-   "ok": false,
-   "model_count": 0,
-   "error": "가격 표를 찾지 못함 (raw 파일의 page_text/unparsed_tables 확인 -> 전용 파서 필요)",
-   "seconds": 7.4,
-   "carried_over": 191
+   "ok": true,
+   "model_count": 191,
+   "error": null,
+   "seconds": 18.0
   },
   {
    "id": "relace",
@@ -299,7 +298,7 @@
    "ok": true,
    "model_count": 9,
    "error": null,
-   "seconds": 4.8
+   "seconds": 3.8
   },
   {
    "id": "inference_net",
@@ -309,7 +308,7 @@
    "ok": false,
    "model_count": 0,
    "error": "가격 표를 찾지 못함 (raw 파일의 page_text/unparsed_tables 확인 -> 전용 파서 필요)",
-   "seconds": 7.9,
+   "seconds": 4.0,
    "carried_over": 0
   },
   {
@@ -320,7 +319,7 @@
    "ok": true,
    "model_count": 42,
    "error": null,
-   "seconds": 4.3
+   "seconds": 5.7
   },
   {
    "id": "decart",
@@ -330,7 +329,7 @@
    "ok": true,
    "model_count": 2,
    "error": null,
-   "seconds": 11.9
+   "seconds": 4.8
   },
   {
    "id": "morph",
@@ -340,7 +339,7 @@
    "ok": false,
    "model_count": 0,
    "error": "가격 표를 찾지 못함 (raw 파일의 page_text/unparsed_tables 확인 -> 전용 파서 필요)",
-   "seconds": 3.3,
+   "seconds": 2.9,
    "carried_over": 0
   },
   {
@@ -351,7 +350,7 @@
    "ok": false,
    "model_count": 0,
    "error": "가격 표를 찾지 못함 (raw 파일의 page_text/unparsed_tables 확인 -> 전용 파서 필요)",
-   "seconds": 11.6,
+   "seconds": 18.3,
    "carried_over": 0
   },
   {
@@ -362,7 +361,7 @@
    "ok": true,
    "model_count": 177,
    "error": null,
-   "seconds": 3.8
+   "seconds": 2.9
   },
   {
    "id": "streamlake",
@@ -372,7 +371,7 @@
    "ok": true,
    "model_count": 46,
    "error": null,
-   "seconds": 11.3
+   "seconds": 7.2
   },
   {
    "id": "atlascloud",
@@ -382,7 +381,7 @@
    "ok": false,
    "model_count": 0,
    "error": "가격 표를 찾지 못함 (raw 파일의 page_text/unparsed_tables 확인 -> 전용 파서 필요)",
-   "seconds": 22.2,
+   "seconds": 5.5,
    "carried_over": 0
   },
   {
@@ -391,9 +390,9 @@
    "url": "https://docs.digitalocean.com/products/inference/details/pricing/",
    "method": "browser",
    "ok": true,
-   "model_count": 141,
+   "model_count": 142,
    "error": null,
-   "seconds": 18.0
+   "seconds": 18.4
   },
   {
    "id": "gmicloud",
@@ -403,7 +402,7 @@
    "ok": false,
    "model_count": 0,
    "error": "가격 표를 찾지 못함 (raw 파일의 page_text/unparsed_tables 확인 -> 전용 파서 필요)",
-   "seconds": 11.2,
+   "seconds": 6.8,
    "carried_over": 0
   },
   {
@@ -414,7 +413,7 @@
    "ok": false,
    "model_count": 0,
    "error": "가격 표를 찾지 못함 (raw 파일의 page_text/unparsed_tables 확인 -> 전용 파서 필요)",
-   "seconds": 7.1,
+   "seconds": 11.2,
    "carried_over": 0
   },
   {
@@ -425,7 +424,7 @@
    "ok": false,
    "model_count": 0,
    "error": "가격 표를 찾지 못함 (raw 파일의 page_text/unparsed_tables 확인 -> 전용 파서 필요)",
-   "seconds": 6.5,
+   "seconds": 17.6,
    "carried_over": 13
   },
   {
@@ -436,7 +435,7 @@
    "ok": false,
    "model_count": 0,
    "error": "가격 표를 찾지 못함 (raw 파일의 page_text/unparsed_tables 확인 -> 전용 파서 필요)",
-   "seconds": 5.5,
+   "seconds": 5.9,
    "carried_over": 0
   },
   {
@@ -447,7 +446,7 @@
    "ok": true,
    "model_count": 109,
    "error": null,
-   "seconds": 10.3
+   "seconds": 5.5
   },
   {
    "id": "makora",
@@ -457,7 +456,7 @@
    "ok": false,
    "model_count": 0,
    "error": "가격 표를 찾지 못함 (raw 파일의 page_text/unparsed_tables 확인 -> 전용 파서 필요)",
-   "seconds": 11.7,
+   "seconds": 23.1,
    "carried_over": 0
   },
   {
@@ -468,7 +467,7 @@
    "ok": false,
    "model_count": 0,
    "error": "가격 표를 찾지 못함 (raw 파일의 page_text/unparsed_tables 확인 -> 전용 파서 필요)",
-   "seconds": 19.9,
+   "seconds": 17.6,
    "carried_over": 0
   },
   {
@@ -479,7 +478,7 @@
    "ok": false,
    "model_count": 0,
    "error": "가격 표를 찾지 못함 (raw 파일의 page_text/unparsed_tables 확인 -> 전용 파서 필요)",
-   "seconds": 14.7,
+   "seconds": 9.8,
    "carried_over": 0
   },
   {
@@ -490,7 +489,7 @@
    "ok": true,
    "model_count": 147,
    "error": null,
-   "seconds": 23.1
+   "seconds": 14.6
   },
   {
    "id": "siliconflow",
@@ -500,7 +499,7 @@
    "ok": false,
    "model_count": 0,
    "error": "가격 표를 찾지 못함 (raw 파일의 page_text/unparsed_tables 확인 -> 전용 파서 필요)",
-   "seconds": 5.3,
+   "seconds": 8.7,
    "carried_over": 0
   },
   {
@@ -511,7 +510,7 @@
    "ok": false,
    "model_count": 0,
    "error": "가격 표를 찾지 못함 (raw 파일의 page_text/unparsed_tables 확인 -> 전용 파서 필요)",
-   "seconds": 4.4,
+   "seconds": 5.8,
    "carried_over": 0
   },
   {
@@ -522,7 +521,7 @@
    "ok": false,
    "model_count": 0,
    "error": "가격 표를 찾지 못함 (raw 파일의 page_text/unparsed_tables 확인 -> 전용 파서 필요)",
-   "seconds": 5.5,
+   "seconds": 8.0,
    "carried_over": 0
   },
   {
@@ -533,7 +532,7 @@
    "ok": false,
    "model_count": 0,
    "error": "가격 표를 찾지 못함 (raw 파일의 page_text/unparsed_tables 확인 -> 전용 파서 필요)",
-   "seconds": 16.8,
+   "seconds": 16.3,
    "carried_over": 0
   },
   {
@@ -544,7 +543,7 @@
    "ok": false,
    "model_count": 0,
    "error": "가격 표를 찾지 못함 (raw 파일의 page_text/unparsed_tables 확인 -> 전용 파서 필요)",
-   "seconds": 12.3,
+   "seconds": 12.7,
    "carried_over": 0
   },
   {
@@ -555,7 +554,7 @@
    "ok": false,
    "model_count": 0,
    "error": "가격 표를 찾지 못함 (raw 파일의 page_text/unparsed_tables 확인 -> 전용 파서 필요)",
-   "seconds": 29.1,
+   "seconds": 13.9,
    "carried_over": 0
   }
  ],
