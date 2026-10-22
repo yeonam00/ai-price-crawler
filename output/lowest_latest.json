@@ -1,5 +1,5 @@
 {
- "collected_at": "2026-10-21T20:57:04+00:00",
+ "collected_at": "2026-10-22T02:02:47+00:00",
  "weights": {
   "input": 3,
   "output": 1
@@ -18,7 +18,7 @@
     "cache_read": 0.05,
     "blended": 2.0,
     "region": null,
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "direct": {
     "seller": "google",
@@ -29,7 +29,7 @@
     "cache_read": 0.05,
     "blended": 2.0,
     "region": null,
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "next_best": [
     {
@@ -41,7 +41,7 @@
      "cache_read": 0.1,
      "blended": 4.0,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     },
     {
      "seller": "google_cloud",
@@ -52,7 +52,7 @@
      "cache_read": 0.1,
      "blended": 4.0,
      "region": "Global",
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     }
    ]
   },
@@ -68,7 +68,7 @@
     "cache_read": 0.01,
     "blended": 0.2,
     "region": null,
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "direct": {
     "seller": "anthropic",
@@ -79,7 +79,7 @@
     "cache_read": 0.01,
     "blended": 0.2,
     "region": null,
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "next_best": [
     {
@@ -91,7 +91,7 @@
      "cache_read": 0.01,
      "blended": 0.2,
      "region": "Global",
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     },
     {
      "seller": "openrouter",
@@ -102,7 +102,7 @@
      "cache_read": 0.01,
      "blended": 0.2,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     }
    ]
   },
@@ -118,7 +118,7 @@
     "cache_read": 0.1,
     "blended": 4.0,
     "region": null,
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "direct": null,
    "next_best": []
@@ -135,7 +135,7 @@
     "cache_read": 0.1,
     "blended": 4.0,
     "region": "Global",
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "direct": null,
    "next_best": [
@@ -148,7 +148,7 @@
      "cache_read": 0.1,
      "blended": 4.0,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     },
     {
      "seller": "vercel",
@@ -159,7 +159,7 @@
      "cache_read": 0.1,
      "blended": 4.0,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     }
    ]
   },
@@ -175,7 +175,7 @@
     "cache_read": 0.1,
     "blended": 4.0,
     "region": null,
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "direct": {
     "seller": "anthropic",
@@ -186,7 +186,7 @@
     "cache_read": 0.1,
     "blended": 4.0,
     "region": null,
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "next_best": [
     {
@@ -198,7 +198,7 @@
      "cache_read": 0.1,
      "blended": 4.0,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     },
     {
      "seller": "vercel",
@@ -209,7 +209,7 @@
      "cache_read": 0.1,
      "blended": 4.0,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     }
    ]
   },
@@ -225,7 +225,7 @@
     "cache_read": 0.01,
     "blended": 0.2,
     "region": null,
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "direct": null,
    "next_best": []
@@ -242,7 +242,7 @@
     "cache_read": 0.01,
     "blended": 0.2,
     "region": "Global",
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "direct": null,
    "next_best": [
@@ -255,7 +255,7 @@
      "cache_read": 0.01,
      "blended": 0.2,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     },
     {
      "seller": "vercel",
@@ -266,7 +266,7 @@
      "cache_read": 0.01,
      "blended": 0.2,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     }
    ]
   },
@@ -282,7 +282,7 @@
     "cache_read": 0.2,
     "blended": 4.0,
     "region": null,
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "direct": null,
    "next_best": []
@@ -299,7 +299,7 @@
     "cache_read": 0.2,
     "blended": 4.0,
     "region": "Global",
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "direct": null,
    "next_best": [
@@ -312,7 +312,7 @@
      "cache_read": 0.2,
      "blended": 4.0,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     },
     {
      "seller": "vercel",
@@ -323,7 +323,7 @@
      "cache_read": 0.2,
      "blended": 4.0,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     }
    ]
   },
@@ -339,7 +339,7 @@
     "cache_read": 0.2,
     "blended": 8.0,
     "region": null,
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "direct": {
     "seller": "anthropic",
@@ -350,7 +350,7 @@
     "cache_read": 0.2,
     "blended": 8.0,
     "region": null,
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "next_best": [
     {
@@ -362,7 +362,7 @@
      "cache_read": 0.2,
      "blended": 8.0,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     },
     {
      "seller": "vercel",
@@ -373,7 +373,7 @@
      "cache_read": 0.2,
      "blended": 8.0,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     }
    ]
   },
@@ -389,7 +389,7 @@
     "cache_read": 0.5,
     "blended": 3.0,
     "region": null,
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "direct": {
     "seller": "xai",
@@ -400,7 +400,7 @@
     "cache_read": 0.5,
     "blended": 3.0,
     "region": null,
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "next_best": [
     {
@@ -412,7 +412,7 @@
      "cache_read": 0.5,
      "blended": 3.0,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     },
     {
      "seller": "openrouter",
@@ -423,7 +423,7 @@
      "cache_read": 0.5,
      "blended": 3.0,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     }
    ]
   },
@@ -439,7 +439,7 @@
     "cache_read": 1.0,
     "blended": 20.0,
     "region": "Global",
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "direct": null,
    "next_best": [
@@ -452,7 +452,7 @@
      "cache_read": 1.0,
      "blended": 20.0,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     },
     {
      "seller": "vercel",
@@ -463,7 +463,7 @@
      "cache_read": 1.0,
      "blended": 20.0,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     }
    ]
   },
@@ -479,7 +479,7 @@
     "cache_read": 1.0,
     "blended": 20.0,
     "region": null,
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "direct": null,
    "next_best": []
@@ -496,7 +496,7 @@
     "cache_read": 0.0375,
     "blended": 0.75,
     "region": null,
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "direct": {
     "seller": "google",
@@ -507,7 +507,7 @@
     "cache_read": 0.0375,
     "blended": 0.75,
     "region": null,
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "next_best": [
     {
@@ -519,7 +519,7 @@
      "cache_read": 0.075,
      "blended": 1.5,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     },
     {
      "seller": "google_cloud",
@@ -530,7 +530,7 @@
      "cache_read": 0.075,
      "blended": 1.5,
      "region": "Global",
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     }
    ]
   },
@@ -546,7 +546,7 @@
     "cache_read": 0.25,
     "blended": 20.0,
     "region": null,
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "direct": {
     "seller": "anthropic",
@@ -557,7 +557,7 @@
     "cache_read": 0.25,
     "blended": 20.0,
     "region": null,
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "next_best": [
     {
@@ -569,7 +569,7 @@
      "cache_read": 0.25,
      "blended": 20.0,
      "region": "Global",
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     },
     {
      "seller": "openrouter",
@@ -580,7 +580,7 @@
      "cache_read": 0.25,
      "blended": 20.0,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     }
    ]
   },
@@ -596,7 +596,7 @@
     "cache_read": 0.075,
     "blended": 1.5,
     "region": "Global",
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "direct": null,
    "next_best": [
@@ -609,7 +609,7 @@
      "cache_read": 0.075,
      "blended": 1.5,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     },
     {
      "seller": "vercel",
@@ -620,7 +620,7 @@
      "cache_read": 0.075,
      "blended": 1.5,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     }
    ]
   },
@@ -636,7 +636,7 @@
     "cache_read": 0.5,
     "blended": 3.0,
     "region": null,
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "direct": {
     "seller": "xai",
@@ -647,7 +647,7 @@
     "cache_read": 0.5,
     "blended": 3.0,
     "region": null,
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "next_best": [
     {
@@ -659,7 +659,7 @@
      "cache_read": 0.5,
      "blended": 3.0,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     },
     {
      "seller": "openrouter",
@@ -670,7 +670,7 @@
      "cache_read": 0.5,
      "blended": 3.0,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     }
    ]
   },
@@ -686,7 +686,7 @@
     "cache_read": 0.5,
     "blended": 10.0,
     "region": null,
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "direct": {
     "seller": "anthropic",
@@ -697,7 +697,7 @@
     "cache_read": 0.5,
     "blended": 10.0,
     "region": null,
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "next_best": [
     {
@@ -709,7 +709,7 @@
      "cache_read": null,
      "blended": 10.0,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     },
     {
      "seller": "deepinfra",
@@ -720,7 +720,7 @@
      "cache_read": null,
      "blended": 10.0,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     }
    ]
   },
@@ -736,7 +736,7 @@
     "cache_read": 0.075,
     "blended": 1.5,
     "region": null,
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "direct": {
     "seller": "google",
@@ -747,7 +747,7 @@
     "cache_read": 0.075,
     "blended": 1.5,
     "region": null,
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "next_best": [
     {
@@ -759,7 +759,7 @@
      "cache_read": 0.075,
      "blended": 1.5,
      "region": "Global",
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     },
     {
      "seller": "openrouter",
@@ -770,7 +770,7 @@
      "cache_read": 0.075,
      "blended": 1.5,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     }
    ]
   },
@@ -786,7 +786,7 @@
     "cache_read": 0.015,
     "blended": 0.425,
     "region": null,
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "direct": {
     "seller": "google",
@@ -797,7 +797,7 @@
     "cache_read": 0.015,
     "blended": 0.425,
     "region": null,
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "next_best": [
     {
@@ -809,7 +809,7 @@
      "cache_read": 0.03,
      "blended": 0.85,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     },
     {
      "seller": "google_cloud",
@@ -820,7 +820,7 @@
      "cache_read": 0.03,
      "blended": 0.85,
      "region": "Global",
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     }
    ]
   },
@@ -836,7 +836,7 @@
     "cache_read": 0.02,
     "blended": 0.45,
     "region": null,
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "direct": null,
    "next_best": []
@@ -853,7 +853,7 @@
     "cache_read": 0.02,
     "blended": 0.45,
     "region": "Global",
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "direct": null,
    "next_best": [
@@ -866,7 +866,7 @@
      "cache_read": 0.02,
      "blended": 0.45,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     },
     {
      "seller": "vercel",
@@ -877,7 +877,7 @@
      "cache_read": 0.02,
      "blended": 0.45,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     }
    ]
   },
@@ -893,7 +893,7 @@
     "cache_read": 0.2,
     "blended": 4.5,
     "region": null,
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "direct": null,
    "next_best": []
@@ -910,7 +910,7 @@
     "cache_read": 0.2,
     "blended": 4.5,
     "region": "Global",
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "direct": null,
    "next_best": [
@@ -923,7 +923,7 @@
      "cache_read": 0.2,
      "blended": 4.5,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     },
     {
      "seller": "vercel",
@@ -934,7 +934,7 @@
      "cache_read": 0.2,
      "blended": 4.5,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     }
    ]
   },
@@ -950,7 +950,7 @@
     "cache_read": 0.4,
     "blended": 8.0,
     "region": null,
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "direct": null,
    "next_best": []
@@ -967,7 +967,7 @@
     "cache_read": 0.4,
     "blended": 8.0,
     "region": null,
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "direct": {
     "seller": "openai",
@@ -978,7 +978,7 @@
     "cache_read": 0.4,
     "blended": 8.0,
     "region": null,
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "next_best": [
     {
@@ -990,7 +990,7 @@
      "cache_read": 0.4,
      "blended": 8.0,
      "region": "Global",
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     },
     {
      "seller": "openrouter",
@@ -1001,7 +1001,7 @@
      "cache_read": 0.4,
      "blended": 8.0,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     }
    ]
   },
@@ -1017,7 +1017,7 @@
     "cache_read": 0.3,
     "blended": 3.0,
     "region": null,
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "direct": {
     "seller": "xai",
@@ -1028,7 +1028,7 @@
     "cache_read": 0.3,
     "blended": 3.0,
     "region": null,
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "next_best": [
     {
@@ -1040,7 +1040,7 @@
      "cache_read": 0.3,
      "blended": 3.0,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     },
     {
      "seller": "vercel",
@@ -1051,7 +1051,7 @@
      "cache_read": 0.3,
      "blended": 3.0,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     }
    ]
   },
@@ -1067,7 +1067,7 @@
     "cache_read": 0.2,
     "blended": 4.0,
     "region": null,
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "direct": {
     "seller": "anthropic",
@@ -1078,7 +1078,7 @@
     "cache_read": 0.2,
     "blended": 4.0,
     "region": null,
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "next_best": [
     {
@@ -1090,7 +1090,7 @@
      "cache_read": 0.2,
      "blended": 4.0,
      "region": "Global",
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     },
     {
      "seller": "openrouter",
@@ -1101,7 +1101,7 @@
      "cache_read": 0.2,
      "blended": 4.0,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     }
    ]
   },
@@ -1117,7 +1117,7 @@
     "cache_read": 1.0,
     "blended": 20.0,
     "region": null,
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "direct": {
     "seller": "anthropic",
@@ -1128,7 +1128,7 @@
     "cache_read": 1.0,
     "blended": 20.0,
     "region": null,
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "next_best": [
     {
@@ -1140,7 +1140,7 @@
      "cache_read": null,
      "blended": 20.0,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     },
     {
      "seller": "deepinfra",
@@ -1151,7 +1151,7 @@
      "cache_read": null,
      "blended": 20.0,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     }
    ]
   },
@@ -1167,7 +1167,7 @@
     "cache_read": 0.5,
     "blended": 10.0,
     "region": null,
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "direct": {
     "seller": "anthropic",
@@ -1178,7 +1178,7 @@
     "cache_read": 0.5,
     "blended": 10.0,
     "region": null,
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "next_best": [
     {
@@ -1190,7 +1190,7 @@
      "cache_read": null,
      "blended": 10.0,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     },
     {
      "seller": "deepinfra",
@@ -1201,7 +1201,7 @@
      "cache_read": null,
      "blended": 10.0,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     }
    ]
   },
@@ -1217,7 +1217,7 @@
     "cache_read": 0.2,
     "blended": 1.25,
     "region": null,
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "direct": {
     "seller": "xai",
@@ -1228,7 +1228,7 @@
     "cache_read": 0.2,
     "blended": 1.25,
     "region": null,
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "next_best": [
     {
@@ -1240,7 +1240,7 @@
      "cache_read": 0.2,
      "blended": 1.25,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     },
     {
      "seller": "vercel",
@@ -1251,7 +1251,7 @@
      "cache_read": 0.2,
      "blended": 1.25,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     }
    ]
   },
@@ -1267,7 +1267,7 @@
     "cache_read": null,
     "blended": 3.375,
     "region": null,
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "direct": null,
    "next_best": [
@@ -1280,7 +1280,7 @@
      "cache_read": null,
      "blended": 3.375,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     },
     {
      "seller": "google_cloud",
@@ -1291,7 +1291,7 @@
      "cache_read": 0.15,
      "blended": 3.375,
      "region": "Global",
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     }
    ]
   },
@@ -1307,7 +1307,7 @@
     "cache_read": 0.025,
     "blended": 0.5625,
     "region": null,
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "direct": {
     "seller": "google",
@@ -1318,7 +1318,7 @@
     "cache_read": 0.025,
     "blended": 0.5625,
     "region": null,
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "next_best": [
     {
@@ -1330,7 +1330,7 @@
      "cache_read": null,
      "blended": 0.5625,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     },
     {
      "seller": "deepinfra",
@@ -1341,7 +1341,7 @@
      "cache_read": null,
      "blended": 0.5625,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     }
    ]
   },
@@ -1357,7 +1357,7 @@
     "cache_read": 0.2,
     "blended": 1.5625,
     "region": null,
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "direct": {
     "seller": "xai",
@@ -1368,7 +1368,7 @@
     "cache_read": 0.2,
     "blended": 1.5625,
     "region": null,
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "next_best": [
     {
@@ -1380,7 +1380,7 @@
      "cache_read": 0.2,
      "blended": 1.5625,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     },
     {
      "seller": "openrouter",
@@ -1391,7 +1391,7 @@
      "cache_read": 0.2,
      "blended": 1.5625,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     }
    ]
   },
@@ -1407,7 +1407,7 @@
     "cache_read": null,
     "blended": 67.5,
     "region": null,
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "direct": null,
    "next_best": [
@@ -1420,7 +1420,7 @@
      "cache_read": null,
      "blended": 67.5,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     }
    ]
   },
@@ -1436,7 +1436,7 @@
     "cache_read": 0.5,
     "blended": 11.25,
     "region": "Global",
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "direct": null,
    "next_best": [
@@ -1449,7 +1449,7 @@
      "cache_read": 0.5,
      "blended": 11.25,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     },
     {
      "seller": "vercel",
@@ -1460,7 +1460,7 @@
      "cache_read": 0.5,
      "blended": 11.25,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     }
    ]
   },
@@ -1476,7 +1476,7 @@
     "cache_read": 0.5,
     "blended": 10.0,
     "region": null,
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "direct": {
     "seller": "anthropic",
@@ -1487,7 +1487,7 @@
     "cache_read": 0.5,
     "blended": 10.0,
     "region": null,
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "next_best": [
     {
@@ -1499,7 +1499,7 @@
      "cache_read": null,
      "blended": 10.0,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     },
     {
      "seller": "deepinfra",
@@ -1510,7 +1510,7 @@
      "cache_read": null,
      "blended": 10.0,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     }
    ]
   },
@@ -1526,7 +1526,7 @@
     "cache_read": 0.2,
     "blended": 1.5625,
     "region": null,
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "direct": {
     "seller": "xai",
@@ -1537,7 +1537,7 @@
     "cache_read": 0.2,
     "blended": 1.5625,
     "region": null,
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "next_best": [
     {
@@ -1549,7 +1549,7 @@
      "cache_read": 0.2,
      "blended": 1.5625,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     },
     {
      "seller": "vercel",
@@ -1560,7 +1560,7 @@
      "cache_read": 0.2,
      "blended": 1.5625,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     }
    ]
   },
@@ -1576,7 +1576,7 @@
     "cache_read": 0.2,
     "blended": 1.5625,
     "region": null,
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "direct": null,
    "next_best": []
@@ -1593,7 +1593,7 @@
     "cache_read": 0.02,
     "blended": 0.4625,
     "region": "Global",
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "direct": null,
    "next_best": [
@@ -1606,7 +1606,7 @@
      "cache_read": 0.02,
      "blended": 0.4625,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     },
     {
      "seller": "vercel",
@@ -1617,7 +1617,7 @@
      "cache_read": 0.02,
      "blended": 0.4625,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     }
    ]
   },
@@ -1633,7 +1633,7 @@
     "cache_read": 0.08,
     "blended": 1.6875,
     "region": "Global",
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "direct": null,
    "next_best": [
@@ -1646,7 +1646,7 @@
      "cache_read": 0.075,
      "blended": 1.6875,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     },
     {
      "seller": "vercel",
@@ -1657,7 +1657,7 @@
      "cache_read": 0.075,
      "blended": 1.6875,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     }
    ]
   },
@@ -1673,7 +1673,7 @@
     "cache_read": null,
     "blended": 67.5,
     "region": null,
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "direct": null,
    "next_best": [
@@ -1686,7 +1686,7 @@
      "cache_read": null,
      "blended": 67.5,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     }
    ]
   },
@@ -1702,7 +1702,7 @@
     "cache_read": 0.25,
     "blended": 5.625,
     "region": null,
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "direct": null,
    "next_best": [
@@ -1715,7 +1715,7 @@
      "cache_read": 0.25,
      "blended": 5.625,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     }
    ]
   },
@@ -1731,7 +1731,7 @@
     "cache_read": 0.025,
     "blended": 0.5625,
     "region": null,
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "direct": null,
    "next_best": []
@@ -1748,7 +1748,7 @@
     "cache_read": 0.175,
     "blended": 4.8125,
     "region": null,
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "direct": {
     "seller": "openai",
@@ -1759,7 +1759,7 @@
     "cache_read": 0.175,
     "blended": 4.8125,
     "region": null,
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "next_best": [
     {
@@ -1771,7 +1771,7 @@
      "cache_read": 0.18,
      "blended": 4.8125,
      "region": "Global",
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     },
     {
      "seller": "openrouter",
@@ -1782,7 +1782,7 @@
      "cache_read": 0.175,
      "blended": 4.8125,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     }
    ]
   },
@@ -1798,7 +1798,7 @@
     "cache_read": 0.1,
     "blended": 2.25,
     "region": null,
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "direct": {
     "seller": "google",
@@ -1809,7 +1809,7 @@
     "cache_read": 0.1,
     "blended": 2.25,
     "region": null,
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "next_best": [
     {
@@ -1821,7 +1821,7 @@
      "cache_read": 0.2,
      "blended": 4.5,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     },
     {
      "seller": "google_cloud",
@@ -1832,7 +1832,7 @@
      "cache_read": 0.2,
      "blended": 4.5,
      "region": "Global",
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     }
    ]
   },
@@ -1848,7 +1848,7 @@
     "cache_read": 0.3,
     "blended": 6.0,
     "region": null,
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "direct": {
     "seller": "anthropic",
@@ -1859,7 +1859,7 @@
     "cache_read": 0.3,
     "blended": 6.0,
     "region": null,
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "next_best": [
     {
@@ -1871,7 +1871,7 @@
      "cache_read": null,
      "blended": 6.0,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     },
     {
      "seller": "deepinfra",
@@ -1882,7 +1882,7 @@
      "cache_read": null,
      "blended": 6.0,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     }
    ]
   },
@@ -1898,7 +1898,7 @@
     "cache_read": 0.5,
     "blended": 10.0,
     "region": null,
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "direct": {
     "seller": "anthropic",
@@ -1909,7 +1909,7 @@
     "cache_read": 0.5,
     "blended": 10.0,
     "region": null,
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "next_best": [
     {
@@ -1921,7 +1921,7 @@
      "cache_read": 0.5,
      "blended": 10.0,
      "region": "Global",
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     },
     {
      "seller": "openrouter",
@@ -1932,7 +1932,7 @@
      "cache_read": 0.5,
      "blended": 10.0,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     }
    ]
   },
@@ -1948,7 +1948,7 @@
     "cache_read": 0.18,
     "blended": 4.8125,
     "region": "Global",
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "direct": null,
    "next_best": [
@@ -1961,7 +1961,7 @@
      "cache_read": 0.175,
      "blended": 4.8125,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     },
     {
      "seller": "vercel",
@@ -1972,7 +1972,7 @@
      "cache_read": 0.175,
      "blended": 4.8125,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     }
    ]
   },
@@ -1988,7 +1988,7 @@
     "cache_read": 0.05,
     "blended": 1.125,
     "region": null,
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "direct": {
     "seller": "google",
@@ -1999,7 +1999,7 @@
     "cache_read": 0.05,
     "blended": 1.125,
     "region": null,
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "next_best": [
     {
@@ -2011,7 +2011,7 @@
      "cache_read": 0.05,
      "blended": 1.125,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     }
    ]
   },
@@ -2027,7 +2027,7 @@
     "cache_read": 0.175,
     "blended": 4.8125,
     "region": null,
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "direct": null,
    "next_best": [
@@ -2040,7 +2040,7 @@
      "cache_read": 0.2,
      "blended": 5.2975,
      "region": "Data Zone",
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     }
    ]
   },
@@ -2056,7 +2056,7 @@
     "cache_read": null,
     "blended": 57.75,
     "region": null,
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "direct": null,
    "next_best": [
@@ -2069,7 +2069,7 @@
      "cache_read": null,
      "blended": 57.75,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     }
    ]
   },
@@ -2085,7 +2085,7 @@
     "cache_read": 0.18,
     "blended": 4.8125,
     "region": "Global",
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "direct": null,
    "next_best": [
@@ -2098,7 +2098,7 @@
      "cache_read": 0.175,
      "blended": 4.8125,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     },
     {
      "seller": "vercel",
@@ -2109,7 +2109,7 @@
      "cache_read": 0.175,
      "blended": 4.8125,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     }
    ]
   },
@@ -2125,7 +2125,7 @@
     "cache_read": 0.13,
     "blended": 3.4375,
     "region": "Global",
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "direct": null,
    "next_best": [
@@ -2138,7 +2138,7 @@
      "cache_read": 0.125,
      "blended": 3.4375,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     },
     {
      "seller": "vercel",
@@ -2149,7 +2149,7 @@
      "cache_read": 0.125,
      "blended": 3.4375,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     }
    ]
   },
@@ -2165,7 +2165,7 @@
     "cache_read": 0.5,
     "blended": 10.0,
     "region": null,
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "direct": {
     "seller": "anthropic",
@@ -2176,7 +2176,7 @@
     "cache_read": 0.5,
     "blended": 10.0,
     "region": null,
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "next_best": [
     {
@@ -2188,7 +2188,7 @@
      "cache_read": 0.5,
      "blended": 10.0,
      "region": "Global",
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     },
     {
      "seller": "openrouter",
@@ -2199,7 +2199,7 @@
      "cache_read": 0.5,
      "blended": 10.0,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     }
    ]
   },
@@ -2215,7 +2215,7 @@
     "cache_read": 0.13,
     "blended": 3.4375,
     "region": "Global",
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "direct": null,
    "next_best": [
@@ -2228,7 +2228,7 @@
      "cache_read": 0.125,
      "blended": 3.4375,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     },
     {
      "seller": "azure",
@@ -2239,7 +2239,7 @@
      "cache_read": 0.14,
      "blended": 3.785,
      "region": "Data Zone",
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     }
    ]
   },
@@ -2255,7 +2255,7 @@
     "cache_read": 0.13,
     "blended": 3.4375,
     "region": "Global",
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "direct": null,
    "next_best": [
@@ -2268,7 +2268,7 @@
      "cache_read": 0.13,
      "blended": 3.4375,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     },
     {
      "seller": "vercel",
@@ -2279,7 +2279,7 @@
      "cache_read": 0.13,
      "blended": 3.4375,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     }
    ]
   },
@@ -2295,7 +2295,7 @@
     "cache_read": 0.03,
     "blended": 0.6875,
     "region": "Global",
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "direct": null,
    "next_best": [
@@ -2308,7 +2308,7 @@
      "cache_read": 0.03,
      "blended": 0.6875,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     },
     {
      "seller": "vercel",
@@ -2319,7 +2319,7 @@
      "cache_read": 0.03,
      "blended": 0.6875,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     }
    ]
   },
@@ -2335,7 +2335,7 @@
     "cache_read": 0.1,
     "blended": 2.0,
     "region": null,
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "direct": {
     "seller": "anthropic",
@@ -2346,7 +2346,7 @@
     "cache_read": 0.1,
     "blended": 2.0,
     "region": null,
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "next_best": [
     {
@@ -2358,7 +2358,7 @@
      "cache_read": null,
      "blended": 2.0,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     },
     {
      "seller": "deepinfra",
@@ -2369,7 +2369,7 @@
      "cache_read": null,
      "blended": 2.0,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     }
    ]
   },
@@ -2385,7 +2385,7 @@
     "cache_read": null,
     "blended": 41.25,
     "region": "Global",
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "direct": null,
    "next_best": [
@@ -2398,7 +2398,7 @@
      "cache_read": null,
      "blended": 41.25,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     },
     {
      "seller": "vercel",
@@ -2409,7 +2409,7 @@
      "cache_read": null,
      "blended": 41.25,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     }
    ]
   },
@@ -2425,7 +2425,7 @@
     "cache_read": 0.3,
     "blended": 6.0,
     "region": null,
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "direct": {
     "seller": "anthropic",
@@ -2436,7 +2436,7 @@
     "cache_read": 0.3,
     "blended": 6.0,
     "region": null,
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "next_best": [
     {
@@ -2448,7 +2448,7 @@
      "cache_read": 0.3,
      "blended": 6.0,
      "region": "Global",
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     },
     {
      "seller": "openrouter",
@@ -2459,7 +2459,7 @@
      "cache_read": 0.3,
      "blended": 6.0,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     }
    ]
   },
@@ -2475,7 +2475,7 @@
     "cache_read": 0.13,
     "blended": 3.4375,
     "region": "Global",
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "direct": null,
    "next_best": [
@@ -2488,7 +2488,7 @@
      "cache_read": 0.125,
      "blended": 3.4375,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     },
     {
      "seller": "vercel",
@@ -2499,7 +2499,7 @@
      "cache_read": 0.125,
      "blended": 3.4375,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     }
    ]
   },
@@ -2515,7 +2515,7 @@
     "cache_read": 0.03,
     "blended": 0.6875,
     "region": "Global",
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "direct": null,
    "next_best": [
@@ -2528,7 +2528,7 @@
      "cache_read": 0.025,
      "blended": 0.6875,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     },
     {
      "seller": "vercel",
@@ -2539,7 +2539,7 @@
      "cache_read": 0.025,
      "blended": 0.6875,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     }
    ]
   },
@@ -2555,7 +2555,7 @@
     "cache_read": 0.01,
     "blended": 0.1375,
     "region": "Global",
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "direct": null,
    "next_best": [
@@ -2568,7 +2568,7 @@
      "cache_read": 0.005,
      "blended": 0.1375,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     },
     {
      "seller": "vercel",
@@ -2579,7 +2579,7 @@
      "cache_read": 0.005,
      "blended": 0.1375,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     }
    ]
   },
@@ -2595,7 +2595,7 @@
     "cache_read": 1.5,
     "blended": 30.0,
     "region": null,
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "direct": {
     "seller": "anthropic",
@@ -2606,7 +2606,7 @@
     "cache_read": 1.5,
     "blended": 30.0,
     "region": null,
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "next_best": [
     {
@@ -2618,7 +2618,7 @@
      "cache_read": 1.5,
      "blended": 30.0,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     }
    ]
   },
@@ -2634,7 +2634,7 @@
     "cache_read": 0.01,
     "blended": 0.175,
     "region": null,
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "direct": {
     "seller": "google",
@@ -2645,7 +2645,7 @@
     "cache_read": 0.01,
     "blended": 0.175,
     "region": null,
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "next_best": [
     {
@@ -2657,7 +2657,7 @@
      "cache_read": 0.01,
      "blended": 0.175,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     },
     {
      "seller": "openrouter",
@@ -2668,7 +2668,7 @@
      "cache_read": 0.01,
      "blended": 0.175,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     }
    ]
   },
@@ -2684,7 +2684,7 @@
     "cache_read": 0.03,
     "blended": 0.85,
     "region": null,
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "direct": {
     "seller": "google",
@@ -2695,7 +2695,7 @@
     "cache_read": 0.03,
     "blended": 0.85,
     "region": null,
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "next_best": [
     {
@@ -2707,7 +2707,7 @@
      "cache_read": null,
      "blended": 0.85,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     },
     {
      "seller": "deepinfra",
@@ -2718,7 +2718,7 @@
      "cache_read": null,
      "blended": 0.85,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     }
    ]
   },
@@ -2734,7 +2734,7 @@
     "cache_read": 0.125,
     "blended": 3.4375,
     "region": null,
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "direct": {
     "seller": "google",
@@ -2745,7 +2745,7 @@
     "cache_read": 0.125,
     "blended": 3.4375,
     "region": null,
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "next_best": [
     {
@@ -2757,7 +2757,7 @@
      "cache_read": null,
      "blended": 3.4375,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     },
     {
      "seller": "deepinfra",
@@ -2768,7 +2768,7 @@
      "cache_read": null,
      "blended": 3.4375,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     }
    ]
   },
@@ -2784,7 +2784,7 @@
     "cache_read": null,
     "blended": 35.0,
     "region": null,
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "direct": null,
    "next_best": [
@@ -2797,7 +2797,7 @@
      "cache_read": null,
      "blended": 35.0,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     }
    ]
   },
@@ -2813,7 +2813,7 @@
     "cache_read": 0.125,
     "blended": 3.4375,
     "region": null,
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "direct": null,
    "next_best": []
@@ -2830,7 +2830,7 @@
     "cache_read": 0.5,
     "blended": 3.5,
     "region": "Global",
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "direct": null,
    "next_best": [
@@ -2843,7 +2843,7 @@
      "cache_read": 0.5,
      "blended": 3.5,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     },
     {
      "seller": "vercel",
@@ -2854,7 +2854,7 @@
      "cache_read": 0.5,
      "blended": 3.5,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     }
    ]
   },
@@ -2870,7 +2870,7 @@
     "cache_read": 0.28,
     "blended": 1.925,
     "region": "Global",
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "direct": null,
    "next_best": [
@@ -2883,7 +2883,7 @@
      "cache_read": null,
      "blended": 1.925,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     },
     {
      "seller": "azure",
@@ -2894,7 +2894,7 @@
      "cache_read": 0.275,
      "blended": 1.925,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     }
    ]
   },
@@ -2910,7 +2910,7 @@
     "cache_read": 0.5,
     "blended": 3.5,
     "region": "Global",
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "direct": null,
    "next_best": [
@@ -2923,7 +2923,7 @@
      "cache_read": 0.5,
      "blended": 3.5,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     },
     {
      "seller": "azure",
@@ -2934,7 +2934,7 @@
      "cache_read": 0.5,
      "blended": 3.5,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     }
    ]
   },
@@ -2950,7 +2950,7 @@
     "cache_read": 0.1,
     "blended": 0.7,
     "region": "Global",
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "direct": null,
    "next_best": [
@@ -2963,7 +2963,7 @@
      "cache_read": 0.1,
      "blended": 0.7,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     },
     {
      "seller": "azure",
@@ -2974,7 +2974,7 @@
      "cache_read": 0.1,
      "blended": 0.7,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     }
    ]
   },
@@ -2990,7 +2990,7 @@
     "cache_read": 0.03,
     "blended": 0.175,
     "region": "Global",
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "direct": null,
    "next_best": [
@@ -3003,7 +3003,7 @@
      "cache_read": 0.025,
      "blended": 0.175,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     },
     {
      "seller": "azure",
@@ -3014,7 +3014,7 @@
      "cache_read": 0.025,
      "blended": 0.175,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     }
    ]
   },
@@ -3030,7 +3030,7 @@
     "cache_read": null,
     "blended": 262.5,
     "region": null,
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "direct": null,
    "next_best": []
@@ -3047,7 +3047,7 @@
     "cache_read": 0.55,
     "blended": 1.925,
     "region": "Global",
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "direct": null,
    "next_best": [
@@ -3060,7 +3060,7 @@
      "cache_read": 0.55,
      "blended": 1.925,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     },
     {
      "seller": "vercel",
@@ -3071,7 +3071,7 @@
      "cache_read": 0.55,
      "blended": 1.925,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     }
    ]
   },
@@ -3087,7 +3087,7 @@
     "cache_read": 7.5,
     "blended": 26.25,
     "region": "Global",
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "direct": null,
    "next_best": [
@@ -3100,7 +3100,7 @@
      "cache_read": 7.5,
      "blended": 26.25,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     },
     {
      "seller": "vercel",
@@ -3111,7 +3111,7 @@
      "cache_read": 7.5,
      "blended": 26.25,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     }
    ]
   },
@@ -3127,7 +3127,7 @@
     "cache_read": 1.25,
     "blended": 4.375,
     "region": "Global",
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "direct": null,
    "next_best": [
@@ -3140,7 +3140,7 @@
      "cache_read": 1.25,
      "blended": 4.375,
      "region": "Global",
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     },
     {
      "seller": "openrouter",
@@ -3151,7 +3151,7 @@
      "cache_read": 1.25,
      "blended": 4.375,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     }
    ]
   },
@@ -3167,7 +3167,7 @@
     "cache_read": 0.075,
     "blended": 0.2625,
     "region": "Global",
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "direct": null,
    "next_best": [
@@ -3180,7 +3180,7 @@
      "cache_read": 0.075,
      "blended": 0.2625,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     },
     {
      "seller": "openrouter",
@@ -3191,7 +3191,7 @@
      "cache_read": 0.075,
      "blended": 0.2625,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     }
    ]
   },
@@ -3207,7 +3207,7 @@
     "cache_read": null,
     "blended": 15.0,
     "region": null,
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "direct": null,
    "next_best": [
@@ -3220,7 +3220,7 @@
      "cache_read": null,
      "blended": 15.0,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     }
    ]
   },
@@ -3236,7 +3236,7 @@
     "cache_read": null,
     "blended": 0.75,
     "region": null,
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "direct": null,
    "next_best": [
@@ -3249,7 +3249,7 @@
      "cache_read": null,
      "blended": 0.75,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     },
     {
      "seller": "openrouter",
@@ -3260,7 +3260,7 @@
      "cache_read": null,
      "blended": 1.25,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     }
    ]
   },
@@ -3276,7 +3276,7 @@
     "cache_read": null,
     "blended": 1.625,
     "region": null,
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "direct": null,
    "next_best": []
@@ -3293,7 +3293,7 @@
     "cache_read": null,
     "blended": 3.25,
     "region": null,
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "direct": null,
    "next_best": []
@@ -3310,7 +3310,7 @@
     "cache_read": null,
     "blended": 37.5,
     "region": null,
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "direct": null,
    "next_best": []
@@ -3327,7 +3327,7 @@
     "cache_read": 0.05,
     "blended": 1.125,
     "region": null,
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "direct": null,
    "next_best": []
@@ -3344,7 +3344,7 @@
     "cache_read": 0.13,
     "blended": 3.4375,
     "region": "Global",
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "direct": null,
    "next_best": [
@@ -3357,7 +3357,7 @@
      "cache_read": 0.13,
      "blended": 3.4375,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     }
    ]
   },
@@ -3373,7 +3373,7 @@
     "cache_read": 0.2,
     "blended": 1.5625,
     "region": null,
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "direct": {
     "seller": "xai",
@@ -3384,7 +3384,7 @@
     "cache_read": 0.2,
     "blended": 1.5625,
     "region": null,
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "next_best": [
     {
@@ -3396,7 +3396,7 @@
      "cache_read": 0.2,
      "blended": 1.5625,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     },
     {
      "seller": "vercel",
@@ -3407,7 +3407,7 @@
      "cache_read": 0.2,
      "blended": 1.5625,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     }
    ]
   },
@@ -3423,7 +3423,7 @@
     "cache_read": 0.2,
     "blended": 1.5625,
     "region": null,
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "direct": {
     "seller": "xai",
@@ -3434,7 +3434,7 @@
     "cache_read": 0.2,
     "blended": 1.5625,
     "region": null,
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "next_best": [
     {
@@ -3446,7 +3446,7 @@
      "cache_read": 0.2,
      "blended": 1.5625,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     },
     {
      "seller": "vercel",
@@ -3457,7 +3457,7 @@
      "cache_read": 0.2,
      "blended": 1.5625,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     }
    ]
   },
@@ -3473,7 +3473,7 @@
     "cache_read": 0.18,
     "blended": 4.8125,
     "region": "Global",
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "direct": null,
    "next_best": []
@@ -3490,7 +3490,7 @@
     "cache_read": 0.13,
     "blended": 3.4375,
     "region": "Global",
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "direct": null,
    "next_best": []
@@ -3507,7 +3507,7 @@
     "cache_read": 0.13,
     "blended": 3.4375,
     "region": "Global",
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "direct": null,
    "next_best": []
@@ -3524,7 +3524,7 @@
     "cache_read": 8.25,
     "blended": 28.875,
     "region": null,
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "direct": null,
    "next_best": []
@@ -3541,7 +3541,7 @@
     "cache_read": 0.55,
     "blended": 1.925,
     "region": "Global",
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "direct": null,
    "next_best": [
@@ -3554,7 +3554,7 @@
      "cache_read": 0.605,
      "blended": 2.1175,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     },
     {
      "seller": "azure",
@@ -3565,7 +3565,7 @@
      "cache_read": 0.605,
      "blended": 2.1175,
      "region": "Regional",
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     }
    ]
   },
@@ -3581,7 +3581,7 @@
     "cache_read": null,
     "blended": 0.2625,
     "region": null,
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "direct": null,
    "next_best": []
@@ -3598,7 +3598,7 @@
     "cache_read": null,
     "blended": 0.13125,
     "region": null,
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "direct": null,
    "next_best": []
@@ -3615,7 +3615,7 @@
     "cache_read": 0.25,
     "blended": 20.0,
     "region": null,
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "direct": {
     "seller": "anthropic",
@@ -3626,7 +3626,7 @@
     "cache_read": 0.25,
     "blended": 20.0,
     "region": null,
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "next_best": []
   },
@@ -3642,7 +3642,7 @@
     "cache_read": 1.0,
     "blended": 20.0,
     "region": null,
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "direct": {
     "seller": "anthropic",
@@ -3653,7 +3653,7 @@
     "cache_read": 1.0,
     "blended": 20.0,
     "region": null,
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "next_best": []
   },
@@ -3669,7 +3669,7 @@
     "cache_read": 1.5,
     "blended": 30.0,
     "region": null,
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "direct": {
     "seller": "anthropic",
@@ -3680,7 +3680,7 @@
     "cache_read": 1.5,
     "blended": 30.0,
     "region": null,
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "next_best": []
   },
@@ -3696,7 +3696,7 @@
     "cache_read": 0.3,
     "blended": 6.0,
     "region": null,
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "direct": {
     "seller": "anthropic",
@@ -3707,7 +3707,7 @@
     "cache_read": 0.3,
     "blended": 6.0,
     "region": null,
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "next_best": []
   },
@@ -3723,7 +3723,7 @@
     "cache_read": 0.08,
     "blended": 1.6,
     "region": null,
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "direct": {
     "seller": "anthropic",
@@ -3734,7 +3734,7 @@
     "cache_read": 0.08,
     "blended": 1.6,
     "region": null,
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "next_best": []
   },
@@ -3750,7 +3750,7 @@
     "cache_read": null,
     "blended": 4.5,
     "region": null,
-    "collected_at": "2026-10-21T20:57:04+00:00"
+    "collected_at": "2026-10-22T02:02:47+00:00"
    },
    "direct": null,
    "next_best": [
@@ -3763,7 +3763,7 @@
      "cache_read": null,
      "blended": 4.5,
      "region": null,
-     "collected_at": "2026-10-21T20:57:04+00:00"
+     "collected_at": "2026-10-22T02:02:47+00:00"
     }
    ]
   }
