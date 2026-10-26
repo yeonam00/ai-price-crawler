@@ -1,35 +1,1955 @@
 {
- "collected_at": "2026-10-26T11:37:48+00:00",
+ "collected_at": "2026-10-26T16:27:30+00:00",
  "weights": {
   "input": 3,
   "output": 1
  },
- "model_count": 101,
+ "model_count": 104,
  "models": {
-  "gemini-4-argon": {
+  "claude-fable-5.1": {
+   "family": "anthropic",
+   "offers": 10,
+   "lowest": {
+    "seller": "anthropic",
+    "source": "anthropic",
+    "listed_as": "Claude Fable 5.1",
+    "input": 10.0,
+    "output": 50.0,
+    "cache_read": 0.25,
+    "blended": 20.0,
+    "region": null,
+    "collected_at": "2026-10-26T16:27:30+00:00"
+   },
+   "direct": {
+    "seller": "anthropic",
+    "source": "anthropic",
+    "listed_as": "Claude Fable 5.1",
+    "input": 10.0,
+    "output": 50.0,
+    "cache_read": 0.25,
+    "blended": 20.0,
+    "region": null,
+    "collected_at": "2026-10-26T16:27:30+00:00"
+   },
+   "next_best": [
+    {
+     "seller": "bizrouter",
+     "source": "bizrouter",
+     "listed_as": "anthropic/claude-fable-5.1",
+     "input": 10.0,
+     "output": 50.0,
+     "cache_read": 0.25,
+     "blended": 20.0,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    },
+    {
+     "seller": "edenai",
+     "source": "edenai",
+     "listed_as": "claude-fable-5.1",
+     "input": 10.0,
+     "output": 50.0,
+     "cache_read": 0.25,
+     "blended": 20.0,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    }
+   ]
+  },
+  "claude-opus-5": {
+   "family": "anthropic",
+   "offers": 10,
+   "lowest": {
+    "seller": "anthropic",
+    "source": "anthropic",
+    "listed_as": "Claude Opus 5",
+    "input": 5.0,
+    "output": 25.0,
+    "cache_read": 0.5,
+    "blended": 10.0,
+    "region": null,
+    "collected_at": "2026-10-26T16:27:30+00:00"
+   },
+   "direct": {
+    "seller": "anthropic",
+    "source": "anthropic",
+    "listed_as": "Claude Opus 5",
+    "input": 5.0,
+    "output": 25.0,
+    "cache_read": 0.5,
+    "blended": 10.0,
+    "region": null,
+    "collected_at": "2026-10-26T16:27:30+00:00"
+   },
+   "next_best": [
+    {
+     "seller": "bizrouter",
+     "source": "bizrouter",
+     "listed_as": "anthropic/claude-opus-5",
+     "input": 5.0,
+     "output": 25.0,
+     "cache_read": 0.5,
+     "blended": 10.0,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    },
+    {
+     "seller": "deepinfra",
+     "source": "deepinfra",
+     "listed_as": "claude-opus-5",
+     "input": 5.0,
+     "output": 25.0,
+     "cache_read": null,
+     "blended": 10.0,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    }
+   ]
+  },
+  "claude-sonnet-5": {
+   "family": "anthropic",
+   "offers": 12,
+   "lowest": {
+    "seller": "anthropic",
+    "source": "anthropic",
+    "listed_as": "Claude Sonnet 5",
+    "input": 2.0,
+    "output": 10.0,
+    "cache_read": 0.2,
+    "blended": 4.0,
+    "region": null,
+    "collected_at": "2026-10-26T16:27:30+00:00"
+   },
+   "direct": {
+    "seller": "anthropic",
+    "source": "anthropic",
+    "listed_as": "Claude Sonnet 5",
+    "input": 2.0,
+    "output": 10.0,
+    "cache_read": 0.2,
+    "blended": 4.0,
+    "region": null,
+    "collected_at": "2026-10-26T16:27:30+00:00"
+   },
+   "next_best": [
+    {
+     "seller": "bizrouter",
+     "source": "bizrouter",
+     "listed_as": "anthropic/claude-sonnet-5",
+     "input": 2.0,
+     "output": 10.0,
+     "cache_read": 0.2,
+     "blended": 4.0,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    },
+    {
+     "seller": "edenai",
+     "source": "edenai",
+     "listed_as": "claude-sonnet-5",
+     "input": 2.0,
+     "output": 10.0,
+     "cache_read": 0.2,
+     "blended": 4.0,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    }
+   ]
+  },
+  "claude-haiku-4.5": {
+   "family": "anthropic",
+   "offers": 14,
+   "lowest": {
+    "seller": "anthropic",
+    "source": "anthropic",
+    "listed_as": "Claude Haiku 4.5",
+    "input": 1.0,
+    "output": 5.0,
+    "cache_read": 0.1,
+    "blended": 2.0,
+    "region": null,
+    "collected_at": "2026-10-26T16:27:30+00:00"
+   },
+   "direct": {
+    "seller": "anthropic",
+    "source": "anthropic",
+    "listed_as": "Claude Haiku 4.5",
+    "input": 1.0,
+    "output": 5.0,
+    "cache_read": 0.1,
+    "blended": 2.0,
+    "region": null,
+    "collected_at": "2026-10-26T16:27:30+00:00"
+   },
+   "next_best": [
+    {
+     "seller": "bizrouter",
+     "source": "bizrouter",
+     "listed_as": "anthropic/claude-haiku-4.5",
+     "input": 1.0,
+     "output": 5.0,
+     "cache_read": 0.1,
+     "blended": 2.0,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    },
+    {
+     "seller": "deepinfra",
+     "source": "deepinfra",
+     "listed_as": "claude-haiku-4-5",
+     "input": 1.0,
+     "output": 5.0,
+     "cache_read": null,
+     "blended": 2.0,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    }
+   ]
+  },
+  "gpt-6-astra": {
+   "family": "openai",
+   "offers": 9,
+   "lowest": {
+    "seller": "azure",
+    "source": "azure",
+    "listed_as": "GPT-6 Astra",
+    "input": 10.0,
+    "output": 50.0,
+    "cache_read": 1.0,
+    "blended": 20.0,
+    "region": "Global",
+    "collected_at": "2026-10-26T16:27:30+00:00"
+   },
+   "direct": null,
+   "next_best": [
+    {
+     "seller": "bizrouter",
+     "source": "bizrouter",
+     "listed_as": "openai/gpt-6-astra",
+     "input": 10.0,
+     "output": 50.0,
+     "cache_read": null,
+     "blended": 20.0,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    },
+    {
+     "seller": "edenai",
+     "source": "edenai",
+     "listed_as": "gpt-6-astra",
+     "input": 10.0,
+     "output": 50.0,
+     "cache_read": 1.0,
+     "blended": 20.0,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    }
+   ]
+  },
+  "gpt-5.6-sol": {
+   "family": "openai",
+   "offers": 10,
+   "lowest": {
+    "seller": "openai",
+    "source": "openai",
+    "listed_as": "gpt-5.6-sol",
+    "input": 4.0,
+    "output": 20.0,
+    "cache_read": 0.4,
+    "blended": 8.0,
+    "region": null,
+    "collected_at": "2026-10-26T16:27:30+00:00"
+   },
+   "direct": {
+    "seller": "openai",
+    "source": "openai",
+    "listed_as": "gpt-5.6-sol",
+    "input": 4.0,
+    "output": 20.0,
+    "cache_read": 0.4,
+    "blended": 8.0,
+    "region": null,
+    "collected_at": "2026-10-26T16:27:30+00:00"
+   },
+   "next_best": [
+    {
+     "seller": "azure",
+     "source": "azure",
+     "listed_as": "GPT-5.6-sol",
+     "input": 4.0,
+     "output": 20.0,
+     "cache_read": 0.4,
+     "blended": 8.0,
+     "region": "Global",
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    },
+    {
+     "seller": "bizrouter",
+     "source": "bizrouter",
+     "listed_as": "openai/gpt-5.6-sol",
+     "input": 4.0,
+     "output": 20.0,
+     "cache_read": null,
+     "blended": 8.0,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    }
+   ]
+  },
+  "gpt-5.6-terra": {
+   "family": "openai",
+   "offers": 9,
+   "lowest": {
+    "seller": "azure",
+    "source": "azure",
+    "listed_as": "GPT-5.6-terra",
+    "input": 2.0,
+    "output": 12.0,
+    "cache_read": 0.2,
+    "blended": 4.5,
+    "region": "Global",
+    "collected_at": "2026-10-26T16:27:30+00:00"
+   },
+   "direct": null,
+   "next_best": [
+    {
+     "seller": "bizrouter",
+     "source": "bizrouter",
+     "listed_as": "openai/gpt-5.6-terra",
+     "input": 2.0,
+     "output": 12.0,
+     "cache_read": null,
+     "blended": 4.5,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    },
+    {
+     "seller": "edenai",
+     "source": "edenai",
+     "listed_as": "gpt-5.6-terra",
+     "input": 2.0,
+     "output": 12.0,
+     "cache_read": 0.2,
+     "blended": 4.5,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    }
+   ]
+  },
+  "gpt-5.6-luna": {
+   "family": "openai",
+   "offers": 9,
+   "lowest": {
+    "seller": "azure",
+    "source": "azure",
+    "listed_as": "GPT-5.6-luna",
+    "input": 0.2,
+    "output": 1.2,
+    "cache_read": 0.02,
+    "blended": 0.45,
+    "region": "Global",
+    "collected_at": "2026-10-26T16:27:30+00:00"
+   },
+   "direct": null,
+   "next_best": [
+    {
+     "seller": "bizrouter",
+     "source": "bizrouter",
+     "listed_as": "openai/gpt-5.6-luna",
+     "input": 0.2,
+     "output": 1.2,
+     "cache_read": null,
+     "blended": 0.45,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    },
+    {
+     "seller": "edenai",
+     "source": "edenai",
+     "listed_as": "gpt-5.6-luna",
+     "input": 0.2,
+     "output": 1.2,
+     "cache_read": 0.02,
+     "blended": 0.45,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    }
+   ]
+  },
+  "gemini-3.8-flash": {
    "family": "google",
-   "offers": 5,
+   "offers": 10,
    "lowest": {
     "seller": "google",
     "source": "google",
-    "listed_as": "Gemini 4 Argon",
-    "input": 1.0,
-    "output": 5.0,
-    "cache_read": 0.05,
-    "blended": 2.0,
+    "listed_as": "Gemini 3.8 Flash",
+    "input": 0.75,
+    "output": 3.75,
+    "cache_read": 0.075,
+    "blended": 1.5,
     "region": null,
-    "collected_at": "2026-10-26T11:37:48+00:00"
+    "collected_at": "2026-10-26T16:27:30+00:00"
+   },
+   "direct": {
+    "seller": "google",
+    "source": "google",
+    "listed_as": "Gemini 3.8 Flash",
+    "input": 0.75,
+    "output": 3.75,
+    "cache_read": 0.075,
+    "blended": 1.5,
+    "region": null,
+    "collected_at": "2026-10-26T16:27:30+00:00"
+   },
+   "next_best": [
+    {
+     "seller": "bizrouter",
+     "source": "bizrouter",
+     "listed_as": "google/gemini-3.8-flash",
+     "input": 0.75,
+     "output": 3.75,
+     "cache_read": 0.075,
+     "blended": 1.5,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    },
+    {
+     "seller": "edenai",
+     "source": "edenai",
+     "listed_as": "gemini-3.8-flash",
+     "input": 0.75,
+     "output": 3.75,
+     "cache_read": 0.075,
+     "blended": 1.5,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    }
+   ]
+  },
+  "gemini-3.1-pro-preview": {
+   "family": "google",
+   "offers": 10,
+   "lowest": {
+    "seller": "google",
+    "source": "google",
+    "listed_as": "Gemini 3.1 Pro Preview",
+    "input": 2.0,
+    "output": 12.0,
+    "cache_read": 0.2,
+    "blended": 4.5,
+    "region": null,
+    "collected_at": "2026-10-26T16:27:30+00:00"
+   },
+   "direct": {
+    "seller": "google",
+    "source": "google",
+    "listed_as": "Gemini 3.1 Pro Preview",
+    "input": 2.0,
+    "output": 12.0,
+    "cache_read": 0.2,
+    "blended": 4.5,
+    "region": null,
+    "collected_at": "2026-10-26T16:27:30+00:00"
+   },
+   "next_best": [
+    {
+     "seller": "bizrouter",
+     "source": "bizrouter",
+     "listed_as": "google/gemini-3.1-pro-preview",
+     "input": 2.0,
+     "output": 12.0,
+     "cache_read": null,
+     "blended": 4.5,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    },
+    {
+     "seller": "edenai",
+     "source": "edenai",
+     "listed_as": "gemini-3.1-pro-preview",
+     "input": 2.0,
+     "output": 12.0,
+     "cache_read": 0.2,
+     "blended": 4.5,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    }
+   ]
+  },
+  "gpt-6.1-sol": {
+   "family": "openai",
+   "offers": 9,
+   "lowest": {
+    "seller": "azure",
+    "source": "azure",
+    "listed_as": "GPT-6.1 Sol",
+    "input": 2.0,
+    "output": 10.0,
+    "cache_read": 0.1,
+    "blended": 4.0,
+    "region": "Global",
+    "collected_at": "2026-10-26T16:27:30+00:00"
+   },
+   "direct": null,
+   "next_best": [
+    {
+     "seller": "bizrouter",
+     "source": "bizrouter",
+     "listed_as": "openai/gpt-6.1-sol",
+     "input": 2.0,
+     "output": 10.0,
+     "cache_read": null,
+     "blended": 4.0,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    },
+    {
+     "seller": "edenai",
+     "source": "edenai",
+     "listed_as": "gpt-6.1-sol",
+     "input": 2.0,
+     "output": 10.0,
+     "cache_read": 0.1,
+     "blended": 4.0,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    }
+   ]
+  },
+  "gpt-6-sol": {
+   "family": "openai",
+   "offers": 9,
+   "lowest": {
+    "seller": "azure",
+    "source": "azure",
+    "listed_as": "GPT-6 Sol",
+    "input": 2.0,
+    "output": 10.0,
+    "cache_read": 0.2,
+    "blended": 4.0,
+    "region": "Global",
+    "collected_at": "2026-10-26T16:27:30+00:00"
+   },
+   "direct": null,
+   "next_best": [
+    {
+     "seller": "bizrouter",
+     "source": "bizrouter",
+     "listed_as": "openai/gpt-6-sol",
+     "input": 2.0,
+     "output": 10.0,
+     "cache_read": null,
+     "blended": 4.0,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    },
+    {
+     "seller": "edenai",
+     "source": "edenai",
+     "listed_as": "gpt-6-sol",
+     "input": 2.0,
+     "output": 10.0,
+     "cache_read": 0.2,
+     "blended": 4.0,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    }
+   ]
+  },
+  "gpt-6-luna": {
+   "family": "openai",
+   "offers": 9,
+   "lowest": {
+    "seller": "azure",
+    "source": "azure",
+    "listed_as": "GPT-6 Luna",
+    "input": 0.1,
+    "output": 0.5,
+    "cache_read": 0.01,
+    "blended": 0.2,
+    "region": "Global",
+    "collected_at": "2026-10-26T16:27:30+00:00"
+   },
+   "direct": null,
+   "next_best": [
+    {
+     "seller": "bizrouter",
+     "source": "bizrouter",
+     "listed_as": "openai/gpt-6-luna",
+     "input": 0.1,
+     "output": 0.5,
+     "cache_read": null,
+     "blended": 0.2,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    },
+    {
+     "seller": "edenai",
+     "source": "edenai",
+     "listed_as": "gpt-6-luna",
+     "input": 0.1,
+     "output": 0.5,
+     "cache_read": 0.01,
+     "blended": 0.2,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    }
+   ]
+  },
+  "gpt-5.5": {
+   "family": "openai",
+   "offers": 10,
+   "lowest": {
+    "seller": "azure",
+    "source": "azure",
+    "listed_as": "GPT-5.5",
+    "input": 5.0,
+    "output": 30.0,
+    "cache_read": 0.5,
+    "blended": 11.25,
+    "region": "Global",
+    "collected_at": "2026-10-26T16:27:30+00:00"
+   },
+   "direct": null,
+   "next_best": [
+    {
+     "seller": "bizrouter",
+     "source": "bizrouter",
+     "listed_as": "openai/gpt-5.5",
+     "input": 5.0,
+     "output": 30.0,
+     "cache_read": null,
+     "blended": 11.25,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    },
+    {
+     "seller": "edenai",
+     "source": "edenai",
+     "listed_as": "gpt-5.5",
+     "input": 5.0,
+     "output": 30.0,
+     "cache_read": 0.5,
+     "blended": 11.25,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    }
+   ]
+  },
+  "gpt-5.4": {
+   "family": "openai",
+   "offers": 8,
+   "lowest": {
+    "seller": "bizrouter",
+    "source": "bizrouter",
+    "listed_as": "openai/gpt-5.4",
+    "input": 2.5,
+    "output": 15.0,
+    "cache_read": null,
+    "blended": 5.625,
+    "region": null,
+    "collected_at": "2026-10-26T16:27:30+00:00"
+   },
+   "direct": null,
+   "next_best": [
+    {
+     "seller": "edenai",
+     "source": "edenai",
+     "listed_as": "gpt-5.4",
+     "input": 2.5,
+     "output": 15.0,
+     "cache_read": 0.25,
+     "blended": 5.625,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    },
+    {
+     "seller": "edenai",
+     "source": "edenai",
+     "listed_as": "gpt-5.4-2026-03-05",
+     "input": 2.5,
+     "output": 15.0,
+     "cache_read": 0.25,
+     "blended": 5.625,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    }
+   ]
+  },
+  "gpt-5.4-mini": {
+   "family": "openai",
+   "offers": 9,
+   "lowest": {
+    "seller": "azure",
+    "source": "azure",
+    "listed_as": "GPT-5.4 mini",
+    "input": 0.75,
+    "output": 4.5,
+    "cache_read": 0.08,
+    "blended": 1.6875,
+    "region": "Global",
+    "collected_at": "2026-10-26T16:27:30+00:00"
+   },
+   "direct": null,
+   "next_best": [
+    {
+     "seller": "bizrouter",
+     "source": "bizrouter",
+     "listed_as": "openai/gpt-5.4-mini",
+     "input": 0.75,
+     "output": 4.5,
+     "cache_read": 0.075,
+     "blended": 1.6875,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    },
+    {
+     "seller": "edenai",
+     "source": "edenai",
+     "listed_as": "gpt-5.4-mini",
+     "input": 0.75,
+     "output": 4.5,
+     "cache_read": 0.075,
+     "blended": 1.6875,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    }
+   ]
+  },
+  "gpt-5.2": {
+   "family": "openai",
+   "offers": 8,
+   "lowest": {
+    "seller": "azure",
+    "source": "azure",
+    "listed_as": "GPT-5.2",
+    "input": 1.75,
+    "output": 14.0,
+    "cache_read": 0.18,
+    "blended": 4.8125,
+    "region": "Global",
+    "collected_at": "2026-10-26T16:27:30+00:00"
+   },
+   "direct": null,
+   "next_best": [
+    {
+     "seller": "bizrouter",
+     "source": "bizrouter",
+     "listed_as": "openai/gpt-5.2",
+     "input": 1.75,
+     "output": 14.0,
+     "cache_read": 0.175,
+     "blended": 4.8125,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    },
+    {
+     "seller": "edenai",
+     "source": "edenai",
+     "listed_as": "gpt-5.2",
+     "input": 1.75,
+     "output": 14.0,
+     "cache_read": 0.175,
+     "blended": 4.8125,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    }
+   ]
+  },
+  "claude-opus-5.5": {
+   "family": "anthropic",
+   "offers": 8,
+   "lowest": {
+    "seller": "anthropic",
+    "source": "anthropic",
+    "listed_as": "Claude Opus 5.5",
+    "input": 4.0,
+    "output": 20.0,
+    "cache_read": 0.2,
+    "blended": 8.0,
+    "region": null,
+    "collected_at": "2026-10-26T16:27:30+00:00"
+   },
+   "direct": {
+    "seller": "anthropic",
+    "source": "anthropic",
+    "listed_as": "Claude Opus 5.5",
+    "input": 4.0,
+    "output": 20.0,
+    "cache_read": 0.2,
+    "blended": 8.0,
+    "region": null,
+    "collected_at": "2026-10-26T16:27:30+00:00"
+   },
+   "next_best": [
+    {
+     "seller": "bizrouter",
+     "source": "bizrouter",
+     "listed_as": "anthropic/claude-opus-5.5",
+     "input": 4.0,
+     "output": 20.0,
+     "cache_read": 0.2,
+     "blended": 8.0,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    },
+    {
+     "seller": "edenai",
+     "source": "edenai",
+     "listed_as": "claude-opus-5.5",
+     "input": 4.0,
+     "output": 20.0,
+     "cache_read": 0.4,
+     "blended": 8.0,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    }
+   ]
+  },
+  "claude-fable-5": {
+   "family": "anthropic",
+   "offers": 12,
+   "lowest": {
+    "seller": "anthropic",
+    "source": "anthropic",
+    "listed_as": "Claude Fable 5",
+    "input": 10.0,
+    "output": 50.0,
+    "cache_read": 1.0,
+    "blended": 20.0,
+    "region": null,
+    "collected_at": "2026-10-26T16:27:30+00:00"
+   },
+   "direct": {
+    "seller": "anthropic",
+    "source": "anthropic",
+    "listed_as": "Claude Fable 5",
+    "input": 10.0,
+    "output": 50.0,
+    "cache_read": 1.0,
+    "blended": 20.0,
+    "region": null,
+    "collected_at": "2026-10-26T16:27:30+00:00"
+   },
+   "next_best": [
+    {
+     "seller": "bizrouter",
+     "source": "bizrouter",
+     "listed_as": "anthropic/claude-fable-5",
+     "input": 10.0,
+     "output": 50.0,
+     "cache_read": 1.0,
+     "blended": 20.0,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    },
+    {
+     "seller": "deepinfra",
+     "source": "deepinfra",
+     "listed_as": "claude-fable-5",
+     "input": 10.0,
+     "output": 50.0,
+     "cache_read": null,
+     "blended": 20.0,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    }
+   ]
+  },
+  "claude-opus-4.8": {
+   "family": "anthropic",
+   "offers": 13,
+   "lowest": {
+    "seller": "anthropic",
+    "source": "anthropic",
+    "listed_as": "Claude Opus 4.8",
+    "input": 5.0,
+    "output": 25.0,
+    "cache_read": 0.5,
+    "blended": 10.0,
+    "region": null,
+    "collected_at": "2026-10-26T16:27:30+00:00"
+   },
+   "direct": {
+    "seller": "anthropic",
+    "source": "anthropic",
+    "listed_as": "Claude Opus 4.8",
+    "input": 5.0,
+    "output": 25.0,
+    "cache_read": 0.5,
+    "blended": 10.0,
+    "region": null,
+    "collected_at": "2026-10-26T16:27:30+00:00"
+   },
+   "next_best": [
+    {
+     "seller": "bizrouter",
+     "source": "bizrouter",
+     "listed_as": "anthropic/claude-opus-4.8",
+     "input": 5.0,
+     "output": 25.0,
+     "cache_read": 0.5,
+     "blended": 10.0,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    },
+    {
+     "seller": "deepinfra",
+     "source": "deepinfra",
+     "listed_as": "claude-opus-4-8",
+     "input": 5.0,
+     "output": 25.0,
+     "cache_read": null,
+     "blended": 10.0,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    }
+   ]
+  },
+  "claude-sonnet-4.6": {
+   "family": "anthropic",
+   "offers": 14,
+   "lowest": {
+    "seller": "anthropic",
+    "source": "anthropic",
+    "listed_as": "Claude Sonnet 4.6",
+    "input": 3.0,
+    "output": 15.0,
+    "cache_read": 0.3,
+    "blended": 6.0,
+    "region": null,
+    "collected_at": "2026-10-26T16:27:30+00:00"
+   },
+   "direct": {
+    "seller": "anthropic",
+    "source": "anthropic",
+    "listed_as": "Claude Sonnet 4.6",
+    "input": 3.0,
+    "output": 15.0,
+    "cache_read": 0.3,
+    "blended": 6.0,
+    "region": null,
+    "collected_at": "2026-10-26T16:27:30+00:00"
+   },
+   "next_best": [
+    {
+     "seller": "bizrouter",
+     "source": "bizrouter",
+     "listed_as": "anthropic/claude-sonnet-4.6",
+     "input": 3.0,
+     "output": 15.0,
+     "cache_read": 0.3,
+     "blended": 6.0,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    },
+    {
+     "seller": "deepinfra",
+     "source": "deepinfra",
+     "listed_as": "claude-sonnet-4-6",
+     "input": 3.0,
+     "output": 15.0,
+     "cache_read": null,
+     "blended": 6.0,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    }
+   ]
+  },
+  "claude-sonnet-5.5": {
+   "family": "anthropic",
+   "offers": 7,
+   "lowest": {
+    "seller": "anthropic",
+    "source": "anthropic",
+    "listed_as": "Claude Sonnet 5.5",
+    "input": 2.0,
+    "output": 10.0,
+    "cache_read": 0.1,
+    "blended": 4.0,
+    "region": null,
+    "collected_at": "2026-10-26T16:27:30+00:00"
+   },
+   "direct": {
+    "seller": "anthropic",
+    "source": "anthropic",
+    "listed_as": "Claude Sonnet 5.5",
+    "input": 2.0,
+    "output": 10.0,
+    "cache_read": 0.1,
+    "blended": 4.0,
+    "region": null,
+    "collected_at": "2026-10-26T16:27:30+00:00"
+   },
+   "next_best": [
+    {
+     "seller": "bizrouter",
+     "source": "bizrouter",
+     "listed_as": "anthropic/claude-sonnet-5.5",
+     "input": 2.0,
+     "output": 10.0,
+     "cache_read": 0.1,
+     "blended": 4.0,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    },
+    {
+     "seller": "edenai",
+     "source": "edenai",
+     "listed_as": "claude-sonnet-5.5",
+     "input": 2.0,
+     "output": 10.0,
+     "cache_read": null,
+     "blended": 4.0,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    }
+   ]
+  },
+  "claude-haiku-5.5": {
+   "family": "anthropic",
+   "offers": 13,
+   "lowest": {
+    "seller": "anthropic",
+    "source": "anthropic",
+    "listed_as": "Claude Haiku 5.5",
+    "input": 0.1,
+    "output": 0.5,
+    "cache_read": 0.01,
+    "blended": 0.2,
+    "region": null,
+    "collected_at": "2026-10-26T16:27:30+00:00"
+   },
+   "direct": {
+    "seller": "anthropic",
+    "source": "anthropic",
+    "listed_as": "Claude Haiku 5.5",
+    "input": 0.1,
+    "output": 0.5,
+    "cache_read": 0.01,
+    "blended": 0.2,
+    "region": null,
+    "collected_at": "2026-10-26T16:27:30+00:00"
+   },
+   "next_best": [
+    {
+     "seller": "bizrouter",
+     "source": "bizrouter",
+     "listed_as": "anthropic/claude-haiku-5.5",
+     "input": 0.1,
+     "output": 0.5,
+     "cache_read": null,
+     "blended": 0.2,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    },
+    {
+     "seller": "edenai",
+     "source": "edenai",
+     "listed_as": "claude-haiku-5.5",
+     "input": 0.1,
+     "output": 0.5,
+     "cache_read": 0.01,
+     "blended": 0.2,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    }
+   ]
+  },
+  "gemini-3-flash-preview": {
+   "family": "google",
+   "offers": 8,
+   "lowest": {
+    "seller": "google",
+    "source": "google",
+    "listed_as": "Gemini 3 Flash Preview",
+    "input": 0.5,
+    "output": 3.0,
+    "cache_read": 0.05,
+    "blended": 1.125,
+    "region": null,
+    "collected_at": "2026-10-26T16:27:30+00:00"
+   },
+   "direct": {
+    "seller": "google",
+    "source": "google",
+    "listed_as": "Gemini 3 Flash Preview",
+    "input": 0.5,
+    "output": 3.0,
+    "cache_read": 0.05,
+    "blended": 1.125,
+    "region": null,
+    "collected_at": "2026-10-26T16:27:30+00:00"
+   },
+   "next_best": [
+    {
+     "seller": "bizrouter",
+     "source": "bizrouter",
+     "listed_as": "google/gemini-3-flash-preview",
+     "input": 0.5,
+     "output": 3.0,
+     "cache_read": 0.05,
+     "blended": 1.125,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    },
+    {
+     "seller": "edenai",
+     "source": "edenai",
+     "listed_as": "gemini-3-flash-preview",
+     "input": 0.5,
+     "output": 3.0,
+     "cache_read": 0.05,
+     "blended": 1.125,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    }
+   ]
+  },
+  "grok-4.7": {
+   "family": "xai",
+   "offers": 8,
+   "lowest": {
+    "seller": "xai",
+    "source": "xai",
+    "listed_as": "grok-4.7",
+    "input": 2.0,
+    "output": 6.0,
+    "cache_read": 0.5,
+    "blended": 3.0,
+    "region": null,
+    "collected_at": "2026-10-26T16:27:30+00:00"
+   },
+   "direct": {
+    "seller": "xai",
+    "source": "xai",
+    "listed_as": "grok-4.7",
+    "input": 2.0,
+    "output": 6.0,
+    "cache_read": 0.5,
+    "blended": 3.0,
+    "region": null,
+    "collected_at": "2026-10-26T16:27:30+00:00"
+   },
+   "next_best": [
+    {
+     "seller": "bizrouter",
+     "source": "bizrouter",
+     "listed_as": "x-ai/grok-4.7",
+     "input": 2.0,
+     "output": 6.0,
+     "cache_read": null,
+     "blended": 3.0,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    },
+    {
+     "seller": "edenai",
+     "source": "edenai",
+     "listed_as": "grok-4.7",
+     "input": 2.0,
+     "output": 6.0,
+     "cache_read": 0.2,
+     "blended": 3.0,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    }
+   ]
+  },
+  "grok-4.6": {
+   "family": "xai",
+   "offers": 10,
+   "lowest": {
+    "seller": "xai",
+    "source": "xai",
+    "listed_as": "grok-4.6",
+    "input": 2.0,
+    "output": 6.0,
+    "cache_read": 0.5,
+    "blended": 3.0,
+    "region": null,
+    "collected_at": "2026-10-26T16:27:30+00:00"
+   },
+   "direct": {
+    "seller": "xai",
+    "source": "xai",
+    "listed_as": "grok-4.6",
+    "input": 2.0,
+    "output": 6.0,
+    "cache_read": 0.5,
+    "blended": 3.0,
+    "region": null,
+    "collected_at": "2026-10-26T16:27:30+00:00"
+   },
+   "next_best": [
+    {
+     "seller": "bizrouter",
+     "source": "bizrouter",
+     "listed_as": "x-ai/grok-4.6",
+     "input": 2.0,
+     "output": 6.0,
+     "cache_read": null,
+     "blended": 3.0,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    },
+    {
+     "seller": "edenai",
+     "source": "edenai",
+     "listed_as": "grok-4.6",
+     "input": 2.0,
+     "output": 6.0,
+     "cache_read": 0.2,
+     "blended": 3.0,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    }
+   ]
+  },
+  "grok-4.5": {
+   "family": "xai",
+   "offers": 9,
+   "lowest": {
+    "seller": "xai",
+    "source": "xai",
+    "listed_as": "grok-4.5",
+    "input": 2.0,
+    "output": 6.0,
+    "cache_read": 0.3,
+    "blended": 3.0,
+    "region": null,
+    "collected_at": "2026-10-26T16:27:30+00:00"
+   },
+   "direct": {
+    "seller": "xai",
+    "source": "xai",
+    "listed_as": "grok-4.5",
+    "input": 2.0,
+    "output": 6.0,
+    "cache_read": 0.3,
+    "blended": 3.0,
+    "region": null,
+    "collected_at": "2026-10-26T16:27:30+00:00"
+   },
+   "next_best": [
+    {
+     "seller": "bizrouter",
+     "source": "bizrouter",
+     "listed_as": "x-ai/grok-4.5",
+     "input": 2.0,
+     "output": 6.0,
+     "cache_read": null,
+     "blended": 3.0,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    },
+    {
+     "seller": "edenai",
+     "source": "edenai",
+     "listed_as": "grok-4.5",
+     "input": 2.0,
+     "output": 6.0,
+     "cache_read": 0.3,
+     "blended": 3.0,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    }
+   ]
+  },
+  "grok-4.3": {
+   "family": "xai",
+   "offers": 8,
+   "lowest": {
+    "seller": "xai",
+    "source": "xai",
+    "listed_as": "grok-4.3",
+    "input": 1.25,
+    "output": 2.5,
+    "cache_read": 0.2,
+    "blended": 1.5625,
+    "region": null,
+    "collected_at": "2026-10-26T16:27:30+00:00"
+   },
+   "direct": {
+    "seller": "xai",
+    "source": "xai",
+    "listed_as": "grok-4.3",
+    "input": 1.25,
+    "output": 2.5,
+    "cache_read": 0.2,
+    "blended": 1.5625,
+    "region": null,
+    "collected_at": "2026-10-26T16:27:30+00:00"
+   },
+   "next_best": [
+    {
+     "seller": "bizrouter",
+     "source": "bizrouter",
+     "listed_as": "x-ai/grok-4.3",
+     "input": 1.25,
+     "output": 2.5,
+     "cache_read": null,
+     "blended": 1.5625,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    },
+    {
+     "seller": "edenai",
+     "source": "edenai",
+     "listed_as": "grok-4.3",
+     "input": 1.25,
+     "output": 2.5,
+     "cache_read": 0.2,
+     "blended": 1.5625,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    }
+   ]
+  },
+  "grok-4.20": {
+   "family": "xai",
+   "offers": 5,
+   "lowest": {
+    "seller": "bizrouter",
+    "source": "bizrouter",
+    "listed_as": "x-ai/grok-4.20",
+    "input": 1.25,
+    "output": 2.5,
+    "cache_read": null,
+    "blended": 1.5625,
+    "region": null,
+    "collected_at": "2026-10-26T16:27:30+00:00"
+   },
+   "direct": null,
+   "next_best": [
+    {
+     "seller": "edenai",
+     "source": "edenai",
+     "listed_as": "grok-4.20",
+     "input": 1.25,
+     "output": 2.5,
+     "cache_read": 0.2,
+     "blended": 1.5625,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    },
+    {
+     "seller": "openrouter",
+     "source": "openrouter",
+     "listed_as": "x-ai/grok-4.20",
+     "input": 1.25,
+     "output": 2.5,
+     "cache_read": 0.2,
+     "blended": 1.5625,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    }
+   ]
+  },
+  "grok-4.20-multi-agent": {
+   "family": "xai",
+   "offers": 7,
+   "lowest": {
+    "seller": "xai",
+    "source": "xai",
+    "listed_as": "grok-4.20-multi-agent-0309",
+    "input": 1.25,
+    "output": 2.5,
+    "cache_read": 0.2,
+    "blended": 1.5625,
+    "region": null,
+    "collected_at": "2026-10-26T16:27:30+00:00"
+   },
+   "direct": {
+    "seller": "xai",
+    "source": "xai",
+    "listed_as": "grok-4.20-multi-agent-0309",
+    "input": 1.25,
+    "output": 2.5,
+    "cache_read": 0.2,
+    "blended": 1.5625,
+    "region": null,
+    "collected_at": "2026-10-26T16:27:30+00:00"
+   },
+   "next_best": [
+    {
+     "seller": "edenai",
+     "source": "edenai",
+     "listed_as": "grok-4.20-multi-agent-0309",
+     "input": 1.25,
+     "output": 2.5,
+     "cache_read": 0.2,
+     "blended": 1.5625,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    },
+    {
+     "seller": "edenai",
+     "source": "edenai",
+     "listed_as": "grok-4.20-multi-agent",
+     "input": 1.25,
+     "output": 2.5,
+     "cache_read": 0.2,
+     "blended": 1.5625,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    }
+   ]
+  },
+  "grok-build-0.1": {
+   "family": "xai",
+   "offers": 7,
+   "lowest": {
+    "seller": "xai",
+    "source": "xai",
+    "listed_as": "grok-build-0.1",
+    "input": 1.0,
+    "output": 2.0,
+    "cache_read": 0.2,
+    "blended": 1.25,
+    "region": null,
+    "collected_at": "2026-10-26T16:27:30+00:00"
+   },
+   "direct": {
+    "seller": "xai",
+    "source": "xai",
+    "listed_as": "grok-build-0.1",
+    "input": 1.0,
+    "output": 2.0,
+    "cache_read": 0.2,
+    "blended": 1.25,
+    "region": null,
+    "collected_at": "2026-10-26T16:27:30+00:00"
+   },
+   "next_best": [
+    {
+     "seller": "bizrouter",
+     "source": "bizrouter",
+     "listed_as": "x-ai/grok-build-0.1",
+     "input": 1.0,
+     "output": 2.0,
+     "cache_read": null,
+     "blended": 1.25,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    },
+    {
+     "seller": "edenai",
+     "source": "edenai",
+     "listed_as": "grok-build-0.1",
+     "input": 1.0,
+     "output": 2.0,
+     "cache_read": 0.2,
+     "blended": 1.25,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    }
+   ]
+  },
+  "gemini-3.6-flash": {
+   "family": "google",
+   "offers": 11,
+   "lowest": {
+    "seller": "google",
+    "source": "google",
+    "listed_as": "Gemini 3.6 Flash",
+    "input": 0.75,
+    "output": 3.75,
+    "cache_read": 0.075,
+    "blended": 1.5,
+    "region": null,
+    "collected_at": "2026-10-26T16:27:30+00:00"
+   },
+   "direct": {
+    "seller": "google",
+    "source": "google",
+    "listed_as": "Gemini 3.6 Flash",
+    "input": 0.75,
+    "output": 3.75,
+    "cache_read": 0.075,
+    "blended": 1.5,
+    "region": null,
+    "collected_at": "2026-10-26T16:27:30+00:00"
+   },
+   "next_best": [
+    {
+     "seller": "bizrouter",
+     "source": "bizrouter",
+     "listed_as": "google/gemini-3.6-flash",
+     "input": 0.75,
+     "output": 3.75,
+     "cache_read": 0.075,
+     "blended": 1.5,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    },
+    {
+     "seller": "edenai",
+     "source": "edenai",
+     "listed_as": "gemini-3.6-flash",
+     "input": 0.75,
+     "output": 3.75,
+     "cache_read": 0.075,
+     "blended": 1.5,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    }
+   ]
+  },
+  "gemini-3.7-flash": {
+   "family": "google",
+   "offers": 10,
+   "lowest": {
+    "seller": "bizrouter",
+    "source": "bizrouter",
+    "listed_as": "google/gemini-3.7-flash",
+    "input": 0.75,
+    "output": 3.75,
+    "cache_read": 0.075,
+    "blended": 1.5,
+    "region": null,
+    "collected_at": "2026-10-26T16:27:30+00:00"
+   },
+   "direct": null,
+   "next_best": [
+    {
+     "seller": "edenai",
+     "source": "edenai",
+     "listed_as": "gemini-3.7-flash",
+     "input": 0.75,
+     "output": 3.75,
+     "cache_read": 0.075,
+     "blended": 1.5,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    },
+    {
+     "seller": "gmicloud",
+     "source": "gmicloud",
+     "listed_as": "google/gemini-3.7-flash",
+     "input": 0.75,
+     "output": 3.75,
+     "cache_read": null,
+     "blended": 1.5,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    }
+   ]
+  },
+  "gemini-3.5-flash": {
+   "family": "google",
+   "offers": 11,
+   "lowest": {
+    "seller": "bizrouter",
+    "source": "bizrouter",
+    "listed_as": "google/gemini-3.5-flash",
+    "input": 1.5,
+    "output": 9.0,
+    "cache_read": 0.15,
+    "blended": 3.375,
+    "region": null,
+    "collected_at": "2026-10-26T16:27:30+00:00"
+   },
+   "direct": null,
+   "next_best": [
+    {
+     "seller": "deepinfra",
+     "source": "deepinfra",
+     "listed_as": "gemini-3.5-flash",
+     "input": 1.5,
+     "output": 9.0,
+     "cache_read": null,
+     "blended": 3.375,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    },
+    {
+     "seller": "deepinfra",
+     "source": "deepinfra",
+     "listed_as": "gemini-3.5-flash",
+     "input": 1.5,
+     "output": 9.0,
+     "cache_read": null,
+     "blended": 3.375,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    }
+   ]
+  },
+  "gemini-3.5-flash-lite": {
+   "family": "google",
+   "offers": 10,
+   "lowest": {
+    "seller": "google",
+    "source": "google",
+    "listed_as": "Gemini 3.5 Flash-Lite",
+    "input": 0.3,
+    "output": 2.5,
+    "cache_read": 0.03,
+    "blended": 0.85,
+    "region": null,
+    "collected_at": "2026-10-26T16:27:30+00:00"
+   },
+   "direct": {
+    "seller": "google",
+    "source": "google",
+    "listed_as": "Gemini 3.5 Flash-Lite",
+    "input": 0.3,
+    "output": 2.5,
+    "cache_read": 0.03,
+    "blended": 0.85,
+    "region": null,
+    "collected_at": "2026-10-26T16:27:30+00:00"
+   },
+   "next_best": [
+    {
+     "seller": "bizrouter",
+     "source": "bizrouter",
+     "listed_as": "google/gemini-3.5-flash-lite",
+     "input": 0.3,
+     "output": 2.5,
+     "cache_read": 0.03,
+     "blended": 0.85,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    },
+    {
+     "seller": "edenai",
+     "source": "edenai",
+     "listed_as": "gemini-3.5-flash-lite",
+     "input": 0.3,
+     "output": 2.5,
+     "cache_read": 0.03,
+     "blended": 0.85,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    }
+   ]
+  },
+  "gemini-3.1-flash-lite": {
+   "family": "google",
+   "offers": 10,
+   "lowest": {
+    "seller": "google",
+    "source": "google",
+    "listed_as": "Gemini 3.1 Flash-Lite",
+    "input": 0.25,
+    "output": 1.5,
+    "cache_read": 0.025,
+    "blended": 0.5625,
+    "region": null,
+    "collected_at": "2026-10-26T16:27:30+00:00"
+   },
+   "direct": {
+    "seller": "google",
+    "source": "google",
+    "listed_as": "Gemini 3.1 Flash-Lite",
+    "input": 0.25,
+    "output": 1.5,
+    "cache_read": 0.025,
+    "blended": 0.5625,
+    "region": null,
+    "collected_at": "2026-10-26T16:27:30+00:00"
+   },
+   "next_best": [
+    {
+     "seller": "bizrouter",
+     "source": "bizrouter",
+     "listed_as": "google/gemini-3.1-flash-lite",
+     "input": 0.25,
+     "output": 1.5,
+     "cache_read": 0.025,
+     "blended": 0.5625,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    },
+    {
+     "seller": "deepinfra",
+     "source": "deepinfra",
+     "listed_as": "gemini-3.1-flash-lite",
+     "input": 0.25,
+     "output": 1.5,
+     "cache_read": null,
+     "blended": 0.5625,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    }
+   ]
+  },
+  "gemini-2.5-pro": {
+   "family": "google",
+   "offers": 9,
+   "lowest": {
+    "seller": "google",
+    "source": "google",
+    "listed_as": "Gemini 2.5 Pro",
+    "input": 1.25,
+    "output": 10.0,
+    "cache_read": 0.125,
+    "blended": 3.4375,
+    "region": null,
+    "collected_at": "2026-10-26T16:27:30+00:00"
+   },
+   "direct": {
+    "seller": "google",
+    "source": "google",
+    "listed_as": "Gemini 2.5 Pro",
+    "input": 1.25,
+    "output": 10.0,
+    "cache_read": 0.125,
+    "blended": 3.4375,
+    "region": null,
+    "collected_at": "2026-10-26T16:27:30+00:00"
+   },
+   "next_best": [
+    {
+     "seller": "deepinfra",
+     "source": "deepinfra",
+     "listed_as": "gemini-2.5-pro",
+     "input": 1.25,
+     "output": 10.0,
+     "cache_read": null,
+     "blended": 3.4375,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    },
+    {
+     "seller": "deepinfra",
+     "source": "deepinfra",
+     "listed_as": "gemini-2.5-pro",
+     "input": 1.25,
+     "output": 10.0,
+     "cache_read": null,
+     "blended": 3.4375,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    }
+   ]
+  },
+  "gemini-2.5-flash": {
+   "family": "google",
+   "offers": 9,
+   "lowest": {
+    "seller": "google",
+    "source": "google",
+    "listed_as": "Gemini 2.5 Flash",
+    "input": 0.3,
+    "output": 2.5,
+    "cache_read": 0.03,
+    "blended": 0.85,
+    "region": null,
+    "collected_at": "2026-10-26T16:27:30+00:00"
+   },
+   "direct": {
+    "seller": "google",
+    "source": "google",
+    "listed_as": "Gemini 2.5 Flash",
+    "input": 0.3,
+    "output": 2.5,
+    "cache_read": 0.03,
+    "blended": 0.85,
+    "region": null,
+    "collected_at": "2026-10-26T16:27:30+00:00"
+   },
+   "next_best": [
+    {
+     "seller": "deepinfra",
+     "source": "deepinfra",
+     "listed_as": "gemini-2.5-flash",
+     "input": 0.3,
+     "output": 2.5,
+     "cache_read": null,
+     "blended": 0.85,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    },
+    {
+     "seller": "deepinfra",
+     "source": "deepinfra",
+     "listed_as": "gemini-2.5-flash",
+     "input": 0.3,
+     "output": 2.5,
+     "cache_read": null,
+     "blended": 0.85,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    }
+   ]
+  },
+  "claude-opus-4.7": {
+   "family": "anthropic",
+   "offers": 13,
+   "lowest": {
+    "seller": "anthropic",
+    "source": "anthropic",
+    "listed_as": "Claude Opus 4.7",
+    "input": 5.0,
+    "output": 25.0,
+    "cache_read": 0.5,
+    "blended": 10.0,
+    "region": null,
+    "collected_at": "2026-10-26T16:27:30+00:00"
+   },
+   "direct": {
+    "seller": "anthropic",
+    "source": "anthropic",
+    "listed_as": "Claude Opus 4.7",
+    "input": 5.0,
+    "output": 25.0,
+    "cache_read": 0.5,
+    "blended": 10.0,
+    "region": null,
+    "collected_at": "2026-10-26T16:27:30+00:00"
+   },
+   "next_best": [
+    {
+     "seller": "bizrouter",
+     "source": "bizrouter",
+     "listed_as": "anthropic/claude-opus-4.7",
+     "input": 5.0,
+     "output": 25.0,
+     "cache_read": 0.5,
+     "blended": 10.0,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    },
+    {
+     "seller": "deepinfra",
+     "source": "deepinfra",
+     "listed_as": "claude-opus-4-7",
+     "input": 5.0,
+     "output": 25.0,
+     "cache_read": null,
+     "blended": 10.0,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    }
+   ]
+  },
+  "claude-opus-4.6": {
+   "family": "anthropic",
+   "offers": 12,
+   "lowest": {
+    "seller": "anthropic",
+    "source": "anthropic",
+    "listed_as": "Claude Opus 4.6",
+    "input": 5.0,
+    "output": 25.0,
+    "cache_read": 0.5,
+    "blended": 10.0,
+    "region": null,
+    "collected_at": "2026-10-26T16:27:30+00:00"
+   },
+   "direct": {
+    "seller": "anthropic",
+    "source": "anthropic",
+    "listed_as": "Claude Opus 4.6",
+    "input": 5.0,
+    "output": 25.0,
+    "cache_read": 0.5,
+    "blended": 10.0,
+    "region": null,
+    "collected_at": "2026-10-26T16:27:30+00:00"
+   },
+   "next_best": [
+    {
+     "seller": "bizrouter",
+     "source": "bizrouter",
+     "listed_as": "anthropic/claude-opus-4.6",
+     "input": 5.0,
+     "output": 25.0,
+     "cache_read": 0.5,
+     "blended": 10.0,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    },
+    {
+     "seller": "edenai",
+     "source": "edenai",
+     "listed_as": "claude-opus-4.6",
+     "input": 5.0,
+     "output": 25.0,
+     "cache_read": 0.5,
+     "blended": 10.0,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    }
+   ]
+  },
+  "claude-opus-4.5": {
+   "family": "anthropic",
+   "offers": 12,
+   "lowest": {
+    "seller": "anthropic",
+    "source": "anthropic",
+    "listed_as": "Claude Opus 4.5",
+    "input": 5.0,
+    "output": 25.0,
+    "cache_read": 0.5,
+    "blended": 10.0,
+    "region": null,
+    "collected_at": "2026-10-26T16:27:30+00:00"
+   },
+   "direct": {
+    "seller": "anthropic",
+    "source": "anthropic",
+    "listed_as": "Claude Opus 4.5",
+    "input": 5.0,
+    "output": 25.0,
+    "cache_read": 0.5,
+    "blended": 10.0,
+    "region": null,
+    "collected_at": "2026-10-26T16:27:30+00:00"
+   },
+   "next_best": [
+    {
+     "seller": "bizrouter",
+     "source": "bizrouter",
+     "listed_as": "anthropic/claude-opus-4.5",
+     "input": 5.0,
+     "output": 25.0,
+     "cache_read": 0.5,
+     "blended": 10.0,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    },
+    {
+     "seller": "edenai",
+     "source": "edenai",
+     "listed_as": "claude-opus-4-5-20251101",
+     "input": 5.0,
+     "output": 25.0,
+     "cache_read": 0.5,
+     "blended": 10.0,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    }
+   ]
+  },
+  "gemini-4-argon": {
+   "family": "google",
+   "offers": 10,
+   "lowest": {
+    "seller": "atlascloud",
+    "source": "atlascloud",
+    "listed_as": "Gemini 4 Argon",
+    "input": 1.6,
+    "output": 8.0,
+    "cache_read": 0.08,
+    "blended": 3.2,
+    "region": null,
+    "collected_at": "2026-10-26T16:27:30+00:00"
    },
    "direct": {
     "seller": "google",
     "source": "google",
     "listed_as": "Gemini 4 Argon",
-    "input": 1.0,
-    "output": 5.0,
-    "cache_read": 0.05,
-    "blended": 2.0,
+    "input": 2.0,
+    "output": 10.0,
+    "cache_read": 0.1,
+    "blended": 4.0,
     "region": null,
-    "collected_at": "2026-10-26T11:37:48+00:00"
+    "collected_at": "2026-10-26T16:27:30+00:00"
    },
    "next_best": [
     {
@@ -41,68 +1961,558 @@
      "cache_read": 0.1,
      "blended": 4.0,
      "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
+     "collected_at": "2026-10-26T16:27:30+00:00"
     },
     {
-     "seller": "google_cloud",
-     "source": "google_cloud",
-     "listed_as": "Gemini 4 Argon",
+     "seller": "bizrouter",
+     "source": "bizrouter",
+     "listed_as": "google/gemini-4-argon",
      "input": 2.0,
      "output": 10.0,
      "cache_read": 0.1,
      "blended": 4.0,
-     "region": "Global",
-     "collected_at": "2026-10-26T11:37:48+00:00"
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
     }
    ]
   },
-  "claude-haiku-5.5": {
+  "gpt-5.5-pro": {
+   "family": "openai",
+   "offers": 5,
+   "lowest": {
+    "seller": "bizrouter",
+    "source": "bizrouter",
+    "listed_as": "openai/gpt-5.5-pro",
+    "input": 30.0,
+    "output": 180.0,
+    "cache_read": null,
+    "blended": 67.5,
+    "region": null,
+    "collected_at": "2026-10-26T16:27:30+00:00"
+   },
+   "direct": null,
+   "next_best": [
+    {
+     "seller": "edenai",
+     "source": "edenai",
+     "listed_as": "gpt-5.5-pro",
+     "input": 30.0,
+     "output": 180.0,
+     "cache_read": 3.0,
+     "blended": 67.5,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    },
+    {
+     "seller": "edenai",
+     "source": "edenai",
+     "listed_as": "gpt-5.5-pro-2026-04-23",
+     "input": 30.0,
+     "output": 180.0,
+     "cache_read": null,
+     "blended": 67.5,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    }
+   ]
+  },
+  "gpt-5.4-pro": {
+   "family": "openai",
+   "offers": 6,
+   "lowest": {
+    "seller": "bizrouter",
+    "source": "bizrouter",
+    "listed_as": "openai/gpt-5.4-pro",
+    "input": 30.0,
+    "output": 180.0,
+    "cache_read": null,
+    "blended": 67.5,
+    "region": null,
+    "collected_at": "2026-10-26T16:27:30+00:00"
+   },
+   "direct": null,
+   "next_best": [
+    {
+     "seller": "edenai",
+     "source": "edenai",
+     "listed_as": "gpt-5.4-pro",
+     "input": 30.0,
+     "output": 180.0,
+     "cache_read": 3.0,
+     "blended": 67.5,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    },
+    {
+     "seller": "edenai",
+     "source": "edenai",
+     "listed_as": "gpt-5.4-pro-2026-03-05",
+     "input": 30.0,
+     "output": 180.0,
+     "cache_read": null,
+     "blended": 67.5,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    }
+   ]
+  },
+  "gpt-5.4-nano": {
+   "family": "openai",
+   "offers": 7,
+   "lowest": {
+    "seller": "azure",
+    "source": "azure",
+    "listed_as": "GPT-5.4 nano",
+    "input": 0.2,
+    "output": 1.25,
+    "cache_read": 0.02,
+    "blended": 0.4625,
+    "region": "Global",
+    "collected_at": "2026-10-26T16:27:30+00:00"
+   },
+   "direct": null,
+   "next_best": [
+    {
+     "seller": "bizrouter",
+     "source": "bizrouter",
+     "listed_as": "openai/gpt-5.4-nano",
+     "input": 0.2,
+     "output": 1.25,
+     "cache_read": 0.02,
+     "blended": 0.4625,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    },
+    {
+     "seller": "edenai",
+     "source": "edenai",
+     "listed_as": "gpt-5.4-nano",
+     "input": 0.2,
+     "output": 1.25,
+     "cache_read": 0.02,
+     "blended": 0.4625,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    }
+   ]
+  },
+  "gpt-5.3-codex": {
+   "family": "openai",
+   "offers": 6,
+   "lowest": {
+    "seller": "openai",
+    "source": "openai",
+    "listed_as": "gpt-5.3-codex",
+    "input": 1.75,
+    "output": 14.0,
+    "cache_read": 0.175,
+    "blended": 4.8125,
+    "region": null,
+    "collected_at": "2026-10-26T16:27:30+00:00"
+   },
+   "direct": {
+    "seller": "openai",
+    "source": "openai",
+    "listed_as": "gpt-5.3-codex",
+    "input": 1.75,
+    "output": 14.0,
+    "cache_read": 0.175,
+    "blended": 4.8125,
+    "region": null,
+    "collected_at": "2026-10-26T16:27:30+00:00"
+   },
+   "next_best": [
+    {
+     "seller": "azure",
+     "source": "azure",
+     "listed_as": "GPT-5.3 Codex",
+     "input": 1.75,
+     "output": 14.0,
+     "cache_read": 0.18,
+     "blended": 4.8125,
+     "region": "Global",
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    },
+    {
+     "seller": "bizrouter",
+     "source": "bizrouter",
+     "listed_as": "openai/gpt-5.3-codex",
+     "input": 1.75,
+     "output": 14.0,
+     "cache_read": 0.175,
+     "blended": 4.8125,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    }
+   ]
+  },
+  "gpt-5.2-pro": {
+   "family": "openai",
+   "offers": 5,
+   "lowest": {
+    "seller": "bizrouter",
+    "source": "bizrouter",
+    "listed_as": "openai/gpt-5.2-pro",
+    "input": 21.0,
+    "output": 168.0,
+    "cache_read": null,
+    "blended": 57.75,
+    "region": null,
+    "collected_at": "2026-10-26T16:27:30+00:00"
+   },
+   "direct": null,
+   "next_best": [
+    {
+     "seller": "edenai",
+     "source": "edenai",
+     "listed_as": "gpt-5.2-pro",
+     "input": 21.0,
+     "output": 168.0,
+     "cache_read": null,
+     "blended": 57.75,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    },
+    {
+     "seller": "edenai",
+     "source": "edenai",
+     "listed_as": "gpt-5.2-pro-2025-12-11",
+     "input": 21.0,
+     "output": 168.0,
+     "cache_read": null,
+     "blended": 57.75,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    }
+   ]
+  },
+  "gpt-5.1": {
+   "family": "openai",
+   "offers": 6,
+   "lowest": {
+    "seller": "azure",
+    "source": "azure",
+    "listed_as": "GPT-5.1",
+    "input": 1.25,
+    "output": 10.0,
+    "cache_read": 0.13,
+    "blended": 3.4375,
+    "region": "Global",
+    "collected_at": "2026-10-26T16:27:30+00:00"
+   },
+   "direct": null,
+   "next_best": [
+    {
+     "seller": "bizrouter",
+     "source": "bizrouter",
+     "listed_as": "openai/gpt-5.1",
+     "input": 1.25,
+     "output": 10.0,
+     "cache_read": 0.125,
+     "blended": 3.4375,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    },
+    {
+     "seller": "edenai",
+     "source": "edenai",
+     "listed_as": "gpt-5.1",
+     "input": 1.25,
+     "output": 10.0,
+     "cache_read": 0.125,
+     "blended": 3.4375,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    }
+   ]
+  },
+  "gpt-5-pro": {
+   "family": "openai",
+   "offers": 6,
+   "lowest": {
+    "seller": "azure",
+    "source": "azure",
+    "listed_as": "GPT-5 Pro",
+    "input": 15.0,
+    "output": 120.0,
+    "cache_read": null,
+    "blended": 41.25,
+    "region": "Global",
+    "collected_at": "2026-10-26T16:27:30+00:00"
+   },
+   "direct": null,
+   "next_best": [
+    {
+     "seller": "bizrouter",
+     "source": "bizrouter",
+     "listed_as": "openai/gpt-5-pro",
+     "input": 15.0,
+     "output": 120.0,
+     "cache_read": null,
+     "blended": 41.25,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    },
+    {
+     "seller": "edenai",
+     "source": "edenai",
+     "listed_as": "gpt-5-pro",
+     "input": 15.0,
+     "output": 120.0,
+     "cache_read": null,
+     "blended": 41.25,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    }
+   ]
+  },
+  "gpt-5": {
+   "family": "openai",
+   "offers": 7,
+   "lowest": {
+    "seller": "azure",
+    "source": "azure",
+    "listed_as": "GPT-5 2025-08-07",
+    "input": 1.25,
+    "output": 10.0,
+    "cache_read": 0.13,
+    "blended": 3.4375,
+    "region": "Global",
+    "collected_at": "2026-10-26T16:27:30+00:00"
+   },
+   "direct": null,
+   "next_best": [
+    {
+     "seller": "bizrouter",
+     "source": "bizrouter",
+     "listed_as": "openai/gpt-5",
+     "input": 1.25,
+     "output": 10.0,
+     "cache_read": 0.125,
+     "blended": 3.4375,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    },
+    {
+     "seller": "edenai",
+     "source": "edenai",
+     "listed_as": "gpt-5",
+     "input": 1.25,
+     "output": 10.0,
+     "cache_read": 0.125,
+     "blended": 3.4375,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    }
+   ]
+  },
+  "gpt-5-mini": {
+   "family": "openai",
+   "offers": 8,
+   "lowest": {
+    "seller": "azure",
+    "source": "azure",
+    "listed_as": "GPT-5-mini",
+    "input": 0.25,
+    "output": 2.0,
+    "cache_read": 0.03,
+    "blended": 0.6875,
+    "region": "Global",
+    "collected_at": "2026-10-26T16:27:30+00:00"
+   },
+   "direct": null,
+   "next_best": [
+    {
+     "seller": "bizrouter",
+     "source": "bizrouter",
+     "listed_as": "openai/gpt-5-mini",
+     "input": 0.25,
+     "output": 2.0,
+     "cache_read": 0.025,
+     "blended": 0.6875,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    },
+    {
+     "seller": "edenai",
+     "source": "edenai",
+     "listed_as": "gpt-5-mini",
+     "input": 0.25,
+     "output": 2.0,
+     "cache_read": 0.025,
+     "blended": 0.6875,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    }
+   ]
+  },
+  "gpt-5-nano": {
+   "family": "openai",
+   "offers": 8,
+   "lowest": {
+    "seller": "azure",
+    "source": "azure",
+    "listed_as": "GPT-5-nano",
+    "input": 0.05,
+    "output": 0.4,
+    "cache_read": 0.01,
+    "blended": 0.1375,
+    "region": "Global",
+    "collected_at": "2026-10-26T16:27:30+00:00"
+   },
+   "direct": null,
+   "next_best": [
+    {
+     "seller": "bizrouter",
+     "source": "bizrouter",
+     "listed_as": "openai/gpt-5-nano",
+     "input": 0.05,
+     "output": 0.4,
+     "cache_read": 0.005,
+     "blended": 0.1375,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    },
+    {
+     "seller": "edenai",
+     "source": "edenai",
+     "listed_as": "gpt-5-nano",
+     "input": 0.05,
+     "output": 0.4,
+     "cache_read": 0.005,
+     "blended": 0.1375,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    }
+   ]
+  },
+  "o3": {
+   "family": "openai",
+   "offers": 8,
+   "lowest": {
+    "seller": "azure",
+    "source": "azure",
+    "listed_as": "o3 2025-04-16",
+    "input": 2.0,
+    "output": 8.0,
+    "cache_read": 0.5,
+    "blended": 3.5,
+    "region": "Global",
+    "collected_at": "2026-10-26T16:27:30+00:00"
+   },
+   "direct": null,
+   "next_best": [
+    {
+     "seller": "bizrouter",
+     "source": "bizrouter",
+     "listed_as": "openai/o3",
+     "input": 2.0,
+     "output": 8.0,
+     "cache_read": 0.5,
+     "blended": 3.5,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    },
+    {
+     "seller": "edenai",
+     "source": "edenai",
+     "listed_as": "o3",
+     "input": 2.0,
+     "output": 8.0,
+     "cache_read": 0.5,
+     "blended": 3.5,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    }
+   ]
+  },
+  "o3-pro": {
+   "family": "openai",
+   "offers": 5,
+   "lowest": {
+    "seller": "bizrouter",
+    "source": "bizrouter",
+    "listed_as": "openai/o3-pro",
+    "input": 20.0,
+    "output": 80.0,
+    "cache_read": null,
+    "blended": 35.0,
+    "region": null,
+    "collected_at": "2026-10-26T16:27:30+00:00"
+   },
+   "direct": null,
+   "next_best": [
+    {
+     "seller": "edenai",
+     "source": "edenai",
+     "listed_as": "o3-pro",
+     "input": 20.0,
+     "output": 80.0,
+     "cache_read": null,
+     "blended": 35.0,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    },
+    {
+     "seller": "edenai",
+     "source": "edenai",
+     "listed_as": "o3-pro-2025-06-10",
+     "input": 20.0,
+     "output": 80.0,
+     "cache_read": null,
+     "blended": 35.0,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    }
+   ]
+  },
+  "claude-sonnet-4.5": {
    "family": "anthropic",
-   "offers": 9,
+   "offers": 11,
    "lowest": {
     "seller": "anthropic",
     "source": "anthropic",
-    "listed_as": "Claude Haiku 5.5",
-    "input": 0.1,
-    "output": 0.5,
-    "cache_read": 0.01,
-    "blended": 0.2,
+    "listed_as": "Claude Sonnet 4.5",
+    "input": 3.0,
+    "output": 15.0,
+    "cache_read": 0.3,
+    "blended": 6.0,
     "region": null,
-    "collected_at": "2026-10-26T11:37:48+00:00"
+    "collected_at": "2026-10-26T16:27:30+00:00"
    },
    "direct": {
     "seller": "anthropic",
     "source": "anthropic",
-    "listed_as": "Claude Haiku 5.5",
-    "input": 0.1,
-    "output": 0.5,
-    "cache_read": 0.01,
-    "blended": 0.2,
+    "listed_as": "Claude Sonnet 4.5",
+    "input": 3.0,
+    "output": 15.0,
+    "cache_read": 0.3,
+    "blended": 6.0,
     "region": null,
-    "collected_at": "2026-10-26T11:37:48+00:00"
+    "collected_at": "2026-10-26T16:27:30+00:00"
    },
    "next_best": [
     {
-     "seller": "google_cloud",
-     "source": "google_cloud",
-     "listed_as": "Claude Haiku 5.5",
-     "input": 0.1,
-     "output": 0.5,
-     "cache_read": 0.01,
-     "blended": 0.2,
-     "region": "Global",
-     "collected_at": "2026-10-26T11:37:48+00:00"
+     "seller": "bizrouter",
+     "source": "bizrouter",
+     "listed_as": "anthropic/claude-sonnet-4.5",
+     "input": 3.0,
+     "output": 15.0,
+     "cache_read": 0.3,
+     "blended": 6.0,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
     },
     {
-     "seller": "openrouter",
-     "source": "openrouter",
-     "listed_as": "anthropic/claude-haiku-5.5",
-     "input": 0.1,
-     "output": 0.5,
-     "cache_read": 0.01,
-     "blended": 0.2,
+     "seller": "edenai",
+     "source": "edenai",
+     "listed_as": "claude-sonnet-4-5-20250929",
+     "input": 3.0,
+     "output": 15.0,
+     "cache_read": 0.3,
+     "blended": 6.0,
      "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
+     "collected_at": "2026-10-26T16:27:30+00:00"
     }
    ]
   },
@@ -118,100 +2528,10 @@
     "cache_read": 0.1,
     "blended": 4.0,
     "region": null,
-    "collected_at": "2026-10-26T11:37:48+00:00"
+    "collected_at": "2026-10-26T16:27:30+00:00"
    },
    "direct": null,
    "next_best": []
-  },
-  "gpt-6.1-sol": {
-   "family": "openai",
-   "offers": 4,
-   "lowest": {
-    "seller": "azure",
-    "source": "azure",
-    "listed_as": "GPT-6.1 Sol",
-    "input": 2.0,
-    "output": 10.0,
-    "cache_read": 0.1,
-    "blended": 4.0,
-    "region": "Global",
-    "collected_at": "2026-10-26T11:37:48+00:00"
-   },
-   "direct": null,
-   "next_best": [
-    {
-     "seller": "openrouter",
-     "source": "openrouter",
-     "listed_as": "openai/gpt-6.1-sol",
-     "input": 2.0,
-     "output": 10.0,
-     "cache_read": 0.1,
-     "blended": 4.0,
-     "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
-    },
-    {
-     "seller": "vercel",
-     "source": "vercel",
-     "listed_as": "openai/gpt-6.1-sol",
-     "input": 2.0,
-     "output": 10.0,
-     "cache_read": 0.1,
-     "blended": 4.0,
-     "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
-    }
-   ]
-  },
-  "claude-sonnet-5.5": {
-   "family": "anthropic",
-   "offers": 3,
-   "lowest": {
-    "seller": "anthropic",
-    "source": "anthropic",
-    "listed_as": "Claude Sonnet 5.5",
-    "input": 2.0,
-    "output": 10.0,
-    "cache_read": 0.1,
-    "blended": 4.0,
-    "region": null,
-    "collected_at": "2026-10-26T11:37:48+00:00"
-   },
-   "direct": {
-    "seller": "anthropic",
-    "source": "anthropic",
-    "listed_as": "Claude Sonnet 5.5",
-    "input": 2.0,
-    "output": 10.0,
-    "cache_read": 0.1,
-    "blended": 4.0,
-    "region": null,
-    "collected_at": "2026-10-26T11:37:48+00:00"
-   },
-   "next_best": [
-    {
-     "seller": "openrouter",
-     "source": "openrouter",
-     "listed_as": "anthropic/claude-sonnet-5.5",
-     "input": 2.0,
-     "output": 10.0,
-     "cache_read": 0.1,
-     "blended": 4.0,
-     "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
-    },
-    {
-     "seller": "vercel",
-     "source": "vercel",
-     "listed_as": "anthropic/claude-sonnet-5.5",
-     "input": 2.0,
-     "output": 10.0,
-     "cache_read": 0.1,
-     "blended": 4.0,
-     "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
-    }
-   ]
   },
   "gpt-6-luna-pro": {
    "family": "openai",
@@ -225,50 +2545,10 @@
     "cache_read": 0.01,
     "blended": 0.2,
     "region": null,
-    "collected_at": "2026-10-26T11:37:48+00:00"
+    "collected_at": "2026-10-26T16:27:30+00:00"
    },
    "direct": null,
    "next_best": []
-  },
-  "gpt-6-luna": {
-   "family": "openai",
-   "offers": 4,
-   "lowest": {
-    "seller": "azure",
-    "source": "azure",
-    "listed_as": "GPT-6 Luna",
-    "input": 0.1,
-    "output": 0.5,
-    "cache_read": 0.01,
-    "blended": 0.2,
-    "region": "Global",
-    "collected_at": "2026-10-26T11:37:48+00:00"
-   },
-   "direct": null,
-   "next_best": [
-    {
-     "seller": "openrouter",
-     "source": "openrouter",
-     "listed_as": "openai/gpt-6-luna",
-     "input": 0.1,
-     "output": 0.5,
-     "cache_read": 0.01,
-     "blended": 0.2,
-     "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
-    },
-    {
-     "seller": "vercel",
-     "source": "vercel",
-     "listed_as": "openai/gpt-6-luna",
-     "input": 0.1,
-     "output": 0.5,
-     "cache_read": 0.01,
-     "blended": 0.2,
-     "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
-    }
-   ]
   },
   "gpt-6-sol-pro": {
    "family": "openai",
@@ -282,190 +2562,10 @@
     "cache_read": 0.2,
     "blended": 4.0,
     "region": null,
-    "collected_at": "2026-10-26T11:37:48+00:00"
+    "collected_at": "2026-10-26T16:27:30+00:00"
    },
    "direct": null,
    "next_best": []
-  },
-  "gpt-6-sol": {
-   "family": "openai",
-   "offers": 4,
-   "lowest": {
-    "seller": "azure",
-    "source": "azure",
-    "listed_as": "GPT-6 Sol",
-    "input": 2.0,
-    "output": 10.0,
-    "cache_read": 0.2,
-    "blended": 4.0,
-    "region": "Global",
-    "collected_at": "2026-10-26T11:37:48+00:00"
-   },
-   "direct": null,
-   "next_best": [
-    {
-     "seller": "openrouter",
-     "source": "openrouter",
-     "listed_as": "openai/gpt-6-sol",
-     "input": 2.0,
-     "output": 10.0,
-     "cache_read": 0.2,
-     "blended": 4.0,
-     "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
-    },
-    {
-     "seller": "vercel",
-     "source": "vercel",
-     "listed_as": "openai/gpt-6-sol",
-     "input": 2.0,
-     "output": 10.0,
-     "cache_read": 0.2,
-     "blended": 4.0,
-     "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
-    }
-   ]
-  },
-  "claude-opus-5.5": {
-   "family": "anthropic",
-   "offers": 3,
-   "lowest": {
-    "seller": "anthropic",
-    "source": "anthropic",
-    "listed_as": "Claude Opus 5.5",
-    "input": 4.0,
-    "output": 20.0,
-    "cache_read": 0.2,
-    "blended": 8.0,
-    "region": null,
-    "collected_at": "2026-10-26T11:37:48+00:00"
-   },
-   "direct": {
-    "seller": "anthropic",
-    "source": "anthropic",
-    "listed_as": "Claude Opus 5.5",
-    "input": 4.0,
-    "output": 20.0,
-    "cache_read": 0.2,
-    "blended": 8.0,
-    "region": null,
-    "collected_at": "2026-10-26T11:37:48+00:00"
-   },
-   "next_best": [
-    {
-     "seller": "openrouter",
-     "source": "openrouter",
-     "listed_as": "anthropic/claude-opus-5.5",
-     "input": 4.0,
-     "output": 20.0,
-     "cache_read": 0.2,
-     "blended": 8.0,
-     "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
-    },
-    {
-     "seller": "vercel",
-     "source": "vercel",
-     "listed_as": "anthropic/claude-opus-5.5",
-     "input": 4.0,
-     "output": 20.0,
-     "cache_read": 0.2,
-     "blended": 8.0,
-     "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
-    }
-   ]
-  },
-  "grok-4.7": {
-   "family": "xai",
-   "offers": 4,
-   "lowest": {
-    "seller": "xai",
-    "source": "xai",
-    "listed_as": "grok-4.7",
-    "input": 2.0,
-    "output": 6.0,
-    "cache_read": 0.5,
-    "blended": 3.0,
-    "region": null,
-    "collected_at": "2026-10-26T11:37:48+00:00"
-   },
-   "direct": {
-    "seller": "xai",
-    "source": "xai",
-    "listed_as": "grok-4.7",
-    "input": 2.0,
-    "output": 6.0,
-    "cache_read": 0.5,
-    "blended": 3.0,
-    "region": null,
-    "collected_at": "2026-10-26T11:37:48+00:00"
-   },
-   "next_best": [
-    {
-     "seller": "google_cloud",
-     "source": "google_cloud",
-     "listed_as": "Grok 4.7",
-     "input": 2.0,
-     "output": 6.0,
-     "cache_read": 0.5,
-     "blended": 3.0,
-     "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
-    },
-    {
-     "seller": "openrouter",
-     "source": "openrouter",
-     "listed_as": "x-ai/grok-4.7",
-     "input": 2.0,
-     "output": 6.0,
-     "cache_read": 0.5,
-     "blended": 3.0,
-     "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
-    }
-   ]
-  },
-  "gpt-6-astra": {
-   "family": "openai",
-   "offers": 4,
-   "lowest": {
-    "seller": "azure",
-    "source": "azure",
-    "listed_as": "GPT-6 Astra",
-    "input": 10.0,
-    "output": 50.0,
-    "cache_read": 1.0,
-    "blended": 20.0,
-    "region": "Global",
-    "collected_at": "2026-10-26T11:37:48+00:00"
-   },
-   "direct": null,
-   "next_best": [
-    {
-     "seller": "openrouter",
-     "source": "openrouter",
-     "listed_as": "openai/gpt-6-astra",
-     "input": 10.0,
-     "output": 50.0,
-     "cache_read": 1.0,
-     "blended": 20.0,
-     "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
-    },
-    {
-     "seller": "vercel",
-     "source": "vercel",
-     "listed_as": "openai/gpt-6-astra",
-     "input": 10.0,
-     "output": 50.0,
-     "cache_read": 1.0,
-     "blended": 20.0,
-     "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
-    }
-   ]
   },
   "gpt-6-astra-pro": {
    "family": "openai",
@@ -479,350 +2579,10 @@
     "cache_read": 1.0,
     "blended": 20.0,
     "region": null,
-    "collected_at": "2026-10-26T11:37:48+00:00"
+    "collected_at": "2026-10-26T16:27:30+00:00"
    },
    "direct": null,
    "next_best": []
-  },
-  "gemini-3.8-flash": {
-   "family": "google",
-   "offers": 6,
-   "lowest": {
-    "seller": "google",
-    "source": "google",
-    "listed_as": "Gemini 3.8 Flash",
-    "input": 0.375,
-    "output": 1.875,
-    "cache_read": 0.0375,
-    "blended": 0.75,
-    "region": null,
-    "collected_at": "2026-10-26T11:37:48+00:00"
-   },
-   "direct": {
-    "seller": "google",
-    "source": "google",
-    "listed_as": "Gemini 3.8 Flash",
-    "input": 0.375,
-    "output": 1.875,
-    "cache_read": 0.0375,
-    "blended": 0.75,
-    "region": null,
-    "collected_at": "2026-10-26T11:37:48+00:00"
-   },
-   "next_best": [
-    {
-     "seller": "google",
-     "source": "google",
-     "listed_as": "Gemini 3.8 Flash",
-     "input": 0.75,
-     "output": 3.75,
-     "cache_read": 0.075,
-     "blended": 1.5,
-     "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
-    },
-    {
-     "seller": "google_cloud",
-     "source": "google_cloud",
-     "listed_as": "Gemini 3.8 Flash",
-     "input": 0.75,
-     "output": 3.75,
-     "cache_read": 0.075,
-     "blended": 1.5,
-     "region": "Global",
-     "collected_at": "2026-10-26T11:37:48+00:00"
-    }
-   ]
-  },
-  "claude-fable-5.1": {
-   "family": "anthropic",
-   "offers": 6,
-   "lowest": {
-    "seller": "anthropic",
-    "source": "anthropic",
-    "listed_as": "Claude Fable 5.1",
-    "input": 10.0,
-    "output": 50.0,
-    "cache_read": 0.25,
-    "blended": 20.0,
-    "region": null,
-    "collected_at": "2026-10-26T11:37:48+00:00"
-   },
-   "direct": {
-    "seller": "anthropic",
-    "source": "anthropic",
-    "listed_as": "Claude Fable 5.1",
-    "input": 10.0,
-    "output": 50.0,
-    "cache_read": 0.25,
-    "blended": 20.0,
-    "region": null,
-    "collected_at": "2026-10-26T11:37:48+00:00"
-   },
-   "next_best": [
-    {
-     "seller": "google_cloud",
-     "source": "google_cloud",
-     "listed_as": "Claude Fable 5.1",
-     "input": 10.0,
-     "output": 50.0,
-     "cache_read": 0.25,
-     "blended": 20.0,
-     "region": "Global",
-     "collected_at": "2026-10-26T11:37:48+00:00"
-    },
-    {
-     "seller": "openrouter",
-     "source": "openrouter",
-     "listed_as": "anthropic/claude-fable-5.1",
-     "input": 10.0,
-     "output": 50.0,
-     "cache_read": 0.25,
-     "blended": 20.0,
-     "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
-    }
-   ]
-  },
-  "gemini-3.7-flash": {
-   "family": "google",
-   "offers": 4,
-   "lowest": {
-    "seller": "google_cloud",
-    "source": "google_cloud",
-    "listed_as": "Gemini 3.7 Flash",
-    "input": 0.75,
-    "output": 3.75,
-    "cache_read": 0.075,
-    "blended": 1.5,
-    "region": "Global",
-    "collected_at": "2026-10-26T11:37:48+00:00"
-   },
-   "direct": null,
-   "next_best": [
-    {
-     "seller": "openrouter",
-     "source": "openrouter",
-     "listed_as": "google/gemini-3.7-flash",
-     "input": 0.75,
-     "output": 3.75,
-     "cache_read": 0.075,
-     "blended": 1.5,
-     "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
-    },
-    {
-     "seller": "vercel",
-     "source": "vercel",
-     "listed_as": "google/gemini-3.7-flash",
-     "input": 0.75,
-     "output": 3.75,
-     "cache_read": 0.075,
-     "blended": 1.5,
-     "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
-    }
-   ]
-  },
-  "grok-4.6": {
-   "family": "xai",
-   "offers": 4,
-   "lowest": {
-    "seller": "xai",
-    "source": "xai",
-    "listed_as": "grok-4.6",
-    "input": 2.0,
-    "output": 6.0,
-    "cache_read": 0.5,
-    "blended": 3.0,
-    "region": null,
-    "collected_at": "2026-10-26T11:37:48+00:00"
-   },
-   "direct": {
-    "seller": "xai",
-    "source": "xai",
-    "listed_as": "grok-4.6",
-    "input": 2.0,
-    "output": 6.0,
-    "cache_read": 0.5,
-    "blended": 3.0,
-    "region": null,
-    "collected_at": "2026-10-26T11:37:48+00:00"
-   },
-   "next_best": [
-    {
-     "seller": "google_cloud",
-     "source": "google_cloud",
-     "listed_as": "Grok 4.6",
-     "input": 2.0,
-     "output": 6.0,
-     "cache_read": 0.5,
-     "blended": 3.0,
-     "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
-    },
-    {
-     "seller": "openrouter",
-     "source": "openrouter",
-     "listed_as": "x-ai/grok-4.6",
-     "input": 2.0,
-     "output": 6.0,
-     "cache_read": 0.5,
-     "blended": 3.0,
-     "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
-    }
-   ]
-  },
-  "claude-opus-5": {
-   "family": "anthropic",
-   "offers": 5,
-   "lowest": {
-    "seller": "anthropic",
-    "source": "anthropic",
-    "listed_as": "Claude Opus 5",
-    "input": 5.0,
-    "output": 25.0,
-    "cache_read": 0.5,
-    "blended": 10.0,
-    "region": null,
-    "collected_at": "2026-10-26T11:37:48+00:00"
-   },
-   "direct": {
-    "seller": "anthropic",
-    "source": "anthropic",
-    "listed_as": "Claude Opus 5",
-    "input": 5.0,
-    "output": 25.0,
-    "cache_read": 0.5,
-    "blended": 10.0,
-    "region": null,
-    "collected_at": "2026-10-26T11:37:48+00:00"
-   },
-   "next_best": [
-    {
-     "seller": "deepinfra",
-     "source": "deepinfra",
-     "listed_as": "claude-opus-5",
-     "input": 5.0,
-     "output": 25.0,
-     "cache_read": null,
-     "blended": 10.0,
-     "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
-    },
-    {
-     "seller": "deepinfra",
-     "source": "deepinfra",
-     "listed_as": "claude-opus-5",
-     "input": 5.0,
-     "output": 25.0,
-     "cache_read": null,
-     "blended": 10.0,
-     "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
-    }
-   ]
-  },
-  "gemini-3.6-flash": {
-   "family": "google",
-   "offers": 5,
-   "lowest": {
-    "seller": "google",
-    "source": "google",
-    "listed_as": "Gemini 3.6 Flash",
-    "input": 0.75,
-    "output": 3.75,
-    "cache_read": 0.075,
-    "blended": 1.5,
-    "region": null,
-    "collected_at": "2026-10-26T11:37:48+00:00"
-   },
-   "direct": {
-    "seller": "google",
-    "source": "google",
-    "listed_as": "Gemini 3.6 Flash",
-    "input": 0.75,
-    "output": 3.75,
-    "cache_read": 0.075,
-    "blended": 1.5,
-    "region": null,
-    "collected_at": "2026-10-26T11:37:48+00:00"
-   },
-   "next_best": [
-    {
-     "seller": "google_cloud",
-     "source": "google_cloud",
-     "listed_as": "Gemini 3.6 Flash",
-     "input": 0.75,
-     "output": 3.75,
-     "cache_read": 0.075,
-     "blended": 1.5,
-     "region": "Global",
-     "collected_at": "2026-10-26T11:37:48+00:00"
-    },
-    {
-     "seller": "openrouter",
-     "source": "openrouter",
-     "listed_as": "google/gemini-3.6-flash",
-     "input": 0.75,
-     "output": 3.75,
-     "cache_read": 0.075,
-     "blended": 1.5,
-     "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
-    }
-   ]
-  },
-  "gemini-3.5-flash-lite": {
-   "family": "google",
-   "offers": 5,
-   "lowest": {
-    "seller": "google",
-    "source": "google",
-    "listed_as": "Gemini 3.5 Flash-Lite",
-    "input": 0.15,
-    "output": 1.25,
-    "cache_read": 0.015,
-    "blended": 0.425,
-    "region": null,
-    "collected_at": "2026-10-26T11:37:48+00:00"
-   },
-   "direct": {
-    "seller": "google",
-    "source": "google",
-    "listed_as": "Gemini 3.5 Flash-Lite",
-    "input": 0.15,
-    "output": 1.25,
-    "cache_read": 0.015,
-    "blended": 0.425,
-    "region": null,
-    "collected_at": "2026-10-26T11:37:48+00:00"
-   },
-   "next_best": [
-    {
-     "seller": "google",
-     "source": "google",
-     "listed_as": "Gemini 3.5 Flash-Lite",
-     "input": 0.3,
-     "output": 2.5,
-     "cache_read": 0.03,
-     "blended": 0.85,
-     "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
-    },
-    {
-     "seller": "google_cloud",
-     "source": "google_cloud",
-     "listed_as": "Gemini 3.5 Flash-Lite",
-     "input": 0.3,
-     "output": 2.5,
-     "cache_read": 0.03,
-     "blended": 0.85,
-     "region": "Global",
-     "collected_at": "2026-10-26T11:37:48+00:00"
-    }
-   ]
   },
   "gpt-5.6-luna-pro": {
    "family": "openai",
@@ -836,50 +2596,10 @@
     "cache_read": 0.02,
     "blended": 0.45,
     "region": null,
-    "collected_at": "2026-10-26T11:37:48+00:00"
+    "collected_at": "2026-10-26T16:27:30+00:00"
    },
    "direct": null,
    "next_best": []
-  },
-  "gpt-5.6-luna": {
-   "family": "openai",
-   "offers": 4,
-   "lowest": {
-    "seller": "azure",
-    "source": "azure",
-    "listed_as": "GPT-5.6-luna",
-    "input": 0.2,
-    "output": 1.2,
-    "cache_read": 0.02,
-    "blended": 0.45,
-    "region": "Global",
-    "collected_at": "2026-10-26T11:37:48+00:00"
-   },
-   "direct": null,
-   "next_best": [
-    {
-     "seller": "openrouter",
-     "source": "openrouter",
-     "listed_as": "openai/gpt-5.6-luna",
-     "input": 0.2,
-     "output": 1.2,
-     "cache_read": 0.02,
-     "blended": 0.45,
-     "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
-    },
-    {
-     "seller": "vercel",
-     "source": "vercel",
-     "listed_as": "openai/gpt-5.6-luna",
-     "input": 0.2,
-     "output": 1.2,
-     "cache_read": 0.02,
-     "blended": 0.45,
-     "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
-    }
-   ]
   },
   "gpt-5.6-terra-pro": {
    "family": "openai",
@@ -893,50 +2613,10 @@
     "cache_read": 0.2,
     "blended": 4.5,
     "region": null,
-    "collected_at": "2026-10-26T11:37:48+00:00"
+    "collected_at": "2026-10-26T16:27:30+00:00"
    },
    "direct": null,
    "next_best": []
-  },
-  "gpt-5.6-terra": {
-   "family": "openai",
-   "offers": 4,
-   "lowest": {
-    "seller": "azure",
-    "source": "azure",
-    "listed_as": "GPT-5.6-terra",
-    "input": 2.0,
-    "output": 12.0,
-    "cache_read": 0.2,
-    "blended": 4.5,
-    "region": "Global",
-    "collected_at": "2026-10-26T11:37:48+00:00"
-   },
-   "direct": null,
-   "next_best": [
-    {
-     "seller": "openrouter",
-     "source": "openrouter",
-     "listed_as": "openai/gpt-5.6-terra",
-     "input": 2.0,
-     "output": 12.0,
-     "cache_read": 0.2,
-     "blended": 4.5,
-     "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
-    },
-    {
-     "seller": "vercel",
-     "source": "vercel",
-     "listed_as": "openai/gpt-5.6-terra",
-     "input": 2.0,
-     "output": 12.0,
-     "cache_read": 0.2,
-     "blended": 4.5,
-     "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
-    }
-   ]
   },
   "gpt-5.6-sol-pro": {
    "family": "openai",
@@ -950,995 +2630,54 @@
     "cache_read": 0.4,
     "blended": 8.0,
     "region": null,
-    "collected_at": "2026-10-26T11:37:48+00:00"
+    "collected_at": "2026-10-26T16:27:30+00:00"
    },
    "direct": null,
    "next_best": []
-  },
-  "gpt-5.6-sol": {
-   "family": "openai",
-   "offers": 5,
-   "lowest": {
-    "seller": "openai",
-    "source": "openai",
-    "listed_as": "gpt-5.6-sol",
-    "input": 4.0,
-    "output": 20.0,
-    "cache_read": 0.4,
-    "blended": 8.0,
-    "region": null,
-    "collected_at": "2026-10-26T11:37:48+00:00"
-   },
-   "direct": {
-    "seller": "openai",
-    "source": "openai",
-    "listed_as": "gpt-5.6-sol",
-    "input": 4.0,
-    "output": 20.0,
-    "cache_read": 0.4,
-    "blended": 8.0,
-    "region": null,
-    "collected_at": "2026-10-26T11:37:48+00:00"
-   },
-   "next_best": [
-    {
-     "seller": "azure",
-     "source": "azure",
-     "listed_as": "GPT-5.6-sol",
-     "input": 4.0,
-     "output": 20.0,
-     "cache_read": 0.4,
-     "blended": 8.0,
-     "region": "Global",
-     "collected_at": "2026-10-26T11:37:48+00:00"
-    },
-    {
-     "seller": "openrouter",
-     "source": "openrouter",
-     "listed_as": "openai/gpt-5.6-sol",
-     "input": 4.0,
-     "output": 20.0,
-     "cache_read": 0.4,
-     "blended": 8.0,
-     "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
-    }
-   ]
-  },
-  "grok-4.5": {
-   "family": "xai",
-   "offers": 3,
-   "lowest": {
-    "seller": "xai",
-    "source": "xai",
-    "listed_as": "grok-4.5",
-    "input": 2.0,
-    "output": 6.0,
-    "cache_read": 0.3,
-    "blended": 3.0,
-    "region": null,
-    "collected_at": "2026-10-26T11:37:48+00:00"
-   },
-   "direct": {
-    "seller": "xai",
-    "source": "xai",
-    "listed_as": "grok-4.5",
-    "input": 2.0,
-    "output": 6.0,
-    "cache_read": 0.3,
-    "blended": 3.0,
-    "region": null,
-    "collected_at": "2026-10-26T11:37:48+00:00"
-   },
-   "next_best": [
-    {
-     "seller": "openrouter",
-     "source": "openrouter",
-     "listed_as": "x-ai/grok-4.5",
-     "input": 2.0,
-     "output": 6.0,
-     "cache_read": 0.3,
-     "blended": 3.0,
-     "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
-    },
-    {
-     "seller": "vercel",
-     "source": "vercel",
-     "listed_as": "spacexai/grok-4.5",
-     "input": 2.0,
-     "output": 6.0,
-     "cache_read": 0.3,
-     "blended": 3.0,
-     "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
-    }
-   ]
-  },
-  "claude-sonnet-5": {
-   "family": "anthropic",
-   "offers": 8,
-   "lowest": {
-    "seller": "anthropic",
-    "source": "anthropic",
-    "listed_as": "Claude Sonnet 5",
-    "input": 2.0,
-    "output": 10.0,
-    "cache_read": 0.2,
-    "blended": 4.0,
-    "region": null,
-    "collected_at": "2026-10-26T11:37:48+00:00"
-   },
-   "direct": {
-    "seller": "anthropic",
-    "source": "anthropic",
-    "listed_as": "Claude Sonnet 5",
-    "input": 2.0,
-    "output": 10.0,
-    "cache_read": 0.2,
-    "blended": 4.0,
-    "region": null,
-    "collected_at": "2026-10-26T11:37:48+00:00"
-   },
-   "next_best": [
-    {
-     "seller": "google_cloud",
-     "source": "google_cloud",
-     "listed_as": "Claude Sonnet 5",
-     "input": 2.0,
-     "output": 10.0,
-     "cache_read": 0.2,
-     "blended": 4.0,
-     "region": "Global",
-     "collected_at": "2026-10-26T11:37:48+00:00"
-    },
-    {
-     "seller": "openrouter",
-     "source": "openrouter",
-     "listed_as": "anthropic/claude-sonnet-5",
-     "input": 2.0,
-     "output": 10.0,
-     "cache_read": 0.2,
-     "blended": 4.0,
-     "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
-    }
-   ]
-  },
-  "claude-fable-5": {
-   "family": "anthropic",
-   "offers": 7,
-   "lowest": {
-    "seller": "anthropic",
-    "source": "anthropic",
-    "listed_as": "Claude Fable 5",
-    "input": 10.0,
-    "output": 50.0,
-    "cache_read": 1.0,
-    "blended": 20.0,
-    "region": null,
-    "collected_at": "2026-10-26T11:37:48+00:00"
-   },
-   "direct": {
-    "seller": "anthropic",
-    "source": "anthropic",
-    "listed_as": "Claude Fable 5",
-    "input": 10.0,
-    "output": 50.0,
-    "cache_read": 1.0,
-    "blended": 20.0,
-    "region": null,
-    "collected_at": "2026-10-26T11:37:48+00:00"
-   },
-   "next_best": [
-    {
-     "seller": "deepinfra",
-     "source": "deepinfra",
-     "listed_as": "claude-fable-5",
-     "input": 10.0,
-     "output": 50.0,
-     "cache_read": null,
-     "blended": 20.0,
-     "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
-    },
-    {
-     "seller": "deepinfra",
-     "source": "deepinfra",
-     "listed_as": "claude-fable-5",
-     "input": 10.0,
-     "output": 50.0,
-     "cache_read": null,
-     "blended": 20.0,
-     "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
-    }
-   ]
-  },
-  "claude-opus-4.8": {
-   "family": "anthropic",
-   "offers": 8,
-   "lowest": {
-    "seller": "anthropic",
-    "source": "anthropic",
-    "listed_as": "Claude Opus 4.8",
-    "input": 5.0,
-    "output": 25.0,
-    "cache_read": 0.5,
-    "blended": 10.0,
-    "region": null,
-    "collected_at": "2026-10-26T11:37:48+00:00"
-   },
-   "direct": {
-    "seller": "anthropic",
-    "source": "anthropic",
-    "listed_as": "Claude Opus 4.8",
-    "input": 5.0,
-    "output": 25.0,
-    "cache_read": 0.5,
-    "blended": 10.0,
-    "region": null,
-    "collected_at": "2026-10-26T11:37:48+00:00"
-   },
-   "next_best": [
-    {
-     "seller": "deepinfra",
-     "source": "deepinfra",
-     "listed_as": "claude-opus-4-8",
-     "input": 5.0,
-     "output": 25.0,
-     "cache_read": null,
-     "blended": 10.0,
-     "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
-    },
-    {
-     "seller": "deepinfra",
-     "source": "deepinfra",
-     "listed_as": "claude-opus-4-8",
-     "input": 5.0,
-     "output": 25.0,
-     "cache_read": null,
-     "blended": 10.0,
-     "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
-    }
-   ]
-  },
-  "grok-build-0.1": {
-   "family": "xai",
-   "offers": 3,
-   "lowest": {
-    "seller": "xai",
-    "source": "xai",
-    "listed_as": "grok-build-0.1",
-    "input": 1.0,
-    "output": 2.0,
-    "cache_read": 0.2,
-    "blended": 1.25,
-    "region": null,
-    "collected_at": "2026-10-26T11:37:48+00:00"
-   },
-   "direct": {
-    "seller": "xai",
-    "source": "xai",
-    "listed_as": "grok-build-0.1",
-    "input": 1.0,
-    "output": 2.0,
-    "cache_read": 0.2,
-    "blended": 1.25,
-    "region": null,
-    "collected_at": "2026-10-26T11:37:48+00:00"
-   },
-   "next_best": [
-    {
-     "seller": "openrouter",
-     "source": "openrouter",
-     "listed_as": "x-ai/grok-build-0.1",
-     "input": 1.0,
-     "output": 2.0,
-     "cache_read": 0.2,
-     "blended": 1.25,
-     "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
-    },
-    {
-     "seller": "vercel",
-     "source": "vercel",
-     "listed_as": "spacexai/grok-build-0.1",
-     "input": 1.0,
-     "output": 2.0,
-     "cache_read": 0.2,
-     "blended": 1.25,
-     "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
-    }
-   ]
-  },
-  "gemini-3.5-flash": {
-   "family": "google",
-   "offers": 5,
-   "lowest": {
-    "seller": "deepinfra",
-    "source": "deepinfra",
-    "listed_as": "gemini-3.5-flash",
-    "input": 1.5,
-    "output": 9.0,
-    "cache_read": null,
-    "blended": 3.375,
-    "region": null,
-    "collected_at": "2026-10-26T11:37:48+00:00"
-   },
-   "direct": null,
-   "next_best": [
-    {
-     "seller": "deepinfra",
-     "source": "deepinfra",
-     "listed_as": "gemini-3.5-flash",
-     "input": 1.5,
-     "output": 9.0,
-     "cache_read": null,
-     "blended": 3.375,
-     "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
-    },
-    {
-     "seller": "google_cloud",
-     "source": "google_cloud",
-     "listed_as": "Gemini 3.5 Flash",
-     "input": 1.5,
-     "output": 9.0,
-     "cache_read": 0.15,
-     "blended": 3.375,
-     "region": "Global",
-     "collected_at": "2026-10-26T11:37:48+00:00"
-    }
-   ]
-  },
-  "gemini-3.1-flash-lite": {
-   "family": "google",
-   "offers": 6,
-   "lowest": {
-    "seller": "google",
-    "source": "google",
-    "listed_as": "Gemini 3.1 Flash-Lite",
-    "input": 0.25,
-    "output": 1.5,
-    "cache_read": 0.025,
-    "blended": 0.5625,
-    "region": null,
-    "collected_at": "2026-10-26T11:37:48+00:00"
-   },
-   "direct": {
-    "seller": "google",
-    "source": "google",
-    "listed_as": "Gemini 3.1 Flash-Lite",
-    "input": 0.25,
-    "output": 1.5,
-    "cache_read": 0.025,
-    "blended": 0.5625,
-    "region": null,
-    "collected_at": "2026-10-26T11:37:48+00:00"
-   },
-   "next_best": [
-    {
-     "seller": "deepinfra",
-     "source": "deepinfra",
-     "listed_as": "gemini-3.1-flash-lite",
-     "input": 0.25,
-     "output": 1.5,
-     "cache_read": null,
-     "blended": 0.5625,
-     "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
-    },
-    {
-     "seller": "deepinfra",
-     "source": "deepinfra",
-     "listed_as": "gemini-3.1-flash-lite",
-     "input": 0.25,
-     "output": 1.5,
-     "cache_read": null,
-     "blended": 0.5625,
-     "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
-    }
-   ]
-  },
-  "grok-4.3": {
-   "family": "xai",
-   "offers": 4,
-   "lowest": {
-    "seller": "xai",
-    "source": "xai",
-    "listed_as": "grok-4.3",
-    "input": 1.25,
-    "output": 2.5,
-    "cache_read": 0.2,
-    "blended": 1.5625,
-    "region": null,
-    "collected_at": "2026-10-26T11:37:48+00:00"
-   },
-   "direct": {
-    "seller": "xai",
-    "source": "xai",
-    "listed_as": "grok-4.3",
-    "input": 1.25,
-    "output": 2.5,
-    "cache_read": 0.2,
-    "blended": 1.5625,
-    "region": null,
-    "collected_at": "2026-10-26T11:37:48+00:00"
-   },
-   "next_best": [
-    {
-     "seller": "google_cloud",
-     "source": "google_cloud",
-     "listed_as": "Grok 4.3",
-     "input": 1.25,
-     "output": 2.5,
-     "cache_read": 0.2,
-     "blended": 1.5625,
-     "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
-    },
-    {
-     "seller": "openrouter",
-     "source": "openrouter",
-     "listed_as": "x-ai/grok-4.3",
-     "input": 1.25,
-     "output": 2.5,
-     "cache_read": 0.2,
-     "blended": 1.5625,
-     "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
-    }
-   ]
-  },
-  "gpt-5.5-pro": {
-   "family": "openai",
-   "offers": 2,
-   "lowest": {
-    "seller": "openrouter",
-    "source": "openrouter",
-    "listed_as": "openai/gpt-5.5-pro",
-    "input": 30.0,
-    "output": 180.0,
-    "cache_read": null,
-    "blended": 67.5,
-    "region": null,
-    "collected_at": "2026-10-26T11:37:48+00:00"
-   },
-   "direct": null,
-   "next_best": [
-    {
-     "seller": "vercel",
-     "source": "vercel",
-     "listed_as": "openai/gpt-5.5-pro",
-     "input": 30.0,
-     "output": 180.0,
-     "cache_read": null,
-     "blended": 67.5,
-     "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
-    }
-   ]
-  },
-  "gpt-5.5": {
-   "family": "openai",
-   "offers": 4,
-   "lowest": {
-    "seller": "azure",
-    "source": "azure",
-    "listed_as": "GPT-5.5",
-    "input": 5.0,
-    "output": 30.0,
-    "cache_read": 0.5,
-    "blended": 11.25,
-    "region": "Global",
-    "collected_at": "2026-10-26T11:37:48+00:00"
-   },
-   "direct": null,
-   "next_best": [
-    {
-     "seller": "openrouter",
-     "source": "openrouter",
-     "listed_as": "openai/gpt-5.5",
-     "input": 5.0,
-     "output": 30.0,
-     "cache_read": 0.5,
-     "blended": 11.25,
-     "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
-    },
-    {
-     "seller": "vercel",
-     "source": "vercel",
-     "listed_as": "openai/gpt-5.5",
-     "input": 5.0,
-     "output": 30.0,
-     "cache_read": 0.5,
-     "blended": 11.25,
-     "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
-    }
-   ]
-  },
-  "claude-opus-4.7": {
-   "family": "anthropic",
-   "offers": 8,
-   "lowest": {
-    "seller": "anthropic",
-    "source": "anthropic",
-    "listed_as": "Claude Opus 4.7",
-    "input": 5.0,
-    "output": 25.0,
-    "cache_read": 0.5,
-    "blended": 10.0,
-    "region": null,
-    "collected_at": "2026-10-26T11:37:48+00:00"
-   },
-   "direct": {
-    "seller": "anthropic",
-    "source": "anthropic",
-    "listed_as": "Claude Opus 4.7",
-    "input": 5.0,
-    "output": 25.0,
-    "cache_read": 0.5,
-    "blended": 10.0,
-    "region": null,
-    "collected_at": "2026-10-26T11:37:48+00:00"
-   },
-   "next_best": [
-    {
-     "seller": "deepinfra",
-     "source": "deepinfra",
-     "listed_as": "claude-opus-4-7",
-     "input": 5.0,
-     "output": 25.0,
-     "cache_read": null,
-     "blended": 10.0,
-     "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
-    },
-    {
-     "seller": "deepinfra",
-     "source": "deepinfra",
-     "listed_as": "claude-opus-4-7",
-     "input": 5.0,
-     "output": 25.0,
-     "cache_read": null,
-     "blended": 10.0,
-     "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
-    }
-   ]
-  },
-  "grok-4.20-multi-agent": {
-   "family": "xai",
-   "offers": 3,
-   "lowest": {
-    "seller": "xai",
-    "source": "xai",
-    "listed_as": "grok-4.20-multi-agent-0309",
-    "input": 1.25,
-    "output": 2.5,
-    "cache_read": 0.2,
-    "blended": 1.5625,
-    "region": null,
-    "collected_at": "2026-10-26T11:37:48+00:00"
-   },
-   "direct": {
-    "seller": "xai",
-    "source": "xai",
-    "listed_as": "grok-4.20-multi-agent-0309",
-    "input": 1.25,
-    "output": 2.5,
-    "cache_read": 0.2,
-    "blended": 1.5625,
-    "region": null,
-    "collected_at": "2026-10-26T11:37:48+00:00"
-   },
-   "next_best": [
-    {
-     "seller": "openrouter",
-     "source": "openrouter",
-     "listed_as": "x-ai/grok-4.20-multi-agent",
-     "input": 1.25,
-     "output": 2.5,
-     "cache_read": 0.2,
-     "blended": 1.5625,
-     "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
-    },
-    {
-     "seller": "vercel",
-     "source": "vercel",
-     "listed_as": "spacexai/grok-4.20-multi-agent",
-     "input": 1.25,
-     "output": 2.5,
-     "cache_read": 0.2,
-     "blended": 1.5625,
-     "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
-    }
-   ]
-  },
-  "grok-4.20": {
-   "family": "xai",
-   "offers": 1,
-   "lowest": {
-    "seller": "openrouter",
-    "source": "openrouter",
-    "listed_as": "x-ai/grok-4.20",
-    "input": 1.25,
-    "output": 2.5,
-    "cache_read": 0.2,
-    "blended": 1.5625,
-    "region": null,
-    "collected_at": "2026-10-26T11:37:48+00:00"
-   },
-   "direct": null,
-   "next_best": []
-  },
-  "gpt-5.4-nano": {
-   "family": "openai",
-   "offers": 3,
-   "lowest": {
-    "seller": "azure",
-    "source": "azure",
-    "listed_as": "GPT-5.4 nano",
-    "input": 0.2,
-    "output": 1.25,
-    "cache_read": 0.02,
-    "blended": 0.4625,
-    "region": "Global",
-    "collected_at": "2026-10-26T11:37:48+00:00"
-   },
-   "direct": null,
-   "next_best": [
-    {
-     "seller": "openrouter",
-     "source": "openrouter",
-     "listed_as": "openai/gpt-5.4-nano",
-     "input": 0.2,
-     "output": 1.25,
-     "cache_read": 0.02,
-     "blended": 0.4625,
-     "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
-    },
-    {
-     "seller": "vercel",
-     "source": "vercel",
-     "listed_as": "openai/gpt-5.4-nano",
-     "input": 0.2,
-     "output": 1.25,
-     "cache_read": 0.02,
-     "blended": 0.4625,
-     "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
-    }
-   ]
-  },
-  "gpt-5.4-mini": {
-   "family": "openai",
-   "offers": 4,
-   "lowest": {
-    "seller": "azure",
-    "source": "azure",
-    "listed_as": "GPT-5.4 mini",
-    "input": 0.75,
-    "output": 4.5,
-    "cache_read": 0.08,
-    "blended": 1.6875,
-    "region": "Global",
-    "collected_at": "2026-10-26T11:37:48+00:00"
-   },
-   "direct": null,
-   "next_best": [
-    {
-     "seller": "openrouter",
-     "source": "openrouter",
-     "listed_as": "openai/gpt-5.4-mini",
-     "input": 0.75,
-     "output": 4.5,
-     "cache_read": 0.075,
-     "blended": 1.6875,
-     "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
-    },
-    {
-     "seller": "vercel",
-     "source": "vercel",
-     "listed_as": "openai/gpt-5.4-mini",
-     "input": 0.75,
-     "output": 4.5,
-     "cache_read": 0.075,
-     "blended": 1.6875,
-     "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
-    }
-   ]
-  },
-  "gpt-5.4-pro": {
-   "family": "openai",
-   "offers": 2,
-   "lowest": {
-    "seller": "openrouter",
-    "source": "openrouter",
-    "listed_as": "openai/gpt-5.4-pro",
-    "input": 30.0,
-    "output": 180.0,
-    "cache_read": null,
-    "blended": 67.5,
-    "region": null,
-    "collected_at": "2026-10-26T11:37:48+00:00"
-   },
-   "direct": null,
-   "next_best": [
-    {
-     "seller": "vercel",
-     "source": "vercel",
-     "listed_as": "openai/gpt-5.4-pro",
-     "input": 30.0,
-     "output": 180.0,
-     "cache_read": null,
-     "blended": 67.5,
-     "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
-    }
-   ]
-  },
-  "gpt-5.4": {
-   "family": "openai",
-   "offers": 2,
-   "lowest": {
-    "seller": "openrouter",
-    "source": "openrouter",
-    "listed_as": "openai/gpt-5.4",
-    "input": 2.5,
-    "output": 15.0,
-    "cache_read": 0.25,
-    "blended": 5.625,
-    "region": null,
-    "collected_at": "2026-10-26T11:37:48+00:00"
-   },
-   "direct": null,
-   "next_best": [
-    {
-     "seller": "vercel",
-     "source": "vercel",
-     "listed_as": "openai/gpt-5.4",
-     "input": 2.5,
-     "output": 15.0,
-     "cache_read": 0.25,
-     "blended": 5.625,
-     "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
-    }
-   ]
   },
   "gemini-3.1-flash-lite-preview": {
    "family": "google",
-   "offers": 1,
+   "offers": 3,
    "lowest": {
-    "seller": "openrouter",
-    "source": "openrouter",
-    "listed_as": "google/gemini-3.1-flash-lite-preview",
+    "seller": "edenai",
+    "source": "edenai",
+    "listed_as": "gemini-3.1-flash-lite-preview",
     "input": 0.25,
     "output": 1.5,
     "cache_read": 0.025,
     "blended": 0.5625,
     "region": null,
-    "collected_at": "2026-10-26T11:37:48+00:00"
+    "collected_at": "2026-10-26T16:27:30+00:00"
    },
    "direct": null,
-   "next_best": []
-  },
-  "gpt-5.3-codex": {
-   "family": "openai",
-   "offers": 4,
-   "lowest": {
-    "seller": "openai",
-    "source": "openai",
-    "listed_as": "gpt-5.3-codex",
-    "input": 1.75,
-    "output": 14.0,
-    "cache_read": 0.175,
-    "blended": 4.8125,
-    "region": null,
-    "collected_at": "2026-10-26T11:37:48+00:00"
-   },
-   "direct": {
-    "seller": "openai",
-    "source": "openai",
-    "listed_as": "gpt-5.3-codex",
-    "input": 1.75,
-    "output": 14.0,
-    "cache_read": 0.175,
-    "blended": 4.8125,
-    "region": null,
-    "collected_at": "2026-10-26T11:37:48+00:00"
-   },
    "next_best": [
     {
-     "seller": "azure",
-     "source": "azure",
-     "listed_as": "GPT-5.3 Codex",
-     "input": 1.75,
-     "output": 14.0,
-     "cache_read": 0.18,
-     "blended": 4.8125,
-     "region": "Global",
-     "collected_at": "2026-10-26T11:37:48+00:00"
+     "seller": "gmicloud",
+     "source": "gmicloud",
+     "listed_as": "google/gemini-3.1-flash-lite-preview",
+     "input": 0.25,
+     "output": 1.5,
+     "cache_read": null,
+     "blended": 0.5625,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
     },
     {
      "seller": "openrouter",
      "source": "openrouter",
-     "listed_as": "openai/gpt-5.3-codex",
-     "input": 1.75,
-     "output": 14.0,
-     "cache_read": 0.175,
-     "blended": 4.8125,
+     "listed_as": "google/gemini-3.1-flash-lite-preview",
+     "input": 0.25,
+     "output": 1.5,
+     "cache_read": 0.025,
+     "blended": 0.5625,
      "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
-    }
-   ]
-  },
-  "gemini-3.1-pro-preview": {
-   "family": "google",
-   "offers": 5,
-   "lowest": {
-    "seller": "google",
-    "source": "google",
-    "listed_as": "Gemini 3.1 Pro Preview",
-    "input": 1.0,
-    "output": 6.0,
-    "cache_read": 0.1,
-    "blended": 2.25,
-    "region": null,
-    "collected_at": "2026-10-26T11:37:48+00:00"
-   },
-   "direct": {
-    "seller": "google",
-    "source": "google",
-    "listed_as": "Gemini 3.1 Pro Preview",
-    "input": 1.0,
-    "output": 6.0,
-    "cache_read": 0.1,
-    "blended": 2.25,
-    "region": null,
-    "collected_at": "2026-10-26T11:37:48+00:00"
-   },
-   "next_best": [
-    {
-     "seller": "google",
-     "source": "google",
-     "listed_as": "Gemini 3.1 Pro Preview",
-     "input": 2.0,
-     "output": 12.0,
-     "cache_read": 0.2,
-     "blended": 4.5,
-     "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
-    },
-    {
-     "seller": "google_cloud",
-     "source": "google_cloud",
-     "listed_as": "Gemini 3.1 Pro Preview",
-     "input": 2.0,
-     "output": 12.0,
-     "cache_read": 0.2,
-     "blended": 4.5,
-     "region": "Global",
-     "collected_at": "2026-10-26T11:37:48+00:00"
-    }
-   ]
-  },
-  "claude-sonnet-4.6": {
-   "family": "anthropic",
-   "offers": 9,
-   "lowest": {
-    "seller": "anthropic",
-    "source": "anthropic",
-    "listed_as": "Claude Sonnet 4.6",
-    "input": 3.0,
-    "output": 15.0,
-    "cache_read": 0.3,
-    "blended": 6.0,
-    "region": null,
-    "collected_at": "2026-10-26T11:37:48+00:00"
-   },
-   "direct": {
-    "seller": "anthropic",
-    "source": "anthropic",
-    "listed_as": "Claude Sonnet 4.6",
-    "input": 3.0,
-    "output": 15.0,
-    "cache_read": 0.3,
-    "blended": 6.0,
-    "region": null,
-    "collected_at": "2026-10-26T11:37:48+00:00"
-   },
-   "next_best": [
-    {
-     "seller": "deepinfra",
-     "source": "deepinfra",
-     "listed_as": "claude-sonnet-4-6",
-     "input": 3.0,
-     "output": 15.0,
-     "cache_read": null,
-     "blended": 6.0,
-     "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
-    },
-    {
-     "seller": "deepinfra",
-     "source": "deepinfra",
-     "listed_as": "claude-sonnet-4-6",
-     "input": 3.0,
-     "output": 15.0,
-     "cache_read": null,
-     "blended": 6.0,
-     "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
-    }
-   ]
-  },
-  "claude-opus-4.6": {
-   "family": "anthropic",
-   "offers": 7,
-   "lowest": {
-    "seller": "anthropic",
-    "source": "anthropic",
-    "listed_as": "Claude Opus 4.6",
-    "input": 5.0,
-    "output": 25.0,
-    "cache_read": 0.5,
-    "blended": 10.0,
-    "region": null,
-    "collected_at": "2026-10-26T11:37:48+00:00"
-   },
-   "direct": {
-    "seller": "anthropic",
-    "source": "anthropic",
-    "listed_as": "Claude Opus 4.6",
-    "input": 5.0,
-    "output": 25.0,
-    "cache_read": 0.5,
-    "blended": 10.0,
-    "region": null,
-    "collected_at": "2026-10-26T11:37:48+00:00"
-   },
-   "next_best": [
-    {
-     "seller": "google_cloud",
-     "source": "google_cloud",
-     "listed_as": "Claude Opus 4.6",
-     "input": 5.0,
-     "output": 25.0,
-     "cache_read": 0.5,
-     "blended": 10.0,
-     "region": "Global",
-     "collected_at": "2026-10-26T11:37:48+00:00"
-    },
-    {
-     "seller": "openrouter",
-     "source": "openrouter",
-     "listed_as": "anthropic/claude-opus-4.6",
-     "input": 5.0,
-     "output": 25.0,
-     "cache_read": 0.5,
-     "blended": 10.0,
-     "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
+     "collected_at": "2026-10-26T16:27:30+00:00"
     }
    ]
   },
   "gpt-5.2-codex": {
    "family": "openai",
-   "offers": 3,
+   "offers": 4,
    "lowest": {
     "seller": "azure",
     "source": "azure",
@@ -1948,70 +2687,31 @@
     "cache_read": 0.18,
     "blended": 4.8125,
     "region": "Global",
-    "collected_at": "2026-10-26T11:37:48+00:00"
+    "collected_at": "2026-10-26T16:27:30+00:00"
    },
    "direct": null,
    "next_best": [
     {
-     "seller": "openrouter",
-     "source": "openrouter",
-     "listed_as": "openai/gpt-5.2-codex",
+     "seller": "edenai",
+     "source": "edenai",
+     "listed_as": "gpt-5.2-codex",
      "input": 1.75,
      "output": 14.0,
      "cache_read": 0.175,
      "blended": 4.8125,
      "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
+     "collected_at": "2026-10-26T16:27:30+00:00"
     },
     {
-     "seller": "vercel",
-     "source": "vercel",
+     "seller": "openrouter",
+     "source": "openrouter",
      "listed_as": "openai/gpt-5.2-codex",
      "input": 1.75,
      "output": 14.0,
      "cache_read": 0.175,
      "blended": 4.8125,
      "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
-    }
-   ]
-  },
-  "gemini-3-flash-preview": {
-   "family": "google",
-   "offers": 2,
-   "lowest": {
-    "seller": "google",
-    "source": "google",
-    "listed_as": "Gemini 3 Flash Preview",
-    "input": 0.5,
-    "output": 3.0,
-    "cache_read": 0.05,
-    "blended": 1.125,
-    "region": null,
-    "collected_at": "2026-10-26T11:37:48+00:00"
-   },
-   "direct": {
-    "seller": "google",
-    "source": "google",
-    "listed_as": "Gemini 3 Flash Preview",
-    "input": 0.5,
-    "output": 3.0,
-    "cache_read": 0.05,
-    "blended": 1.125,
-    "region": null,
-    "collected_at": "2026-10-26T11:37:48+00:00"
-   },
-   "next_best": [
-    {
-     "seller": "openrouter",
-     "source": "openrouter",
-     "listed_as": "google/gemini-3-flash-preview",
-     "input": 0.5,
-     "output": 3.0,
-     "cache_read": 0.05,
-     "blended": 1.125,
-     "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
+     "collected_at": "2026-10-26T16:27:30+00:00"
     }
    ]
   },
@@ -2027,7 +2727,7 @@
     "cache_read": 0.175,
     "blended": 4.8125,
     "region": null,
-    "collected_at": "2026-10-26T11:37:48+00:00"
+    "collected_at": "2026-10-26T16:27:30+00:00"
    },
    "direct": null,
    "next_best": [
@@ -2040,82 +2740,13 @@
      "cache_read": 0.2,
      "blended": 5.2975,
      "region": "Data Zone",
-     "collected_at": "2026-10-26T11:37:48+00:00"
-    }
-   ]
-  },
-  "gpt-5.2-pro": {
-   "family": "openai",
-   "offers": 2,
-   "lowest": {
-    "seller": "openrouter",
-    "source": "openrouter",
-    "listed_as": "openai/gpt-5.2-pro",
-    "input": 21.0,
-    "output": 168.0,
-    "cache_read": null,
-    "blended": 57.75,
-    "region": null,
-    "collected_at": "2026-10-26T11:37:48+00:00"
-   },
-   "direct": null,
-   "next_best": [
-    {
-     "seller": "vercel",
-     "source": "vercel",
-     "listed_as": "openai/gpt-5.2-pro",
-     "input": 21.0,
-     "output": 168.0,
-     "cache_read": null,
-     "blended": 57.75,
-     "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
-    }
-   ]
-  },
-  "gpt-5.2": {
-   "family": "openai",
-   "offers": 4,
-   "lowest": {
-    "seller": "azure",
-    "source": "azure",
-    "listed_as": "GPT-5.2",
-    "input": 1.75,
-    "output": 14.0,
-    "cache_read": 0.18,
-    "blended": 4.8125,
-    "region": "Global",
-    "collected_at": "2026-10-26T11:37:48+00:00"
-   },
-   "direct": null,
-   "next_best": [
-    {
-     "seller": "openrouter",
-     "source": "openrouter",
-     "listed_as": "openai/gpt-5.2",
-     "input": 1.75,
-     "output": 14.0,
-     "cache_read": 0.175,
-     "blended": 4.8125,
-     "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
-    },
-    {
-     "seller": "vercel",
-     "source": "vercel",
-     "listed_as": "openai/gpt-5.2",
-     "input": 1.75,
-     "output": 14.0,
-     "cache_read": 0.175,
-     "blended": 4.8125,
-     "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
+     "collected_at": "2026-10-26T16:27:30+00:00"
     }
    ]
   },
   "gpt-5.1-codex-max": {
    "family": "openai",
-   "offers": 3,
+   "offers": 4,
    "lowest": {
     "seller": "azure",
     "source": "azure",
@@ -2125,10 +2756,21 @@
     "cache_read": 0.13,
     "blended": 3.4375,
     "region": "Global",
-    "collected_at": "2026-10-26T11:37:48+00:00"
+    "collected_at": "2026-10-26T16:27:30+00:00"
    },
    "direct": null,
    "next_best": [
+    {
+     "seller": "edenai",
+     "source": "edenai",
+     "listed_as": "gpt-5.1-codex-max",
+     "input": 1.25,
+     "output": 10.0,
+     "cache_read": 0.125,
+     "blended": 3.4375,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    },
     {
      "seller": "openrouter",
      "source": "openrouter",
@@ -2138,114 +2780,13 @@
      "cache_read": 0.125,
      "blended": 3.4375,
      "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
-    },
-    {
-     "seller": "vercel",
-     "source": "vercel",
-     "listed_as": "openai/gpt-5.1-codex-max",
-     "input": 1.25,
-     "output": 10.0,
-     "cache_read": 0.125,
-     "blended": 3.4375,
-     "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
-    }
-   ]
-  },
-  "claude-opus-4.5": {
-   "family": "anthropic",
-   "offers": 7,
-   "lowest": {
-    "seller": "anthropic",
-    "source": "anthropic",
-    "listed_as": "Claude Opus 4.5",
-    "input": 5.0,
-    "output": 25.0,
-    "cache_read": 0.5,
-    "blended": 10.0,
-    "region": null,
-    "collected_at": "2026-10-26T11:37:48+00:00"
-   },
-   "direct": {
-    "seller": "anthropic",
-    "source": "anthropic",
-    "listed_as": "Claude Opus 4.5",
-    "input": 5.0,
-    "output": 25.0,
-    "cache_read": 0.5,
-    "blended": 10.0,
-    "region": null,
-    "collected_at": "2026-10-26T11:37:48+00:00"
-   },
-   "next_best": [
-    {
-     "seller": "google_cloud",
-     "source": "google_cloud",
-     "listed_as": "Claude Opus 4.5",
-     "input": 5.0,
-     "output": 25.0,
-     "cache_read": 0.5,
-     "blended": 10.0,
-     "region": "Global",
-     "collected_at": "2026-10-26T11:37:48+00:00"
-    },
-    {
-     "seller": "openrouter",
-     "source": "openrouter",
-     "listed_as": "anthropic/claude-opus-4.5",
-     "input": 5.0,
-     "output": 25.0,
-     "cache_read": 0.5,
-     "blended": 10.0,
-     "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
-    }
-   ]
-  },
-  "gpt-5.1": {
-   "family": "openai",
-   "offers": 3,
-   "lowest": {
-    "seller": "azure",
-    "source": "azure",
-    "listed_as": "GPT-5.1",
-    "input": 1.25,
-    "output": 10.0,
-    "cache_read": 0.13,
-    "blended": 3.4375,
-    "region": "Global",
-    "collected_at": "2026-10-26T11:37:48+00:00"
-   },
-   "direct": null,
-   "next_best": [
-    {
-     "seller": "openrouter",
-     "source": "openrouter",
-     "listed_as": "openai/gpt-5.1",
-     "input": 1.25,
-     "output": 10.0,
-     "cache_read": 0.125,
-     "blended": 3.4375,
-     "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
-    },
-    {
-     "seller": "azure",
-     "source": "azure",
-     "listed_as": "GPT-5.1",
-     "input": 1.38,
-     "output": 11.0,
-     "cache_read": 0.14,
-     "blended": 3.785,
-     "region": "Data Zone",
-     "collected_at": "2026-10-26T11:37:48+00:00"
+     "collected_at": "2026-10-26T16:27:30+00:00"
     }
    ]
   },
   "gpt-5.1-codex": {
    "family": "openai",
-   "offers": 3,
+   "offers": 4,
    "lowest": {
     "seller": "azure",
     "source": "azure",
@@ -2255,10 +2796,21 @@
     "cache_read": 0.13,
     "blended": 3.4375,
     "region": "Global",
-    "collected_at": "2026-10-26T11:37:48+00:00"
+    "collected_at": "2026-10-26T16:27:30+00:00"
    },
    "direct": null,
    "next_best": [
+    {
+     "seller": "edenai",
+     "source": "edenai",
+     "listed_as": "gpt-5.1-codex",
+     "input": 1.25,
+     "output": 10.0,
+     "cache_read": 0.125,
+     "blended": 3.4375,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    },
     {
      "seller": "openrouter",
      "source": "openrouter",
@@ -2268,24 +2820,13 @@
      "cache_read": 0.13,
      "blended": 3.4375,
      "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
-    },
-    {
-     "seller": "vercel",
-     "source": "vercel",
-     "listed_as": "openai/gpt-5.1-codex",
-     "input": 1.25,
-     "output": 10.0,
-     "cache_read": 0.13,
-     "blended": 3.4375,
-     "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
+     "collected_at": "2026-10-26T16:27:30+00:00"
     }
    ]
   },
   "gpt-5.1-codex-mini": {
    "family": "openai",
-   "offers": 3,
+   "offers": 4,
    "lowest": {
     "seller": "azure",
     "source": "azure",
@@ -2295,10 +2836,21 @@
     "cache_read": 0.03,
     "blended": 0.6875,
     "region": "Global",
-    "collected_at": "2026-10-26T11:37:48+00:00"
+    "collected_at": "2026-10-26T16:27:30+00:00"
    },
    "direct": null,
    "next_best": [
+    {
+     "seller": "edenai",
+     "source": "edenai",
+     "listed_as": "gpt-5.1-codex-mini",
+     "input": 0.25,
+     "output": 2.0,
+     "cache_read": 0.025,
+     "blended": 0.6875,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    },
     {
      "seller": "openrouter",
      "source": "openrouter",
@@ -2308,284 +2860,13 @@
      "cache_read": 0.03,
      "blended": 0.6875,
      "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
-    },
-    {
-     "seller": "vercel",
-     "source": "vercel",
-     "listed_as": "openai/gpt-5.1-codex-mini",
-     "input": 0.25,
-     "output": 2.0,
-     "cache_read": 0.03,
-     "blended": 0.6875,
-     "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
-    }
-   ]
-  },
-  "claude-haiku-4.5": {
-   "family": "anthropic",
-   "offers": 9,
-   "lowest": {
-    "seller": "anthropic",
-    "source": "anthropic",
-    "listed_as": "Claude Haiku 4.5",
-    "input": 1.0,
-    "output": 5.0,
-    "cache_read": 0.1,
-    "blended": 2.0,
-    "region": null,
-    "collected_at": "2026-10-26T11:37:48+00:00"
-   },
-   "direct": {
-    "seller": "anthropic",
-    "source": "anthropic",
-    "listed_as": "Claude Haiku 4.5",
-    "input": 1.0,
-    "output": 5.0,
-    "cache_read": 0.1,
-    "blended": 2.0,
-    "region": null,
-    "collected_at": "2026-10-26T11:37:48+00:00"
-   },
-   "next_best": [
-    {
-     "seller": "deepinfra",
-     "source": "deepinfra",
-     "listed_as": "claude-haiku-4-5",
-     "input": 1.0,
-     "output": 5.0,
-     "cache_read": null,
-     "blended": 2.0,
-     "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
-    },
-    {
-     "seller": "deepinfra",
-     "source": "deepinfra",
-     "listed_as": "claude-haiku-4-5",
-     "input": 1.0,
-     "output": 5.0,
-     "cache_read": null,
-     "blended": 2.0,
-     "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
-    }
-   ]
-  },
-  "gpt-5-pro": {
-   "family": "openai",
-   "offers": 3,
-   "lowest": {
-    "seller": "azure",
-    "source": "azure",
-    "listed_as": "GPT-5 Pro",
-    "input": 15.0,
-    "output": 120.0,
-    "cache_read": null,
-    "blended": 41.25,
-    "region": "Global",
-    "collected_at": "2026-10-26T11:37:48+00:00"
-   },
-   "direct": null,
-   "next_best": [
-    {
-     "seller": "openrouter",
-     "source": "openrouter",
-     "listed_as": "openai/gpt-5-pro",
-     "input": 15.0,
-     "output": 120.0,
-     "cache_read": null,
-     "blended": 41.25,
-     "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
-    },
-    {
-     "seller": "vercel",
-     "source": "vercel",
-     "listed_as": "openai/gpt-5-pro",
-     "input": 15.0,
-     "output": 120.0,
-     "cache_read": null,
-     "blended": 41.25,
-     "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
-    }
-   ]
-  },
-  "claude-sonnet-4.5": {
-   "family": "anthropic",
-   "offers": 7,
-   "lowest": {
-    "seller": "anthropic",
-    "source": "anthropic",
-    "listed_as": "Claude Sonnet 4.5",
-    "input": 3.0,
-    "output": 15.0,
-    "cache_read": 0.3,
-    "blended": 6.0,
-    "region": null,
-    "collected_at": "2026-10-26T11:37:48+00:00"
-   },
-   "direct": {
-    "seller": "anthropic",
-    "source": "anthropic",
-    "listed_as": "Claude Sonnet 4.5",
-    "input": 3.0,
-    "output": 15.0,
-    "cache_read": 0.3,
-    "blended": 6.0,
-    "region": null,
-    "collected_at": "2026-10-26T11:37:48+00:00"
-   },
-   "next_best": [
-    {
-     "seller": "google_cloud",
-     "source": "google_cloud",
-     "listed_as": "Claude Sonnet 4.5",
-     "input": 3.0,
-     "output": 15.0,
-     "cache_read": 0.3,
-     "blended": 6.0,
-     "region": "Global",
-     "collected_at": "2026-10-26T11:37:48+00:00"
-    },
-    {
-     "seller": "openrouter",
-     "source": "openrouter",
-     "listed_as": "anthropic/claude-sonnet-4.5",
-     "input": 3.0,
-     "output": 15.0,
-     "cache_read": 0.3,
-     "blended": 6.0,
-     "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
-    }
-   ]
-  },
-  "gpt-5": {
-   "family": "openai",
-   "offers": 4,
-   "lowest": {
-    "seller": "azure",
-    "source": "azure",
-    "listed_as": "GPT-5 2025-08-07",
-    "input": 1.25,
-    "output": 10.0,
-    "cache_read": 0.13,
-    "blended": 3.4375,
-    "region": "Global",
-    "collected_at": "2026-10-26T11:37:48+00:00"
-   },
-   "direct": null,
-   "next_best": [
-    {
-     "seller": "openrouter",
-     "source": "openrouter",
-     "listed_as": "openai/gpt-5",
-     "input": 1.25,
-     "output": 10.0,
-     "cache_read": 0.125,
-     "blended": 3.4375,
-     "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
-    },
-    {
-     "seller": "vercel",
-     "source": "vercel",
-     "listed_as": "openai/gpt-5",
-     "input": 1.25,
-     "output": 10.0,
-     "cache_read": 0.125,
-     "blended": 3.4375,
-     "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
-    }
-   ]
-  },
-  "gpt-5-mini": {
-   "family": "openai",
-   "offers": 4,
-   "lowest": {
-    "seller": "azure",
-    "source": "azure",
-    "listed_as": "GPT-5-mini",
-    "input": 0.25,
-    "output": 2.0,
-    "cache_read": 0.03,
-    "blended": 0.6875,
-    "region": "Global",
-    "collected_at": "2026-10-26T11:37:48+00:00"
-   },
-   "direct": null,
-   "next_best": [
-    {
-     "seller": "openrouter",
-     "source": "openrouter",
-     "listed_as": "openai/gpt-5-mini",
-     "input": 0.25,
-     "output": 2.0,
-     "cache_read": 0.025,
-     "blended": 0.6875,
-     "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
-    },
-    {
-     "seller": "vercel",
-     "source": "vercel",
-     "listed_as": "openai/gpt-5-mini",
-     "input": 0.25,
-     "output": 2.0,
-     "cache_read": 0.025,
-     "blended": 0.6875,
-     "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
-    }
-   ]
-  },
-  "gpt-5-nano": {
-   "family": "openai",
-   "offers": 4,
-   "lowest": {
-    "seller": "azure",
-    "source": "azure",
-    "listed_as": "GPT-5-nano",
-    "input": 0.05,
-    "output": 0.4,
-    "cache_read": 0.01,
-    "blended": 0.1375,
-    "region": "Global",
-    "collected_at": "2026-10-26T11:37:48+00:00"
-   },
-   "direct": null,
-   "next_best": [
-    {
-     "seller": "openrouter",
-     "source": "openrouter",
-     "listed_as": "openai/gpt-5-nano",
-     "input": 0.05,
-     "output": 0.4,
-     "cache_read": 0.005,
-     "blended": 0.1375,
-     "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
-    },
-    {
-     "seller": "vercel",
-     "source": "vercel",
-     "listed_as": "openai/gpt-5-nano",
-     "input": 0.05,
-     "output": 0.4,
-     "cache_read": 0.005,
-     "blended": 0.1375,
-     "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
+     "collected_at": "2026-10-26T16:27:30+00:00"
     }
    ]
   },
   "claude-opus-4.1": {
    "family": "anthropic",
-   "offers": 2,
+   "offers": 4,
    "lowest": {
     "seller": "anthropic",
     "source": "anthropic",
@@ -2595,7 +2876,7 @@
     "cache_read": 1.5,
     "blended": 30.0,
     "region": null,
-    "collected_at": "2026-10-26T11:37:48+00:00"
+    "collected_at": "2026-10-26T16:27:30+00:00"
    },
    "direct": {
     "seller": "anthropic",
@@ -2606,9 +2887,20 @@
     "cache_read": 1.5,
     "blended": 30.0,
     "region": null,
-    "collected_at": "2026-10-26T11:37:48+00:00"
+    "collected_at": "2026-10-26T16:27:30+00:00"
    },
    "next_best": [
+    {
+     "seller": "edenai",
+     "source": "edenai",
+     "listed_as": "claude-opus-4.1",
+     "input": 15.0,
+     "output": 75.0,
+     "cache_read": 1.5,
+     "blended": 30.0,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    },
     {
      "seller": "openrouter",
      "source": "openrouter",
@@ -2618,13 +2910,13 @@
      "cache_read": 1.5,
      "blended": 30.0,
      "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
+     "collected_at": "2026-10-26T16:27:30+00:00"
     }
    ]
   },
   "gemini-2.5-flash-lite": {
    "family": "google",
-   "offers": 4,
+   "offers": 6,
    "lowest": {
     "seller": "google",
     "source": "google",
@@ -2634,7 +2926,7 @@
     "cache_read": 0.01,
     "blended": 0.175,
     "region": null,
-    "collected_at": "2026-10-26T11:37:48+00:00"
+    "collected_at": "2026-10-26T16:27:30+00:00"
    },
    "direct": {
     "seller": "google",
@@ -2645,9 +2937,20 @@
     "cache_read": 0.01,
     "blended": 0.175,
     "region": null,
-    "collected_at": "2026-10-26T11:37:48+00:00"
+    "collected_at": "2026-10-26T16:27:30+00:00"
    },
    "next_best": [
+    {
+     "seller": "edenai",
+     "source": "edenai",
+     "listed_as": "gemini-2.5-flash-lite",
+     "input": 0.1,
+     "output": 0.4,
+     "cache_read": 0.01,
+     "blended": 0.175,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    },
     {
      "seller": "google_cloud",
      "source": "google_cloud",
@@ -2657,147 +2960,7 @@
      "cache_read": 0.01,
      "blended": 0.175,
      "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
-    },
-    {
-     "seller": "openrouter",
-     "source": "openrouter",
-     "listed_as": "google/gemini-2.5-flash-lite",
-     "input": 0.1,
-     "output": 0.4,
-     "cache_read": 0.01,
-     "blended": 0.175,
-     "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
-    }
-   ]
-  },
-  "gemini-2.5-flash": {
-   "family": "google",
-   "offers": 6,
-   "lowest": {
-    "seller": "google",
-    "source": "google",
-    "listed_as": "Gemini 2.5 Flash",
-    "input": 0.3,
-    "output": 2.5,
-    "cache_read": 0.03,
-    "blended": 0.85,
-    "region": null,
-    "collected_at": "2026-10-26T11:37:48+00:00"
-   },
-   "direct": {
-    "seller": "google",
-    "source": "google",
-    "listed_as": "Gemini 2.5 Flash",
-    "input": 0.3,
-    "output": 2.5,
-    "cache_read": 0.03,
-    "blended": 0.85,
-    "region": null,
-    "collected_at": "2026-10-26T11:37:48+00:00"
-   },
-   "next_best": [
-    {
-     "seller": "deepinfra",
-     "source": "deepinfra",
-     "listed_as": "gemini-2.5-flash",
-     "input": 0.3,
-     "output": 2.5,
-     "cache_read": null,
-     "blended": 0.85,
-     "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
-    },
-    {
-     "seller": "deepinfra",
-     "source": "deepinfra",
-     "listed_as": "gemini-2.5-flash",
-     "input": 0.3,
-     "output": 2.5,
-     "cache_read": null,
-     "blended": 0.85,
-     "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
-    }
-   ]
-  },
-  "gemini-2.5-pro": {
-   "family": "google",
-   "offers": 6,
-   "lowest": {
-    "seller": "google",
-    "source": "google",
-    "listed_as": "Gemini 2.5 Pro",
-    "input": 1.25,
-    "output": 10.0,
-    "cache_read": 0.125,
-    "blended": 3.4375,
-    "region": null,
-    "collected_at": "2026-10-26T11:37:48+00:00"
-   },
-   "direct": {
-    "seller": "google",
-    "source": "google",
-    "listed_as": "Gemini 2.5 Pro",
-    "input": 1.25,
-    "output": 10.0,
-    "cache_read": 0.125,
-    "blended": 3.4375,
-    "region": null,
-    "collected_at": "2026-10-26T11:37:48+00:00"
-   },
-   "next_best": [
-    {
-     "seller": "deepinfra",
-     "source": "deepinfra",
-     "listed_as": "gemini-2.5-pro",
-     "input": 1.25,
-     "output": 10.0,
-     "cache_read": null,
-     "blended": 3.4375,
-     "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
-    },
-    {
-     "seller": "deepinfra",
-     "source": "deepinfra",
-     "listed_as": "gemini-2.5-pro",
-     "input": 1.25,
-     "output": 10.0,
-     "cache_read": null,
-     "blended": 3.4375,
-     "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
-    }
-   ]
-  },
-  "o3-pro": {
-   "family": "openai",
-   "offers": 2,
-   "lowest": {
-    "seller": "openrouter",
-    "source": "openrouter",
-    "listed_as": "openai/o3-pro",
-    "input": 20.0,
-    "output": 80.0,
-    "cache_read": null,
-    "blended": 35.0,
-    "region": null,
-    "collected_at": "2026-10-26T11:37:48+00:00"
-   },
-   "direct": null,
-   "next_best": [
-    {
-     "seller": "vercel",
-     "source": "vercel",
-     "listed_as": "openai/o3-pro",
-     "input": 20.0,
-     "output": 80.0,
-     "cache_read": null,
-     "blended": 35.0,
-     "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
+     "collected_at": "2026-10-26T16:27:30+00:00"
     }
    ]
   },
@@ -2813,50 +2976,10 @@
     "cache_read": 0.125,
     "blended": 3.4375,
     "region": null,
-    "collected_at": "2026-10-26T11:37:48+00:00"
+    "collected_at": "2026-10-26T16:27:30+00:00"
    },
    "direct": null,
    "next_best": []
-  },
-  "o3": {
-   "family": "openai",
-   "offers": 5,
-   "lowest": {
-    "seller": "azure",
-    "source": "azure",
-    "listed_as": "o3 2025-04-16",
-    "input": 2.0,
-    "output": 8.0,
-    "cache_read": 0.5,
-    "blended": 3.5,
-    "region": "Global",
-    "collected_at": "2026-10-26T11:37:48+00:00"
-   },
-   "direct": null,
-   "next_best": [
-    {
-     "seller": "openrouter",
-     "source": "openrouter",
-     "listed_as": "openai/o3",
-     "input": 2.0,
-     "output": 8.0,
-     "cache_read": 0.5,
-     "blended": 3.5,
-     "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
-    },
-    {
-     "seller": "vercel",
-     "source": "vercel",
-     "listed_as": "openai/o3",
-     "input": 2.0,
-     "output": 8.0,
-     "cache_read": 0.5,
-     "blended": 3.5,
-     "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
-    }
-   ]
   },
   "o4-mini": {
    "family": "openai",
@@ -2870,7 +2993,7 @@
     "cache_read": 0.28,
     "blended": 1.925,
     "region": "Global",
-    "collected_at": "2026-10-26T11:37:48+00:00"
+    "collected_at": "2026-10-26T16:27:30+00:00"
    },
    "direct": null,
    "next_best": [
@@ -2883,7 +3006,7 @@
      "cache_read": null,
      "blended": 1.925,
      "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
+     "collected_at": "2026-10-26T16:27:30+00:00"
     },
     {
      "seller": "azure",
@@ -2894,13 +3017,13 @@
      "cache_read": 0.275,
      "blended": 1.925,
      "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
+     "collected_at": "2026-10-26T16:27:30+00:00"
     }
    ]
   },
   "gpt-4.1": {
    "family": "openai",
-   "offers": 8,
+   "offers": 11,
    "lowest": {
     "seller": "azure",
     "source": "azure",
@@ -2910,7 +3033,7 @@
     "cache_read": 0.5,
     "blended": 3.5,
     "region": "Global",
-    "collected_at": "2026-10-26T11:37:48+00:00"
+    "collected_at": "2026-10-26T16:27:30+00:00"
    },
    "direct": null,
    "next_best": [
@@ -2923,7 +3046,7 @@
      "cache_read": 0.5,
      "blended": 3.5,
      "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
+     "collected_at": "2026-10-26T16:27:30+00:00"
     },
     {
      "seller": "azure",
@@ -2934,13 +3057,13 @@
      "cache_read": 0.5,
      "blended": 3.5,
      "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
+     "collected_at": "2026-10-26T16:27:30+00:00"
     }
    ]
   },
   "gpt-4.1-mini": {
    "family": "openai",
-   "offers": 8,
+   "offers": 11,
    "lowest": {
     "seller": "azure",
     "source": "azure",
@@ -2950,7 +3073,7 @@
     "cache_read": 0.1,
     "blended": 0.7,
     "region": "Global",
-    "collected_at": "2026-10-26T11:37:48+00:00"
+    "collected_at": "2026-10-26T16:27:30+00:00"
    },
    "direct": null,
    "next_best": [
@@ -2963,7 +3086,7 @@
      "cache_read": 0.1,
      "blended": 0.7,
      "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
+     "collected_at": "2026-10-26T16:27:30+00:00"
     },
     {
      "seller": "azure",
@@ -2974,13 +3097,13 @@
      "cache_read": 0.1,
      "blended": 0.7,
      "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
+     "collected_at": "2026-10-26T16:27:30+00:00"
     }
    ]
   },
   "gpt-4.1-nano": {
    "family": "openai",
-   "offers": 8,
+   "offers": 10,
    "lowest": {
     "seller": "azure",
     "source": "azure",
@@ -2990,7 +3113,7 @@
     "cache_read": 0.03,
     "blended": 0.175,
     "region": "Global",
-    "collected_at": "2026-10-26T11:37:48+00:00"
+    "collected_at": "2026-10-26T16:27:30+00:00"
    },
    "direct": null,
    "next_best": [
@@ -3003,7 +3126,7 @@
      "cache_read": 0.025,
      "blended": 0.175,
      "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
+     "collected_at": "2026-10-26T16:27:30+00:00"
     },
     {
      "seller": "azure",
@@ -3014,30 +3137,53 @@
      "cache_read": 0.025,
      "blended": 0.175,
      "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
+     "collected_at": "2026-10-26T16:27:30+00:00"
     }
    ]
   },
   "o1-pro": {
    "family": "openai",
-   "offers": 1,
+   "offers": 3,
    "lowest": {
-    "seller": "openrouter",
-    "source": "openrouter",
-    "listed_as": "openai/o1-pro",
+    "seller": "edenai",
+    "source": "edenai",
+    "listed_as": "o1-pro",
     "input": 150.0,
     "output": 600.0,
     "cache_read": null,
     "blended": 262.5,
     "region": null,
-    "collected_at": "2026-10-26T11:37:48+00:00"
+    "collected_at": "2026-10-26T16:27:30+00:00"
    },
    "direct": null,
-   "next_best": []
+   "next_best": [
+    {
+     "seller": "edenai",
+     "source": "edenai",
+     "listed_as": "o1-pro-2025-03-19",
+     "input": 150.0,
+     "output": 600.0,
+     "cache_read": null,
+     "blended": 262.5,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    },
+    {
+     "seller": "openrouter",
+     "source": "openrouter",
+     "listed_as": "openai/o1-pro",
+     "input": 150.0,
+     "output": 600.0,
+     "cache_read": null,
+     "blended": 262.5,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    }
+   ]
   },
   "o3-mini": {
    "family": "openai",
-   "offers": 5,
+   "offers": 6,
    "lowest": {
     "seller": "azure",
     "source": "azure",
@@ -3047,10 +3193,21 @@
     "cache_read": 0.55,
     "blended": 1.925,
     "region": "Global",
-    "collected_at": "2026-10-26T11:37:48+00:00"
+    "collected_at": "2026-10-26T16:27:30+00:00"
    },
    "direct": null,
    "next_best": [
+    {
+     "seller": "edenai",
+     "source": "edenai",
+     "listed_as": "o3-mini",
+     "input": 1.1,
+     "output": 4.4,
+     "cache_read": 0.55,
+     "blended": 1.925,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    },
     {
      "seller": "openrouter",
      "source": "openrouter",
@@ -3060,18 +3217,7 @@
      "cache_read": 0.55,
      "blended": 1.925,
      "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
-    },
-    {
-     "seller": "vercel",
-     "source": "vercel",
-     "listed_as": "openai/o3-mini",
-     "input": 1.1,
-     "output": 4.4,
-     "cache_read": 0.55,
-     "blended": 1.925,
-     "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
+     "collected_at": "2026-10-26T16:27:30+00:00"
     }
    ]
   },
@@ -3087,7 +3233,7 @@
     "cache_read": 7.5,
     "blended": 26.25,
     "region": "Global",
-    "collected_at": "2026-10-26T11:37:48+00:00"
+    "collected_at": "2026-10-26T16:27:30+00:00"
    },
    "direct": null,
    "next_best": [
@@ -3100,7 +3246,7 @@
      "cache_read": 7.5,
      "blended": 26.25,
      "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
+     "collected_at": "2026-10-26T16:27:30+00:00"
     },
     {
      "seller": "vercel",
@@ -3111,13 +3257,13 @@
      "cache_read": 7.5,
      "blended": 26.25,
      "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
+     "collected_at": "2026-10-26T16:27:30+00:00"
     }
    ]
   },
   "gpt-4o": {
    "family": "openai",
-   "offers": 14,
+   "offers": 18,
    "lowest": {
     "seller": "azure",
     "source": "azure",
@@ -3127,7 +3273,7 @@
     "cache_read": 1.25,
     "blended": 4.375,
     "region": "Global",
-    "collected_at": "2026-10-26T11:37:48+00:00"
+    "collected_at": "2026-10-26T16:27:30+00:00"
    },
    "direct": null,
    "next_best": [
@@ -3140,24 +3286,24 @@
      "cache_read": 1.25,
      "blended": 4.375,
      "region": "Global",
-     "collected_at": "2026-10-26T11:37:48+00:00"
+     "collected_at": "2026-10-26T16:27:30+00:00"
     },
     {
-     "seller": "openrouter",
-     "source": "openrouter",
-     "listed_as": "openai/gpt-4o-2024-11-20",
+     "seller": "edenai",
+     "source": "edenai",
+     "listed_as": "gpt-4o",
      "input": 2.5,
      "output": 10.0,
      "cache_read": 1.25,
      "blended": 4.375,
      "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
+     "collected_at": "2026-10-26T16:27:30+00:00"
     }
    ]
   },
   "gpt-4o-mini": {
    "family": "openai",
-   "offers": 6,
+   "offers": 9,
    "lowest": {
     "seller": "azure",
     "source": "azure",
@@ -3167,31 +3313,31 @@
     "cache_read": 0.075,
     "blended": 0.2625,
     "region": "Global",
-    "collected_at": "2026-10-26T11:37:48+00:00"
+    "collected_at": "2026-10-26T16:27:30+00:00"
    },
    "direct": null,
    "next_best": [
     {
-     "seller": "openrouter",
-     "source": "openrouter",
-     "listed_as": "openai/gpt-4o-mini",
+     "seller": "edenai",
+     "source": "edenai",
+     "listed_as": "gpt-4o-mini",
      "input": 0.15,
      "output": 0.6,
      "cache_read": 0.075,
      "blended": 0.2625,
      "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
+     "collected_at": "2026-10-26T16:27:30+00:00"
     },
     {
-     "seller": "openrouter",
-     "source": "openrouter",
-     "listed_as": "openai/gpt-4o-mini-2024-07-18",
+     "seller": "edenai",
+     "source": "edenai",
+     "listed_as": "gpt-4o-mini-2024-07-18",
      "input": 0.15,
      "output": 0.6,
      "cache_read": 0.075,
      "blended": 0.2625,
      "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
+     "collected_at": "2026-10-26T16:27:30+00:00"
     }
    ]
   },
@@ -3207,61 +3353,97 @@
     "cache_read": null,
     "blended": 15.0,
     "region": null,
-    "collected_at": "2026-10-26T11:37:48+00:00"
+    "collected_at": "2026-10-26T16:27:30+00:00"
    },
    "direct": null,
    "next_best": []
   },
   "gpt-3.5-turbo": {
    "family": "openai",
-   "offers": 1,
+   "offers": 2,
    "lowest": {
-    "seller": "openrouter",
-    "source": "openrouter",
-    "listed_as": "openai/gpt-3.5-turbo-0613",
-    "input": 1.0,
-    "output": 2.0,
+    "seller": "edenai",
+    "source": "edenai",
+    "listed_as": "gpt-3.5-turbo",
+    "input": 0.5,
+    "output": 1.5,
     "cache_read": null,
-    "blended": 1.25,
+    "blended": 0.75,
     "region": null,
-    "collected_at": "2026-10-26T11:37:48+00:00"
+    "collected_at": "2026-10-26T16:27:30+00:00"
    },
    "direct": null,
-   "next_best": []
+   "next_best": [
+    {
+     "seller": "openrouter",
+     "source": "openrouter",
+     "listed_as": "openai/gpt-3.5-turbo-0613",
+     "input": 1.0,
+     "output": 2.0,
+     "cache_read": null,
+     "blended": 1.25,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    }
+   ]
   },
   "gpt-3.5-turbo-16k": {
    "family": "openai",
-   "offers": 1,
+   "offers": 2,
    "lowest": {
-    "seller": "openrouter",
-    "source": "openrouter",
-    "listed_as": "openai/gpt-3.5-turbo-16k",
+    "seller": "edenai",
+    "source": "edenai",
+    "listed_as": "gpt-3.5-turbo-16k",
     "input": 3.0,
     "output": 4.0,
     "cache_read": null,
     "blended": 3.25,
     "region": null,
-    "collected_at": "2026-10-26T11:37:48+00:00"
+    "collected_at": "2026-10-26T16:27:30+00:00"
    },
    "direct": null,
-   "next_best": []
+   "next_best": [
+    {
+     "seller": "openrouter",
+     "source": "openrouter",
+     "listed_as": "openai/gpt-3.5-turbo-16k",
+     "input": 3.0,
+     "output": 4.0,
+     "cache_read": null,
+     "blended": 3.25,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    }
+   ]
   },
   "gpt-4": {
    "family": "openai",
-   "offers": 1,
+   "offers": 2,
    "lowest": {
-    "seller": "openrouter",
-    "source": "openrouter",
-    "listed_as": "openai/gpt-4",
+    "seller": "edenai",
+    "source": "edenai",
+    "listed_as": "gpt-4",
     "input": 30.0,
     "output": 60.0,
     "cache_read": null,
     "blended": 37.5,
     "region": null,
-    "collected_at": "2026-10-26T11:37:48+00:00"
+    "collected_at": "2026-10-26T16:27:30+00:00"
    },
    "direct": null,
-   "next_best": []
+   "next_best": [
+    {
+     "seller": "openrouter",
+     "source": "openrouter",
+     "listed_as": "openai/gpt-4",
+     "input": 30.0,
+     "output": 60.0,
+     "cache_read": null,
+     "blended": 37.5,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    }
+   ]
   },
   "gemini-3-flash": {
    "family": "google",
@@ -3275,14 +3457,14 @@
     "cache_read": 0.05,
     "blended": 1.125,
     "region": null,
-    "collected_at": "2026-10-26T11:37:48+00:00"
+    "collected_at": "2026-10-26T16:27:30+00:00"
    },
    "direct": null,
    "next_best": []
   },
   "gpt-5-codex": {
    "family": "openai",
-   "offers": 2,
+   "offers": 3,
    "lowest": {
     "seller": "azure",
     "source": "azure",
@@ -3292,10 +3474,21 @@
     "cache_read": 0.13,
     "blended": 3.4375,
     "region": "Global",
-    "collected_at": "2026-10-26T11:37:48+00:00"
+    "collected_at": "2026-10-26T16:27:30+00:00"
    },
    "direct": null,
    "next_best": [
+    {
+     "seller": "edenai",
+     "source": "edenai",
+     "listed_as": "gpt-5-codex",
+     "input": 1.25,
+     "output": 10.0,
+     "cache_read": 0.125,
+     "blended": 3.4375,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    },
     {
      "seller": "vercel",
      "source": "vercel",
@@ -3305,13 +3498,13 @@
      "cache_read": 0.13,
      "blended": 3.4375,
      "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
+     "collected_at": "2026-10-26T16:27:30+00:00"
     }
    ]
   },
   "grok-4.20-non-reasoning": {
    "family": "xai",
-   "offers": 3,
+   "offers": 4,
    "lowest": {
     "seller": "xai",
     "source": "xai",
@@ -3321,7 +3514,7 @@
     "cache_read": 0.2,
     "blended": 1.5625,
     "region": null,
-    "collected_at": "2026-10-26T11:37:48+00:00"
+    "collected_at": "2026-10-26T16:27:30+00:00"
    },
    "direct": {
     "seller": "xai",
@@ -3332,9 +3525,20 @@
     "cache_read": 0.2,
     "blended": 1.5625,
     "region": null,
-    "collected_at": "2026-10-26T11:37:48+00:00"
+    "collected_at": "2026-10-26T16:27:30+00:00"
    },
    "next_best": [
+    {
+     "seller": "edenai",
+     "source": "edenai",
+     "listed_as": "grok-4.20-0309-non-reasoning",
+     "input": 1.25,
+     "output": 2.5,
+     "cache_read": 0.2,
+     "blended": 1.5625,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    },
     {
      "seller": "google_cloud",
      "source": "google_cloud",
@@ -3344,24 +3548,13 @@
      "cache_read": 0.2,
      "blended": 1.5625,
      "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
-    },
-    {
-     "seller": "vercel",
-     "source": "vercel",
-     "listed_as": "spacexai/grok-4.20-non-reasoning",
-     "input": 1.25,
-     "output": 2.5,
-     "cache_read": 0.2,
-     "blended": 1.5625,
-     "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
+     "collected_at": "2026-10-26T16:27:30+00:00"
     }
    ]
   },
   "grok-4.20-reasoning": {
    "family": "xai",
-   "offers": 3,
+   "offers": 4,
    "lowest": {
     "seller": "xai",
     "source": "xai",
@@ -3371,7 +3564,7 @@
     "cache_read": 0.2,
     "blended": 1.5625,
     "region": null,
-    "collected_at": "2026-10-26T11:37:48+00:00"
+    "collected_at": "2026-10-26T16:27:30+00:00"
    },
    "direct": {
     "seller": "xai",
@@ -3382,9 +3575,20 @@
     "cache_read": 0.2,
     "blended": 1.5625,
     "region": null,
-    "collected_at": "2026-10-26T11:37:48+00:00"
+    "collected_at": "2026-10-26T16:27:30+00:00"
    },
    "next_best": [
+    {
+     "seller": "edenai",
+     "source": "edenai",
+     "listed_as": "grok-4.20-0309-reasoning",
+     "input": 1.25,
+     "output": 2.5,
+     "cache_read": 0.2,
+     "blended": 1.5625,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    },
     {
      "seller": "google_cloud",
      "source": "google_cloud",
@@ -3394,20 +3598,213 @@
      "cache_read": 0.2,
      "blended": 1.5625,
      "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
-    },
-    {
-     "seller": "vercel",
-     "source": "vercel",
-     "listed_as": "spacexai/grok-4.20-reasoning",
-     "input": 1.25,
-     "output": 2.5,
-     "cache_read": 0.2,
-     "blended": 1.5625,
-     "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
+     "collected_at": "2026-10-26T16:27:30+00:00"
     }
    ]
+  },
+  "gemini-3.1-pro": {
+   "family": "google",
+   "offers": 3,
+   "lowest": {
+    "seller": "deepinfra",
+    "source": "deepinfra",
+    "listed_as": "gemini-3.1-pro",
+    "input": 2.0,
+    "output": 12.0,
+    "cache_read": null,
+    "blended": 4.5,
+    "region": null,
+    "collected_at": "2026-10-26T16:27:30+00:00"
+   },
+   "direct": null,
+   "next_best": [
+    {
+     "seller": "deepinfra",
+     "source": "deepinfra",
+     "listed_as": "gemini-3.1-pro",
+     "input": 2.0,
+     "output": 12.0,
+     "cache_read": null,
+     "blended": 4.5,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    },
+    {
+     "seller": "edenai",
+     "source": "edenai",
+     "listed_as": "gemini-3.1-pro",
+     "input": 2.0,
+     "output": 12.0,
+     "cache_read": null,
+     "blended": 4.5,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    }
+   ]
+  },
+  "claude-opus-4": {
+   "family": "anthropic",
+   "offers": 2,
+   "lowest": {
+    "seller": "anthropic",
+    "source": "anthropic",
+    "listed_as": "Claude Opus 4",
+    "input": 15.0,
+    "output": 75.0,
+    "cache_read": 1.5,
+    "blended": 30.0,
+    "region": null,
+    "collected_at": "2026-10-26T16:27:30+00:00"
+   },
+   "direct": {
+    "seller": "anthropic",
+    "source": "anthropic",
+    "listed_as": "Claude Opus 4",
+    "input": 15.0,
+    "output": 75.0,
+    "cache_read": 1.5,
+    "blended": 30.0,
+    "region": null,
+    "collected_at": "2026-10-26T16:27:30+00:00"
+   },
+   "next_best": [
+    {
+     "seller": "edenai",
+     "source": "edenai",
+     "listed_as": "claude-4-opus",
+     "input": 16.5,
+     "output": 82.5,
+     "cache_read": null,
+     "blended": 33.0,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    }
+   ]
+  },
+  "claude-sonnet-4": {
+   "family": "anthropic",
+   "offers": 2,
+   "lowest": {
+    "seller": "anthropic",
+    "source": "anthropic",
+    "listed_as": "Claude Sonnet 4",
+    "input": 3.0,
+    "output": 15.0,
+    "cache_read": 0.3,
+    "blended": 6.0,
+    "region": null,
+    "collected_at": "2026-10-26T16:27:30+00:00"
+   },
+   "direct": {
+    "seller": "anthropic",
+    "source": "anthropic",
+    "listed_as": "Claude Sonnet 4",
+    "input": 3.0,
+    "output": 15.0,
+    "cache_read": 0.3,
+    "blended": 6.0,
+    "region": null,
+    "collected_at": "2026-10-26T16:27:30+00:00"
+   },
+   "next_best": [
+    {
+     "seller": "edenai",
+     "source": "edenai",
+     "listed_as": "claude-4-sonnet",
+     "input": 3.3,
+     "output": 16.5,
+     "cache_read": null,
+     "blended": 6.6,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    }
+   ]
+  },
+  "grok-4": {
+   "family": "xai",
+   "offers": 2,
+   "lowest": {
+    "seller": "edenai",
+    "source": "edenai",
+    "listed_as": "grok-4-0709",
+    "input": 3.0,
+    "output": 15.0,
+    "cache_read": null,
+    "blended": 6.0,
+    "region": null,
+    "collected_at": "2026-10-26T16:27:30+00:00"
+   },
+   "direct": null,
+   "next_best": [
+    {
+     "seller": "edenai",
+     "source": "edenai",
+     "listed_as": "grok-4",
+     "input": 3.0,
+     "output": 15.0,
+     "cache_read": null,
+     "blended": 6.0,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    }
+   ]
+  },
+  "o1-mini": {
+   "family": "openai",
+   "offers": 4,
+   "lowest": {
+    "seller": "azure",
+    "source": "azure",
+    "listed_as": "o1-mini 2024-09-12",
+    "input": 1.1,
+    "output": 4.4,
+    "cache_read": 0.55,
+    "blended": 1.925,
+    "region": "Global",
+    "collected_at": "2026-10-26T16:27:30+00:00"
+   },
+   "direct": null,
+   "next_best": [
+    {
+     "seller": "azure",
+     "source": "azure",
+     "listed_as": "o1-mini 2024-09-12 US/EU – Data Zones",
+     "input": 1.21,
+     "output": 4.84,
+     "cache_read": 0.605,
+     "blended": 2.1175,
+     "region": null,
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    },
+    {
+     "seller": "azure",
+     "source": "azure",
+     "listed_as": "o1-mini 2024-09-12",
+     "input": 1.21,
+     "output": 4.84,
+     "cache_read": 0.605,
+     "blended": 2.1175,
+     "region": "Regional",
+     "collected_at": "2026-10-26T16:27:30+00:00"
+    }
+   ]
+  },
+  "grok-3": {
+   "family": "xai",
+   "offers": 1,
+   "lowest": {
+    "seller": "edenai",
+    "source": "edenai",
+    "listed_as": "grok-3",
+    "input": 3.0,
+    "output": 15.0,
+    "cache_read": 0.75,
+    "blended": 6.0,
+    "region": null,
+    "collected_at": "2026-10-26T16:27:30+00:00"
+   },
+   "direct": null,
+   "next_best": []
   },
   "gpt-5.3-chat": {
    "family": "openai",
@@ -3421,7 +3818,7 @@
     "cache_read": 0.18,
     "blended": 4.8125,
     "region": "Global",
-    "collected_at": "2026-10-26T11:37:48+00:00"
+    "collected_at": "2026-10-26T16:27:30+00:00"
    },
    "direct": null,
    "next_best": []
@@ -3438,7 +3835,7 @@
     "cache_read": 0.13,
     "blended": 3.4375,
     "region": "Global",
-    "collected_at": "2026-10-26T11:37:48+00:00"
+    "collected_at": "2026-10-26T16:27:30+00:00"
    },
    "direct": null,
    "next_best": []
@@ -3455,7 +3852,7 @@
     "cache_read": 0.13,
     "blended": 3.4375,
     "region": "Global",
-    "collected_at": "2026-10-26T11:37:48+00:00"
+    "collected_at": "2026-10-26T16:27:30+00:00"
    },
    "direct": null,
    "next_best": []
@@ -3472,50 +3869,10 @@
     "cache_read": 8.25,
     "blended": 28.875,
     "region": null,
-    "collected_at": "2026-10-26T11:37:48+00:00"
+    "collected_at": "2026-10-26T16:27:30+00:00"
    },
    "direct": null,
    "next_best": []
-  },
-  "o1-mini": {
-   "family": "openai",
-   "offers": 3,
-   "lowest": {
-    "seller": "azure",
-    "source": "azure",
-    "listed_as": "o1-mini 2024-09-12",
-    "input": 1.1,
-    "output": 4.4,
-    "cache_read": 0.55,
-    "blended": 1.925,
-    "region": "Global",
-    "collected_at": "2026-10-26T11:37:48+00:00"
-   },
-   "direct": null,
-   "next_best": [
-    {
-     "seller": "azure",
-     "source": "azure",
-     "listed_as": "o1-mini 2024-09-12 US/EU – Data Zones",
-     "input": 1.21,
-     "output": 4.84,
-     "cache_read": 0.605,
-     "blended": 2.1175,
-     "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
-    },
-    {
-     "seller": "azure",
-     "source": "azure",
-     "listed_as": "o1-mini 2024-09-12",
-     "input": 1.21,
-     "output": 4.84,
-     "cache_read": 0.605,
-     "blended": 2.1175,
-     "region": "Regional",
-     "collected_at": "2026-10-26T11:37:48+00:00"
-    }
-   ]
   },
   "gemini-2.0-flash": {
    "family": "google",
@@ -3529,7 +3886,7 @@
     "cache_read": null,
     "blended": 0.2625,
     "region": null,
-    "collected_at": "2026-10-26T11:37:48+00:00"
+    "collected_at": "2026-10-26T16:27:30+00:00"
    },
    "direct": null,
    "next_best": []
@@ -3546,7 +3903,7 @@
     "cache_read": null,
     "blended": 0.13125,
     "region": null,
-    "collected_at": "2026-10-26T11:37:48+00:00"
+    "collected_at": "2026-10-26T16:27:30+00:00"
    },
    "direct": null,
    "next_best": []
@@ -3563,7 +3920,7 @@
     "cache_read": 0.25,
     "blended": 20.0,
     "region": null,
-    "collected_at": "2026-10-26T11:37:48+00:00"
+    "collected_at": "2026-10-26T16:27:30+00:00"
    },
    "direct": {
     "seller": "anthropic",
@@ -3574,7 +3931,7 @@
     "cache_read": 0.25,
     "blended": 20.0,
     "region": null,
-    "collected_at": "2026-10-26T11:37:48+00:00"
+    "collected_at": "2026-10-26T16:27:30+00:00"
    },
    "next_best": []
   },
@@ -3590,7 +3947,7 @@
     "cache_read": 1.0,
     "blended": 20.0,
     "region": null,
-    "collected_at": "2026-10-26T11:37:48+00:00"
+    "collected_at": "2026-10-26T16:27:30+00:00"
    },
    "direct": {
     "seller": "anthropic",
@@ -3601,61 +3958,7 @@
     "cache_read": 1.0,
     "blended": 20.0,
     "region": null,
-    "collected_at": "2026-10-26T11:37:48+00:00"
-   },
-   "next_best": []
-  },
-  "claude-opus-4": {
-   "family": "anthropic",
-   "offers": 1,
-   "lowest": {
-    "seller": "anthropic",
-    "source": "anthropic",
-    "listed_as": "Claude Opus 4",
-    "input": 15.0,
-    "output": 75.0,
-    "cache_read": 1.5,
-    "blended": 30.0,
-    "region": null,
-    "collected_at": "2026-10-26T11:37:48+00:00"
-   },
-   "direct": {
-    "seller": "anthropic",
-    "source": "anthropic",
-    "listed_as": "Claude Opus 4",
-    "input": 15.0,
-    "output": 75.0,
-    "cache_read": 1.5,
-    "blended": 30.0,
-    "region": null,
-    "collected_at": "2026-10-26T11:37:48+00:00"
-   },
-   "next_best": []
-  },
-  "claude-sonnet-4": {
-   "family": "anthropic",
-   "offers": 1,
-   "lowest": {
-    "seller": "anthropic",
-    "source": "anthropic",
-    "listed_as": "Claude Sonnet 4",
-    "input": 3.0,
-    "output": 15.0,
-    "cache_read": 0.3,
-    "blended": 6.0,
-    "region": null,
-    "collected_at": "2026-10-26T11:37:48+00:00"
-   },
-   "direct": {
-    "seller": "anthropic",
-    "source": "anthropic",
-    "listed_as": "Claude Sonnet 4",
-    "input": 3.0,
-    "output": 15.0,
-    "cache_read": 0.3,
-    "blended": 6.0,
-    "region": null,
-    "collected_at": "2026-10-26T11:37:48+00:00"
+    "collected_at": "2026-10-26T16:27:30+00:00"
    },
    "next_best": []
   },
@@ -3671,7 +3974,7 @@
     "cache_read": 0.08,
     "blended": 1.6,
     "region": null,
-    "collected_at": "2026-10-26T11:37:48+00:00"
+    "collected_at": "2026-10-26T16:27:30+00:00"
    },
    "direct": {
     "seller": "anthropic",
@@ -3682,38 +3985,26 @@
     "cache_read": 0.08,
     "blended": 1.6,
     "region": null,
-    "collected_at": "2026-10-26T11:37:48+00:00"
+    "collected_at": "2026-10-26T16:27:30+00:00"
    },
    "next_best": []
   },
-  "gemini-3.1-pro": {
+  "gemini-4-argon-developer": {
    "family": "google",
-   "offers": 2,
+   "offers": 1,
    "lowest": {
-    "seller": "deepinfra",
-    "source": "deepinfra",
-    "listed_as": "gemini-3.1-pro",
-    "input": 2.0,
-    "output": 12.0,
-    "cache_read": null,
-    "blended": 4.5,
+    "seller": "atlascloud",
+    "source": "atlascloud",
+    "listed_as": "Gemini 4 Argon Developer",
+    "input": 1.2,
+    "output": 6.0,
+    "cache_read": 0.06,
+    "blended": 2.4,
     "region": null,
-    "collected_at": "2026-10-26T11:37:48+00:00"
+    "collected_at": "2026-10-26T16:27:30+00:00"
    },
    "direct": null,
-   "next_best": [
-    {
-     "seller": "deepinfra",
-     "source": "deepinfra",
-     "listed_as": "gemini-3.1-pro",
-     "input": 2.0,
-     "output": 12.0,
-     "cache_read": null,
-     "blended": 4.5,
-     "region": null,
-     "collected_at": "2026-10-26T11:37:48+00:00"
-    }
-   ]
+   "next_best": []
   }
  }
 }
