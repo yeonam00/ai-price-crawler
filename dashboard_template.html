@@ -1,0 +1,426 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI 모델 최저가 추적</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<style>
+:root {
+  color-scheme: light;
+  --page: #f9f9f7; --surface: #fcfcfb; --surface-2: #f3f2ee;
+  --ink: #0b0b0b; --ink-2: #52514e; --muted: #6e6c66;
+  --grid: #e1e0d9; --axis: #c3c2b7; --border: rgba(11,11,11,0.10);
+  --accent: #2a78d6; --accent-wash: rgba(42,120,214,0.10);
+  --good: #0ca30c; --good-ink: #006300; --warning: #fab219; --serious: #ec835a; --critical: #d03b3b; --crit-ink: #b42f2f;
+  --s1:#2a78d6; --s2:#eb6834; --s3:#1baf7a; --s4:#eda100; --s5:#e87ba4; --s6:#008300; --s7:#6250d6; --s8:#e34948;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --page: #0d0d0d; --surface: #1a1a19; --surface-2: #232321;
+    --ink: #f0efec; --ink-2: #c3c2b7; --muted: #9a988f;
+    --grid: #2c2c2a; --axis: #383835; --border: rgba(255,255,255,0.10);
+    --accent: #3987e5; --accent-wash: rgba(57,135,229,0.16);
+    --good-ink: #0ca30c; --crit-ink: #e66767;
+    --s1:#3987e5; --s2:#d95926; --s3:#199e70; --s4:#c98500; --s5:#d55181; --s6:#008300; --s7:#9085e9; --s8:#e66767;
+  }
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --page: #0d0d0d; --surface: #1a1a19; --surface-2: #232321;
+  --ink: #f0efec; --ink-2: #c3c2b7; --muted: #9a988f;
+  --grid: #2c2c2a; --axis: #383835; --border: rgba(255,255,255,0.10);
+  --accent: #3987e5; --accent-wash: rgba(57,135,229,0.16);
+  --good-ink: #0ca30c; --crit-ink: #e66767;
+  --s1:#3987e5; --s2:#d95926; --s3:#199e70; --s4:#c98500; --s5:#d55181; --s6:#008300; --s7:#9085e9; --s8:#e66767;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--page); color: var(--ink); font: 14px/1.5 system-ui, -apple-system, "Segoe UI", "Malgun Gothic", sans-serif; }
+.wrap { max-width: 1280px; margin: 0 auto; padding: 20px 16px 48px; }
+header { display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 12px; margin-bottom: 16px; }
+h1 { font-size: 22px; margin: 0; }
+h2 { font-size: 15px; margin: 0 0 10px; }
+.sub { color: var(--ink-2); font-size: 13px; }
+.muted { color: var(--muted); }
+.num { font-variant-numeric: tabular-nums; }
+.card { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 14px 16px; }
+.chip { display: inline-flex; align-items: center; gap: 6px; padding: 2px 9px; border-radius: 999px; font-size: 12px; background: var(--surface-2); color: var(--ink-2); white-space: nowrap; }
+.dot { width: 8px; height: 8px; border-radius: 50%; display: inline-block; flex: none; }
+button.chip { border: 1px solid var(--border); cursor: pointer; font: inherit; font-size: 12px; }
+.theme-btn { background: var(--surface); }
+
+.kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 10px; margin-bottom: 16px; }
+.kpi .v { font-size: 26px; font-weight: 650; margin-top: 2px; }
+.kpi .l { color: var(--ink-2); font-size: 12px; }
+
+.grid2 { display: grid; grid-template-columns: minmax(0, 1fr); gap: 16px; }
+@media (min-width: 1000px) { .grid2 { grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); } }
+
+.alerts { display: flex; flex-direction: column; gap: 6px; max-height: 420px; overflow: auto; }
+.alert { display: grid; grid-template-columns: auto 1fr auto; gap: 10px; align-items: center; padding: 8px 10px; border-radius: 8px; background: var(--surface-2); cursor: pointer; border: 1px solid transparent; text-align: left; font: inherit; color: inherit; width: 100%; }
+.alert:hover, .alert:focus-visible { border-color: var(--accent); outline: none; }
+.alert .t { font-weight: 600; }
+.alert .d { font-size: 12px; color: var(--ink-2); }
+.badge { font-size: 11px; font-weight: 600; padding: 2px 7px; border-radius: 5px; white-space: nowrap; color: #0b0b0b; }
+.b-confirmed { background: var(--critical); color: #fff; }
+.b-scheduled { background: var(--warning); }
+.b-watching { background: var(--serious); }
+.b-transient { background: var(--surface); color: var(--ink-2); border: 1px solid var(--border); }
+.tabs { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 10px; }
+.tabs button[aria-pressed="true"] { background: var(--accent-wash); color: var(--accent); border-color: var(--accent); }
+
+.controls { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 10px; }
+input[type=search], select { font: inherit; padding: 6px 10px; border-radius: 7px; border: 1px solid var(--border); background: var(--surface); color: var(--ink); }
+input[type=search] { flex: 1 1 200px; min-width: 0; }
+.tbl-wrap { overflow: auto; max-height: 640px; border-radius: 8px; border: 1px solid var(--border); }
+table { border-collapse: collapse; width: 100%; font-size: 13px; }
+th, td { padding: 7px 10px; text-align: left; border-bottom: 1px solid var(--grid); white-space: nowrap; }
+th { position: sticky; top: 0; background: var(--surface-2); font-weight: 600; color: var(--ink-2); font-size: 12px; cursor: pointer; user-select: none; }
+td.r, th.r { text-align: right; }
+tbody tr { cursor: pointer; }
+tbody tr:hover { background: var(--accent-wash); }
+tbody tr.sel { background: var(--accent-wash); box-shadow: inset 3px 0 0 var(--accent); }
+tr.inactive td { color: var(--muted); }
+.up { color: var(--crit-ink); }
+.down { color: var(--good-ink); }
+
+.detail-head { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px; align-items: baseline; margin-bottom: 8px; }
+.detail-head .big { font-size: 20px; font-weight: 650; }
+.chart-box { position: relative; height: 300px; }
+.legend { display: flex; flex-wrap: wrap; gap: 6px 14px; font-size: 12px; color: var(--ink-2); margin: 8px 0 4px; }
+.legend button { background: none; border: 0; padding: 0; font: inherit; color: inherit; cursor: pointer; display: inline-flex; align-items: center; gap: 6px; }
+.legend button[aria-pressed="false"] { opacity: .4; }
+.swatch { width: 14px; height: 3px; border-radius: 2px; display: inline-block; }
+.note { font-size: 12px; color: var(--ink-2); background: var(--surface-2); border-radius: 8px; padding: 8px 10px; margin-top: 10px; }
+.note.warn { border-left: 3px solid var(--warning); }
+details summary { cursor: pointer; color: var(--ink-2); font-size: 12px; }
+footer { margin-top: 20px; font-size: 12px; color: var(--ink-2); }
+footer li { margin: 2px 0; }
+.empty { color: var(--muted); font-size: 13px; padding: 10px 0; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div>
+      <h1>AI 모델 최저가 추적</h1>
+      <div class="sub" id="meta"></div>
+    </div>
+    <div style="display:flex;gap:6px;flex-wrap:wrap;align-items:center">
+      <span class="chip" id="runChip"></span>
+      <button class="chip theme-btn" id="themeBtn" type="button">테마 전환</button>
+    </div>
+  </header>
+
+  <section class="kpis" id="kpis"></section>
+
+  <div class="grid2">
+    <section class="card">
+      <h2>반영 검토가 필요한 변화</h2>
+      <div class="tabs" id="alertTabs"></div>
+      <div class="alerts" id="alerts"></div>
+    </section>
+
+    <section class="card" id="detail"></section>
+  </div>
+
+  <section class="card" style="margin-top:16px">
+    <h2>모델별 최저가 판매처</h2>
+    <div class="controls">
+      <input type="search" id="q" placeholder="모델 검색 (예: claude, gpt-5, gemini-3.8)">
+      <select id="fam"><option value="">전체 제조사</option></select>
+      <select id="act">
+        <option value="active">현재 판매 중</option>
+        <option value="">사라진 모델 포함</option>
+      </select>
+    </div>
+    <div class="tbl-wrap">
+      <table>
+        <thead><tr id="thead"></tr></thead>
+        <tbody id="tbody"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <footer>
+    <details open>
+      <summary>판정 기준</summary>
+      <ul id="rules"></ul>
+    </details>
+  </footer>
+</div>
+
+<script>
+const DATA = /*__DATA__*/null;
+
+const FAM = { openai: "OpenAI", anthropic: "Anthropic", google: "Google", xai: "xAI" };
+const STATUS = {
+  confirmed: ["반영 검토", "b-confirmed"], scheduled: ["예정 변경", "b-scheduled"],
+  watching: ["관찰 중", "b-watching"], transient: ["일시적", "b-transient"],
+};
+const $ = (s) => document.querySelector(s);
+const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const usd = (v) => v == null ? "–" : "$" + (v >= 100 ? v.toFixed(0) : v >= 1 ? v.toFixed(2) : v >= 0.01 ? v.toFixed(3) : v.toPrecision(2));
+const pct = (v, digits = 1) => v == null ? "–" : (v > 0 ? "+" : "") + v.toFixed(digits) + "%";
+const kst = (iso, withTime = true) => {
+  const d = new Date(iso);
+  const o = { timeZone: "Asia/Seoul", month: "2-digit", day: "2-digit" };
+  if (withTime) Object.assign(o, { hour: "2-digit", minute: "2-digit", hour12: false });
+  return d.toLocaleString("ko-KR", o);
+};
+const cssVar = (n) => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+const store = { get(k) { try { return localStorage.getItem(k); } catch { return null; } },
+                set(k, v) { try { localStorage.setItem(k, v); } catch {} } };
+
+const byId = Object.fromEntries(DATA.models.map((m) => [m.id, m]));
+const nowMs = Date.parse(DATA.now);
+
+// 예정된 가격 변경 (공식 페이지의 "through ... / starting ..." 문구)
+const scheduled = DATA.models.filter((m) => m.active && m.scheduled.length).map((m) => {
+  const s = m.scheduled, inp = s.find((x) => x.field === "input"), out = s.find((x) => x.field === "output");
+  const lo = s[0].current;   // 예정 변경이 공지된 판매처의 현재가 (최저가 판매처 또는 제조사 직판)
+  const ni = inp ? inp.price : lo.input, no = out ? out.price : lo.output;
+  const w = DATA.rules.weights, nb = (w.input * ni + w.output * no) / (w.input + w.output);
+  return { model: m.id, family: m.family, seller: lo.seller, status: "scheduled", at: s[0].from,
+           until: s[0].current_until, old: lo.blended, new: nb, oldIO: [lo.input, lo.output], newIO: [ni, no] };
+}).sort((a, b) => a.at.localeCompare(b.at));
+
+const ALERTS = { confirmed: [], watching: [], scheduled, transient: [] };
+for (const a of DATA.alerts) ALERTS[a.status]?.push(a);
+
+// ---------- 헤더 / KPI ----------
+const run = DATA.run;
+$("#meta").textContent = `마지막 수집 ${kst(run.collected_at)} KST · 가격 스냅샷 ${DATA.times.length}개 (${kst(DATA.times[0], false)}부터) · 생성 ${kst(DATA.generated_at)}`;
+const okRatio = run.success_count / run.site_count;
+$("#runChip").innerHTML = `<span class="dot" style="background:var(${okRatio < 0.8 ? "--warning" : "--good"})"></span>` +
+  `사이트 ${run.success_count}/${run.site_count} 수집 성공`;
+$("#runChip").title = run.failed.length ? "수집 실패: " + run.failed.join(", ") : "";
+
+const active = DATA.models.filter((m) => m.active);
+const cheaperThanDirect = active.filter((m) => m.direct && m.lowest.blended < m.direct.blended - 1e-9);
+const recent = ALERTS.confirmed.filter((a) => nowMs - Date.parse(a.at) < 7 * 864e5);
+const kpis = [
+  ["추적 중인 모델", active.length, `제조사 ${new Set(active.map((m) => m.family)).size}곳 · 판매처 비교`],
+  ["반영 검토 (최근 7일)", recent.length, `전체 기간 ${ALERTS.confirmed.length}건 확정`],
+  ["예정된 가격 변경", scheduled.length, scheduled[0] ? `가장 가까운 날짜 ${scheduled[0].at}` : "공식 페이지 공지 기준"],
+  ["관찰 중", ALERTS.watching.length, `${DATA.rules.confirm_hours}시간 유지 시 확정`],
+  ["공식가보다 싼 판매처", cheaperThanDirect.length, "최저가 판매처 ≠ 제조사 직판"],
+];
+$("#kpis").innerHTML = kpis.map(([l, v, s]) =>
+  `<div class="card kpi"><div class="l">${l}</div><div class="v num">${v}</div><div class="l muted">${s}</div></div>`).join("");
+
+// ---------- 알림 ----------
+let alertTab = store.get("alertTab") || "confirmed";
+function renderAlertTabs() {
+  $("#alertTabs").innerHTML = ["confirmed", "scheduled", "watching", "transient"].map((k) =>
+    `<button class="chip" type="button" data-tab="${k}" aria-pressed="${k === alertTab}">${STATUS[k][0]} ${ALERTS[k].length}</button>`).join("");
+}
+function alertLine(a) {
+  const ch = (a.new / a.old - 1) * 100;
+  const who = a.seller ? esc(a.seller) : "최저가";
+  let when, extra = "";
+  if (a.status === "scheduled") {
+    when = `${a.at}부터`;
+    extra = `입력 ${usd(a.oldIO[0])}→${usd(a.newIO[0])}, 출력 ${usd(a.oldIO[1])}→${usd(a.newIO[1])}` +
+            (a.until ? ` · 현재가는 ${a.until}까지` : "");
+  } else if (a.status === "confirmed") {
+    when = `${kst(a.at)} 변경 · ${kst(a.confirmed_at)} 확정`;
+  } else if (a.status === "watching") {
+    when = `${kst(a.at)}부터 ${a.hours}시간째`;
+  } else {
+    when = `${kst(a.at)} ~ ${kst(a.until)} 후 복귀`;
+  }
+  const lowestTag = a.affects_lowest && a.seller ? " · 모델 최저가에 영향" : "";
+  return `<button class="alert" type="button" data-model="${esc(a.model)}">
+    <span class="badge ${STATUS[a.status][1]}">${STATUS[a.status][0]}</span>
+    <span><span class="t">${esc(a.model)}</span> <span class="muted">· ${who}</span>
+      <div class="d">${when}${lowestTag}${extra ? "<br>" + extra : ""}</div></span>
+    <span class="num" style="text-align:right">${usd(a.old)} → <b>${usd(a.new)}</b><br>
+      <span class="${ch > 0 ? "up" : "down"}">${ch > 0 ? "▲" : "▼"} ${pct(ch)}</span></span>
+  </button>`;
+}
+function renderAlerts() {
+  renderAlertTabs();
+  const list = ALERTS[alertTab];
+  const help = {
+    confirmed: `기준가 대비 ${DATA.rules.min_pct}% 이상 변한 가격이 ${DATA.rules.confirm_hours}시간 이상 유지된 변화입니다.`,
+    scheduled: "공식 가격표에 '~까지 / ~부터' 로 공지된 변경입니다. 할인 종료 전에 판매가·조달 경로를 점검하세요.",
+    watching: `변했지만 아직 ${DATA.rules.confirm_hours}시간이 지나지 않아 확정하지 않은 변화입니다.`,
+    transient: "확정 전에 원래 가격으로 돌아간 변화입니다. 알림하지 않습니다.",
+  }[alertTab];
+  $("#alerts").innerHTML = `<div class="sub" style="margin-bottom:4px">${help}</div>` +
+    (list.length ? list.map(alertLine).join("") : `<div class="empty">해당하는 변화가 없습니다.</div>`);
+}
+$("#alertTabs").addEventListener("click", (e) => {
+  const b = e.target.closest("[data-tab]"); if (!b) return;
+  alertTab = b.dataset.tab; store.set("alertTab", alertTab); renderAlerts();
+});
+$("#alerts").addEventListener("click", (e) => {
+  const b = e.target.closest("[data-model]"); if (b) select(b.dataset.model, true);
+});
+
+// ---------- 모델 표 ----------
+const COLS = [
+  ["id", "모델"], ["family", "제조사"], ["seller", "최저가 판매처"],
+  ["input", "입력 /1M", "r"], ["output", "출력 /1M", "r"], ["blended", "가중 평균", "r"],
+  ["vsDirect", "공식가 대비", "r"], ["offers", "판매처 수", "r"], ["trend", "추적 시작 대비", "r"],
+];
+let sortKey = "family", sortDir = 1, selected = null;
+const rowVal = (m, k) => ({
+  id: m.id, family: m.family, seller: m.lowest?.seller ?? "",
+  input: m.lowest?.input ?? Infinity, output: m.lowest?.output ?? Infinity, blended: m.lowest?.blended ?? Infinity,
+  vsDirect: m.direct && m.lowest ? (m.lowest.blended / m.direct.blended - 1) * 100 : Infinity,
+  offers: m.offers, trend: m.change_since_first_pct ?? 0,
+}[k]);
+for (const f of [...new Set(DATA.models.map((m) => m.family))]) $("#fam").insertAdjacentHTML("beforeend", `<option value="${f}">${FAM[f] || f}</option>`);
+
+function renderTable() {
+  $("#thead").innerHTML = COLS.map(([k, l, c]) =>
+    `<th class="${c || ""}" data-k="${k}">${l}${sortKey === k ? (sortDir > 0 ? " ▲" : " ▼") : ""}</th>`).join("");
+  const q = $("#q").value.trim().toLowerCase(), fam = $("#fam").value, onlyActive = $("#act").value === "active";
+  const rows = DATA.models.filter((m) => (!q || m.id.includes(q) || (m.lowest?.seller || "").includes(q)) &&
+    (!fam || m.family === fam) && (!onlyActive || m.active));
+  rows.sort((a, b) => {
+    const x = rowVal(a, sortKey), y = rowVal(b, sortKey);
+    return (x < y ? -1 : x > y ? 1 : a.id.localeCompare(b.id)) * sortDir;
+  });
+  $("#tbody").innerHTML = rows.map((m) => {
+    const lo = m.lowest, vd = rowVal(m, "vsDirect");
+    const sched = m.scheduled.length ? ` <span class="badge b-scheduled" title="예정된 가격 변경">예정</span>` : "";
+    return `<tr data-model="${esc(m.id)}" class="${m.id === selected ? "sel" : ""} ${m.active ? "" : "inactive"}">
+      <td><b>${esc(m.id)}</b>${sched}</td><td>${FAM[m.family] || m.family}</td>
+      <td>${lo ? esc(lo.seller) : "판매 종료"}</td>
+      <td class="r num">${usd(lo?.input)}</td><td class="r num">${usd(lo?.output)}</td><td class="r num"><b>${usd(lo?.blended)}</b></td>
+      <td class="r num ${vd < -1e-6 ? "down" : ""}">${!m.direct || !lo ? "직판 없음" : Math.abs(vd) < 1e-6 ? "동일" : pct(vd)}</td>
+      <td class="r num">${m.offers}</td>
+      <td class="r num ${m.change_since_first_pct > 0 ? "up" : m.change_since_first_pct < 0 ? "down" : ""}">${m.change_since_first_pct ? pct(m.change_since_first_pct) : "–"}</td>
+    </tr>`;
+  }).join("") || `<tr><td colspan="${COLS.length}" class="empty">조건에 맞는 모델이 없습니다.</td></tr>`;
+}
+$("#thead").addEventListener("click", (e) => {
+  const th = e.target.closest("th"); if (!th) return;
+  if (sortKey === th.dataset.k) sortDir = -sortDir; else { sortKey = th.dataset.k; sortDir = 1; }
+  renderTable();
+});
+for (const id of ["#q", "#fam", "#act"]) $(id).addEventListener("input", renderTable);
+$("#tbody").addEventListener("click", (e) => { const tr = e.target.closest("tr[data-model]"); if (tr) select(tr.dataset.model, false); });
+
+// ---------- 상세 + 차트 ----------
+let chart = null, metric = store.get("metric") || "blended", hidden = new Set();
+const METRIC = { input: [0, "입력"], output: [1, "출력"], blended: [2, "가중 평균"] };
+
+function sellerColors(m) {
+  // 색은 판매처 이름 순서로 고정 (순위가 바뀌어도 같은 판매처는 같은 색)
+  const names = Object.keys(m.sellers).sort();
+  return Object.fromEntries(names.map((s, i) => [s, i < 8 ? `--s${i + 1}` : null]));
+}
+
+function select(id, scroll) {
+  if (id !== selected) hidden = new Set();
+  selected = id; renderTable(); renderDetail();
+  store.set("selected", id);
+  if (scroll) $("#detail").scrollIntoView({ behavior: "smooth", block: "start" });
+}
+
+function renderDetail() {
+  const m = byId[selected];
+  if (!m) { $("#detail").innerHTML = `<div class="empty">모델을 선택하세요.</div>`; return; }
+  const lo = m.lowest, colors = sellerColors(m);
+  const sellers = Object.keys(m.sellers).sort().filter((s) => colors[s]);
+  const events = DATA.alerts.filter((a) => a.model === m.id);
+  const sched = scheduled.find((s) => s.model === m.id);
+  $("#detail").innerHTML = `
+    <div class="detail-head">
+      <div><div class="sub">${FAM[m.family] || m.family} · 판매처 ${m.offers}곳</div><div class="big">${esc(m.id)}</div></div>
+      <div style="text-align:right">${lo ? `<div class="sub">최저가 · ${esc(lo.seller)}</div>
+        <div class="big num">${usd(lo.blended)} <span class="sub">/1M 가중 평균</span></div>
+        <div class="sub num">입력 ${usd(lo.input)} · 출력 ${usd(lo.output)}${lo.cache_read ? ` · 캐시 ${usd(lo.cache_read)}` : ""}</div>` :
+        `<div class="sub">현재 수집되는 판매처 없음</div>`}</div>
+    </div>
+    <div class="tabs" id="metricTabs">${Object.entries(METRIC).map(([k, [, l]]) =>
+      `<button class="chip" type="button" data-metric="${k}" aria-pressed="${k === metric}">${l}</button>`).join("")}</div>
+    <div class="legend" id="legend">${sellers.map((s) =>
+      `<button type="button" data-seller="${esc(s)}" aria-pressed="${!hidden.has(s)}"><span class="swatch" style="${s === lo?.seller ? `background:var(${colors[s]});height:4px` : `background:repeating-linear-gradient(90deg,var(${colors[s]}) 0 5px,transparent 5px 8px)`}"></span>${esc(s)}${s === lo?.seller ? " ★ 최저가" : ""}</button>`).join("")}</div>
+    <div class="chart-box"><canvas id="cv" aria-label="${esc(m.id)} 판매처별 가격 추이"></canvas></div>
+    ${sched ? `<div class="note warn"><b>예정 변경</b> · ${esc(sched.seller)} 공식가가 ${sched.at}부터 입력 ${usd(sched.newIO[0])} / 출력 ${usd(sched.newIO[1])}로 바뀝니다 (현재 ${usd(sched.oldIO[0])} / ${usd(sched.oldIO[1])}${sched.until ? `, ${sched.until}까지` : ""}).</div>` : ""}
+    ${events.length ? `<div class="note">${events.map((a) => `<span class="badge ${STATUS[a.status][1]}">${STATUS[a.status][0]}</span> ${a.seller ? esc(a.seller) : "최저가"} ${usd(a.old)} → ${usd(a.new)} (${pct((a.new / a.old - 1) * 100)}) · ${kst(a.at)}`).join("<br>")}</div>` : ""}
+    <details style="margin-top:10px"><summary>현재 판매처 순위 (표로 보기)</summary>
+      <div class="tbl-wrap" style="margin-top:6px"><table><thead><tr><th>#</th><th>판매처</th><th>표기명</th><th class="r">입력</th><th class="r">출력</th><th class="r">가중 평균</th><th class="r">최저가 대비</th></tr></thead><tbody>
+      ${m.ranking.map((r, i) => `<tr><td>${i + 1}</td><td>${esc(r.seller)}${r.region ? ` <span class="muted">${esc(r.region)}</span>` : ""}</td><td class="muted">${esc(r.listed_as)}</td>
+        <td class="r num">${usd(r.input)}</td><td class="r num">${usd(r.output)}</td><td class="r num">${usd(r.blended)}</td>
+        <td class="r num">${i === 0 ? "–" : pct((r.blended / m.ranking[0].blended - 1) * 100)}</td></tr>`).join("")}
+      </tbody></table></div></details>`;
+  $("#metricTabs").onclick = (e) => { const b = e.target.closest("[data-metric]"); if (!b) return; metric = b.dataset.metric; store.set("metric", metric); renderDetail(); };
+  $("#legend").onclick = (e) => {
+    const b = e.target.closest("[data-seller]"); if (!b) return;
+    const s = b.dataset.seller; hidden.has(s) ? hidden.delete(s) : hidden.add(s); renderDetail();
+  };
+  drawChart(m, sellers, colors);
+}
+
+function drawChart(m, sellers, colors) {
+  if (chart) chart.destroy();
+  if (typeof Chart === "undefined") { $(".chart-box").innerHTML = `<div class="empty">차트 라이브러리를 불러오지 못했습니다 (인터넷 연결 필요). 아래 표로 확인하세요.</div>`; return; }
+  const mi = METRIC[metric][0], times = DATA.times.map(Date.parse);
+  const datasets = sellers.filter((s) => !hidden.has(s)).map((s) => {
+    const row = m.sellers[s], pts = [];
+    row.forEach((v, i) => pts.push({ x: times[i], y: v ? v[mi] : null }));
+    // 앞뒤가 비어 선이 그려지지 않는 단독 관측값(예: 이번에 처음 수집된 판매처)은 점으로 표시
+    const lone = pts.map((p, i) => p.y != null && pts[i - 1]?.y == null && pts[i + 1]?.y == null);
+    if (row[row.length - 1] && nowMs > times[times.length - 1]) {   // 마지막 값을 현재까지 연장
+      pts.push({ x: nowMs, y: row[row.length - 1][mi] }); lone.push(false);
+    }
+    const c = cssVar(colors[s]), isLow = s === m.lowest?.seller;
+    return { label: s, data: pts, borderColor: c, backgroundColor: c, stepped: "after", spanGaps: false,
+             // 최저가 판매처는 굵은 실선으로 아래에, 나머지는 점선으로 위에 그려 같은 가격이어도 겹쳐 보이게 함
+             borderWidth: isLow ? 4 : 2, borderDash: isLow ? [] : [6, 4], pointRadius: (ctx) => lone[ctx.dataIndex] ? 4 : 0,
+             pointHoverRadius: 5, pointHitRadius: 8, order: isLow ? 1 : 0 };
+  });
+  const grid = cssVar("--grid"), ink2 = cssVar("--ink-2"), muted = cssVar("--muted");
+  chart = new Chart($("#cv"), {
+    type: "line", data: { datasets },
+    options: {
+      responsive: true, maintainAspectRatio: false, animation: false, parsing: false,
+      interaction: { mode: "index", intersect: false },
+      scales: {
+        x: { type: "linear", min: times[0], max: nowMs, grid: { color: grid }, border: { color: cssVar("--axis") },
+             ticks: { color: muted, maxTicksLimit: 8, callback: (v) => kst(new Date(v).toISOString(), false) } },
+        y: { grid: { color: grid }, border: { display: false }, ticks: { color: muted, callback: (v) => usd(v) },
+             title: { display: true, text: `${METRIC[metric][1]} USD / 1M 토큰`, color: ink2 } },
+      },
+      plugins: {
+        legend: { display: false },
+        tooltip: { callbacks: { title: (it) => kst(new Date(it[0].parsed.x).toISOString()) + " KST",
+                                label: (it) => ` ${it.dataset.label}: ${usd(it.parsed.y)}` } },
+      },
+    },
+  });
+}
+
+// ---------- 테마 ----------
+const applyTheme = (t) => { if (t) document.documentElement.dataset.theme = t; else delete document.documentElement.dataset.theme; };
+applyTheme(store.get("theme"));
+$("#themeBtn").onclick = () => {
+  const dark = document.documentElement.dataset.theme ? document.documentElement.dataset.theme === "dark"
+    : matchMedia("(prefers-color-scheme: dark)").matches;
+  const t = dark ? "light" : "dark"; applyTheme(t); store.set("theme", t); renderDetail();
+};
+
+// ---------- 판정 기준 ----------
+const w = DATA.rules.weights;
+$("#rules").innerHTML = [
+  `비교 조건: USD · 100만 토큰당 · standard 요금 · 기본 컨텍스트 · 텍스트 모델. Batch/Flex/Priority·원화 사이트·48시간 넘게 갱신 안 된 가격은 제외.`,
+  `가중 평균 = (입력 × ${w.input} + 출력 × ${w.output}) / ${w.input + w.output}. 판매처는 이 값이 가장 낮은 곳을 최저가로 선정합니다.`,
+  `<b>반영 검토</b>: 마지막으로 확정된 가격(기준가) 대비 ${DATA.rules.min_pct}% 이상 변한 상태가 ${DATA.rules.confirm_hours}시간 이상 유지되면 확정하고 기준가를 갱신합니다. 직전 수집값이 아니라 기준가와 비교하므로 작은 변화가 누적돼도 잡힙니다.`,
+  `<b>일시적</b>: ${DATA.rules.confirm_hours}시간 안에 기준가로 돌아온 변화. <b>관찰 중</b>: 아직 ${DATA.rules.confirm_hours}시간이 지나지 않은 변화.`,
+  `가격은 공개 가격표 기준이며 실제 청구액·계약 단가·고객 판매가와 다를 수 있습니다. 수집 실패 사이트(${run.failed.length}곳)는 이 비교에 포함되지 않습니다.`,
+].map((x) => `<li>${x}</li>`).join("");
+
+// ---------- 시작 ----------
+renderAlerts();
+const first = store.get("selected");
+select(byId[first] ? first : (ALERTS.confirmed[0] || scheduled[0] || { model: active[0]?.id }).model, false);
+</script>
+</body>
+</html>

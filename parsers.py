@@ -322,7 +322,9 @@ def parse_google(data, site):
         if paid is None:
             continue
         unit = detect_unit(t["rows"][0][paid]) or "per_1m_tokens"
-        tier = _G_TIER.get(t.get("tab", "").lower(), "standard") if t.get("tab") else "standard"
+        # 모르는 탭(예: 2026-10 신설된 'Contributor')을 standard 로 취급하면 할인 요금이 표준가로 섞이므로 탭 이름을 그대로 tier 로 씀
+        tab = clean(t.get("tab") or "").lower()
+        tier = _G_TIER.get(tab, re.sub(r"\W+", "_", tab).strip("_")) if tab else "standard"
         pricing = {}
         for r in t["rows"][1:]:
             if len(r) <= paid:
@@ -633,7 +635,255 @@ def parse_azure(data, site):
     return recs
 
 
+# ───────────────────────── 표 없이 div 로 그리는 페이지 (innerText 패턴) ─────────────────────────
+def _usd(v):
+    return {"raw": f"${v}", "value": float(v.replace(",", "")), "currency": "USD"} if v else None
+
+
+def _name(s):
+    """직전 행 꼬리와 'New' 배지 등을 떼어낸 모델명."""
+    return clean(re.sub(r"^(?:New\s+)+|\s+(?:New|Beta)$", "", clean(s)))
+
+
+def parse_siliconflow(data, site):
+    """'Model Name Context Length Input Cached Input Output Actions' 묶음마다 '<이름> <ctx> $ a [$ b] $ c Details'."""
+    recs = []
+    row = re.compile(r"(?P<name>\S[^$]*?)\s+(?P<ctx>\d+K)\s+\$\s*(?P<a>[\d.]+)\s+(?:\$\s*(?P<b>[\d.]+)\s+)?\$\s*(?P<c>[\d.]+)\s+Details")
+    for blk in data["text"].split("Model Name Context Length Input Cached Input Output Actions")[1:]:
+        blk = blk.split("Prices shown are per 1 million tokens")[0]
+        for m in row.finditer(blk):
+            # 가격이 2개면 (입력, 출력), 3개면 (입력, 캐시 입력, 출력)
+            pricing = {"input": _usd(m.group("a")), "output": _usd(m.group("c"))}
+            if m.group("b"):
+                pricing["cache_read"] = _usd(m.group("b"))
+            recs.append({"model": _name(m.group("name").replace("Load More", "")), "pricing": pricing,
+                         "unit": "per_1m_tokens", "tier": None, "section": None,
+                         "meta": {"context": m.group("ctx")}})
+    return recs
+
+
+def parse_fireworks(data, site):
+    """'<이름> <유형> • Serverless $a/M Input • $b/M Output • N Context' (첫 화면에 보이는 모델만)."""
+    row = re.compile(r"(?P<name>[^$•]+?)\s+(?P<type>LLM|Vision|Embeddings|Reranks)(?:\s+•\s+(?P<serv>Serverless|On-demand))?"
+                     r"\s+\$(?P<i>[\d.]+)/M Input\s+•\s+\$(?P<o>[\d.]+)/M Output")
+    recs = []
+    for m in row.finditer(data["text"]):
+        name = re.split(r"\bContext\b|\bmodels\b", m.group("name"))[-1]
+        recs.append({"model": _name(name), "pricing": {"input": _usd(m.group("i")), "output": _usd(m.group("o"))},
+                     "unit": "per_1m_tokens", "tier": None, "section": m.group("serv"),
+                     "modality": "embedding" if m.group("type") == "Embeddings" else None,
+                     "meta": {"type": m.group("type")}})
+    return recs
+
+
+def parse_coreweave(data, site):
+    """'Model Input Tokens Output Tokens Cache Hit ...' 뒤 '<이름> $a $b ($c|-)' 반복."""
+    t = data["text"]
+    i = t.find("Model Input Tokens Output Tokens")
+    if i < 0:
+        return []
+    body = re.sub(r"^.*?Available for Post-Training\s*", "", t[i:], count=1)
+    recs = []
+    for m in re.finditer(r"(?P<name>[^$]+?)\s+\$(?P<i>[\d.]+)\s+\$(?P<o>[\d.]+)\s+(?:\$(?P<c>[\d.]+)|-)", body):
+        if re.search(r"[a-z]{2,}\s+[a-z]{2,}\s+[a-z]{2,}\s+[a-z]{2,}", m.group("name")):  # 표가 끝나고 본문이 시작됨
+            break
+        pricing = {"input": _usd(m.group("i")), "output": _usd(m.group("o"))}
+        if m.group("c"):
+            pricing["cache_read"] = _usd(m.group("c"))
+        recs.append({"model": _name(m.group("name")), "pricing": pricing, "unit": "per_1m_tokens",
+                     "tier": None, "section": "CoreWeave Forge hosted models", "meta": None})
+    return recs
+
+
+_CF_PRICE = re.compile(r"\$([\d.,]+)\s+per\s+M\s+(input|cached input|output)\s+tokens", re.I)
+_CF_FIELD = {"input": "input", "cached input": "cache_read", "output": "output"}
+
+
+def parse_cloudflare(data, site):
+    """Workers AI 가격표: [모델, '$a per M input tokens $b per M cached input tokens $c per M output tokens']."""
+    recs = []
+    for t in data["tables"]:
+        for r in t["rows"][1:]:
+            if len(r) < 2 or not r[0].startswith("@cf/"):
+                continue
+            pricing = {_CF_FIELD[k.lower()]: _usd(v) for v, k in _CF_PRICE.findall(" ".join(r[1:]))}
+            if pricing:
+                recs.append({"model": r[0], "model_id": r[0], "model_provider": r[0].split("/")[1],
+                             "pricing": pricing, "unit": "per_1m_tokens", "tier": None,
+                             "section": clean(t["heading"]), "meta": None})
+    return recs
+
+
+def parse_baidu_qianfan(data, site):
+    """'按量后付费' 세로형 표: 모델명 | 버전명 | 서비스 | 하위항목(输入/输出（输入<=32k）) | 온라인 추론 | 배치 추론.
+
+    단가는 元/千tokens -> 1M 토큰당으로 환산(x1000). 하위항목 괄호 안의 입력 길이 조건은 context_tier 로 보관.
+    """
+    recs = {}
+    for t in data["tables"]:
+        head = t["rows"][0] if t["rows"] else []
+        if "子项" not in head or not any("在线推理" in h for h in head):
+            continue
+        ci, cn = head.index("子项"), next(i for i, h in enumerate(head) if "在线推理" in h)
+        cb = next((i for i, h in enumerate(head) if "批量推理" in h), None)
+        for r in t["rows"][1:]:
+            if len(r) <= cn:
+                continue
+            sub = r[ci]
+            field = "input" if sub.startswith("输入") else "output" if sub.startswith("输出") else None
+            if not field or "缓存" in sub:
+                continue
+            cond = re.search(r"[（(]([^）)]*)[）)]", sub)
+            key = (r[0], r[1], cond.group(1) if cond else None)
+            rec = recs.setdefault(key, {"model": r[0], "model_id": re.split(r"(?<=[a-z0-9])(?=ERNIE|DeepSeek|Qwen)", r[1])[0],
+                                        "pricing": {}, "unit": "per_1m_tokens", "tier": None,
+                                        "section": clean(t["heading"]), "context_tier": key[2], "meta": {"versions": r[1]}})
+            for col, f in ((cn, field), (cb, f"batch_{field}")):
+                if col is None or col >= len(r):
+                    continue
+                m = _BARE_RE.match(r[col])
+                if m:
+                    rec["pricing"][f] = {"raw": f"{r[col]} 元/千tokens", "value": round(float(m.group(1)) * 1000, 6),
+                                         "currency": "CNY"}
+    return [r for r in recs.values() if r["pricing"]]
+
+
+def _between(text, start, end=None):
+    i = text.find(start)
+    if i < 0:
+        return ""
+    body = text[i + len(start):]
+    j = body.find(end) if end else -1
+    return body[:j] if j >= 0 else body
+
+
+def parse_baseten(data, site):
+    """/pricing 의 Model APIs: '<이름> ($a|-) ($b|-) ($c|-) TRY MODEL API' (입력, 캐시 입력, 출력)."""
+    body = _between(data["text"], "Price per 1M TOKENS Model Input Cache Input Output", "Dedicated Deploy")
+    recs = []
+    for m in re.finditer(r"(?P<name>\S.*?)\s+(?P<i>\$[\d.]+|-)\s+(?P<c>\$[\d.]+|-)\s+(?P<o>\$[\d.]+|-)\s+TRY MODEL API", body):
+        if m.group("i") == "-":
+            continue
+        pricing = {"input": _usd(m.group("i")[1:]), "output": _usd(m.group("o").lstrip("$")) if m.group("o") != "-" else None,
+                   "cache_read": _usd(m.group("c")[1:]) if m.group("c") != "-" else None}
+        recs.append({"model": _name(m.group("name")), "pricing": {k: v for k, v in pricing.items() if v},
+                     "unit": "per_1m_tokens", "tier": None, "section": "Model APIs", "meta": None})
+    return recs
+
+
+def _promo(s):
+    """'$1.26 $1.4' (할인가, 정가) 또는 '$0.15' -> (현재가 price dict, 정가 float|None)."""
+    vals = re.findall(r"\$([\d.]+)", s or "")
+    if not vals:
+        return None, None
+    return _usd(vals[0]), float(vals[1]) if len(vals) > 1 else None
+
+
+def parse_friendli(data, site):
+    """/pricing 'Pay per token': '<이름> [N% OFF] $할인가 [$정가] Input · ... Cached Input · ... Output'."""
+    body = _between(data["text"], "Model $ / 1M tokens", "For models where")
+    p = r"\$[\d.]+(?:\s+\$[\d.]+)?"
+    row = re.compile(rf"(?P<name>\S.*?)\s+(?:(?P<off>\d+)% OFF\s+)?(?P<i>{p}) Input(?: · (?P<c>{p}) Cached Input)? · (?P<o>{p}) Output")
+    recs = []
+    for m in row.finditer(body):
+        (i, oi), (o, oo), (c, oc) = _promo(m.group("i")), _promo(m.group("o")), _promo(m.group("c"))
+        pricing = {k: v for k, v in {"input": i, "output": o, "cache_read": c}.items() if v}
+        recs.append({"model": _name(m.group("name")), "pricing": pricing, "unit": "per_1m_tokens", "tier": None,
+                     "section": "Model APIs",
+                     "meta": {"discount_pct": int(m.group("off")), "list_input": oi, "list_output": oo, "list_cache_read": oc}
+                     if m.group("off") else None})
+    return recs
+
+
+_ATLAS_HEAD = re.compile(r"(?P<kind>LLM|Image|Video|Audio|3D|Embedding)\s+\d+\s+Prices?\s+Our Price \(USD\)\s+")
+
+
+def parse_atlascloud(data, site):
+    """/pricing 카드: '<이름> LLM n Prices Our Price (USD) per 1M tokens $a/$b ... Official Price (USD) per 1M tokens $c/$d ... Discount -60%'.
+
+    Our Price = Atlas 판매가(할인 반영), Official Price = 할인 전 기준가. 미디어 모델은 'Start from $x/s' 만 보관.
+    """
+    t = data["text"]
+    heads = list(_ATLAS_HEAD.finditer(t))
+    recs = []
+    for k, h in enumerate(heads):
+        prev_end = heads[k - 1].end() if k else 0
+        name = re.split(r"\s+View\s+|\bmodels\s+", t[prev_end:h.start()])[-1]
+        name = _name(re.sub(r"^NEW\s+", "", clean(name)))
+        block = t[h.end():heads[k + 1].start() if k + 1 < len(heads) else len(t)]
+        disc = re.search(r"Discount\s+(-\d+%|-)", block)
+        meta = {"discount": disc.group(1) if disc and disc.group(1) != "-" else None}
+        if h.group("kind") == "LLM":
+            ours = re.match(r"per 1M tokens \$([\d.]+)/\$([\d.]+)", block)
+            off = re.search(r"Official Price \(USD\) per 1M tokens \$([\d.]+)/\$([\d.]+)", block)
+            cache = re.search(r"Cache read → /1M tokens \$([\d.]+)", block)
+            if not ours:
+                continue
+            meta.update({"official_input": float(off.group(1)), "official_output": float(off.group(2))} if off else {})
+            pricing = {"input": _usd(ours.group(1)), "output": _usd(ours.group(2))}
+            if cache:
+                pricing["cache_read"] = _usd(cache.group(1))
+            recs.append({"model": name, "pricing": pricing, "unit": "per_1m_tokens", "tier": None,
+                         "section": "LLM", "meta": meta})
+        else:
+            st = re.match(r"Start from \$([\d.]+)/(\w+)", block)
+            if st:
+                unit = {"s": "per_second", "pic": "per_image", "img": "per_image"}.get(st.group(2).lower(), "per_request")
+                recs.append({"model": name, "pricing": {unit: _usd(st.group(1))}, "unit": unit, "tier": None,
+                             "section": h.group("kind"), "modality": h.group("kind").lower(), "meta": meta})
+    return recs
+
+
+def parse_bfl_flux(data, site):
+    """'Price per IMAGE Model 768 × 768 1K 1.5K 2K 4K Description <이름> $a/img $b/img ...' (해상도별 이미지당 가격)."""
+    t = data["text"]
+    recs = []
+    for blk in re.finditer(r"Price per IMAGE Model (?P<res>.+?) Description (?P<rows>.+?)(?=Try now|ENTERPRISE|$)", t):
+        res = re.findall(r"\d+\s*×\s*\d+|\d+(?:\.\d+)?K", blk.group("res"))
+        for m in re.finditer(r"(?P<name>FLUX[^$]*?)\s+(?P<p>(?:\$[\d.]+/img\s*)+)", blk.group("rows")):
+            name = re.split(r"\s{2,}|(?<=[a-z])\s+(?=FLUX)", clean(m.group("name")))[-1]
+            name = re.sub(r"^.*?(?=FLUX)", "", name)
+            vals = re.findall(r"\$([\d.]+)", m.group("p"))
+            price = _usd(vals[0])
+            price["variants"] = [{"value": float(v), "label": r, "unit": "per_image"} for v, r in zip(vals, res)]
+            recs.append({"model": name, "pricing": {"per_image": price}, "unit": "per_image", "tier": None,
+                         "section": "API", "modality": "image", "meta": None})
+    return recs
+
+
+def parse_elevenlabs(data, site):
+    """'<모델명> [New] $x Price per 1K characters Get started' 카드."""
+    def tail_name(s):
+        # 앞 카드의 기능 설명 문구가 붙어 오므로, 끝에서부터 대문자·버전(v2)·'to'·'/' 로 이어지는 단어만 모델명으로 씀
+        words, keep = clean(s).split(" "), []
+        for w in reversed(words):
+            if w in ("to", "/") or re.match(r"v\d", w) or (w[:1].isupper() and not (w.isupper() and len(w) >= 3)):
+                keep.append(w)
+            else:
+                break
+        name = " ".join(reversed(keep)) or clean(s)
+        return re.sub(r"^(?:Eleven(?:Creative|Agents|API)\s+)+", "", name)   # 상단 탭 이름
+
+    recs = []
+    for m in re.finditer(r"(?P<name>[^$]{3,160}?)\s+(?:New\s+)?\$(?P<p>[\d.]+)\s+Price per (?P<u>[\w ]+?)\s+Get started", data["text"]):
+        name = tail_name(m.group("name"))
+        unit = {"1k characters": "per_1k_characters", "minute": "per_minute", "hour": "per_hour"}.get(m.group("u").lower(), "per_request")
+        recs.append({"model": _name(name), "pricing": {unit: _usd(m.group("p"))}, "unit": unit, "tier": None,
+                     "section": None, "modality": "audio", "meta": {"price_per": m.group("u")}})
+    return recs
+
+
 PARSERS = {
+    "baseten": parse_baseten,
+    "friendli": parse_friendli,
+    "atlascloud": parse_atlascloud,
+    "bfl_flux": parse_bfl_flux,
+    "elevenlabs": parse_elevenlabs,
+    "cloudflare": parse_cloudflare,
+    "baidu_qianfan": parse_baidu_qianfan,
+    "siliconflow": parse_siliconflow,
+    "fireworks": parse_fireworks,
+    "coreweave": parse_coreweave,
     "xai": parse_xai,
     "azure": parse_azure,
     "google_cloud": parse_google_cloud,

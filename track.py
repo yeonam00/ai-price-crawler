@@ -52,6 +52,7 @@ def canonical(raw):
     if not pick:
         return None
     s = pick.replace("_", "-")
+    s = re.sub(r"^(claude|gpt|gemini|grok)(?=\d)", r"\1-", s)   # gmicloud 'grok4.6' -> 'grok-4.6'
     if ":" in s:                                            # ':batch' ':free' 등 변형은 제외, ':0' 버전만 허용
         head, tail = s.split(":", 1)
         if not tail.isdigit():

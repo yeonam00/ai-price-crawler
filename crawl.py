@@ -162,7 +162,229 @@ async def adapter_litellm(client, site):
     return recs
 
 
-ADAPTERS = {"openrouter": adapter_openrouter, "vercel": adapter_vercel, "litellm": adapter_litellm}
+def _num(v):
+    try:
+        return float(v) if v not in (None, "") else None
+    except (TypeError, ValueError):
+        return None
+
+
+def _rec(model, model_id, pricing, *, provider=None, modality=None, context_tier=None, meta=None, section=None):
+    return {"model": model, "model_id": model_id, "model_provider": provider,
+            "pricing": {k: v for k, v in pricing.items() if v}, "unit": "per_1m_tokens", "tier": None,
+            "section": section, "context_tier": context_tier, "modality": modality,
+            "meta": {k: v for k, v in (meta or {}).items() if v not in (None, "", [], {})} or None}
+
+
+def _modality(outputs):
+    """출력 모달리티 목록 -> None(텍스트) 또는 'image'/'video'/'audio'/'embedding' 등."""
+    outs = [o.lower() for o in (outputs or []) if o]
+    return None if not outs or "text" in outs else outs[0]
+
+
+async def adapter_pleum(client, site):
+    data = (await client.get("https://router.pleum.ai/api/v1/models?locale=en")).json()["data"]
+    recs = []
+    for m in data:
+        if not m.get("is_active", True) or m.get("price_unit") != "token":
+            continue
+        prov = (m.get("providers") or [{}])[0]
+        mod = (m.get("modality") or "text").lower()
+        recs.append(_rec(m.get("display_name") or m["id"], m["id"], {
+            "input": _p(_num(m.get("input_price_usd"))), "output": _p(_num(m.get("output_price_usd"))),
+            "cache_read": _p(_num(prov.get("cache_read_usd")))},
+            provider=m.get("provider"), modality=None if mod == "text" else mod,
+            meta={"context_window": m.get("context_window"), "markup_percent": m.get("effective_markup_percent")}))
+    return recs
+
+
+async def adapter_bizrouter(client, site):
+    d = (await client.get("https://bizrouter.ai/api/web/models/")).json()
+    fx = _num(d.get("exchange_rate"))
+    recs = []
+    for m in d["models"]:
+        for pv in m.get("providers") or []:
+            if not pv.get("is_active", True):
+                continue
+            tok = (pv.get("pricing_strategy") or {}).get("tokens") or {}
+            i, o = _num(pv.get("input_price_per_1m_tokens")), _num(pv.get("output_price_per_1m_tokens"))
+            if pv.get("discount") and fx:   # 할인 중이면 원화 할인가를 사이트 환율로 USD 환산
+                i = round(_num(pv.get("discounted_input_price_krw")) / fx, 6) if pv.get("discounted_input_price_krw") else i
+                o = round(_num(pv.get("discounted_output_price_krw")) / fx, 6) if pv.get("discounted_output_price_krw") else o
+            recs.append(_rec(m.get("name") or m["code"], m["code"], {
+                "input": _p(i), "output": _p(o),
+                "cache_read": _p(_num((tok.get("cache_read") or {}).get("price")))},
+                provider=m.get("brand"), modality=_modality(m.get("output_modalities")),
+                section=pv.get("provider_name"),
+                meta={"upstream": pv.get("provider_name"), "region": pv.get("serving_region"),
+                      "discount": pv.get("discount"), "exchange_rate": fx}))
+    return recs
+
+
+async def adapter_edenai(client, site):
+    data = (await client.get("https://api.edenai.run/v3/models?view=models")).json()["data"]
+
+    def snap(x):
+        # databricks 경유 가격은 유효숫자 3자리 DBU 단가 x $0.07 로 환산돼 4.998e-08, 7.49994e-05 처럼 최대 ~0.1% 어긋남
+        # -> 0.05, 75 로 보정 (안 하면 공식가보다 $0.00002 싸다는 이유로 최저가가 됨). 오차 범위 안의 가장 짧은 소수로 맞춤
+        if not x:
+            return x
+        for k in range(5):
+            if abs(x - round(x, k)) <= x * 1e-3:
+                return round(x, k)
+        return x
+
+    recs = []
+    for m in data:
+        pr = m.get("pricing") or {}
+        dbu = str(m.get("pricing_endpoint") or "").startswith("databricks/")
+        per_m = (lambda v: snap(_per_m(v))) if dbu else _per_m
+        recs.append(_rec(m["id"], m["id"], {
+            "input": _p(per_m(pr.get("input_cost_per_token"))), "output": _p(per_m(pr.get("output_cost_per_token"))),
+            "cache_read": _p(per_m(pr.get("cache_read_input_token_cost"))),
+            "cache_write": _p(per_m(pr.get("cache_creation_input_token_cost")))},
+            provider=m.get("owned_by"),
+            modality=None if m.get("mode") in (None, "chat") else m.get("mode"),
+            meta={"pricing_endpoint": m.get("pricing_endpoint"), "context_length": m.get("context_length")}))
+    return recs
+
+
+async def adapter_inference_net(client, site):
+    url = ("https://relay.inference.net/modelCatalog.listPublic"
+           "?input=%7B%22cacheVersion%22%3A%22v12%22%2C%22surface%22%3A%22catalog%22%7D")
+    data = (await client.get(url)).json()["result"]["data"]
+    recs = []
+    for m in data:
+        pr = m.get("pricing") or {}
+        base = dict(provider=(m.get("creator") or m.get("maker") or "").lower() or None,
+                    modality=_modality(m.get("outputModalities")),
+                    meta={"context_length": m.get("maxContextSize"), "quantization": m.get("quantization"),
+                          "requires_approval": m.get("requiresApprovedAccess")})
+        recs.append(_rec(m.get("name") or m["modelId"], m["modelId"], {
+            "input": _p(_per_m(pr.get("costInputPerToken"))), "output": _p(_per_m(pr.get("costOutputPerToken"))),
+            "cache_read": _p(_per_m(pr.get("costCachedInputPerToken"))),
+            "cache_write_5m": _p(_per_m(pr.get("costCacheWrite5mInputPerToken"))),
+            "cache_write_1h": _p(_per_m(pr.get("costCacheWrite1hInputPerToken")))}, **base))
+        if pr.get("costLongContextInputPerToken"):
+            recs.append(_rec(m.get("name") or m["modelId"], m["modelId"], {
+                "input": _p(_per_m(pr.get("costLongContextInputPerToken"))),
+                "output": _p(_per_m(pr.get("costLongContextOutputPerToken"))),
+                "cache_read": _p(_per_m(pr.get("costLongContextCachedInputPerToken")))},
+                context_tier=f">{pr.get('longContextThresholdInputTokens')}", **base))
+    return recs
+
+
+async def adapter_gmicloud(client, site):
+    data = (await client.get("https://ie-api.gmicloud.ai/v1/artifact/get_public_artifacts")).json()
+    recs = []
+    for a in data:
+        md, mp = a.get("artifact_metadata") or {}, a.get("model_price") or {}
+        i, o = mp.get("pricePer1mPromptToken"), mp.get("pricePer1mCompletionToken")
+        if not (i or o) or not md.get("available_on_maas", True):
+            continue
+        scale = lambda v: round(v / 1_000_000, 6) if v else None   # 단위: 백만분의 1 USD
+        tags = [t.lower() for t in md.get("artifact_tags") or []]
+        recs.append(_rec(md.get("artifact_name"), mp.get("modelName") or md.get("artifact_description"),
+                         {"input": _p(scale(i)), "output": _p(scale(o))},
+                         provider=((md.get("model_info") or {}).get("provider") or "").lower() or None,
+                         modality=None if "llm" in tags else (tags[0] if tags else None),
+                         meta={"origin_input": scale(mp.get("originPricePer1mPromptToken")),
+                               "origin_output": scale(mp.get("originPricePer1mCompletionToken")),
+                               "discount_pct": (mp.get("percentageDiscount") or 0) / 100 or None,
+                               "quantization": (md.get("model_info") or {}).get("quantization")}))
+    return recs
+
+
+async def adapter_venice(client, site):
+    data = (await client.get("https://api.venice.ai/api/v1/models?type=text")).json()["data"]
+    recs = []
+    for m in data:
+        spec = m.get("model_spec") or {}
+        pr = spec.get("pricing") or {}
+        usd = lambda k: _p(_num((pr.get(k) or {}).get("usd")))
+        if spec.get("offline"):
+            continue
+        recs.append(_rec(spec.get("name") or m["id"], m["id"], {
+            "input": usd("input"), "output": usd("output"), "cache_read": usd("cache_input"),
+            "cache_write": usd("cache_write")},
+            meta={"context_length": m.get("context_length"), "privacy": spec.get("privacy"),
+                  "quantization": (spec.get("capabilities") or {}).get("quantization")}))
+    return recs
+
+
+async def _openrouter_format(client, url):
+    """OpenRouter 형식(/v1/models, pricing.prompt/completion 이 토큰당 USD)의 공개 모델 목록."""
+    recs = []
+    for m in (await client.get(url)).json()["data"]:
+        pr = m.get("pricing") or {}
+        outs = m.get("output_modalities") or (m.get("architecture") or {}).get("output_modalities")
+        recs.append(_rec(m.get("name") or m["id"], m["id"], {
+            "input": _p(_per_m(pr.get("prompt"))), "output": _p(_per_m(pr.get("completion"))),
+            "cache_read": _p(_per_m(pr.get("input_cache_read")))},
+            modality=_modality(outs),
+            meta={"context_length": m.get("context_length"), "quantization": m.get("quantization"),
+                  "upstream": m.get("providers"), "region": [d.get("country_code") for d in m.get("datacenters") or []]}))
+    return recs
+
+
+async def adapter_phala(client, site):
+    return await _openrouter_format(client, "https://inference.phala.com/v1/models")
+
+
+async def adapter_nextbit(client, site):
+    return await _openrouter_format(client, "https://api.nextbit256.com/v1/models")
+
+
+async def adapter_fal(client, site):
+    """fal 공개 모델 목록. 가격은 모델별 안내 문구(pricingInfoOverride)로만 공개됨 -> 문구 전체를 raw 로 보관.
+
+    대표 가격 = 문구의 첫 금액, variants = 해상도·단위별 모든 금액 (예: Seedance '480p $0.22/s, 720p $0.47/s ...').
+    정확한 단가 API(api.fal.ai/v1/models/pricing)는 API 키가 있어야 해서 쓰지 않음.
+    """
+    from parsers import make_price
+    items, page = [], 1
+    while True:
+        d = (await client.get("https://fal.ai/api/models", params={"page": page, "size": 100})).json()
+        items += d["items"]
+        if page >= d.get("pages", 1):
+            break
+        page += 1
+    recs = []
+    for m in items:
+        text = re.sub(r"\*\*", "", m.get("pricingInfoOverride") or "").strip()
+        if not text or m.get("removed") or m.get("deprecated") or m.get("hidePricing"):
+            continue
+        price = make_price(text)
+        if not price:
+            continue
+        first = text[:200].lower()
+        unit = ("per_1m_tokens" if re.search(r"per 1m|/1m|per million", first) else
+                "per_1k_tokens" if "per 1,000 tokens" in first else
+                "per_second" if "per second" in first else
+                "per_image" if re.search(r"per image|/image|per megapixel", first) else
+                "per_minute" if "per minute" in first else
+                "per_1k_characters" if "1,000 characters" in first or "1000 characters" in first else "per_request")
+        disc = m.get("discovery") or {}
+        outs = [t.split(":", 1)[1] for t in disc.get("tags") or [] if t.startswith("output:")]
+        recs.append({"model": m.get("title") or m["id"], "model_id": m["id"],
+                     "model_provider": (m.get("modelLab") or disc.get("lab") or m["id"].split("/")[0]),
+                     "pricing": {"list_price": price}, "unit": unit, "tier": None,
+                     "section": m.get("category"), "modality": _modality(outs),
+                     "meta": {"family": m.get("modelFamily") or disc.get("family"), "hosting": m.get("hostingType")}})
+    return recs
+
+
+async def adapter_makora(client, site):
+    data = (await client.get("https://app.makora.com/api/v1/credits/default-rates")).json()["models"]
+    return [_rec(m["model"], m["model"], {
+        "input": _p(_num(m["pricing"].get("prompt"))), "output": _p(_num(m["pricing"].get("completion"))),
+        "cache_read": _p(_num(m["pricing"].get("input_cache_read")))}) for m in data]
+
+
+ADAPTERS = {"openrouter": adapter_openrouter, "vercel": adapter_vercel, "litellm": adapter_litellm,
+            "pleum": adapter_pleum, "bizrouter": adapter_bizrouter, "edenai": adapter_edenai,
+            "inference_net": adapter_inference_net, "gmicloud": adapter_gmicloud, "venice": adapter_venice,
+            "makora": adapter_makora, "phala": adapter_phala, "nextbit": adapter_nextbit, "fal": adapter_fal}
 
 
 # ───────────────────────── 브라우저 크롤링 ─────────────────────────
@@ -358,6 +580,9 @@ async def main():
     }
     if "--ci" in sys.argv:  # 자동 실행용: 변경이 있을 때만 latest/history 갱신
         from persist import save_ci
+        for s in statuses:  # 실패 사이트를 Actions 실행 요약에 경고로 표시 (작업 자체는 성공 처리)
+            if not s["ok"]:
+                print(f"::warning title=수집 실패: {s['id']}::{s['error']}")
         changed = save_ci(payload, OUT_DIR, stamp)
         print(f"\n완료(CI): 사이트 {payload['success_count']}/{payload['site_count']} 성공, "
               f"모델 {payload['model_count']}건, 가격 변경 {'있음' if changed else '없음'}")

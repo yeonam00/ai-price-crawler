@@ -33,6 +33,9 @@ jobs:
       - name: Track lowest prices (closed models)
         run: python track.py
 
+      - name: Build dashboard
+        run: python dashboard.py   # output/dashboard.html
+
       - name: Commit results
         run: |
           git config user.name "price-crawler[bot]"
