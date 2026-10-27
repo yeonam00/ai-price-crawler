@@ -26,6 +26,13 @@ OUT = ROOT / "output"
 TEMPLATE = ROOT / "dashboard_template.html"
 MIN_PCT = 1.0                       # 이보다 작은 변동은 같은 가격으로 봄
 CONFIRM_HOURS = 24                  # 이 시간 이상 유지돼야 반영할 변화로 확정
+# 수집 방식을 바꾼 판매처는 그 이전 이력과 새 값이 같은 기준이 아니라 가짜 '가격 변화'로 잡힘 -> 바꾼 시점 이후만 사용
+#   2026-10-27: Eden AI 대표가 -> 연결 업체별 가격(압축 모델 제외), 중국 제조사 공식 페이지 파서 수정,
+#               OpenRouter 중국 모델 목록가 -> 업체별 가격(저정밀 양자화 제외)
+#   키 = (판매처, 모델 그룹 또는 None=전체)
+_CHANGED = datetime.fromisoformat("2026-10-27T12:00:00+00:00")
+SELLER_SINCE = {(s, None): _CHANGED for s in ("edenai", "alibaba_qwen", "deepseek", "zai", "minimax", "xiaomi_mimo")}
+SELLER_SINCE[("openrouter", "china")] = _CHANGED
 _SCHEDULED = re.compile(r"\$([\d.,]+)[^$]*?starting\s+([A-Z][a-z]+ \d{1,2}, \d{4})")
 _UNTIL = re.compile(r"through\s+([A-Z][a-z]+ \d{1,2}, \d{4})")
 
@@ -173,6 +180,9 @@ def build(extra=None):
             if not track.family(cid):
                 continue
             for seller, o in best_per_seller(lst).items():
+                since = SELLER_SINCE.get((seller, None)) or SELLER_SINCE.get((seller, track.group(cid)))
+                if since and t < since:
+                    continue
                 series.setdefault(cid, {}).setdefault(seller, []).append((t, o))
 
     models, alerts = [], []
@@ -209,9 +219,9 @@ def build(extra=None):
         lo = cur[0] if cur else None
         first = lowest_pts[0][1] if lowest_pts else None
         models.append({
-            "id": cid, "family": fam, "active": bool(cur),
+            "id": cid, "family": fam, "group": track.group(cid), "active": bool(cur),
             "offers": len(cur), "lowest": lo, "direct": direct,
-            "ranking": [{k: x[k] for k in ("seller", "input", "output", "blended", "cache_read", "listed_as", "region")}
+            "ranking": [{k: x.get(k) for k in ("seller", "via", "input", "output", "blended", "cache_read", "listed_as", "region")}
                         for x in cur],
             "change_since_first_pct": round((lowest_pts[-1][1] / first - 1) * 100, 2) if first else None,
             "scheduled": scheduled_for(latest_models, cid, lo, direct),

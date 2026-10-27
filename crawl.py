@@ -101,10 +101,42 @@ def _p(value, cur="USD"):
     return None if value is None else {"raw": str(value), "value": value, "currency": cur}
 
 
+_OPEN_MODEL = re.compile(r"deepseek|qwen|glm|kimi|minimax|mimo", re.I)
+
+
+async def _openrouter_endpoints(client, model, sem):
+    """오픈 웨이트 모델의 업체별 가격·양자화. 목록 가격은 그 순간 한 업체(때로 fp4) 가격이라 크게 출렁임."""
+    async with sem:
+        try:
+            r = await client.get(f"https://openrouter.ai/api/v1/models/{model['id']}/endpoints")
+            eps = r.json()["data"]["endpoints"]
+        except Exception:
+            return None
+    recs = []
+    for e in eps:
+        pr = e.get("pricing") or {}
+        recs.append({"model": model.get("name"), "model_id": model["id"], "model_provider": model["id"].split("/")[0],
+                     "pricing": {k: v for k, v in {
+                         "input": _p(_per_m(pr.get("prompt"))), "output": _p(_per_m(pr.get("completion"))),
+                         "cache_read": _p(_per_m(pr.get("input_cache_read")))}.items() if v},
+                     "unit": "per_1m_tokens", "tier": None, "section": e.get("provider_name"),
+                     "meta": {"upstream": e.get("provider_name"), "quantization": e.get("quantization"),
+                              "context_length": e.get("context_length"),
+                              "modality": (model.get("architecture") or {}).get("modality")}})
+    return recs
+
+
 async def adapter_openrouter(client, site):
     data = (await client.get("https://openrouter.ai/api/v1/models")).json()["data"]
+    sem = asyncio.Semaphore(8)
+    open_ids = [m for m in data if _OPEN_MODEL.search(m.get("id") or "") and ":" not in m["id"]]
+    per_ep = dict(zip([m["id"] for m in open_ids],
+                      await asyncio.gather(*(_openrouter_endpoints(client, m, sem) for m in open_ids))))
     recs = []
     for m in data:
+        if per_ep.get(m.get("id")):          # 업체별 가격을 받은 오픈 모델은 목록 가격 대신 업체별 행 사용
+            recs.extend(per_ep[m["id"]])
+            continue
         pr = m.get("pricing") or {}
         pricing = {k: _p(_per_m(pr.get(src))) for k, src in
                    [("input", "prompt"), ("output", "completion"),
@@ -234,18 +266,24 @@ async def adapter_edenai(client, site):
                 return round(x, k)
         return x
 
+    # 모델 대표 가격(pricing)은 연결 업체 중 최저가라, 압축(compressed) 모델 업체가 끼면 원본보다 훨씬 싸게 보임
+    # -> 연결 업체(endpoint)별로 한 행씩 남기고, 압축 모델을 서빙하는 업체는 제외
+    COMPRESSED = {"compactifai"}
     recs = []
     for m in data:
-        pr = m.get("pricing") or {}
-        dbu = str(m.get("pricing_endpoint") or "").startswith("databricks/")
-        per_m = (lambda v: snap(_per_m(v))) if dbu else _per_m
-        recs.append(_rec(m["id"], m["id"], {
-            "input": _p(per_m(pr.get("input_cost_per_token"))), "output": _p(per_m(pr.get("output_cost_per_token"))),
-            "cache_read": _p(per_m(pr.get("cache_read_input_token_cost"))),
-            "cache_write": _p(per_m(pr.get("cache_creation_input_token_cost")))},
-            provider=m.get("owned_by"),
-            modality=None if m.get("mode") in (None, "chat") else m.get("mode"),
-            meta={"pricing_endpoint": m.get("pricing_endpoint"), "context_length": m.get("context_length")}))
+        mode = None if m.get("mode") in (None, "chat") else m.get("mode")
+        for ep in m.get("endpoints") or [{"id": m.get("pricing_endpoint") or m["id"], "pricing": m.get("pricing")}]:
+            upstream = str(ep.get("id") or "").split("/")[0]
+            if upstream in COMPRESSED:
+                continue
+            pr = ep.get("pricing") or {}
+            per_m = (lambda v: snap(_per_m(v))) if upstream == "databricks" else _per_m
+            recs.append(_rec(m["id"], m["id"], {
+                "input": _p(per_m(pr.get("input_cost_per_token"))), "output": _p(per_m(pr.get("output_cost_per_token"))),
+                "cache_read": _p(per_m(pr.get("cache_read_input_token_cost"))),
+                "cache_write": _p(per_m(pr.get("cache_creation_input_token_cost")))},
+                provider=m.get("owned_by"), modality=mode, section=upstream,
+                meta={"endpoint": ep.get("id"), "upstream": upstream, "context_length": ep.get("context_length")}))
     return recs
 
 

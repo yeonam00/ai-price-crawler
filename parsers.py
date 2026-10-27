@@ -406,7 +406,8 @@ def parse_deepseek(data, site):
                      else "output" if "OUTPUT" in kind else None)
             if not field:
                 continue
-            tier = {"OFF-PEAK": "off_peak", "PEAK": "peak"}.get(peak, "standard")
+            # 피크 요금이 정가(standard), 비피크는 시간대 할인이므로 별도 tier
+            tier = {"OFF-PEAK": "off_peak", "PEAK": "standard"}.get(peak, "standard")
             for n, cell in zip(names, r[k:k + len(names)]):
                 p = make_price(cell, site["currency"])
                 if p:
@@ -415,7 +416,9 @@ def parse_deepseek(data, site):
             for n, cell in zip(names, r[k:k + len(names)]):
                 key = re.sub(r"\W+", "_", (r[0] if r[0] == r[1] else r[1]).lower()).strip("_")
                 meta[n][key] = clean(cell)[:80]
-    return [{"model": n, "pricing": pr, "unit": "per_1m_tokens", "tier": tier, "section": "Model Details",
+    # API 이름(deepseek-flash)은 최신 모델을 가리키는 별칭이라, 표의 MODEL VERSION(DeepSeek-V4.1-Flash-1017)을 모델 ID 로 씀
+    return [{"model": n, "model_id": (meta[n] or {}).get("model_version") or n, "pricing": pr,
+             "unit": "per_1m_tokens", "tier": tier, "section": "Model Details",
              "meta": meta[n] or None} for (n, tier), pr in by.items()]
 
 
@@ -873,7 +876,133 @@ def parse_elevenlabs(data, site):
     return recs
 
 
+# ───────────────────────── 중국 모델 제조사 공식 페이지 ─────────────────────────
+def _col(head, *keys):
+    return next((i for i, h in enumerate(head) if any(k in h.lower() for k in keys)), None)
+
+
+def parse_zai(data, site):
+    """Z.ai: 'Model | Input | Cached Input | Cached Input Storage | Output' 표 (단가는 100만 토큰당 USD)."""
+    recs = []
+    for t in data["tables"]:
+        head = t["rows"][0] if t["rows"] else []
+        ci, cc, co = _col(head, "input"), _col(head, "cached input"), _col(head, "output")
+        if not head or head[0].lower() != "model" or ci is None or co is None:
+            continue
+        for r in t["rows"][1:]:
+            pricing = {"input": make_price(r[ci]), "output": make_price(r[co]),
+                       "cache_read": make_price(r[cc]) if cc is not None and cc != ci else None}
+            pricing = {k: v for k, v in pricing.items() if v and v.get("value") is not None}
+            if "input" in pricing and "output" in pricing:
+                recs.append({"model": clean(r[0]), "pricing": pricing, "unit": "per_1m_tokens", "tier": None,
+                             "section": clean(t["heading"]), "meta": None})
+    return recs
+
+
+def parse_minimax(data, site):
+    """MiniMax LLM 표. 'Permanent 50% off $0.60 $0.30' 처럼 정가·할인가가 함께 있으면 마지막(할인가)이 실제 가격.
+
+    'MiniMax-M3≤ 512k input token' -> 모델 MiniMax-M3, context_tier '<=512k'. Priority 탭은 tier=priority.
+    """
+    recs = []
+    for t in data["tables"]:
+        head = t["rows"][0] if t["rows"] else []
+        if not head or head[0] != "Model" or not any("Input$ / M" in h or "Input $ / M" in h for h in head):
+            continue
+        tab = (t.get("tab") or "").lower()
+        tier = "priority" if "priority" in tab else None
+        ci, co, cc = _col(head, "input"), _col(head, "output"), _col(head, "caching")
+        for r in t["rows"][1:]:
+            m = re.match(r"(MiniMax-[\w.]+?)\s*([≤<>]=?)\s*(\d+k)", r[0])
+            name, ctx = (m.group(1), ("<=" if m.group(2) in "≤" else ">") + m.group(3)) if m else (clean(r[0]), None)
+            pricing, list_price = {}, {}
+            for field, col in (("input", ci), ("output", co), ("cache_read", cc)):
+                vals = re.findall(r"\$([\d.]+)", r[col]) if col is not None and col < len(r) else []
+                if vals:
+                    pricing[field] = _usd(vals[-1])
+                    if len(vals) > 1:
+                        list_price[field] = float(vals[0])
+            if "input" in pricing:
+                recs.append({"model": name, "pricing": pricing, "unit": "per_1m_tokens", "tier": tier,
+                             "context_tier": ctx, "section": "LLM",
+                             "meta": {"list_price": list_price} if list_price else None})
+    return recs
+
+
+def parse_xiaomi_mimo(data, site):
+    """MiMo: 'Overseas Pricing' 표만 사용 (국내 표는 위안화). 'Input (Cache Miss)' 가 일반 입력, 'Cache Hit' 가 캐시 읽기."""
+    recs = []
+    for t in data["tables"]:
+        head = t["rows"][0] if t["rows"] else []
+        if "overseas" not in t["heading"].lower() or "Model Name" not in head:
+            continue
+        cn, chit, cmiss, co = head.index("Model Name"), _col(head, "cache hit"), _col(head, "cache miss"), _col(head, "output")
+        if cmiss is None or co is None:
+            continue
+        for r in t["rows"][1:]:
+            pricing = {"input": make_price(r[cmiss]), "output": make_price(r[co]),
+                       "cache_read": make_price(r[chit]) if chit is not None else None}
+            pricing = {k: v for k, v in pricing.items() if v}
+            if "input" in pricing:
+                recs.append({"model": r[cn], "model_id": r[cn], "pricing": pricing, "unit": "per_1m_tokens",
+                             "tier": "batch" if "batch" in r[0].lower() else None, "section": r[0], "meta": None})
+    return recs
+
+
+def _ali_price(cell):
+    """'$0.4' 또는 'List price $0.4 (Limited-time 20% off)' -> 실제 적용가 dict (할인 반영)."""
+    v = re.search(r"\$([\d.]+)", cell or "")
+    if not v:
+        return None
+    price = float(v.group(1))
+    off = re.search(r"(\d+)%\s*off", cell)
+    out = {"raw": clean(cell), "value": round(price * (1 - int(off.group(1)) / 100), 6) if off else price, "currency": "USD"}
+    if off:
+        out["list_value"] = price
+    return out
+
+
+def parse_alibaba_qwen(data, site):
+    """Alibaba Model Studio. 배포 지역 'International' 행만 사용 (지역마다 가격이 다름).
+
+    - 모델 ID 셀 꼬리의 'context caching discount', 'Currently equivalent to ...' 등 안내 문구 제거
+    - 입력 길이 구간('0<Token≤32K')은 context_tier 로 보관, 첫 구간이 기본 가격
+    - 출력 가격이 Non-Thinking / Thinking 으로 나뉘면 Non-Thinking 을 출력 가격으로 씀
+    """
+    recs = []
+    for t in data["tables"]:
+        rows = t["rows"]
+        if not rows or not rows[0] or not rows[0][0].startswith("Model ID") or "Deployment scope" not in rows[0]:
+            continue
+        head = rows[0]
+        if len(rows) > 1 and rows[1][0].startswith("Model ID"):   # 2단 헤더 (출력: Non-Thinking / Thinking)
+            head = [b if b != a else a for a, b in zip(rows[0], rows[1])]
+            rows = rows[1:]
+        cs, ct, ci = head.index("Deployment scope"), _col(head, "input tok"), _col(head, "input price")
+        co = _col(head, "non-thinking") or _col(head, "output price")
+        if ci is None or co is None:
+            continue
+        for r in rows[1:]:
+            if len(r) <= max(ci, co) or r[cs] != "International":
+                continue
+            mid = r[0].split(" ")[0].strip()
+            i, o = _ali_price(r[ci]), _ali_price(r[co])
+            if not mid or not i or not o:
+                continue
+            tier_txt = r[ct] if ct is not None else ""
+            first = tier_txt.startswith("0<") or "No tiered" in tier_txt
+            recs.append({"model": mid, "model_id": mid, "pricing": {"input": i, "output": o},
+                         "unit": "per_1m_tokens", "tier": "batch" if "batch" in t["heading"].lower() else None,
+                         "context_tier": "short" if first else clean(tier_txt) or None,
+                         "section": clean(t["heading"]), "meta": {"input_range": clean(tier_txt) or None}})
+    return recs
+
+
 PARSERS = {
+    "zai": parse_zai,
+    "minimax": parse_minimax,
+    "xiaomi_mimo": parse_xiaomi_mimo,
+    "alibaba_qwen": parse_alibaba_qwen,
     "baseten": parse_baseten,
     "friendli": parse_friendli,
     "atlascloud": parse_atlascloud,

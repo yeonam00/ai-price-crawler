@@ -128,7 +128,12 @@ footer li { margin: 2px 0; }
   <section class="card" style="margin-top:16px">
     <h2>모델별 최저가 판매처</h2>
     <div class="controls">
-      <input type="search" id="q" placeholder="모델 검색 (예: claude, gpt-5, gemini-3.8)">
+      <input type="search" id="q" placeholder="모델 검색 (예: claude, gpt-5, deepseek-v4, glm-5.3)">
+      <select id="grp">
+        <option value="">전체 모델</option>
+        <option value="closed">글로벌 (OpenAI·Anthropic·Google·xAI)</option>
+        <option value="china">중국 오픈 모델</option>
+      </select>
       <select id="fam"><option value="">전체 제조사</option></select>
       <select id="act">
         <option value="active">현재 판매 중</option>
@@ -154,7 +159,11 @@ footer li { margin: 2px 0; }
 <script>
 const DATA = /*__DATA__*/null;
 
-const FAM = { openai: "OpenAI", anthropic: "Anthropic", google: "Google", xai: "xAI" };
+const FAM = { openai: "OpenAI", anthropic: "Anthropic", google: "Google", xai: "xAI",
+  deepseek: "DeepSeek", alibaba_qwen: "Qwen (Alibaba)", zai: "GLM (Z.ai)", moonshot: "Kimi (Moonshot)",
+  minimax: "MiniMax", xiaomi_mimo: "MiMo (Xiaomi)" };
+const GROUP = { closed: "글로벌", china: "중국 오픈" };
+const sellerName = (o) => o ? (o.via ? `${o.seller} (via ${o.via})` : o.seller) : "";
 const STATUS = {
   confirmed: ["반영 검토", "b-confirmed"], scheduled: ["예정 변경", "b-scheduled"],
   watching: ["관찰 중", "b-watching"], transient: ["일시적", "b-transient"],
@@ -201,7 +210,8 @@ const active = DATA.models.filter((m) => m.active);
 const cheaperThanDirect = active.filter((m) => m.direct && m.lowest.blended < m.direct.blended - 1e-9);
 const recent = ALERTS.confirmed.filter((a) => nowMs - Date.parse(a.at) < 7 * 864e5);
 const kpis = [
-  ["추적 중인 모델", active.length, `제조사 ${new Set(active.map((m) => m.family)).size}곳 · 판매처 비교`],
+  ["추적 중인 모델", active.length,
+   `글로벌 ${active.filter((m) => m.group === "closed").length} · 중국 오픈 ${active.filter((m) => m.group === "china").length}`],
   ["반영 검토 (최근 7일)", recent.length, `전체 기간 ${ALERTS.confirmed.length}건 확정`],
   ["예정된 가격 변경", scheduled.length, scheduled[0] ? `가장 가까운 날짜 ${scheduled[0].at}` : "공식 페이지 공지 기준"],
   ["관찰 중", ALERTS.watching.length, `${DATA.rules.confirm_hours}시간 유지 시 확정`],
@@ -278,9 +288,10 @@ for (const f of [...new Set(DATA.models.map((m) => m.family))]) $("#fam").insert
 function renderTable() {
   $("#thead").innerHTML = COLS.map(([k, l, c]) =>
     `<th class="${c || ""}" data-k="${k}">${l}${sortKey === k ? (sortDir > 0 ? " ▲" : " ▼") : ""}</th>`).join("");
-  const q = $("#q").value.trim().toLowerCase(), fam = $("#fam").value, onlyActive = $("#act").value === "active";
+  const q = $("#q").value.trim().toLowerCase(), fam = $("#fam").value, grp = $("#grp").value;
+  const onlyActive = $("#act").value === "active";
   const rows = DATA.models.filter((m) => (!q || m.id.includes(q) || (m.lowest?.seller || "").includes(q)) &&
-    (!fam || m.family === fam) && (!onlyActive || m.active));
+    (!grp || m.group === grp) && (!fam || m.family === fam) && (!onlyActive || m.active));
   rows.sort((a, b) => {
     const x = rowVal(a, sortKey), y = rowVal(b, sortKey);
     return (x < y ? -1 : x > y ? 1 : a.id.localeCompare(b.id)) * sortDir;
@@ -290,7 +301,7 @@ function renderTable() {
     const sched = m.scheduled.length ? ` <span class="badge b-scheduled" title="예정된 가격 변경">예정</span>` : "";
     return `<tr data-model="${esc(m.id)}" class="${m.id === selected ? "sel" : ""} ${m.active ? "" : "inactive"}">
       <td><b>${esc(m.id)}</b>${sched}</td><td>${FAM[m.family] || m.family}</td>
-      <td>${lo ? esc(lo.seller) : "판매 종료"}</td>
+      <td>${lo ? esc(sellerName(lo)) : "판매 종료"}</td>
       <td class="r num">${usd(lo?.input)}</td><td class="r num">${usd(lo?.output)}</td><td class="r num"><b>${usd(lo?.blended)}</b></td>
       <td class="r num ${vd < -1e-6 ? "down" : ""}">${!m.direct || !lo ? "직판 없음" : Math.abs(vd) < 1e-6 ? "동일" : pct(vd)}</td>
       <td class="r num">${m.offers}</td>
@@ -303,7 +314,7 @@ $("#thead").addEventListener("click", (e) => {
   if (sortKey === th.dataset.k) sortDir = -sortDir; else { sortKey = th.dataset.k; sortDir = 1; }
   renderTable();
 });
-for (const id of ["#q", "#fam", "#act"]) $(id).addEventListener("input", renderTable);
+for (const id of ["#q", "#grp", "#fam", "#act"]) $(id).addEventListener("input", renderTable);
 $("#tbody").addEventListener("click", (e) => { const tr = e.target.closest("tr[data-model]"); if (tr) select(tr.dataset.model, false); });
 
 // ---------- 상세 + 차트 ----------
@@ -333,7 +344,7 @@ function renderDetail() {
   $("#detail").innerHTML = `
     <div class="detail-head">
       <div><div class="sub">${FAM[m.family] || m.family} · 판매처 ${m.offers}곳</div><div class="big">${esc(m.id)}</div></div>
-      <div style="text-align:right">${lo ? `<div class="sub">최저가 · ${esc(lo.seller)}</div>
+      <div style="text-align:right">${lo ? `<div class="sub">최저가 · ${esc(sellerName(lo))}</div>
         <div class="big num">${usd(lo.blended)} <span class="sub">/1M 가중 평균</span></div>
         <div class="sub num">입력 ${usd(lo.input)} · 출력 ${usd(lo.output)}${lo.cache_read ? ` · 캐시 ${usd(lo.cache_read)}` : ""}</div>` :
         `<div class="sub">현재 수집되는 판매처 없음</div>`}</div>
@@ -347,7 +358,7 @@ function renderDetail() {
     ${events.length ? `<div class="note">${events.map((a) => `<span class="badge ${STATUS[a.status][1]}">${STATUS[a.status][0]}</span> ${a.seller ? esc(a.seller) : "최저가"} ${usd(a.old)} → ${usd(a.new)} (${pct((a.new / a.old - 1) * 100)}) · ${kst(a.at)}`).join("<br>")}</div>` : ""}
     <details style="margin-top:10px"><summary>현재 판매처 순위 (표로 보기)</summary>
       <div class="tbl-wrap" style="margin-top:6px"><table><thead><tr><th>#</th><th>판매처</th><th>표기명</th><th class="r">입력</th><th class="r">출력</th><th class="r">가중 평균</th><th class="r">최저가 대비</th></tr></thead><tbody>
-      ${m.ranking.map((r, i) => `<tr><td>${i + 1}</td><td>${esc(r.seller)}${r.region ? ` <span class="muted">${esc(r.region)}</span>` : ""}</td><td class="muted">${esc(r.listed_as)}</td>
+      ${m.ranking.map((r, i) => `<tr><td>${i + 1}</td><td>${esc(sellerName(r))}${r.region ? ` <span class="muted">${esc(r.region)}</span>` : ""}</td><td class="muted">${esc(r.listed_as)}</td>
         <td class="r num">${usd(r.input)}</td><td class="r num">${usd(r.output)}</td><td class="r num">${usd(r.blended)}</td>
         <td class="r num">${i === 0 ? "–" : pct((r.blended / m.ranking[0].blended - 1) * 100)}</td></tr>`).join("")}
       </tbody></table></div></details>`;
@@ -412,6 +423,7 @@ const w = DATA.rules.weights;
 $("#rules").innerHTML = [
   `비교 조건: USD · 100만 토큰당 · standard 요금 · 기본 컨텍스트 · 텍스트 모델. Batch/Flex/Priority·원화 사이트·48시간 넘게 갱신 안 된 가격은 제외.`,
   `가중 평균 = (입력 × ${w.input} + 출력 × ${w.output}) / ${w.input + w.output}. 판매처는 이 값이 가장 낮은 곳을 최저가로 선정합니다.`,
+  `<b>중국 오픈 모델</b>(DeepSeek, Qwen, GLM, Kimi, MiniMax, MiMo) 추가 조건: 스냅샷 날짜까지 같은 버전끼리만 비교(예: v4-flash-0731 ≠ v4-flash). 속도 등급(fast·highspeed·ultraspeed), 파생 모델(uncensored·RL 튜닝 등), 저정밀 양자화(fp4·int4·int8·AWQ), 압축 모델(CompactifAI), 별칭(deepseek-chat, *-latest)은 제외. fp8·bf16은 같은 모델로 봄. DeepSeek은 피크 요금, Qwen 공식가는 International 배포 기준. 라우터는 실제 연결 업체를 (via …)로 표시.`,
   `<b>반영 검토</b>: 마지막으로 확정된 가격(기준가) 대비 ${DATA.rules.min_pct}% 이상 변한 상태가 ${DATA.rules.confirm_hours}시간 이상 유지되면 확정하고 기준가를 갱신합니다. 직전 수집값이 아니라 기준가와 비교하므로 작은 변화가 누적돼도 잡힙니다.`,
   `<b>일시적</b>: ${DATA.rules.confirm_hours}시간 안에 기준가로 돌아온 변화. <b>관찰 중</b>: 아직 ${DATA.rules.confirm_hours}시간이 지나지 않은 변화.`,
   `가격은 공개 가격표 기준이며 실제 청구액·계약 단가·고객 판매가와 다를 수 있습니다. 수집 실패 사이트(${run.failed.length}곳)는 이 비교에 포함되지 않습니다.`,
