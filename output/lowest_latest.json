@@ -1,10 +1,10 @@
 {
- "collected_at": "2026-10-28T11:43:17+00:00",
+ "collected_at": "2026-10-28T17:28:23+00:00",
  "weights": {
   "input": 3,
   "output": 1
  },
- "model_count": 254,
+ "model_count": 252,
  "models": {
   "claude-fable-5.1": {
    "family": "anthropic",
@@ -20,7 +20,7 @@
     "cache_read": 0.25,
     "blended": 20.0,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": {
     "via": null,
@@ -32,7 +32,7 @@
     "cache_read": 0.25,
     "blended": 20.0,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "next_best": [
     {
@@ -45,7 +45,7 @@
      "cache_read": 0.25,
      "blended": 20.0,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": "anthropic",
@@ -57,7 +57,7 @@
      "cache_read": 0.25,
      "blended": 20.0,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -75,7 +75,7 @@
     "cache_read": 0.5,
     "blended": 10.0,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": {
     "via": null,
@@ -87,7 +87,7 @@
     "cache_read": 0.5,
     "blended": 10.0,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "next_best": [
     {
@@ -100,7 +100,7 @@
      "cache_read": 0.5,
      "blended": 10.0,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": null,
@@ -112,7 +112,7 @@
      "cache_read": null,
      "blended": 10.0,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -130,7 +130,7 @@
     "cache_read": 0.2,
     "blended": 4.0,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": {
     "via": null,
@@ -142,7 +142,7 @@
     "cache_read": 0.2,
     "blended": 4.0,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "next_best": [
     {
@@ -155,7 +155,7 @@
      "cache_read": 0.2,
      "blended": 4.0,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": "databricks",
@@ -167,7 +167,7 @@
      "cache_read": 0.2,
      "blended": 4.0,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -185,7 +185,7 @@
     "cache_read": 0.1,
     "blended": 2.0,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": {
     "via": null,
@@ -197,7 +197,7 @@
     "cache_read": 0.1,
     "blended": 2.0,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "next_best": [
     {
@@ -210,7 +210,7 @@
      "cache_read": 0.1,
      "blended": 2.0,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": null,
@@ -222,7 +222,7 @@
      "cache_read": null,
      "blended": 2.0,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -240,7 +240,7 @@
     "cache_read": 1.0,
     "blended": 20.0,
     "region": "Global",
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": [
@@ -254,7 +254,7 @@
      "cache_read": null,
      "blended": 20.0,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": "databricks",
@@ -266,7 +266,7 @@
      "cache_read": 1.0,
      "blended": 20.0,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -284,7 +284,7 @@
     "cache_read": 0.4,
     "blended": 8.0,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": {
     "via": null,
@@ -296,7 +296,7 @@
     "cache_read": 0.4,
     "blended": 8.0,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "next_best": [
     {
@@ -309,7 +309,7 @@
      "cache_read": 0.4,
      "blended": 8.0,
      "region": "Global",
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": "OpenAI",
@@ -321,7 +321,7 @@
      "cache_read": null,
      "blended": 8.0,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -339,7 +339,7 @@
     "cache_read": 0.2,
     "blended": 4.5,
     "region": "Global",
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": [
@@ -353,7 +353,7 @@
      "cache_read": null,
      "blended": 4.5,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": "azure",
@@ -365,7 +365,7 @@
      "cache_read": 0.2,
      "blended": 4.5,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -383,7 +383,7 @@
     "cache_read": 0.02,
     "blended": 0.45,
     "region": "Global",
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": [
@@ -397,7 +397,7 @@
      "cache_read": null,
      "blended": 0.45,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": "azure",
@@ -409,7 +409,7 @@
      "cache_read": 0.02,
      "blended": 0.45,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -427,7 +427,7 @@
     "cache_read": 0.075,
     "blended": 1.5,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": {
     "via": null,
@@ -439,7 +439,7 @@
     "cache_read": 0.075,
     "blended": 1.5,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "next_best": [
     {
@@ -452,7 +452,7 @@
      "cache_read": 0.075,
      "blended": 1.5,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": "databricks",
@@ -464,7 +464,7 @@
      "cache_read": 0.075,
      "blended": 1.5,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -482,7 +482,7 @@
     "cache_read": 0.2,
     "blended": 4.5,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": {
     "via": null,
@@ -494,7 +494,7 @@
     "cache_read": 0.2,
     "blended": 4.5,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "next_best": [
     {
@@ -507,7 +507,7 @@
      "cache_read": null,
      "blended": 4.5,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": "google",
@@ -519,7 +519,7 @@
      "cache_read": 0.2,
      "blended": 4.5,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -528,16 +528,16 @@
    "group": "china",
    "offers": 62,
    "lowest": {
-    "via": "Reka",
+    "via": "Baidu",
     "seller": "openrouter",
     "source": "openrouter",
     "listed_as": "z-ai/glm-5.3",
-    "input": 0.14,
-    "output": 2.1,
-    "cache_read": 0.105,
-    "blended": 0.63,
+    "input": 0.28,
+    "output": 0.88,
+    "cache_read": 0.052,
+    "blended": 0.43,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": {
     "via": null,
@@ -549,9 +549,21 @@
     "cache_read": 0.26,
     "blended": 2.15,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "next_best": [
+    {
+     "via": "Reka",
+     "seller": "openrouter",
+     "source": "openrouter",
+     "listed_as": "z-ai/glm-5.3",
+     "input": 0.14,
+     "output": 2.1,
+     "cache_read": 0.105,
+     "blended": 0.63,
+     "region": null,
+     "collected_at": "2026-10-28T17:28:23+00:00"
+    },
     {
      "via": "Morph",
      "seller": "openrouter",
@@ -562,19 +574,7 @@
      "cache_read": 0.076,
      "blended": 0.7215,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
-    },
-    {
-     "via": "Sail Research",
-     "seller": "openrouter",
-     "source": "openrouter",
-     "listed_as": "z-ai/glm-5.3",
-     "input": 0.5,
-     "output": 2.0,
-     "cache_read": 0.08,
-     "blended": 0.875,
-     "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -587,12 +587,12 @@
     "seller": "openrouter",
     "source": "openrouter",
     "listed_as": "z-ai/glm-5.3-flash",
-    "input": 0.0197,
-    "output": 0.1238,
-    "cache_read": 0.0197,
-    "blended": 0.045725,
+    "input": 0.0259,
+    "output": 0.1042,
+    "cache_read": 0.0259,
+    "blended": 0.045475,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": {
     "via": null,
@@ -604,7 +604,7 @@
     "cache_read": 0.03,
     "blended": 0.2375,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "next_best": [
     {
@@ -617,7 +617,7 @@
      "cache_read": null,
      "blended": 0.11875,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": null,
@@ -629,7 +629,7 @@
      "cache_read": null,
      "blended": 0.11875,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -647,7 +647,7 @@
     "cache_read": 0.195,
     "blended": 3.9,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": [
@@ -661,7 +661,7 @@
      "cache_read": 0.21,
      "blended": 4.2,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": null,
@@ -673,7 +673,7 @@
      "cache_read": 0.23,
      "blended": 4.2375,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -682,42 +682,42 @@
    "group": "china",
    "offers": 69,
    "lowest": {
-    "via": null,
-    "seller": "vercel",
-    "source": "vercel",
+    "via": "Baidu",
+    "seller": "openrouter",
+    "source": "openrouter",
     "listed_as": "deepseek/deepseek-v4.1-flash",
-    "input": 0.075,
-    "output": 0.3,
-    "cache_read": 0.0015,
-    "blended": 0.13125,
+    "input": 0.0438,
+    "output": 0.1752,
+    "cache_read": 0.000876,
+    "blended": 0.07665,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": [
     {
-     "via": "DeepInfra",
+     "via": "Morph",
      "seller": "openrouter",
      "source": "openrouter",
      "listed_as": "deepseek/deepseek-v4.1-flash",
-     "input": 0.112,
-     "output": 0.336,
-     "cache_read": 0.00336,
-     "blended": 0.168,
+     "input": 0.044,
+     "output": 0.383,
+     "cache_read": 0.004,
+     "blended": 0.12875,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
-     "via": "qwen",
-     "seller": "edenai",
-     "source": "edenai",
-     "listed_as": "deepseek-v4.1-flash",
-     "input": 0.0975,
-     "output": 0.39,
-     "cache_read": 0.00975,
-     "blended": 0.170625,
+     "via": null,
+     "seller": "vercel",
+     "source": "vercel",
+     "listed_as": "deepseek/deepseek-v4.1-flash",
+     "input": 0.075,
+     "output": 0.3,
+     "cache_read": 0.0015,
+     "blended": 0.13125,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -735,7 +735,7 @@
     "cache_read": 0.022,
     "blended": 0.99,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": [
@@ -749,7 +749,7 @@
      "cache_read": 0.022,
      "blended": 0.99,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": null,
@@ -761,7 +761,7 @@
      "cache_read": 0.022,
      "blended": 0.99,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -779,7 +779,7 @@
     "cache_read": null,
     "blended": 2.0,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": [
@@ -793,7 +793,7 @@
      "cache_read": 0.05,
      "blended": 2.0,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": "databricks",
@@ -805,7 +805,7 @@
      "cache_read": 0.05,
      "blended": 2.0,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -823,7 +823,7 @@
     "cache_read": 0.1,
     "blended": 4.0,
     "region": "Global",
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": [
@@ -837,7 +837,7 @@
      "cache_read": null,
      "blended": 4.0,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": "databricks",
@@ -849,7 +849,7 @@
      "cache_read": 0.2,
      "blended": 4.0,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -867,7 +867,7 @@
     "cache_read": 0.2,
     "blended": 4.0,
     "region": "Global",
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": [
@@ -881,7 +881,7 @@
      "cache_read": null,
      "blended": 4.0,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": "databricks",
@@ -893,7 +893,7 @@
      "cache_read": 0.2,
      "blended": 4.0,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -911,7 +911,7 @@
     "cache_read": 0.01,
     "blended": 0.2,
     "region": "Global",
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": [
@@ -925,7 +925,7 @@
      "cache_read": null,
      "blended": 0.2,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": "databricks",
@@ -937,7 +937,7 @@
      "cache_read": 0.01,
      "blended": 0.2,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -955,7 +955,7 @@
     "cache_read": 0.5,
     "blended": 11.25,
     "region": "Global",
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": [
@@ -969,7 +969,7 @@
      "cache_read": null,
      "blended": 11.25,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": "azure",
@@ -981,7 +981,7 @@
      "cache_read": 0.5,
      "blended": 11.25,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -999,7 +999,7 @@
     "cache_read": null,
     "blended": 5.625,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": [
@@ -1013,7 +1013,7 @@
      "cache_read": 0.25,
      "blended": 5.625,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": "databricks",
@@ -1025,7 +1025,7 @@
      "cache_read": 0.25,
      "blended": 5.625,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -1043,7 +1043,7 @@
     "cache_read": 0.08,
     "blended": 1.6875,
     "region": "Global",
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": [
@@ -1057,7 +1057,7 @@
      "cache_read": 0.075,
      "blended": 1.6875,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": "azure",
@@ -1069,7 +1069,7 @@
      "cache_read": 0.075,
      "blended": 1.6875,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -1087,7 +1087,7 @@
     "cache_read": 0.18,
     "blended": 4.8125,
     "region": "Global",
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": [
@@ -1101,7 +1101,7 @@
      "cache_read": 0.175,
      "blended": 4.8125,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": "databricks",
@@ -1113,7 +1113,7 @@
      "cache_read": 0.175,
      "blended": 4.8125,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -1131,7 +1131,7 @@
     "cache_read": 0.2,
     "blended": 4.0,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": [
@@ -1145,7 +1145,7 @@
      "cache_read": 0.2,
      "blended": 4.0,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": null,
@@ -1157,7 +1157,7 @@
      "cache_read": null,
      "blended": 4.0,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -1175,7 +1175,7 @@
     "cache_read": 0.2,
     "blended": 8.0,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": {
     "via": null,
@@ -1187,7 +1187,7 @@
     "cache_read": 0.2,
     "blended": 8.0,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "next_best": [
     {
@@ -1200,7 +1200,7 @@
      "cache_read": 0.2,
      "blended": 8.0,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": "databricks",
@@ -1212,7 +1212,7 @@
      "cache_read": 0.4,
      "blended": 8.0,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -1230,7 +1230,7 @@
     "cache_read": 1.0,
     "blended": 20.0,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": {
     "via": null,
@@ -1242,7 +1242,7 @@
     "cache_read": 1.0,
     "blended": 20.0,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "next_best": [
     {
@@ -1255,7 +1255,7 @@
      "cache_read": 1.0,
      "blended": 20.0,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": null,
@@ -1267,7 +1267,7 @@
      "cache_read": null,
      "blended": 20.0,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -1285,7 +1285,7 @@
     "cache_read": 0.5,
     "blended": 10.0,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": {
     "via": null,
@@ -1297,7 +1297,7 @@
     "cache_read": 0.5,
     "blended": 10.0,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "next_best": [
     {
@@ -1310,7 +1310,7 @@
      "cache_read": 0.5,
      "blended": 10.0,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": null,
@@ -1322,7 +1322,7 @@
      "cache_read": null,
      "blended": 10.0,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -1340,7 +1340,7 @@
     "cache_read": 0.3,
     "blended": 6.0,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": {
     "via": null,
@@ -1352,7 +1352,7 @@
     "cache_read": 0.3,
     "blended": 6.0,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "next_best": [
     {
@@ -1365,7 +1365,7 @@
      "cache_read": 0.3,
      "blended": 6.0,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": null,
@@ -1377,7 +1377,7 @@
      "cache_read": null,
      "blended": 6.0,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -1395,7 +1395,7 @@
     "cache_read": 0.1,
     "blended": 4.0,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": {
     "via": null,
@@ -1407,7 +1407,7 @@
     "cache_read": 0.1,
     "blended": 4.0,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "next_best": [
     {
@@ -1420,7 +1420,7 @@
      "cache_read": 0.1,
      "blended": 4.0,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": "databricks",
@@ -1432,7 +1432,7 @@
      "cache_read": 0.2,
      "blended": 4.0,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -1450,7 +1450,7 @@
     "cache_read": 0.01,
     "blended": 0.2,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": {
     "via": null,
@@ -1462,7 +1462,7 @@
     "cache_read": 0.01,
     "blended": 0.2,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "next_best": [
     {
@@ -1475,7 +1475,7 @@
      "cache_read": null,
      "blended": 0.2,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": "databricks",
@@ -1487,7 +1487,7 @@
      "cache_read": 0.01,
      "blended": 0.2,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -1505,7 +1505,7 @@
     "cache_read": 0.05,
     "blended": 1.125,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": {
     "via": null,
@@ -1517,7 +1517,7 @@
     "cache_read": 0.05,
     "blended": 1.125,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "next_best": [
     {
@@ -1530,7 +1530,7 @@
      "cache_read": 0.05,
      "blended": 1.125,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": "google",
@@ -1542,7 +1542,7 @@
      "cache_read": 0.05,
      "blended": 1.125,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -1560,7 +1560,7 @@
     "cache_read": 0.5,
     "blended": 3.0,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": {
     "via": null,
@@ -1572,7 +1572,7 @@
     "cache_read": 0.5,
     "blended": 3.0,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "next_best": [
     {
@@ -1585,7 +1585,7 @@
      "cache_read": null,
      "blended": 3.0,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": "databricks",
@@ -1597,7 +1597,7 @@
      "cache_read": 0.2,
      "blended": 3.0,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -1615,7 +1615,7 @@
     "cache_read": 0.5,
     "blended": 3.0,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": {
     "via": null,
@@ -1627,7 +1627,7 @@
     "cache_read": 0.5,
     "blended": 3.0,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "next_best": [
     {
@@ -1640,7 +1640,7 @@
      "cache_read": null,
      "blended": 3.0,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": "databricks",
@@ -1652,7 +1652,7 @@
      "cache_read": 0.2,
      "blended": 3.0,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -1670,7 +1670,7 @@
     "cache_read": 0.3,
     "blended": 3.0,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": {
     "via": null,
@@ -1682,7 +1682,7 @@
     "cache_read": 0.3,
     "blended": 3.0,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "next_best": [
     {
@@ -1695,7 +1695,7 @@
      "cache_read": null,
      "blended": 3.0,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": "xai",
@@ -1707,7 +1707,7 @@
      "cache_read": 0.3,
      "blended": 3.0,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -1725,7 +1725,7 @@
     "cache_read": 0.2,
     "blended": 1.5625,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": {
     "via": null,
@@ -1737,7 +1737,7 @@
     "cache_read": 0.2,
     "blended": 1.5625,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "next_best": [
     {
@@ -1750,7 +1750,7 @@
      "cache_read": null,
      "blended": 1.5625,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": "xai",
@@ -1762,7 +1762,7 @@
      "cache_read": 0.2,
      "blended": 1.5625,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -1780,7 +1780,7 @@
     "cache_read": null,
     "blended": 1.5625,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": [
@@ -1794,7 +1794,7 @@
      "cache_read": 0.2,
      "blended": 1.5625,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": null,
@@ -1806,7 +1806,7 @@
      "cache_read": 0.2,
      "blended": 1.5625,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -1824,7 +1824,7 @@
     "cache_read": 0.2,
     "blended": 1.5625,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": {
     "via": null,
@@ -1836,7 +1836,7 @@
     "cache_read": 0.2,
     "blended": 1.5625,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "next_best": [
     {
@@ -1849,7 +1849,7 @@
      "cache_read": 0.2,
      "blended": 1.5625,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": "xai",
@@ -1861,7 +1861,7 @@
      "cache_read": 0.2,
      "blended": 1.5625,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -1879,7 +1879,7 @@
     "cache_read": 0.2,
     "blended": 1.25,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": {
     "via": null,
@@ -1891,7 +1891,7 @@
     "cache_read": 0.2,
     "blended": 1.25,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "next_best": [
     {
@@ -1904,7 +1904,7 @@
      "cache_read": null,
      "blended": 1.25,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": "xai",
@@ -1916,7 +1916,7 @@
      "cache_read": 0.2,
      "blended": 1.25,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -1934,7 +1934,7 @@
     "cache_read": null,
     "blended": 0.4625,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": [
@@ -1948,7 +1948,7 @@
      "cache_read": null,
      "blended": 0.4625,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": "deepinfra",
@@ -1960,7 +1960,7 @@
      "cache_read": null,
      "blended": 0.4625,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -1969,30 +1969,30 @@
    "group": "china",
    "offers": 28,
    "lowest": {
-    "via": "StreamLake",
+    "via": "Baidu",
     "seller": "openrouter",
     "source": "openrouter",
     "listed_as": "deepseek/deepseek-v4-flash",
-    "input": 0.0826,
-    "output": 0.1652,
-    "cache_read": 0.01652,
-    "blended": 0.10325,
+    "input": 0.04032,
+    "output": 0.08064,
+    "cache_read": 0.008064,
+    "blended": 0.0504,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": [
     {
-     "via": null,
-     "seller": "deepinfra",
-     "source": "deepinfra",
-     "listed_as": "DeepSeek-V4-Flash",
-     "input": 0.09,
-     "output": 0.18,
-     "cache_read": null,
-     "blended": 0.1125,
+     "via": "StreamLake",
+     "seller": "openrouter",
+     "source": "openrouter",
+     "listed_as": "deepseek/deepseek-v4-flash",
+     "input": 0.07,
+     "output": 0.14,
+     "cache_read": 0.014,
+     "blended": 0.0875,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": null,
@@ -2004,14 +2004,14 @@
      "cache_read": null,
      "blended": 0.1125,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
   "deepseek-v3.2": {
    "family": "deepseek",
    "group": "china",
-   "offers": 28,
+   "offers": 26,
    "lowest": {
     "via": null,
     "seller": "gmicloud",
@@ -2022,7 +2022,7 @@
     "cache_read": null,
     "blended": 0.234,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": [
@@ -2036,7 +2036,7 @@
      "cache_read": 0.0216,
      "blended": 0.234,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": null,
@@ -2048,7 +2048,7 @@
      "cache_read": null,
      "blended": 0.29,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -2066,7 +2066,7 @@
     "cache_read": 0.075,
     "blended": 0.59,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": {
     "via": null,
@@ -2078,7 +2078,7 @@
     "cache_read": 0.075,
     "blended": 0.59,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "next_best": [
     {
@@ -2091,7 +2091,7 @@
      "cache_read": 0.075,
      "blended": 0.59,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": "zai",
@@ -2103,7 +2103,7 @@
      "cache_read": 0.09,
      "blended": 0.59,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -2121,7 +2121,7 @@
     "cache_read": 0.1625,
     "blended": 1.95,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": {
     "via": null,
@@ -2133,7 +2133,7 @@
     "cache_read": null,
     "blended": 3.0,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "next_best": [
     {
@@ -2146,7 +2146,7 @@
      "cache_read": null,
      "blended": 2.47525,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": null,
@@ -2158,7 +2158,7 @@
      "cache_read": null,
      "blended": 2.47525,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -2176,7 +2176,7 @@
     "cache_read": 0.295,
     "blended": 2.2125,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": {
     "via": null,
@@ -2188,7 +2188,7 @@
     "cache_read": null,
     "blended": 3.75,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "next_best": [
     {
@@ -2201,7 +2201,7 @@
      "cache_read": 0.5,
      "blended": 2.25,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": "qwen",
@@ -2213,7 +2213,7 @@
      "cache_read": 0.325,
      "blended": 2.4375,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -2231,7 +2231,7 @@
     "cache_read": 0.0039,
     "blended": 0.03575,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": {
     "via": null,
@@ -2243,7 +2243,7 @@
     "cache_read": null,
     "blended": 0.055,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "next_best": [
     {
@@ -2256,7 +2256,7 @@
      "cache_read": null,
      "blended": 0.055,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": "Alibaba",
@@ -2268,7 +2268,7 @@
      "cache_read": 0.006,
      "blended": 0.055,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -2286,7 +2286,7 @@
     "cache_read": 0.052,
     "blended": 0.455,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": {
     "via": null,
@@ -2298,7 +2298,7 @@
     "cache_read": null,
     "blended": 0.56,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "next_best": [
     {
@@ -2311,7 +2311,7 @@
      "cache_read": null,
      "blended": 0.56,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": "Alibaba",
@@ -2323,7 +2323,7 @@
      "cache_read": 0.064,
      "blended": 0.56,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -2341,7 +2341,7 @@
     "cache_read": 0.0104,
     "blended": 0.1495,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": {
     "via": null,
@@ -2353,7 +2353,7 @@
     "cache_read": null,
     "blended": 0.23,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "next_best": [
     {
@@ -2366,7 +2366,7 @@
      "cache_read": 0.0141,
      "blended": 0.18025,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": null,
@@ -2378,7 +2378,7 @@
      "cache_read": 0.014,
      "blended": 0.18025,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -2396,7 +2396,7 @@
     "cache_read": 0.0039,
     "blended": 0.34175,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": {
     "via": null,
@@ -2408,7 +2408,7 @@
     "cache_read": null,
     "blended": 1.125,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "next_best": [
     {
@@ -2421,7 +2421,7 @@
      "cache_read": null,
      "blended": 0.3625,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": "Near AI",
@@ -2433,7 +2433,7 @@
      "cache_read": 0.018,
      "blended": 0.3675,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -2451,7 +2451,7 @@
     "cache_read": null,
     "blended": 0.73125,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": {
     "via": null,
@@ -2463,7 +2463,7 @@
     "cache_read": null,
     "blended": 1.125,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "next_best": [
     {
@@ -2476,7 +2476,7 @@
      "cache_read": null,
      "blended": 0.73125,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": null,
@@ -2488,7 +2488,7 @@
      "cache_read": null,
      "blended": 1.125,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -2506,7 +2506,7 @@
     "cache_read": 0.1625,
     "blended": 1.95,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": {
     "via": null,
@@ -2518,7 +2518,7 @@
     "cache_read": null,
     "blended": 3.0,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "next_best": [
     {
@@ -2531,7 +2531,7 @@
      "cache_read": null,
      "blended": 2.47525,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": null,
@@ -2543,14 +2543,14 @@
      "cache_read": null,
      "blended": 3.0,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
   "qwen3-next-80b-a3b": {
    "family": "alibaba_qwen",
    "group": "china",
-   "offers": 20,
+   "offers": 19,
    "lowest": {
     "via": "DeepInfra",
     "seller": "openrouter",
@@ -2561,7 +2561,7 @@
     "cache_read": null,
     "blended": 0.274,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": [
@@ -2575,7 +2575,7 @@
      "cache_read": null,
      "blended": 0.3425,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": null,
@@ -2587,7 +2587,7 @@
      "cache_read": null,
      "blended": 0.3425,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -2605,7 +2605,7 @@
     "cache_read": null,
     "blended": 0.11375,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": {
     "via": null,
@@ -2617,7 +2617,7 @@
     "cache_read": null,
     "blended": 0.175,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "next_best": [
     {
@@ -2630,7 +2630,7 @@
      "cache_read": null,
      "blended": 0.11375,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": null,
@@ -2642,7 +2642,7 @@
      "cache_read": null,
      "blended": 0.175,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -2660,7 +2660,7 @@
     "cache_read": null,
     "blended": 0.27,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": [
@@ -2674,7 +2674,7 @@
      "cache_read": null,
      "blended": 0.4,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": null,
@@ -2686,7 +2686,7 @@
      "cache_read": null,
      "blended": 1.5725,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -2704,7 +2704,7 @@
     "cache_read": null,
     "blended": 0.37,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": [
@@ -2718,7 +2718,7 @@
      "cache_read": null,
      "blended": 0.37,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": "deepinfra",
@@ -2730,7 +2730,7 @@
      "cache_read": 0.11,
      "blended": 0.37,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -2748,7 +2748,7 @@
     "cache_read": 0.05,
     "blended": 0.3,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": {
     "via": null,
@@ -2760,7 +2760,7 @@
     "cache_read": null,
     "blended": 0.84375,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "next_best": [
     {
@@ -2773,7 +2773,7 @@
      "cache_read": 0.025,
      "blended": 0.3,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": null,
@@ -2785,7 +2785,7 @@
      "cache_read": null,
      "blended": 0.3125,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -2803,7 +2803,7 @@
     "cache_read": 0.075,
     "blended": 0.45,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": {
     "via": null,
@@ -2815,7 +2815,7 @@
     "cache_read": null,
     "blended": 1.35,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "next_best": [
     {
@@ -2828,7 +2828,7 @@
      "cache_read": 0.025,
      "blended": 0.6875,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": "qwen",
@@ -2840,7 +2840,7 @@
      "cache_read": null,
      "blended": 0.8775,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -2858,7 +2858,7 @@
     "cache_read": null,
     "blended": 0.355,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": {
     "via": null,
@@ -2870,7 +2870,7 @@
     "cache_read": null,
     "blended": 0.6875,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "next_best": [
     {
@@ -2883,7 +2883,7 @@
      "cache_read": null,
      "blended": 0.355,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": "deepinfra",
@@ -2895,7 +2895,7 @@
      "cache_read": 0.05,
      "blended": 0.355,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -2913,7 +2913,7 @@
     "cache_read": null,
     "blended": 0.53625,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": {
     "via": null,
@@ -2925,7 +2925,7 @@
     "cache_read": null,
     "blended": 0.825,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "next_best": [
     {
@@ -2938,7 +2938,7 @@
      "cache_read": null,
      "blended": 0.53625,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": "SiliconFlow",
@@ -2950,7 +2950,7 @@
      "cache_read": null,
      "blended": 0.6875,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -2968,7 +2968,7 @@
     "cache_read": 0.022,
     "blended": 0.715,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": {
     "via": null,
@@ -2980,7 +2980,7 @@
     "cache_read": null,
     "blended": 1.1,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "next_best": [
     {
@@ -2993,7 +2993,7 @@
      "cache_read": 0.022,
      "blended": 0.715,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": "qwen",
@@ -3005,7 +3005,7 @@
      "cache_read": null,
      "blended": 0.715,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -3023,7 +3023,7 @@
     "cache_read": null,
     "blended": 0.8775,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": {
     "via": null,
@@ -3035,7 +3035,7 @@
     "cache_read": null,
     "blended": 1.35,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "next_best": [
     {
@@ -3048,7 +3048,7 @@
      "cache_read": null,
      "blended": 0.8775,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": null,
@@ -3060,7 +3060,7 @@
      "cache_read": null,
      "blended": 1.0875,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -3078,7 +3078,7 @@
     "cache_read": 0.07,
     "blended": 0.29,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": [
@@ -3092,7 +3092,7 @@
      "cache_read": null,
      "blended": 0.348438,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": null,
@@ -3104,7 +3104,7 @@
      "cache_read": 0.06,
      "blended": 0.6,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -3122,7 +3122,7 @@
     "cache_read": 0.039,
     "blended": 0.39,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": {
     "via": null,
@@ -3134,7 +3134,7 @@
     "cache_read": null,
     "blended": 0.6,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "next_best": [
     {
@@ -3147,7 +3147,7 @@
      "cache_read": 0.039,
      "blended": 0.39,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": null,
@@ -3159,7 +3159,7 @@
      "cache_read": null,
      "blended": 0.6,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -3168,16 +3168,16 @@
    "group": "china",
    "offers": 51,
    "lowest": {
-    "via": "Morph",
+    "via": "Baidu",
     "seller": "openrouter",
     "source": "openrouter",
     "listed_as": "z-ai/glm-5.2",
-    "input": 0.226,
-    "output": 2.208,
-    "cache_read": 0.076,
-    "blended": 0.7215,
+    "input": 0.189,
+    "output": 0.594,
+    "cache_read": 0.0351,
+    "blended": 0.29025,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": {
     "via": null,
@@ -3189,32 +3189,32 @@
     "cache_read": 0.26,
     "blended": 2.15,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "next_best": [
+    {
+     "via": "Morph",
+     "seller": "openrouter",
+     "source": "openrouter",
+     "listed_as": "z-ai/glm-5.2",
+     "input": 0.226,
+     "output": 2.208,
+     "cache_read": 0.076,
+     "blended": 0.7215,
+     "region": null,
+     "collected_at": "2026-10-28T17:28:23+00:00"
+    },
     {
      "via": "StreamLake",
      "seller": "openrouter",
      "source": "openrouter",
      "listed_as": "z-ai/glm-5.2",
-     "input": 0.61306,
-     "output": 1.92676,
-     "cache_read": 0.113854,
-     "blended": 0.941485,
+     "input": 0.56,
+     "output": 1.76,
+     "cache_read": 0.104,
+     "blended": 0.86,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
-    },
-    {
-     "via": "Ambient",
-     "seller": "openrouter",
-     "source": "openrouter",
-     "listed_as": "z-ai/glm-5.2",
-     "input": 0.6,
-     "output": 2.0,
-     "cache_read": 0.15,
-     "blended": 0.95,
-     "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -3223,16 +3223,16 @@
    "group": "china",
    "offers": 30,
    "lowest": {
-    "via": "qwen",
-    "seller": "edenai",
-    "source": "edenai",
-    "listed_as": "glm-5.1",
-    "input": 0.91,
-    "output": 2.86,
-    "cache_read": 0.169,
-    "blended": 1.3975,
+    "via": "Baidu",
+    "seller": "openrouter",
+    "source": "openrouter",
+    "listed_as": "z-ai/glm-5.1",
+    "input": 0.8988,
+    "output": 2.8248,
+    "cache_read": 0.16692,
+    "blended": 1.3803,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": {
     "via": null,
@@ -3244,9 +3244,21 @@
     "cache_read": 0.26,
     "blended": 2.15,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "next_best": [
+    {
+     "via": "qwen",
+     "seller": "edenai",
+     "source": "edenai",
+     "listed_as": "glm-5.1",
+     "input": 0.91,
+     "output": 2.86,
+     "cache_read": 0.169,
+     "blended": 1.3975,
+     "region": null,
+     "collected_at": "2026-10-28T17:28:23+00:00"
+    },
     {
      "via": "Chutes",
      "seller": "openrouter",
@@ -3257,19 +3269,7 @@
      "cache_read": 0.09,
      "blended": 1.4,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
-    },
-    {
-     "via": "StreamLake",
-     "seller": "openrouter",
-     "source": "openrouter",
-     "listed_as": "z-ai/glm-5.1",
-     "input": 0.966,
-     "output": 3.036,
-     "cache_read": 0.1794,
-     "blended": 1.4835,
-     "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -3287,7 +3287,7 @@
     "cache_read": null,
     "blended": 0.93,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": {
     "via": null,
@@ -3299,7 +3299,7 @@
     "cache_read": 0.2,
     "blended": 1.55,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "next_best": [
     {
@@ -3312,7 +3312,7 @@
      "cache_read": null,
      "blended": 0.93,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": "StreamLake",
@@ -3324,7 +3324,7 @@
      "cache_read": 0.12,
      "blended": 0.93,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -3342,7 +3342,7 @@
     "cache_read": 0.1,
     "blended": 0.875,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": {
     "via": null,
@@ -3354,7 +3354,7 @@
     "cache_read": 0.11,
     "blended": 1.0,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "next_best": [
     {
@@ -3367,7 +3367,7 @@
      "cache_read": null,
      "blended": 0.875,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": null,
@@ -3379,14 +3379,14 @@
      "cache_read": null,
      "blended": 0.95,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
   "glm-4.7": {
    "family": "zai",
    "group": "china",
-   "offers": 17,
+   "offers": 16,
    "lowest": {
     "via": "deepinfra",
     "seller": "edenai",
@@ -3397,7 +3397,7 @@
     "cache_read": 0.08,
     "blended": 0.7375,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": {
     "via": null,
@@ -3409,7 +3409,7 @@
     "cache_read": 0.11,
     "blended": 1.0,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "next_best": [
     {
@@ -3422,7 +3422,7 @@
      "cache_read": null,
      "blended": 0.7375,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": "Novita",
@@ -3434,7 +3434,7 @@
      "cache_read": 0.099,
      "blended": 0.9,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -3452,7 +3452,7 @@
     "cache_read": 0.025,
     "blended": 0.31,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": {
     "via": null,
@@ -3464,7 +3464,7 @@
     "cache_read": 0.03,
     "blended": 0.425,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "next_best": [
     {
@@ -3477,7 +3477,7 @@
      "cache_read": 0.021,
      "blended": 0.32,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": "SiliconFlow",
@@ -3489,7 +3489,7 @@
      "cache_read": null,
      "blended": 0.32,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -3507,7 +3507,7 @@
     "cache_read": 0.11,
     "blended": 0.9,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": {
     "via": null,
@@ -3519,7 +3519,7 @@
     "cache_read": 0.11,
     "blended": 0.9,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "next_best": [
     {
@@ -3532,7 +3532,7 @@
      "cache_read": 0.11,
      "blended": 0.9,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": "Novita",
@@ -3544,7 +3544,7 @@
      "cache_read": 0.11,
      "blended": 0.9,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -3562,7 +3562,7 @@
     "cache_read": 0.45,
     "blended": 3.875,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": {
     "via": null,
@@ -3574,7 +3574,7 @@
     "cache_read": 0.45,
     "blended": 3.875,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "next_best": [
     {
@@ -3587,7 +3587,7 @@
      "cache_read": 0.45,
      "blended": 3.875,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -3605,7 +3605,7 @@
     "cache_read": 0.22,
     "blended": 1.95,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": {
     "via": null,
@@ -3617,7 +3617,7 @@
     "cache_read": 0.22,
     "blended": 1.95,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "next_best": [
     {
@@ -3630,7 +3630,7 @@
      "cache_read": 0.22,
      "blended": 1.95,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -3648,7 +3648,7 @@
     "cache_read": null,
     "blended": 0.1,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": {
     "via": null,
@@ -3660,7 +3660,7 @@
     "cache_read": null,
     "blended": 0.1,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "next_best": [
     {
@@ -3673,7 +3673,7 @@
      "cache_read": null,
      "blended": 0.1,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -3691,7 +3691,7 @@
     "cache_read": 0.0448,
     "blended": 0.388,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": {
     "via": null,
@@ -3703,7 +3703,7 @@
     "cache_read": 0.06,
     "blended": 0.525,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "next_best": [
     {
@@ -3716,7 +3716,7 @@
      "cache_read": 0.05,
      "blended": 0.4125,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": null,
@@ -3728,7 +3728,7 @@
      "cache_read": null,
      "blended": 0.42,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -3746,7 +3746,7 @@
     "cache_read": 0.03,
     "blended": 0.4,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": [
@@ -3760,7 +3760,7 @@
      "cache_read": 0.03,
      "blended": 0.44,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": null,
@@ -3772,7 +3772,7 @@
      "cache_read": 0.03,
      "blended": 0.44,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -3790,7 +3790,7 @@
     "cache_read": 0.0135,
     "blended": 0.23625,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": {
     "via": null,
@@ -3802,7 +3802,7 @@
     "cache_read": 0.015,
     "blended": 0.2625,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "next_best": [
     {
@@ -3815,7 +3815,7 @@
      "cache_read": null,
      "blended": 0.249375,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": "GMICloud",
@@ -3827,7 +3827,7 @@
      "cache_read": 0.01425,
      "blended": 0.249375,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -3845,7 +3845,7 @@
     "cache_read": 0.075,
     "blended": 1.5,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": {
     "via": null,
@@ -3857,7 +3857,7 @@
     "cache_read": 0.075,
     "blended": 1.5,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "next_best": [
     {
@@ -3870,7 +3870,7 @@
      "cache_read": 0.075,
      "blended": 1.5,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": "google",
@@ -3882,7 +3882,7 @@
      "cache_read": 0.075,
      "blended": 1.5,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -3900,7 +3900,7 @@
     "cache_read": 0.075,
     "blended": 1.5,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": [
@@ -3914,7 +3914,7 @@
      "cache_read": 0.075,
      "blended": 1.5,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": "databricks",
@@ -3926,7 +3926,7 @@
      "cache_read": 0.075,
      "blended": 1.5,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -3944,7 +3944,7 @@
     "cache_read": 0.15,
     "blended": 3.375,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": [
@@ -3958,7 +3958,7 @@
      "cache_read": null,
      "blended": 3.375,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": null,
@@ -3970,7 +3970,7 @@
      "cache_read": null,
      "blended": 3.375,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -3988,7 +3988,7 @@
     "cache_read": 0.03,
     "blended": 0.85,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": {
     "via": null,
@@ -4000,7 +4000,7 @@
     "cache_read": 0.03,
     "blended": 0.85,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "next_best": [
     {
@@ -4013,7 +4013,7 @@
      "cache_read": 0.03,
      "blended": 0.85,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": "google",
@@ -4025,7 +4025,7 @@
      "cache_read": 0.03,
      "blended": 0.85,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -4043,7 +4043,7 @@
     "cache_read": 0.025,
     "blended": 0.5625,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": {
     "via": null,
@@ -4055,7 +4055,7 @@
     "cache_read": 0.025,
     "blended": 0.5625,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "next_best": [
     {
@@ -4068,7 +4068,7 @@
      "cache_read": 0.025,
      "blended": 0.5625,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": null,
@@ -4080,7 +4080,7 @@
      "cache_read": null,
      "blended": 0.5625,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -4098,7 +4098,7 @@
     "cache_read": 0.125,
     "blended": 3.4375,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": {
     "via": null,
@@ -4110,7 +4110,7 @@
     "cache_read": 0.125,
     "blended": 3.4375,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "next_best": [
     {
@@ -4123,7 +4123,7 @@
      "cache_read": null,
      "blended": 3.4375,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": null,
@@ -4135,7 +4135,7 @@
      "cache_read": null,
      "blended": 3.4375,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -4153,7 +4153,7 @@
     "cache_read": 0.03,
     "blended": 0.85,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": {
     "via": null,
@@ -4165,7 +4165,7 @@
     "cache_read": 0.03,
     "blended": 0.85,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "next_best": [
     {
@@ -4178,7 +4178,7 @@
      "cache_read": null,
      "blended": 0.85,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": null,
@@ -4190,14 +4190,14 @@
      "cache_read": null,
      "blended": 0.85,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
   "qwen3-235b-a22b-2507": {
    "family": "alibaba_qwen",
    "group": "china",
-   "offers": 22,
+   "offers": 20,
    "lowest": {
     "via": null,
     "seller": "gmicloud",
@@ -4208,7 +4208,7 @@
     "cache_read": null,
     "blended": 0.153125,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": [
@@ -4222,7 +4222,7 @@
      "cache_read": null,
      "blended": 0.153125,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": "GMICloud",
@@ -4234,7 +4234,7 @@
      "cache_read": 0.0175,
      "blended": 0.153125,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -4252,7 +4252,7 @@
     "cache_read": null,
     "blended": 0.9125,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": [
@@ -4266,7 +4266,7 @@
      "cache_read": null,
      "blended": 0.9125,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": "deepinfra",
@@ -4278,7 +4278,7 @@
      "cache_read": 0.35,
      "blended": 0.9125,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -4296,7 +4296,7 @@
     "cache_read": null,
     "blended": 0.13,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": [
@@ -4310,7 +4310,7 @@
      "cache_read": null,
      "blended": 0.13,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": "deepinfra",
@@ -4322,7 +4322,7 @@
      "cache_read": null,
      "blended": 0.13,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -4340,7 +4340,7 @@
     "cache_read": null,
     "blended": 0.37,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": [
@@ -4354,7 +4354,7 @@
      "cache_read": null,
      "blended": 0.37,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": "deepinfra",
@@ -4366,7 +4366,7 @@
      "cache_read": null,
      "blended": 0.37,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -4384,7 +4384,7 @@
     "cache_read": 0.114,
     "blended": 1.0275,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": [
@@ -4398,7 +4398,7 @@
      "cache_read": 0.1008,
      "blended": 1.078875,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": "infomaniak",
@@ -4410,7 +4410,7 @@
      "cache_read": null,
      "blended": 1.338,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -4419,16 +4419,16 @@
    "group": "china",
    "offers": 42,
    "lowest": {
-    "via": "qwen",
-    "seller": "edenai",
-    "source": "edenai",
-    "listed_as": "deepseek-v4-pro-0813",
-    "input": 0.429,
-    "output": 1.287,
-    "cache_read": 0.0429,
-    "blended": 0.6435,
+    "via": "Baidu",
+    "seller": "openrouter",
+    "source": "openrouter",
+    "listed_as": "deepseek/deepseek-v4-pro-0813",
+    "input": 0.18216,
+    "output": 0.54648,
+    "cache_read": 0.005796,
+    "blended": 0.27324,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": {
     "via": null,
@@ -4440,32 +4440,32 @@
     "cache_read": 0.044,
     "blended": 1.98,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "next_best": [
     {
-     "via": "tencent",
+     "via": "qwen",
      "seller": "edenai",
      "source": "edenai",
      "listed_as": "deepseek-v4-pro-0813",
-     "input": 0.66,
-     "output": 1.98,
-     "cache_read": 0.022,
-     "blended": 0.99,
+     "input": 0.429,
+     "output": 1.287,
+     "cache_read": 0.0429,
+     "blended": 0.6435,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
-     "via": "StreamLake",
+     "via": "Alibaba",
      "seller": "openrouter",
      "source": "openrouter",
      "listed_as": "deepseek/deepseek-v4-pro-0813",
-     "input": 0.66,
-     "output": 1.98,
-     "cache_read": 0.022,
-     "blended": 0.99,
+     "input": 0.5808,
+     "output": 1.7424,
+     "cache_read": 0.05808,
+     "blended": 0.8712,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -4483,7 +4483,7 @@
     "cache_read": 0.5,
     "blended": 10.0,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": {
     "via": null,
@@ -4495,7 +4495,7 @@
     "cache_read": 0.5,
     "blended": 10.0,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "next_best": [
     {
@@ -4508,7 +4508,7 @@
      "cache_read": 0.5,
      "blended": 10.0,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": null,
@@ -4520,7 +4520,7 @@
      "cache_read": null,
      "blended": 10.0,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -4538,7 +4538,7 @@
     "cache_read": 0.5,
     "blended": 10.0,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": {
     "via": null,
@@ -4550,7 +4550,7 @@
     "cache_read": 0.5,
     "blended": 10.0,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "next_best": [
     {
@@ -4563,7 +4563,7 @@
      "cache_read": 0.5,
      "blended": 10.0,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": "amazon",
@@ -4575,7 +4575,7 @@
      "cache_read": 0.5,
      "blended": 10.0,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -4593,7 +4593,7 @@
     "cache_read": 0.5,
     "blended": 10.0,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": {
     "via": null,
@@ -4605,7 +4605,7 @@
     "cache_read": 0.5,
     "blended": 10.0,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "next_best": [
     {
@@ -4618,7 +4618,7 @@
      "cache_read": 0.5,
      "blended": 10.0,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": "amazon",
@@ -4630,7 +4630,7 @@
      "cache_read": 0.5,
      "blended": 10.0,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -4648,7 +4648,7 @@
     "cache_read": null,
     "blended": 0.7,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": {
     "via": null,
@@ -4660,7 +4660,7 @@
     "cache_read": 0.11,
     "blended": 1.0,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "next_best": [
     {
@@ -4673,7 +4673,7 @@
      "cache_read": 0.11,
      "blended": 1.0,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": "zai",
@@ -4685,7 +4685,7 @@
      "cache_read": 0.11,
      "blended": 1.0,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -4703,7 +4703,7 @@
     "cache_read": 0.3,
     "blended": 1.9,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": [
@@ -4717,7 +4717,7 @@
      "cache_read": 0.24,
      "blended": 1.9,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": "Z.AI",
@@ -4729,7 +4729,7 @@
      "cache_read": 0.24,
      "blended": 1.9,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -4747,7 +4747,7 @@
     "cache_read": 0.01,
     "blended": 0.145,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": {
     "via": null,
@@ -4759,7 +4759,7 @@
     "cache_read": 0.01,
     "blended": 0.1525,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "next_best": [
     {
@@ -4772,7 +4772,7 @@
      "cache_read": 0.01,
      "blended": 0.1525,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": null,
@@ -4784,7 +4784,7 @@
      "cache_read": 0.01,
      "blended": 0.1525,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -4802,7 +4802,7 @@
     "cache_read": 0.05,
     "blended": 0.45,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": {
     "via": null,
@@ -4814,7 +4814,7 @@
     "cache_read": 0.05,
     "blended": 0.45,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "next_best": [
     {
@@ -4827,7 +4827,7 @@
      "cache_read": 0.05,
      "blended": 0.45,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": "Novita",
@@ -4839,7 +4839,7 @@
      "cache_read": 0.055,
      "blended": 0.45,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -4857,7 +4857,7 @@
     "cache_read": 0.004,
     "blended": 0.13,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": {
     "via": null,
@@ -4869,7 +4869,7 @@
     "cache_read": 0.004,
     "blended": 0.13,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "next_best": [
     {
@@ -4882,7 +4882,7 @@
      "cache_read": 0.004,
      "blended": 0.13,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -4900,7 +4900,7 @@
     "cache_read": 0.1235,
     "blended": 1.113125,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": [
@@ -4914,7 +4914,7 @@
      "cache_read": 0.1425,
      "blended": 1.284375,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": "deepinfra",
@@ -4926,7 +4926,7 @@
      "cache_read": 0.136,
      "blended": 1.36,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -4944,7 +4944,7 @@
     "cache_read": null,
     "blended": 0.425,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": [
@@ -4958,7 +4958,7 @@
      "cache_read": null,
      "blended": 0.425,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": "deepinfra",
@@ -4970,7 +4970,7 @@
      "cache_read": 0.13,
      "blended": 0.425,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -4988,7 +4988,7 @@
     "cache_read": 0.038,
     "blended": 0.114,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": [
@@ -5002,7 +5002,7 @@
      "cache_read": null,
      "blended": 0.15,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": null,
@@ -5014,7 +5014,7 @@
      "cache_read": null,
      "blended": 0.15,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -5032,7 +5032,7 @@
     "cache_read": null,
     "blended": 0.475,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": [
@@ -5046,7 +5046,7 @@
      "cache_read": null,
      "blended": 0.475,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": "deepinfra",
@@ -5058,7 +5058,7 @@
      "cache_read": 0.1,
      "blended": 0.475,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -5076,7 +5076,7 @@
     "cache_read": null,
     "blended": 0.2625,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": [
@@ -5090,7 +5090,7 @@
      "cache_read": null,
      "blended": 0.2625,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": "deepinfra",
@@ -5102,7 +5102,7 @@
      "cache_read": null,
      "blended": 0.2625,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -5120,7 +5120,7 @@
     "cache_read": 0.02,
     "blended": 0.04625,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": [
@@ -5134,7 +5134,7 @@
      "cache_read": null,
      "blended": 0.1125,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": null,
@@ -5146,7 +5146,7 @@
      "cache_read": null,
      "blended": 0.1125,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -5164,7 +5164,7 @@
     "cache_read": null,
     "blended": 0.585,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": {
     "via": null,
@@ -5176,7 +5176,7 @@
     "cache_read": null,
     "blended": 0.9,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "next_best": [
     {
@@ -5189,7 +5189,7 @@
      "cache_read": null,
      "blended": 0.9,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": null,
@@ -5201,7 +5201,7 @@
      "cache_read": null,
      "blended": 0.9,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -5219,7 +5219,7 @@
     "cache_read": null,
     "blended": 0.365625,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": {
     "via": null,
@@ -5231,7 +5231,7 @@
     "cache_read": null,
     "blended": 0.5625,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "next_best": [
     {
@@ -5244,7 +5244,7 @@
      "cache_read": null,
      "blended": 0.421875,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": null,
@@ -5256,7 +5256,7 @@
      "cache_read": null,
      "blended": 0.5625,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -5274,7 +5274,7 @@
     "cache_read": 0.026,
     "blended": 0.3575,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": {
     "via": null,
@@ -5286,7 +5286,7 @@
     "cache_read": null,
     "blended": 0.55,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "next_best": [
     {
@@ -5299,7 +5299,7 @@
      "cache_read": 0.026,
      "blended": 0.3575,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": null,
@@ -5311,7 +5311,7 @@
      "cache_read": null,
      "blended": 0.55,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -5320,16 +5320,16 @@
    "group": "china",
    "offers": 49,
    "lowest": {
-    "via": null,
-    "seller": "deepinfra",
-    "source": "deepinfra",
-    "listed_as": "DeepSeek-V4-Flash-0731",
-    "input": 0.06,
-    "output": 0.18,
-    "cache_read": null,
-    "blended": 0.09,
+    "via": "Baidu",
+    "seller": "openrouter",
+    "source": "openrouter",
+    "listed_as": "deepseek/deepseek-v4-flash-0731",
+    "input": 0.04444,
+    "output": 0.13332,
+    "cache_read": 0.001414,
+    "blended": 0.06666,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": [
@@ -5343,19 +5343,19 @@
      "cache_read": null,
      "blended": 0.09,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
-     "via": "deepinfra",
-     "seller": "edenai",
-     "source": "edenai",
-     "listed_as": "deepseek-v4-flash-0731",
+     "via": null,
+     "seller": "deepinfra",
+     "source": "deepinfra",
+     "listed_as": "DeepSeek-V4-Flash-0731",
      "input": 0.06,
      "output": 0.18,
-     "cache_read": 0.015,
+     "cache_read": null,
      "blended": 0.09,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -5373,7 +5373,7 @@
     "cache_read": 0.1625,
     "blended": 1.95,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": {
     "via": null,
@@ -5385,7 +5385,7 @@
     "cache_read": null,
     "blended": 3.0,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "next_best": [
     {
@@ -5398,7 +5398,7 @@
      "cache_read": null,
      "blended": 3.0,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": "deepinfra",
@@ -5410,7 +5410,7 @@
      "cache_read": 0.2,
      "blended": 3.0,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -5428,7 +5428,7 @@
     "cache_read": 0.002352,
     "blended": 0.1176,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": {
     "via": null,
@@ -5440,9 +5440,21 @@
     "cache_read": 0.006,
     "blended": 0.525,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "next_best": [
+    {
+     "via": "Morph",
+     "seller": "openrouter",
+     "source": "openrouter",
+     "listed_as": "deepseek/deepseek-v4.1-flash-1017",
+     "input": 0.044,
+     "output": 0.383,
+     "cache_read": 0.004,
+     "blended": 0.12875,
+     "region": null,
+     "collected_at": "2026-10-28T17:28:23+00:00"
+    },
     {
      "via": null,
      "seller": "vercel",
@@ -5453,19 +5465,7 @@
      "cache_read": 0.0015,
      "blended": 0.13125,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
-    },
-    {
-     "via": "DeepInfra",
-     "seller": "openrouter",
-     "source": "openrouter",
-     "listed_as": "deepseek/deepseek-v4.1-flash-1017",
-     "input": 0.098,
-     "output": 0.294,
-     "cache_read": 0.00294,
-     "blended": 0.147,
-     "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -5483,7 +5483,7 @@
     "cache_read": null,
     "blended": 0.125,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": [
@@ -5497,7 +5497,7 @@
      "cache_read": 0.0225,
      "blended": 0.23,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": "tensorx",
@@ -5509,7 +5509,7 @@
      "cache_read": 0.05,
      "blended": 0.275,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -5527,7 +5527,7 @@
     "cache_read": null,
     "blended": 0.1375,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": {
     "via": null,
@@ -5539,7 +5539,7 @@
     "cache_read": 0.0028,
     "blended": 0.175,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "next_best": [
     {
@@ -5552,7 +5552,7 @@
      "cache_read": 0.003,
      "blended": 0.145,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": null,
@@ -5564,7 +5564,7 @@
      "cache_read": null,
      "blended": 0.14875,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -5582,7 +5582,7 @@
     "cache_read": null,
     "blended": 0.462188,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": {
     "via": null,
@@ -5594,7 +5594,7 @@
     "cache_read": 0.0036,
     "blended": 0.54375,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "next_best": [
     {
@@ -5607,7 +5607,7 @@
      "cache_read": 0.0034,
      "blended": 0.462188,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": "DeepInfra",
@@ -5619,7 +5619,7 @@
      "cache_read": 0.00324,
      "blended": 0.486,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -5637,7 +5637,7 @@
     "cache_read": null,
     "blended": 2.4375,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": {
     "via": null,
@@ -5649,7 +5649,7 @@
     "cache_read": null,
     "blended": 3.75,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "next_best": [
     {
@@ -5662,7 +5662,7 @@
      "cache_read": null,
      "blended": 3.75,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": null,
@@ -5674,7 +5674,7 @@
      "cache_read": null,
      "blended": 3.75,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -5692,7 +5692,7 @@
     "cache_read": 0.08,
     "blended": 3.2,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": {
     "via": null,
@@ -5704,7 +5704,7 @@
     "cache_read": 0.1,
     "blended": 4.0,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "next_best": [
     {
@@ -5717,7 +5717,7 @@
      "cache_read": 0.1,
      "blended": 4.0,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": "Gemini",
@@ -5729,7 +5729,7 @@
      "cache_read": 0.1,
      "blended": 4.0,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -5747,7 +5747,7 @@
     "cache_read": null,
     "blended": 67.5,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": [
@@ -5761,7 +5761,7 @@
      "cache_read": 3.0,
      "blended": 67.5,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": "databricks",
@@ -5773,7 +5773,7 @@
      "cache_read": 3.0,
      "blended": 67.5,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -5791,7 +5791,7 @@
     "cache_read": null,
     "blended": 67.5,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": [
@@ -5805,7 +5805,7 @@
      "cache_read": 3.0,
      "blended": 67.5,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": "openai",
@@ -5817,7 +5817,7 @@
      "cache_read": null,
      "blended": 67.5,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -5835,7 +5835,7 @@
     "cache_read": 0.02,
     "blended": 0.4625,
     "region": "Global",
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": [
@@ -5849,7 +5849,7 @@
      "cache_read": 0.02,
      "blended": 0.4625,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": "azure",
@@ -5861,7 +5861,7 @@
      "cache_read": 0.02,
      "blended": 0.4625,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -5879,7 +5879,7 @@
     "cache_read": 0.175,
     "blended": 4.8125,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": {
     "via": null,
@@ -5891,7 +5891,7 @@
     "cache_read": 0.175,
     "blended": 4.8125,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "next_best": [
     {
@@ -5904,7 +5904,7 @@
      "cache_read": 0.18,
      "blended": 4.8125,
      "region": "Global",
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": "OpenAI",
@@ -5916,7 +5916,7 @@
      "cache_read": 0.175,
      "blended": 4.8125,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -5934,7 +5934,7 @@
     "cache_read": null,
     "blended": 57.75,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": [
@@ -5948,7 +5948,7 @@
      "cache_read": null,
      "blended": 57.75,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": "openai",
@@ -5960,7 +5960,7 @@
      "cache_read": null,
      "blended": 57.75,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -5978,7 +5978,7 @@
     "cache_read": 0.13,
     "blended": 3.4375,
     "region": "Global",
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": [
@@ -5992,7 +5992,7 @@
      "cache_read": 0.125,
      "blended": 3.4375,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": "azure",
@@ -6004,7 +6004,7 @@
      "cache_read": 0.125,
      "blended": 3.4375,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -6022,7 +6022,7 @@
     "cache_read": null,
     "blended": 41.25,
     "region": "Global",
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": [
@@ -6036,7 +6036,7 @@
      "cache_read": null,
      "blended": 41.25,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": "azure",
@@ -6048,7 +6048,7 @@
      "cache_read": null,
      "blended": 41.25,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -6066,7 +6066,7 @@
     "cache_read": 0.13,
     "blended": 3.4375,
     "region": "Global",
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": [
@@ -6080,7 +6080,7 @@
      "cache_read": 0.125,
      "blended": 3.4375,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": "azure",
@@ -6092,7 +6092,7 @@
      "cache_read": 0.125,
      "blended": 3.4375,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -6110,7 +6110,7 @@
     "cache_read": 0.03,
     "blended": 0.6875,
     "region": "Global",
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": [
@@ -6124,7 +6124,7 @@
      "cache_read": 0.025,
      "blended": 0.6875,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": "azure",
@@ -6136,7 +6136,7 @@
      "cache_read": 0.025,
      "blended": 0.6875,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -6154,7 +6154,7 @@
     "cache_read": 0.01,
     "blended": 0.1375,
     "region": "Global",
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": [
@@ -6168,7 +6168,7 @@
      "cache_read": 0.005,
      "blended": 0.1375,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": "azure",
@@ -6180,7 +6180,7 @@
      "cache_read": 0.005,
      "blended": 0.1375,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -6198,7 +6198,7 @@
     "cache_read": 0.5,
     "blended": 3.5,
     "region": "Global",
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": [
@@ -6212,7 +6212,7 @@
      "cache_read": 0.5,
      "blended": 3.5,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": "azure",
@@ -6224,7 +6224,7 @@
      "cache_read": 0.5,
      "blended": 3.5,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -6242,7 +6242,7 @@
     "cache_read": null,
     "blended": 35.0,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": [
@@ -6256,7 +6256,7 @@
      "cache_read": null,
      "blended": 35.0,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": "openai",
@@ -6268,7 +6268,7 @@
      "cache_read": null,
      "blended": 35.0,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -6286,7 +6286,7 @@
     "cache_read": 0.3,
     "blended": 6.0,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": {
     "via": null,
@@ -6298,7 +6298,7 @@
     "cache_read": 0.3,
     "blended": 6.0,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "next_best": [
     {
@@ -6311,7 +6311,7 @@
      "cache_read": 0.3,
      "blended": 6.0,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": "amazon",
@@ -6323,7 +6323,7 @@
      "cache_read": 0.3,
      "blended": 6.0,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -6341,7 +6341,7 @@
     "cache_read": null,
     "blended": 0.3675,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": [
@@ -6355,7 +6355,7 @@
      "cache_read": 0.042,
      "blended": 0.3675,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": "Novita",
@@ -6367,7 +6367,7 @@
      "cache_read": 0.054,
      "blended": 0.4725,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -6385,7 +6385,7 @@
     "cache_read": 0.05,
     "blended": 2.0,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": []
@@ -6404,7 +6404,7 @@
     "cache_read": 0.1,
     "blended": 4.0,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": []
@@ -6423,7 +6423,7 @@
     "cache_read": 0.364,
     "blended": 2.795,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": [
@@ -6437,7 +6437,7 @@
      "cache_read": 0.56,
      "blended": 4.3,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -6455,7 +6455,7 @@
     "cache_read": 0.5,
     "blended": 6.0,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": [
@@ -6469,7 +6469,7 @@
      "cache_read": 0.5,
      "blended": 6.0,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -6487,7 +6487,7 @@
     "cache_read": 0.01,
     "blended": 0.2,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": []
@@ -6506,7 +6506,7 @@
     "cache_read": 0.2,
     "blended": 4.0,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": []
@@ -6525,7 +6525,7 @@
     "cache_read": 1.0,
     "blended": 20.0,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": []
@@ -6544,7 +6544,7 @@
     "cache_read": 0.003,
     "blended": 0.2625,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": [
@@ -6558,7 +6558,7 @@
      "cache_read": 0.00686,
      "blended": 0.3234,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": null,
@@ -6570,7 +6570,7 @@
      "cache_read": 0.0068,
      "blended": 0.3234,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -6588,7 +6588,7 @@
     "cache_read": 0.02,
     "blended": 0.45,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": []
@@ -6607,7 +6607,7 @@
     "cache_read": 0.2,
     "blended": 4.5,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": []
@@ -6626,7 +6626,7 @@
     "cache_read": 0.4,
     "blended": 8.0,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": []
@@ -6645,7 +6645,7 @@
     "cache_read": null,
     "blended": 0.585,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": {
     "via": null,
@@ -6657,7 +6657,7 @@
     "cache_read": null,
     "blended": 0.9,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "next_best": [
     {
@@ -6670,7 +6670,7 @@
      "cache_read": null,
      "blended": 0.675,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": null,
@@ -6682,7 +6682,7 @@
      "cache_read": null,
      "blended": 0.9,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -6700,7 +6700,7 @@
     "cache_read": null,
     "blended": 0.380625,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": [
@@ -6714,7 +6714,7 @@
      "cache_read": 0.0028,
      "blended": 0.380625,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": null,
@@ -6726,7 +6726,7 @@
      "cache_read": 0.0028,
      "blended": 0.380625,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -6744,7 +6744,7 @@
     "cache_read": null,
     "blended": 0.14875,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": [
@@ -6758,7 +6758,7 @@
      "cache_read": 0.00255,
      "blended": 0.14875,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": null,
@@ -6770,7 +6770,7 @@
      "cache_read": 0.0025,
      "blended": 0.14875,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -6788,7 +6788,7 @@
     "cache_read": 0.3,
     "blended": 1.9,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": [
@@ -6802,7 +6802,7 @@
      "cache_read": 0.24,
      "blended": 1.9,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": "Z.AI",
@@ -6814,7 +6814,7 @@
      "cache_read": 0.24,
      "blended": 1.9,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -6832,7 +6832,7 @@
     "cache_read": 0.025,
     "blended": 0.5625,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": [
@@ -6846,7 +6846,7 @@
      "cache_read": null,
      "blended": 0.5625,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": null,
@@ -6858,7 +6858,7 @@
      "cache_read": 0.025,
      "blended": 0.5625,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -6876,7 +6876,7 @@
     "cache_read": null,
     "blended": 0.11375,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": {
     "via": null,
@@ -6888,7 +6888,7 @@
     "cache_read": null,
     "blended": 0.175,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "next_best": [
     {
@@ -6901,7 +6901,7 @@
      "cache_read": null,
      "blended": 0.11375,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": "Alibaba",
@@ -6913,7 +6913,7 @@
      "cache_read": null,
      "blended": 0.11375,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -6931,7 +6931,7 @@
     "cache_read": null,
     "blended": 0.585,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": {
     "via": null,
@@ -6943,7 +6943,7 @@
     "cache_read": null,
     "blended": 0.9,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "next_best": [
     {
@@ -6956,7 +6956,7 @@
      "cache_read": null,
      "blended": 0.585,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": null,
@@ -6968,7 +6968,7 @@
      "cache_read": null,
      "blended": 0.9,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -6986,7 +6986,7 @@
     "cache_read": 0.07,
     "blended": 0.9,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": [
@@ -7000,7 +7000,7 @@
      "cache_read": 0.07,
      "blended": 0.9,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": "tensorx",
@@ -7012,7 +7012,7 @@
      "cache_read": 0.125,
      "blended": 1.075,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -7030,7 +7030,7 @@
     "cache_read": 0.03,
     "blended": 0.525,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": []
@@ -7049,7 +7049,7 @@
     "cache_read": null,
     "blended": 0.145,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": [
@@ -7063,7 +7063,7 @@
      "cache_read": 0.01,
      "blended": 0.145,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": "cloudflare",
@@ -7075,7 +7075,7 @@
      "cache_read": null,
      "blended": 0.145375,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -7093,7 +7093,7 @@
     "cache_read": 0.18,
     "blended": 4.8125,
     "region": "Global",
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": [
@@ -7107,7 +7107,7 @@
      "cache_read": 0.175,
      "blended": 4.8125,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": null,
@@ -7119,7 +7119,7 @@
      "cache_read": 0.175,
      "blended": 4.8125,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -7137,7 +7137,7 @@
     "cache_read": null,
     "blended": 0.525,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": [
@@ -7151,7 +7151,7 @@
      "cache_read": null,
      "blended": 0.525,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": "amazon",
@@ -7163,7 +7163,7 @@
      "cache_read": null,
      "blended": 0.525,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -7181,7 +7181,7 @@
     "cache_read": 0.175,
     "blended": 4.8125,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": [
@@ -7195,7 +7195,7 @@
      "cache_read": 0.2,
      "blended": 5.2975,
      "region": "Data Zone",
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -7213,7 +7213,7 @@
     "cache_read": 0.13,
     "blended": 3.4375,
     "region": "Global",
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": [
@@ -7227,7 +7227,7 @@
      "cache_read": 0.125,
      "blended": 3.4375,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": null,
@@ -7239,7 +7239,7 @@
      "cache_read": 0.125,
      "blended": 3.4375,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -7257,7 +7257,7 @@
     "cache_read": 0.13,
     "blended": 3.4375,
     "region": "Global",
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": [
@@ -7271,7 +7271,7 @@
      "cache_read": 0.125,
      "blended": 3.4375,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": null,
@@ -7283,7 +7283,7 @@
      "cache_read": 0.13,
      "blended": 3.4375,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -7301,7 +7301,7 @@
     "cache_read": 0.03,
     "blended": 0.6875,
     "region": "Global",
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": [
@@ -7315,7 +7315,7 @@
      "cache_read": 0.025,
      "blended": 0.6875,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": null,
@@ -7327,14 +7327,14 @@
      "cache_read": 0.03,
      "blended": 0.6875,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
   "kimi-k2-thinking": {
    "family": "moonshot",
    "group": "china",
-   "offers": 9,
+   "offers": 8,
    "lowest": {
     "via": null,
     "seller": "gmicloud",
@@ -7345,7 +7345,7 @@
     "cache_read": null,
     "blended": 0.9,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": [
@@ -7359,7 +7359,7 @@
      "cache_read": null,
      "blended": 1.075,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": "amazon",
@@ -7371,14 +7371,14 @@
      "cache_read": null,
      "blended": 1.075,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
   "minimax-m2": {
    "family": "minimax",
    "group": "china",
-   "offers": 13,
+   "offers": 12,
    "lowest": {
     "via": "Minimax",
     "seller": "openrouter",
@@ -7389,7 +7389,7 @@
     "cache_read": null,
     "blended": 0.44625,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": [
@@ -7403,7 +7403,7 @@
      "cache_read": null,
      "blended": 0.525,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": "amazon",
@@ -7415,7 +7415,7 @@
      "cache_read": null,
      "blended": 0.525,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -7433,7 +7433,7 @@
     "cache_read": 0.12,
     "blended": 0.375,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": []
@@ -7452,7 +7452,7 @@
     "cache_read": null,
     "blended": 0.4675,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": []
@@ -7471,7 +7471,7 @@
     "cache_read": null,
     "blended": 0.305,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": [
@@ -7485,7 +7485,7 @@
      "cache_read": null,
      "blended": 0.305,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": null,
@@ -7497,7 +7497,7 @@
      "cache_read": 0.0286,
      "blended": 0.32175,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -7515,7 +7515,7 @@
     "cache_read": 0.13,
     "blended": 0.44,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": [
@@ -7529,7 +7529,7 @@
      "cache_read": null,
      "blended": 0.4525,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": "SiliconFlow",
@@ -7541,51 +7541,7 @@
      "cache_read": null,
      "blended": 0.4525,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
-    }
-   ]
-  },
-  "qwen3-next-80b-a3b-thinking": {
-   "family": "alibaba_qwen",
-   "group": "china",
-   "offers": 4,
-   "lowest": {
-    "via": "Google",
-    "seller": "openrouter",
-    "source": "openrouter",
-    "listed_as": "qwen/qwen3-next-80b-a3b-thinking",
-    "input": 0.15,
-    "output": 1.2,
-    "cache_read": null,
-    "blended": 0.4125,
-    "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
-   },
-   "direct": null,
-   "next_best": [
-    {
-     "via": null,
-     "seller": "vercel",
-     "source": "vercel",
-     "listed_as": "alibaba/qwen3-next-80b-a3b-thinking",
-     "input": 0.15,
-     "output": 1.2,
-     "cache_read": null,
-     "blended": 0.4125,
-     "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
-    },
-    {
-     "via": null,
-     "seller": "gmicloud",
-     "source": "gmicloud",
-     "listed_as": "Qwen/Qwen3-Next-80B-A3B-Thinking",
-     "input": 0.15,
-     "output": 1.5,
-     "cache_read": null,
-     "blended": 0.4875,
-     "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -7603,7 +7559,7 @@
     "cache_read": 0.4,
     "blended": 0.875,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": [
@@ -7617,7 +7573,7 @@
      "cache_read": 0.143,
      "blended": 0.99975,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": null,
@@ -7629,7 +7585,7 @@
      "cache_read": null,
      "blended": 1.0,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -7647,7 +7603,7 @@
     "cache_read": null,
     "blended": 0.4525,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": [
@@ -7661,7 +7617,7 @@
      "cache_read": 0.55,
      "blended": 0.825,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": "SambaNova",
@@ -7673,7 +7629,7 @@
      "cache_read": null,
      "blended": 0.8625,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -7691,7 +7647,7 @@
     "cache_read": 1.5,
     "blended": 30.0,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": {
     "via": null,
@@ -7703,7 +7659,7 @@
     "cache_read": 1.5,
     "blended": 30.0,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "next_best": [
     {
@@ -7716,7 +7672,7 @@
      "cache_read": 1.5,
      "blended": 30.0,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": null,
@@ -7728,7 +7684,7 @@
      "cache_read": 1.5,
      "blended": 30.0,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -7746,7 +7702,7 @@
     "cache_read": 0.0105,
     "blended": 0.1225,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": [
@@ -7760,7 +7716,7 @@
      "cache_read": null,
      "blended": 0.1225,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": "amazon",
@@ -7772,7 +7728,7 @@
      "cache_read": null,
      "blended": 0.2625,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -7790,7 +7746,7 @@
     "cache_read": null,
     "blended": 0.1425,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": [
@@ -7804,7 +7760,7 @@
      "cache_read": null,
      "blended": 0.1425,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": "nebius",
@@ -7816,7 +7772,7 @@
      "cache_read": 0.1,
      "blended": 0.15,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -7834,7 +7790,7 @@
     "cache_read": 0.2,
     "blended": 0.7475,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": [
@@ -7848,7 +7804,7 @@
      "cache_read": null,
      "blended": 1.2125,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": null,
@@ -7860,40 +7816,28 @@
      "cache_read": null,
      "blended": 1.2125,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
   "qwen3-coder": {
    "family": "alibaba_qwen",
    "group": "china",
-   "offers": 3,
+   "offers": 2,
    "lowest": {
-    "via": "Google",
-    "seller": "openrouter",
-    "source": "openrouter",
-    "listed_as": "qwen/qwen3-coder",
+    "via": null,
+    "seller": "vercel",
+    "source": "vercel",
+    "listed_as": "alibaba/qwen3-coder",
     "input": 0.22,
     "output": 1.8,
-    "cache_read": null,
+    "cache_read": 0.022,
     "blended": 0.615,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": [
-    {
-     "via": null,
-     "seller": "vercel",
-     "source": "vercel",
-     "listed_as": "alibaba/qwen3-coder",
-     "input": 0.22,
-     "output": 1.8,
-     "cache_read": 0.022,
-     "blended": 0.615,
-     "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
-    },
     {
      "via": "Venice",
      "seller": "openrouter",
@@ -7904,7 +7848,7 @@
      "cache_read": 0.04,
      "blended": 0.6375,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -7922,7 +7866,7 @@
     "cache_read": 0.01,
     "blended": 0.175,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": {
     "via": null,
@@ -7934,7 +7878,7 @@
     "cache_read": 0.01,
     "blended": 0.175,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "next_best": [
     {
@@ -7947,7 +7891,7 @@
      "cache_read": 0.01,
      "blended": 0.175,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": "vertex",
@@ -7959,7 +7903,7 @@
      "cache_read": 0.01,
      "blended": 0.175,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -7977,7 +7921,7 @@
     "cache_read": null,
     "blended": 0.875,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": [
@@ -7991,7 +7935,7 @@
      "cache_read": null,
      "blended": 1.0025,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": null,
@@ -8003,7 +7947,7 @@
      "cache_read": null,
      "blended": 1.0025,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -8021,7 +7965,7 @@
     "cache_read": null,
     "blended": 0.85,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": [
@@ -8035,7 +7979,7 @@
      "cache_read": null,
      "blended": 0.85,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": "Novita",
@@ -8047,7 +7991,7 @@
      "cache_read": null,
      "blended": 0.9625,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -8065,7 +8009,7 @@
     "cache_read": 0.125,
     "blended": 3.4375,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": []
@@ -8084,7 +8028,7 @@
     "cache_read": null,
     "blended": 0.121925,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": [
@@ -8098,7 +8042,7 @@
      "cache_read": null,
      "blended": 0.122,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": null,
@@ -8110,51 +8054,7 @@
      "cache_read": null,
      "blended": 0.1225,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
-    }
-   ]
-  },
-  "o4-mini": {
-   "family": "openai",
-   "group": "closed",
-   "offers": 8,
-   "lowest": {
-    "via": null,
-    "seller": "azure",
-    "source": "azure",
-    "listed_as": "o4-mini 2025-04-16",
-    "input": 1.1,
-    "output": 4.4,
-    "cache_read": 0.28,
-    "blended": 1.925,
-    "region": "Global",
-    "collected_at": "2026-10-28T11:43:17+00:00"
-   },
-   "direct": null,
-   "next_best": [
-    {
-     "via": null,
-     "seller": "azure",
-     "source": "azure",
-     "listed_as": "o4-mini (Reinforcement fine-tuning)",
-     "input": 1.1,
-     "output": 4.4,
-     "cache_read": null,
-     "blended": 1.925,
-     "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
-    },
-    {
-     "via": null,
-     "seller": "azure",
-     "source": "azure",
-     "listed_as": "o4-mini (Reinforcement fine-tuning)",
-     "input": 1.1,
-     "output": 4.4,
-     "cache_read": 0.275,
-     "blended": 1.925,
-     "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -8172,7 +8072,7 @@
     "cache_read": 0.5,
     "blended": 3.5,
     "region": "Global",
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": [
@@ -8186,7 +8086,7 @@
      "cache_read": 0.5,
      "blended": 3.5,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": null,
@@ -8198,7 +8098,7 @@
      "cache_read": 0.5,
      "blended": 3.5,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -8216,7 +8116,7 @@
     "cache_read": 0.1,
     "blended": 0.7,
     "region": "Global",
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": [
@@ -8230,7 +8130,7 @@
      "cache_read": 0.1,
      "blended": 0.7,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": null,
@@ -8242,7 +8142,7 @@
      "cache_read": 0.1,
      "blended": 0.7,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -8260,7 +8160,7 @@
     "cache_read": 0.03,
     "blended": 0.175,
     "region": "Global",
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": [
@@ -8274,7 +8174,7 @@
      "cache_read": 0.025,
      "blended": 0.175,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": null,
@@ -8286,7 +8186,7 @@
      "cache_read": 0.025,
      "blended": 0.175,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -8304,7 +8204,7 @@
     "cache_read": null,
     "blended": 0.4375,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": [
@@ -8318,28 +8218,9 @@
      "cache_read": 0.11,
      "blended": 0.5025,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
-  },
-  "o1-pro": {
-   "family": "openai",
-   "group": "closed",
-   "offers": 1,
-   "lowest": {
-    "via": null,
-    "seller": "openrouter",
-    "source": "openrouter",
-    "listed_as": "openai/o1-pro",
-    "input": 150.0,
-    "output": 600.0,
-    "cache_read": null,
-    "blended": 262.5,
-    "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
-   },
-   "direct": null,
-   "next_best": []
   },
   "qwen2.5-vl-72b": {
    "family": "alibaba_qwen",
@@ -8355,7 +8236,7 @@
     "cache_read": 0.4,
     "blended": 0.85,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": [
@@ -8369,51 +8250,7 @@
      "cache_read": null,
      "blended": 1.01,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
-    }
-   ]
-  },
-  "o3-mini": {
-   "family": "openai",
-   "group": "closed",
-   "offers": 6,
-   "lowest": {
-    "via": null,
-    "seller": "azure",
-    "source": "azure",
-    "listed_as": "o3 mini 2025-01-31",
-    "input": 1.1,
-    "output": 4.4,
-    "cache_read": 0.55,
-    "blended": 1.925,
-    "region": "Global",
-    "collected_at": "2026-10-28T11:43:17+00:00"
-   },
-   "direct": null,
-   "next_best": [
-    {
-     "via": "microsoft",
-     "seller": "edenai",
-     "source": "edenai",
-     "listed_as": "o3-mini",
-     "input": 1.1,
-     "output": 4.4,
-     "cache_read": 0.55,
-     "blended": 1.925,
-     "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
-    },
-    {
-     "via": null,
-     "seller": "openrouter",
-     "source": "openrouter",
-     "listed_as": "openai/o3-mini",
-     "input": 1.1,
-     "output": 4.4,
-     "cache_read": 0.55,
-     "blended": 1.925,
-     "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -8431,54 +8268,10 @@
     "cache_read": null,
     "blended": 0.425,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": []
-  },
-  "o1": {
-   "family": "openai",
-   "group": "closed",
-   "offers": 5,
-   "lowest": {
-    "via": null,
-    "seller": "azure",
-    "source": "azure",
-    "listed_as": "o1 2024-12-17",
-    "input": 15.0,
-    "output": 60.0,
-    "cache_read": 7.5,
-    "blended": 26.25,
-    "region": "Global",
-    "collected_at": "2026-10-28T11:43:17+00:00"
-   },
-   "direct": null,
-   "next_best": [
-    {
-     "via": null,
-     "seller": "openrouter",
-     "source": "openrouter",
-     "listed_as": "openai/o1",
-     "input": 15.0,
-     "output": 60.0,
-     "cache_read": 7.5,
-     "blended": 26.25,
-     "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
-    },
-    {
-     "via": null,
-     "seller": "vercel",
-     "source": "vercel",
-     "listed_as": "openai/o1",
-     "input": 15.0,
-     "output": 60.0,
-     "cache_read": 7.5,
-     "blended": 26.25,
-     "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
-    }
-   ]
   },
   "gpt-4o": {
    "family": "openai",
@@ -8494,7 +8287,7 @@
     "cache_read": 1.25,
     "blended": 4.375,
     "region": "Global",
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": [
@@ -8508,7 +8301,7 @@
      "cache_read": 1.25,
      "blended": 4.375,
      "region": "Global",
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": "azure",
@@ -8520,7 +8313,7 @@
      "cache_read": 1.25,
      "blended": 4.375,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -8538,7 +8331,7 @@
     "cache_read": null,
     "blended": 0.745,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": [
@@ -8552,7 +8345,7 @@
      "cache_read": null,
      "blended": 0.745,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": "Cloudflare",
@@ -8564,7 +8357,7 @@
      "cache_read": null,
      "blended": 0.745,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -8582,7 +8375,7 @@
     "cache_read": null,
     "blended": 0.055,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": [
@@ -8596,7 +8389,7 @@
      "cache_read": null,
      "blended": 0.125,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": null,
@@ -8608,7 +8401,7 @@
      "cache_read": null,
      "blended": 0.125,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -8626,7 +8419,7 @@
     "cache_read": 0.075,
     "blended": 0.2625,
     "region": "Global",
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": [
@@ -8640,7 +8433,7 @@
      "cache_read": 0.075,
      "blended": 0.2625,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": "openai",
@@ -8652,28 +8445,9 @@
      "cache_read": 0.075,
      "blended": 0.2625,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
-  },
-  "gpt-4-turbo": {
-   "family": "openai",
-   "group": "closed",
-   "offers": 1,
-   "lowest": {
-    "via": null,
-    "seller": "openrouter",
-    "source": "openrouter",
-    "listed_as": "openai/gpt-4-turbo",
-    "input": 10.0,
-    "output": 30.0,
-    "cache_read": null,
-    "blended": 15.0,
-    "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
-   },
-   "direct": null,
-   "next_best": []
   },
   "gpt-3.5-turbo": {
    "family": "openai",
@@ -8689,7 +8463,7 @@
     "cache_read": null,
     "blended": 0.75,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": [
@@ -8703,7 +8477,7 @@
      "cache_read": null,
      "blended": 1.25,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -8721,7 +8495,7 @@
     "cache_read": null,
     "blended": 3.25,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": [
@@ -8735,7 +8509,7 @@
      "cache_read": null,
      "blended": 3.25,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -8753,7 +8527,7 @@
     "cache_read": null,
     "blended": 37.5,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": [
@@ -8767,7 +8541,7 @@
      "cache_read": null,
      "blended": 37.5,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -8785,7 +8559,7 @@
     "cache_read": null,
     "blended": 0.385,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": []
@@ -8804,7 +8578,7 @@
     "cache_read": null,
     "blended": 0.215,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": []
@@ -8823,7 +8597,7 @@
     "cache_read": 0.24,
     "blended": 2.4,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": [
@@ -8837,7 +8611,51 @@
      "cache_read": 0.24,
      "blended": 2.4,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
+    }
+   ]
+  },
+  "qwen3-next-80b-a3b-thinking": {
+   "family": "alibaba_qwen",
+   "group": "china",
+   "offers": 3,
+   "lowest": {
+    "via": null,
+    "seller": "vercel",
+    "source": "vercel",
+    "listed_as": "alibaba/qwen3-next-80b-a3b-thinking",
+    "input": 0.15,
+    "output": 1.2,
+    "cache_read": null,
+    "blended": 0.4125,
+    "region": null,
+    "collected_at": "2026-10-28T17:28:23+00:00"
+   },
+   "direct": null,
+   "next_best": [
+    {
+     "via": null,
+     "seller": "gmicloud",
+     "source": "gmicloud",
+     "listed_as": "Qwen/Qwen3-Next-80B-A3B-Thinking",
+     "input": 0.15,
+     "output": 1.5,
+     "cache_read": null,
+     "blended": 0.4875,
+     "region": null,
+     "collected_at": "2026-10-28T17:28:23+00:00"
+    },
+    {
+     "via": null,
+     "seller": "gmicloud",
+     "source": "gmicloud",
+     "listed_as": "Qwen/Qwen3-Next-80B-A3B-Thinking",
+     "input": 0.15,
+     "output": 1.5,
+     "cache_read": null,
+     "blended": 0.4875,
+     "region": null,
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -8855,7 +8673,7 @@
     "cache_read": 0.11,
     "blended": 0.37,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": []
@@ -8874,7 +8692,7 @@
     "cache_read": null,
     "blended": 0.92,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": [
@@ -8888,7 +8706,7 @@
      "cache_read": null,
      "blended": 1.125,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": "amazon",
@@ -8900,7 +8718,7 @@
      "cache_read": null,
      "blended": 2.3625,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -8918,7 +8736,7 @@
     "cache_read": null,
     "blended": 0.9275,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": []
@@ -8937,7 +8755,7 @@
     "cache_read": 0.05,
     "blended": 1.125,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": []
@@ -8956,7 +8774,7 @@
     "cache_read": 0.13,
     "blended": 3.4375,
     "region": "Global",
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": [
@@ -8970,7 +8788,7 @@
      "cache_read": 0.125,
      "blended": 3.4375,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": null,
@@ -8982,7 +8800,139 @@
      "cache_read": 0.13,
      "blended": 3.4375,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
+    }
+   ]
+  },
+  "o1": {
+   "family": "openai",
+   "group": "closed",
+   "offers": 4,
+   "lowest": {
+    "via": null,
+    "seller": "azure",
+    "source": "azure",
+    "listed_as": "o1 2024-12-17",
+    "input": 15.0,
+    "output": 60.0,
+    "cache_read": 7.5,
+    "blended": 26.25,
+    "region": "Global",
+    "collected_at": "2026-10-28T17:28:23+00:00"
+   },
+   "direct": null,
+   "next_best": [
+    {
+     "via": null,
+     "seller": "vercel",
+     "source": "vercel",
+     "listed_as": "openai/o1",
+     "input": 15.0,
+     "output": 60.0,
+     "cache_read": 7.5,
+     "blended": 26.25,
+     "region": null,
+     "collected_at": "2026-10-28T17:28:23+00:00"
+    },
+    {
+     "via": null,
+     "seller": "azure",
+     "source": "azure",
+     "listed_as": "o1 2024-12-17 US/EU – Data Zones",
+     "input": 16.5,
+     "output": 66.0,
+     "cache_read": 8.25,
+     "blended": 28.875,
+     "region": null,
+     "collected_at": "2026-10-28T17:28:23+00:00"
+    }
+   ]
+  },
+  "o3-mini": {
+   "family": "openai",
+   "group": "closed",
+   "offers": 5,
+   "lowest": {
+    "via": null,
+    "seller": "azure",
+    "source": "azure",
+    "listed_as": "o3 mini 2025-01-31",
+    "input": 1.1,
+    "output": 4.4,
+    "cache_read": 0.55,
+    "blended": 1.925,
+    "region": "Global",
+    "collected_at": "2026-10-28T17:28:23+00:00"
+   },
+   "direct": null,
+   "next_best": [
+    {
+     "via": "microsoft",
+     "seller": "edenai",
+     "source": "edenai",
+     "listed_as": "o3-mini",
+     "input": 1.1,
+     "output": 4.4,
+     "cache_read": 0.55,
+     "blended": 1.925,
+     "region": null,
+     "collected_at": "2026-10-28T17:28:23+00:00"
+    },
+    {
+     "via": null,
+     "seller": "vercel",
+     "source": "vercel",
+     "listed_as": "openai/o3-mini",
+     "input": 1.1,
+     "output": 4.4,
+     "cache_read": 0.55,
+     "blended": 1.925,
+     "region": null,
+     "collected_at": "2026-10-28T17:28:23+00:00"
+    }
+   ]
+  },
+  "o4-mini": {
+   "family": "openai",
+   "group": "closed",
+   "offers": 7,
+   "lowest": {
+    "via": null,
+    "seller": "azure",
+    "source": "azure",
+    "listed_as": "o4-mini 2025-04-16",
+    "input": 1.1,
+    "output": 4.4,
+    "cache_read": 0.28,
+    "blended": 1.925,
+    "region": "Global",
+    "collected_at": "2026-10-28T17:28:23+00:00"
+   },
+   "direct": null,
+   "next_best": [
+    {
+     "via": null,
+     "seller": "azure",
+     "source": "azure",
+     "listed_as": "o4-mini (Reinforcement fine-tuning)",
+     "input": 1.1,
+     "output": 4.4,
+     "cache_read": null,
+     "blended": 1.925,
+     "region": null,
+     "collected_at": "2026-10-28T17:28:23+00:00"
+    },
+    {
+     "via": null,
+     "seller": "azure",
+     "source": "azure",
+     "listed_as": "o4-mini (Reinforcement fine-tuning)",
+     "input": 1.1,
+     "output": 4.4,
+     "cache_read": 0.275,
+     "blended": 1.925,
+     "region": null,
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -9000,7 +8950,7 @@
     "cache_read": 0.2,
     "blended": 1.5625,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": {
     "via": null,
@@ -9012,7 +8962,7 @@
     "cache_read": 0.2,
     "blended": 1.5625,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "next_best": [
     {
@@ -9025,7 +8975,7 @@
      "cache_read": 0.2,
      "blended": 1.5625,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": null,
@@ -9037,7 +8987,7 @@
      "cache_read": 0.2,
      "blended": 1.5625,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -9055,7 +9005,7 @@
     "cache_read": 0.2,
     "blended": 1.5625,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": {
     "via": null,
@@ -9067,7 +9017,7 @@
     "cache_read": 0.2,
     "blended": 1.5625,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "next_best": [
     {
@@ -9080,7 +9030,7 @@
      "cache_read": 0.2,
      "blended": 1.5625,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": null,
@@ -9092,7 +9042,7 @@
      "cache_read": 0.2,
      "blended": 1.5625,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -9110,7 +9060,7 @@
     "cache_read": null,
     "blended": 0.27,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": [
@@ -9124,7 +9074,7 @@
      "cache_read": null,
      "blended": 0.6,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": null,
@@ -9136,7 +9086,7 @@
      "cache_read": null,
      "blended": 1.593,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -9154,7 +9104,7 @@
     "cache_read": 0.04,
     "blended": 0.45,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": []
@@ -9173,7 +9123,7 @@
     "cache_read": 0.0175,
     "blended": 0.2015,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": [
@@ -9187,7 +9137,7 @@
      "cache_read": 0.22325,
      "blended": 0.4465,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -9205,7 +9155,7 @@
     "cache_read": 0.25,
     "blended": 1.75,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": []
@@ -9224,7 +9174,7 @@
     "cache_read": 0.03,
     "blended": 0.75,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": [
@@ -9238,7 +9188,7 @@
      "cache_read": 0.04,
      "blended": 0.75,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -9256,7 +9206,7 @@
     "cache_read": 0.022,
     "blended": 0.615,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": [
@@ -9270,7 +9220,7 @@
      "cache_read": null,
      "blended": 0.7,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": "amazon",
@@ -9282,7 +9232,7 @@
      "cache_read": null,
      "blended": 0.7875,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -9300,7 +9250,7 @@
     "cache_read": null,
     "blended": 0.089375,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": {
     "via": null,
@@ -9312,7 +9262,7 @@
     "cache_read": null,
     "blended": 0.1375,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "next_best": [
     {
@@ -9325,7 +9275,7 @@
      "cache_read": null,
      "blended": 0.1375,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -9343,7 +9293,7 @@
     "cache_read": 0.0039,
     "blended": 0.03575,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": {
     "via": null,
@@ -9355,7 +9305,7 @@
     "cache_read": null,
     "blended": 0.055,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "next_best": [
     {
@@ -9368,7 +9318,7 @@
      "cache_read": null,
      "blended": 0.055,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -9386,7 +9336,7 @@
     "cache_read": null,
     "blended": 4.5,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": [
@@ -9400,7 +9350,7 @@
      "cache_read": null,
      "blended": 4.5,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": "deepinfra",
@@ -9412,7 +9362,7 @@
      "cache_read": null,
      "blended": 4.5,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -9430,7 +9380,7 @@
     "cache_read": 0.07,
     "blended": 0.71,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": []
@@ -9449,7 +9399,7 @@
     "cache_read": 0.24,
     "blended": 2.4,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": []
@@ -9468,7 +9418,7 @@
     "cache_read": null,
     "blended": 0.1,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": []
@@ -9487,7 +9437,7 @@
     "cache_read": 0.052,
     "blended": 0.455,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": {
     "via": null,
@@ -9499,7 +9449,7 @@
     "cache_read": null,
     "blended": 0.7,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "next_best": [
     {
@@ -9512,7 +9462,7 @@
      "cache_read": null,
      "blended": 0.7,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -9530,7 +9480,7 @@
     "cache_read": null,
     "blended": 2.4375,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": {
     "via": null,
@@ -9542,7 +9492,7 @@
     "cache_read": null,
     "blended": 3.75,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "next_best": [
     {
@@ -9555,7 +9505,7 @@
      "cache_read": null,
      "blended": 3.75,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -9573,7 +9523,7 @@
     "cache_read": null,
     "blended": 2.4375,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": {
     "via": null,
@@ -9585,7 +9535,7 @@
     "cache_read": null,
     "blended": 3.75,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "next_best": [
     {
@@ -9598,7 +9548,7 @@
      "cache_read": null,
      "blended": 3.75,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -9616,7 +9566,7 @@
     "cache_read": 0.325,
     "blended": 2.4375,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": {
     "via": null,
@@ -9628,7 +9578,7 @@
     "cache_read": null,
     "blended": 3.75,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "next_best": [
     {
@@ -9641,7 +9591,7 @@
      "cache_read": null,
      "blended": 3.75,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -9659,7 +9609,7 @@
     "cache_read": null,
     "blended": 0.365625,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": {
     "via": null,
@@ -9671,7 +9621,7 @@
     "cache_read": null,
     "blended": 0.5625,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "next_best": [
     {
@@ -9684,7 +9634,7 @@
      "cache_read": null,
      "blended": 0.5625,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -9702,7 +9652,7 @@
     "cache_read": null,
     "blended": 0.73125,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": {
     "via": null,
@@ -9714,7 +9664,7 @@
     "cache_read": null,
     "blended": 1.125,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "next_best": [
     {
@@ -9727,7 +9677,7 @@
      "cache_read": null,
      "blended": 1.125,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": null,
@@ -9739,7 +9689,7 @@
      "cache_read": null,
      "blended": 1.125,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -9757,7 +9707,7 @@
     "cache_read": 1.5,
     "blended": 30.0,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": {
     "via": null,
@@ -9769,7 +9719,7 @@
     "cache_read": 1.5,
     "blended": 30.0,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "next_best": [
     {
@@ -9782,7 +9732,7 @@
      "cache_read": null,
      "blended": 33.0,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -9800,7 +9750,7 @@
     "cache_read": 0.3,
     "blended": 6.0,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": {
     "via": null,
@@ -9812,7 +9762,7 @@
     "cache_read": 0.3,
     "blended": 6.0,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "next_best": [
     {
@@ -9825,7 +9775,7 @@
      "cache_read": null,
      "blended": 6.6,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -9843,7 +9793,7 @@
     "cache_read": 0.135,
     "blended": 0.405,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": [
@@ -9857,7 +9807,7 @@
      "cache_read": null,
      "blended": 0.5025,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -9875,7 +9825,7 @@
     "cache_read": null,
     "blended": 6.0,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": [
@@ -9889,7 +9839,7 @@
      "cache_read": null,
      "blended": 6.0,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -9907,7 +9857,7 @@
     "cache_read": 0.55,
     "blended": 1.925,
     "region": "Global",
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": [
@@ -9921,7 +9871,7 @@
      "cache_read": 0.605,
      "blended": 2.1175,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": null,
@@ -9933,7 +9883,7 @@
      "cache_read": 0.605,
      "blended": 2.1175,
      "region": "Regional",
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -9951,7 +9901,7 @@
     "cache_read": null,
     "blended": 0.3,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": []
@@ -9970,7 +9920,7 @@
     "cache_read": null,
     "blended": 0.39,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": {
     "via": null,
@@ -9982,7 +9932,7 @@
     "cache_read": null,
     "blended": 0.6,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "next_best": [
     {
@@ -9995,7 +9945,7 @@
      "cache_read": null,
      "blended": 0.6,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -10013,7 +9963,7 @@
     "cache_read": 0.75,
     "blended": 6.0,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": []
@@ -10032,7 +9982,7 @@
     "cache_read": null,
     "blended": 0.39,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": {
     "via": null,
@@ -10044,7 +9994,7 @@
     "cache_read": null,
     "blended": 0.6,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "next_best": [
     {
@@ -10057,7 +10007,7 @@
      "cache_read": null,
      "blended": 0.6,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -10075,7 +10025,7 @@
     "cache_read": null,
     "blended": 0.39,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": {
     "via": null,
@@ -10087,7 +10037,7 @@
     "cache_read": null,
     "blended": 0.6,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "next_best": [
     {
@@ -10100,7 +10050,7 @@
      "cache_read": null,
      "blended": 0.6,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -10118,7 +10068,7 @@
     "cache_read": null,
     "blended": 0.39,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": {
     "via": null,
@@ -10130,7 +10080,7 @@
     "cache_read": null,
     "blended": 0.6,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "next_best": [
     {
@@ -10143,7 +10093,7 @@
      "cache_read": null,
      "blended": 0.6,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -10161,7 +10111,7 @@
     "cache_read": null,
     "blended": 0.39,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": {
     "via": null,
@@ -10173,7 +10123,7 @@
     "cache_read": null,
     "blended": 0.6,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "next_best": [
     {
@@ -10186,7 +10136,7 @@
      "cache_read": null,
      "blended": 0.39,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     },
     {
      "via": null,
@@ -10198,7 +10148,7 @@
      "cache_read": null,
      "blended": 0.6,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -10216,7 +10166,7 @@
     "cache_read": null,
     "blended": 0.375,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": [
@@ -10230,7 +10180,7 @@
      "cache_read": null,
      "blended": 0.725,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -10248,7 +10198,7 @@
     "cache_read": 0.18,
     "blended": 4.8125,
     "region": "Global",
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": []
@@ -10267,7 +10217,7 @@
     "cache_read": 0.13,
     "blended": 3.4375,
     "region": "Global",
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": []
@@ -10286,7 +10236,7 @@
     "cache_read": 0.13,
     "blended": 3.4375,
     "region": "Global",
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": []
@@ -10305,7 +10255,7 @@
     "cache_read": 8.25,
     "blended": 28.875,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": []
@@ -10324,7 +10274,7 @@
     "cache_read": null,
     "blended": 0.2625,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": []
@@ -10343,7 +10293,7 @@
     "cache_read": null,
     "blended": 0.13125,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": []
@@ -10362,7 +10312,7 @@
     "cache_read": 0.1,
     "blended": 2.0,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": [
@@ -10376,7 +10326,7 @@
      "cache_read": 0.2,
      "blended": 4.0,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -10394,7 +10344,7 @@
     "cache_read": null,
     "blended": 0.4125,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": []
@@ -10413,7 +10363,7 @@
     "cache_read": null,
     "blended": 0.4125,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": [
@@ -10427,7 +10377,7 @@
      "cache_read": null,
      "blended": 0.7375,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -10445,7 +10395,7 @@
     "cache_read": 0.25,
     "blended": 20.0,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": {
     "via": null,
@@ -10457,7 +10407,7 @@
     "cache_read": 0.25,
     "blended": 20.0,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "next_best": []
   },
@@ -10475,7 +10425,7 @@
     "cache_read": 1.0,
     "blended": 20.0,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": {
     "via": null,
@@ -10487,7 +10437,7 @@
     "cache_read": 1.0,
     "blended": 20.0,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "next_best": []
   },
@@ -10505,7 +10455,7 @@
     "cache_read": 0.08,
     "blended": 1.6,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": {
     "via": null,
@@ -10517,7 +10467,7 @@
     "cache_read": 0.08,
     "blended": 1.6,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "next_best": []
   },
@@ -10535,7 +10485,7 @@
     "cache_read": 0.075,
     "blended": 0.59,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": {
     "via": null,
@@ -10547,7 +10497,7 @@
     "cache_read": 0.075,
     "blended": 0.59,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "next_best": []
   },
@@ -10565,7 +10515,7 @@
     "cache_read": null,
     "blended": 1.3,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": []
@@ -10584,7 +10534,7 @@
     "cache_read": null,
     "blended": 0.31,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": [
@@ -10598,7 +10548,7 @@
      "cache_read": 0.0286,
      "blended": 0.32175,
      "region": null,
-     "collected_at": "2026-10-28T11:43:17+00:00"
+     "collected_at": "2026-10-28T17:28:23+00:00"
     }
    ]
   },
@@ -10616,7 +10566,7 @@
     "cache_read": 0.06,
     "blended": 2.4,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": []
@@ -10635,7 +10585,7 @@
     "cache_read": null,
     "blended": 0.92,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": []
@@ -10654,7 +10604,7 @@
     "cache_read": null,
     "blended": 0.2025,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": []
@@ -10673,7 +10623,7 @@
     "cache_read": null,
     "blended": 0.2,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": []
@@ -10692,7 +10642,7 @@
     "cache_read": null,
     "blended": 0.125,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": []
@@ -10711,7 +10661,7 @@
     "cache_read": 0.3125,
     "blended": 3.75,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": []
@@ -10730,7 +10680,7 @@
     "cache_read": 0.06,
     "blended": 0.525,
     "region": null,
-    "collected_at": "2026-10-28T11:43:17+00:00"
+    "collected_at": "2026-10-28T17:28:23+00:00"
    },
    "direct": null,
    "next_best": []
