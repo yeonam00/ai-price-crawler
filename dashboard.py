@@ -155,12 +155,25 @@ def build(extra=None):
             for e in detect([(t, o["blended"]) for t, o in pts], now):
                 alerts.append({"model": cid, "family": fam, "scope": "seller", "seller": seller, **e})
 
-        lowest_pts = []
+        # 최저가 시계열 + 판매처가 새로 잡히거나 빠져 최저가가 바뀐 시점(가격 변화가 아니므로 기준가 재설정)
+        lowest_pts, rebase_at, prev = [], [], None     # prev = (최저가, 판매처, 그때 수집된 판매처 집합)
         for i, t in enumerate(times):
-            vals = [(r[i][2], s) for s, r in sellers.items() if r[i]]
-            if vals:
-                lowest_pts.append((t, min(vals)[0]))
-        for e in detect(lowest_pts, now):
+            present = {s for s, r in sellers.items() if r[i]}
+            if not present:
+                continue
+            v, s = min((sellers[x][i][2], x) for x in present)
+            lowest_pts.append((t, v))
+            if prev and abs(v / prev[0] - 1) * 100 >= MIN_PCT:
+                entered, exited = s not in prev[2], prev[1] not in present
+                if entered or exited:
+                    rebase_at.append(t)
+                if entered and v < prev[0]:
+                    # 새로 확인된 더 싼 판매처: 시장 가격 변화는 아니지만 조달 후보로 의미 있는 정보
+                    alerts.append({"model": cid, "family": fam, "scope": "lowest", "seller": s, "status": "new_seller",
+                                   "affects_lowest": True, "at": t, "old": prev[0], "new": v,
+                                   "still_lowest": False})
+            prev = (v, s, present)
+        for e in detect(lowest_pts, now, rebase_at):
             # 판매처 변화가 그대로 최저가 변화인 경우 같은 알림을 두 번 내지 않고 판매처 알림에 표시만 함
             same = next((a for a in alerts if a["model"] == cid and a["scope"] == "seller" and a["at"] == e["at"]
                          and a["old"] == e["old"] and a["new"] == e["new"] and a["status"] == e["status"]), None)
@@ -172,6 +185,9 @@ def build(extra=None):
 
         direct = next((x for x in cur if x["source"] == fam), None)
         lo = cur[0] if cur else None
+        for a in alerts:   # '새 판매처' 알림은 그 판매처가 지금도 최저가일 때만 보여줌 (지난 정보로 목록이 쌓이지 않게)
+            if a["model"] == cid and a["status"] == "new_seller":
+                a["still_lowest"] = bool(lo) and a["seller"] == lo["seller"]
         first = lowest_pts[0][1] if lowest_pts else None
         models.append({
             "id": cid, "family": fam, "group": track.group(cid), "active": bool(cur),
@@ -184,7 +200,8 @@ def build(extra=None):
         })
 
     # 반영 검토 대상은 모델 최저가를 바꾼 변화뿐: 최저가가 아닌 판매처만 움직인 변화는 제외
-    alerts = [a for a in alerts if a.get("affects_lowest")]
+    alerts = [a for a in alerts if a.get("affects_lowest")
+              and (a["status"] != "new_seller" or a["still_lowest"])]
     alerts.sort(key=lambda a: a["at"], reverse=True)
     for a in alerts:
         for k in ("at", "until", "confirmed_at"):

@@ -5,6 +5,8 @@
   - 기준가 대비 MIN_PCT 이상 벗어난 상태가 CONFIRM_HOURS 이상 유지되면 '확정' -> 알림, 기준가 갱신
   - 그 전에 기준가 근처로 돌아오면 '일시적' -> 알림하지 않고 기록만
   - 아직 CONFIRM_HOURS 가 지나지 않았으면 '관찰 중'
+  - 최저가 시계열에서 판매처가 새로 수집되거나 빠져 최저가가 바뀐 시점(rebase_at)은 가격 변화가 아니라
+    비교 대상이 바뀐 것이므로, 그 시점부터 기준가를 새로 잡음 (수집 범위 확대·수집 방식 변경이 '확정'으로 잡히던 문제)
 """
 from datetime import timedelta
 
@@ -24,8 +26,27 @@ def runs_of(points, now):
     return runs
 
 
-def detect(points, now):
-    """기준가(마지막 확정값) 대비 변화를 확정/일시적/관찰 중 으로 분류."""
+def detect(points, now, rebase_at=()):
+    """기준가(마지막 확정값) 대비 변화를 확정/일시적/관찰 중 으로 분류.
+
+    rebase_at: 기준가를 새로 잡을 시각들. 그 시각부터 구간을 나눠 각각 판정하고,
+    다음 구간이 시작되며 끊긴 '관찰 중' 변화는 버림.
+    """
+    cuts = sorted(t for t in set(rebase_at) if points and t > points[0][0])
+    if not cuts:
+        return _detect(points, now)
+    events, seg = [], []
+    for t, v in points:
+        if seg and cuts and t >= cuts[0]:
+            events += [e for e in _detect(seg, t) if e["status"] != "watching"]
+            seg = []
+            while cuts and t >= cuts[0]:
+                cuts.pop(0)
+        seg.append((t, v))
+    return events + _detect(seg, now)
+
+
+def _detect(points, now):
     runs = runs_of(points, now)
     if not runs:
         return []

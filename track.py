@@ -229,7 +229,7 @@ def build(models, now):
         offs.sort(key=lambda x: (x["blended"], x["source"] != fam, x["seller"]))
         direct = next((x for x in offs if x["source"] == fam), None)
         res[cid] = {"family": fam, "group": group(cid), "offers": len(offs), "lowest": offs[0], "direct": direct,
-                    "next_best": offs[1:3]}
+                    "next_best": offs[1:3], "sellers": sorted({x["seller"] for x in offs})}
     return res
 
 
@@ -243,28 +243,39 @@ def _t(iso):
 def update_series(state, new, now):
     """이번 수집의 최저가를 시계열 상태에 반영하고, 새로 '확정'된 변화 이벤트를 돌려줌.
 
-    state = {cid: {"points": [[iso, blended, seller]...], "last_seen": iso, "gone": bool, "logged": [at...]}}
+    state = {cid: {"points": [[iso, blended, seller, (rebase)]...], "sellers": [...], "last_seen": iso,
+                   "gone": bool, "logged": [at...]}}
     같은 값이 이어지면 점을 추가하지 않음. 한두 번 수집에서만 보였다 사라지는 값은 changes.detect 가 '일시적'으로 걸러냄.
+    최저가 판매처가 이번에 새로 수집됐거나 직전 최저가 판매처가 빠져서 바뀐 점은 4번째 값을 1 로 표시해
+    기준가를 새로 잡음 (수집 범위 변화가 가격 변화로 확정되지 않게). 새로 확인된 더 싼 판매처는 'new_seller' 로 기록.
     """
     events, first_run = [], not state
     for cid, n in new.items():
         nl = n["lowest"]
         st = state.get(cid)
         if st is None:
-            state[cid] = {"points": [[now.isoformat(), nl["blended"], nl["seller"]]], "last_seen": now.isoformat(),
-                          "gone": False, "logged": []}
+            state[cid] = {"points": [[now.isoformat(), nl["blended"], nl["seller"]]], "sellers": n["sellers"],
+                          "last_seen": now.isoformat(), "gone": False, "logged": []}
             if not first_run:
                 events.append({"at": now.isoformat(), "model": cid, "event": "new_model", "new": nl})
             continue
         st["last_seen"], st["gone"] = now.isoformat(), False
-        last = st["points"][-1]
+        last, prev_sellers = st["points"][-1], st.get("sellers")
         if abs(last[1] / nl["blended"] - 1) * 100 >= 1e-6:
-            st["points"].append([now.isoformat(), nl["blended"], nl["seller"]])
+            entered = prev_sellers is not None and nl["seller"] not in prev_sellers
+            exited = last[2] not in n["sellers"]
+            st["points"].append([now.isoformat(), nl["blended"], nl["seller"]] + ([1] if entered or exited else []))
             del st["points"][:-MAX_POINTS]
+            if entered and nl["blended"] < last[1]:
+                events.append({"at": now.isoformat(), "model": cid, "event": "new_seller", "old": last[1],
+                               "new": nl["blended"], "change_pct": round((nl["blended"] / last[1] - 1) * 100, 2),
+                               "old_seller": last[2], "new_seller": nl["seller"]})
+        st["sellers"] = n["sellers"]
     hold = timedelta(hours=CONFIRM_HOURS)
     for cid, st in state.items():
-        pts = [(_t(t), v) for t, v, _ in st["points"]]
-        for e in detect(pts, now):
+        pts = [(_t(p[0]), p[1]) for p in st["points"]]
+        rebase = [_t(p[0]) for p in st["points"] if len(p) > 3 and p[3]]
+        for e in detect(pts, now, rebase):
             at = e["at"].isoformat()
             if e["status"] != "confirmed" or at in st["logged"]:
                 continue

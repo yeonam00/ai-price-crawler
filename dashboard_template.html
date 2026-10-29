@@ -67,6 +67,7 @@ button.chip { border: 1px solid var(--border); cursor: pointer; font: inherit; f
 .b-scheduled { background: var(--warning); }
 .b-watching { background: var(--serious); }
 .b-transient { background: var(--surface); color: var(--ink-2); border: 1px solid var(--border); }
+.b-newseller { background: var(--accent); color: #fff; }
 .tabs { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 10px; }
 .tabs button[aria-pressed="true"] { background: var(--accent-wash); color: var(--accent); border-color: var(--accent); }
 
@@ -167,6 +168,7 @@ const sellerName = (o) => o ? (o.via ? `${o.seller} (via ${o.via})` : o.seller) 
 const STATUS = {
   confirmed: ["반영 검토", "b-confirmed"], scheduled: ["예정 변경", "b-scheduled"],
   watching: ["관찰 중", "b-watching"], transient: ["일시적", "b-transient"],
+  new_seller: ["새 판매처", "b-newseller"],
 };
 const $ = (s) => document.querySelector(s);
 const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
@@ -195,8 +197,9 @@ const scheduled = DATA.models.filter((m) => m.active && m.scheduled.length).map(
            until: s[0].current_until, old: lo.blended, new: nb, oldIO: [lo.input, lo.output], newIO: [ni, no] };
 }).sort((a, b) => a.at.localeCompare(b.at));
 
-const ALERTS = { confirmed: [], watching: [], scheduled, transient: [] };
+const ALERTS = { confirmed: [], watching: [], scheduled, transient: [], new_seller: [] };
 for (const a of DATA.alerts) ALERTS[a.status]?.push(a);
+ALERTS.new_seller.sort((a, b) => a.new / a.old - b.new / b.old);   // 기존 최저가 대비 많이 싼 순
 
 // ---------- 헤더 / KPI ----------
 const run = DATA.run;
@@ -223,7 +226,7 @@ $("#kpis").innerHTML = kpis.map(([l, v, s]) =>
 // ---------- 알림 ----------
 let alertTab = store.get("alertTab") || "confirmed";
 function renderAlertTabs() {
-  $("#alertTabs").innerHTML = ["confirmed", "scheduled", "watching", "transient"].map((k) =>
+  $("#alertTabs").innerHTML = ["confirmed", "scheduled", "new_seller", "watching", "transient"].map((k) =>
     `<button class="chip" type="button" data-tab="${k}" aria-pressed="${k === alertTab}">${STATUS[k][0]} ${ALERTS[k].length}</button>`).join("");
 }
 function alertLine(a) {
@@ -238,10 +241,12 @@ function alertLine(a) {
     when = `${kst(a.at)} 변경 · ${kst(a.confirmed_at)} 확정`;
   } else if (a.status === "watching") {
     when = `${kst(a.at)}부터 ${a.hours}시간째`;
+  } else if (a.status === "new_seller") {
+    when = `${kst(a.at)} 처음 수집 · 지금도 최저가 (기존 최저가 대비)`;
   } else {
     when = `${kst(a.at)} ~ ${kst(a.until)} 후 복귀`;
   }
-  const lowestTag = a.affects_lowest && a.seller ? " · 모델 최저가에 영향" : "";
+  const lowestTag = a.affects_lowest && a.seller && a.status !== "new_seller" ? " · 모델 최저가에 영향" : "";
   return `<button class="alert" type="button" data-model="${esc(a.model)}">
     <span class="badge ${STATUS[a.status][1]}">${STATUS[a.status][0]}</span>
     <span><span class="t">${esc(a.model)}</span> <span class="muted">· ${who}</span>
@@ -258,6 +263,7 @@ function renderAlerts() {
     scheduled: "공식 가격표에 '~까지 / ~부터' 로 공지된 변경입니다. 할인 종료 전에 판매가·조달 경로를 점검하세요.",
     watching: `변했지만 아직 ${DATA.rules.confirm_hours}시간이 지나지 않아 확정하지 않은 변화입니다.`,
     transient: "확정 전에 원래 가격으로 돌아간 변화입니다. 알림하지 않습니다.",
+    new_seller: "수집 범위가 넓어지며 새로 확인된, 기존 최저가보다 싼 판매처입니다. 시장 가격이 바뀐 것은 아니므로 '반영 검토'와 구분하며, 지금도 최저가인 경우만 보여줍니다. 실제 조달 가능 여부는 별도 확인이 필요합니다.",
   }[alertTab];
   $("#alerts").innerHTML = `<div class="sub" style="margin-bottom:4px">${help}</div>` +
     (list.length ? list.map(alertLine).join("") : `<div class="empty">해당하는 변화가 없습니다.</div>`);
@@ -322,9 +328,11 @@ let chart = null, metric = store.get("metric") || "blended", hidden = new Set();
 const METRIC = { input: [0, "입력"], output: [1, "출력"], blended: [2, "가중 평균"] };
 
 function sellerColors(m) {
-  // 색은 판매처 이름 순서로 고정 (순위가 바뀌어도 같은 판매처는 같은 색)
-  const names = Object.keys(m.sellers).sort();
-  return Object.fromEntries(names.map((s, i) => [s, i < 8 ? `--s${i + 1}` : null]));
+  // 색은 8개뿐이라 최저가 판매처와 현재 싼 순서로 8곳만 그림 (판매처가 16곳씩인 중국 모델에서 최저가가 빠지지 않게).
+  // 고른 8곳 안에서는 이름 순으로 색을 고정해, 순위가 바뀌어도 같은 판매처는 같은 색
+  const shown = [...new Set([m.lowest?.seller, ...m.ranking.map((r) => r.seller), ...Object.keys(m.sellers)]
+    .filter((s) => s && m.sellers[s]))].slice(0, 8).sort();
+  return Object.fromEntries(shown.map((s, i) => [s, `--s${i + 1}`]));
 }
 
 function select(id, scroll) {
@@ -352,7 +360,8 @@ function renderDetail() {
     <div class="tabs" id="metricTabs">${Object.entries(METRIC).map(([k, [, l]]) =>
       `<button class="chip" type="button" data-metric="${k}" aria-pressed="${k === metric}">${l}</button>`).join("")}</div>
     <div class="legend" id="legend">${sellers.map((s) =>
-      `<button type="button" data-seller="${esc(s)}" aria-pressed="${!hidden.has(s)}"><span class="swatch" style="${s === lo?.seller ? `background:var(${colors[s]});height:4px` : `background:repeating-linear-gradient(90deg,var(${colors[s]}) 0 5px,transparent 5px 8px)`}"></span>${esc(s)}${s === lo?.seller ? " ★ 최저가" : ""}</button>`).join("")}</div>
+      `<button type="button" data-seller="${esc(s)}" aria-pressed="${!hidden.has(s)}"><span class="swatch" style="${s === lo?.seller ? `background:var(${colors[s]});height:4px` : `background:repeating-linear-gradient(90deg,var(${colors[s]}) 0 5px,transparent 5px 8px)`}"></span>${esc(s)}${s === lo?.seller ? " ★ 최저가" : ""}</button>`).join("")}${
+      Object.keys(m.sellers).length > sellers.length ? `<span class="muted">외 ${Object.keys(m.sellers).length - sellers.length}곳은 아래 표에서 확인</span>` : ""}</div>
     <div class="chart-box"><canvas id="cv" aria-label="${esc(m.id)} 판매처별 가격 추이"></canvas></div>
     ${sched ? `<div class="note warn"><b>예정 변경</b> · ${esc(sched.seller)} 공식가가 ${sched.at}부터 입력 ${usd(sched.newIO[0])} / 출력 ${usd(sched.newIO[1])}로 바뀝니다 (현재 ${usd(sched.oldIO[0])} / ${usd(sched.oldIO[1])}${sched.until ? `, ${sched.until}까지` : ""}).</div>` : ""}
     ${events.length ? `<div class="note">${events.map((a) => `<span class="badge ${STATUS[a.status][1]}">${STATUS[a.status][0]}</span> ${a.seller ? esc(a.seller) : "최저가"} ${usd(a.old)} → ${usd(a.new)} (${pct((a.new / a.old - 1) * 100)}) · ${kst(a.at)}`).join("<br>")}</div>` : ""}
@@ -426,6 +435,7 @@ $("#rules").innerHTML = [
   `<b>중국 오픈 모델</b>(DeepSeek, Qwen, GLM, Kimi, MiniMax, MiMo) 추가 조건: 스냅샷 날짜까지 같은 버전끼리만 비교(예: v4-flash-0731 ≠ v4-flash). 속도 등급(fast·highspeed·ultraspeed), 파생 모델(uncensored·RL 튜닝 등), 저정밀 양자화(fp4·int4·int8·AWQ), 압축 모델(CompactifAI), 별칭(deepseek-chat, *-latest)은 제외. fp8·bf16은 같은 모델로 봄. 출력 단가가 입력 단가의 절반 미만인 행(단위·파싱 오류)과 입력 단가가 다른 판매처 중앙값의 2% 미만인 행은 제외. DeepSeek은 피크 요금, Qwen 공식가는 International 배포 기준. 라우터는 실제 연결 업체를 (via …)로 표시.`,
   `<b>반영 검토</b>: 모델 최저가를 바꾼 변화만 대상입니다(최저가가 아닌 판매처의 가격 변동은 제외). 마지막으로 확정된 가격(기준가) 대비 ${DATA.rules.min_pct}% 이상 변한 상태가 ${DATA.rules.confirm_hours}시간 이상 유지되면 확정하고 기준가를 갱신합니다. 직전 수집값이 아니라 기준가와 비교하므로 작은 변화가 누적돼도 잡힙니다.`,
   `<b>일시적</b>: ${DATA.rules.confirm_hours}시간 안에 기준가로 돌아온 변화. <b>관찰 중</b>: 아직 ${DATA.rules.confirm_hours}시간이 지나지 않은 변화.`,
+  `<b>새 판매처</b>: 판매처가 새로 수집되거나 빠져서 최저가가 바뀐 것은 가격 변화가 아니므로 그 시점부터 기준가를 새로 잡고, 새로 확인된 더 싼 판매처는 '새 판매처' 탭에 따로 보여줍니다.`,
   `가격은 공개 가격표 기준이며 실제 청구액·계약 단가·고객 판매가와 다를 수 있습니다. 수집 실패 사이트(${run.failed.length}곳)는 이 비교에 포함되지 않습니다.`,
 ].map((x) => `<li>${x}</li>`).join("");
 
