@@ -2,14 +2,17 @@
 
 입력 : output/latest.json            (crawl.py --ci 가 만든 전체 스냅샷)
 출력 : output/lowest_latest.json     모델별 현재 최저가 판매처 + 공식가 + 상위 3개
-       output/lowest_changes.jsonl   최저가/판매처가 바뀐 이벤트 누적 (한 줄 = 이벤트 1건)
+       output/lowest_series.json     모델별 최저가 시계열 (값이 바뀔 때만 기록) + 판정 상태
+       output/price_changes.jsonl    '확정'된 최저가 변화만 누적 (한 줄 = 이벤트 1건). 판정 규칙은 changes.py
+       output/lowest_changes.jsonl   (구버전) 수집 때마다 단순 비교한 로그. 판매처 목록이 잠깐 출렁여도 변화로 잡혀
+                                     가짜가 많아서 더 이상 쓰지 않음 (2026-10-29 이전 이력만 남아 있음)
 
 비교 기준 (같은 조건끼리만 비교)
   - USD, 100만 토큰당, 입력·출력 가격이 모두 있는 행
   - tier = standard(또는 미표기)  -> batch/flex/priority/finetune 제외
   - 기본(짧은) 컨텍스트 구간, 텍스트 모델  -> image/tts/realtime/embedding 등 제외
   - 환율 환산은 하지 않음 -> KRW 등 비 USD 사이트는 자동 제외
-  - 최저가 = 가중 평균가 (입력*3 + 출력*1) / 4  (INPUT_WEIGHT 로 조정)
+  - 최저가 = 가중 평균가 (입력*3 + 출력*1) / 4 -> 기준 시나리오 SCENARIO 참고
 
 중국 오픈 웨이트 모델(DeepSeek, Qwen, GLM, Kimi, MiniMax, MiMo) 추가 조건 (canonical_china)
   - 스냅샷 날짜까지 같은 버전끼리만 비교 (v4-flash-0731 != v4-flash). 날짜 표기는 MMDD 로 통일
@@ -23,8 +26,19 @@ import sys
 from datetime import datetime, timedelta
 from pathlib import Path
 
+from changes import CONFIRM_HOURS, detect
+
 OUT = Path(__file__).parent / "output"
-INPUT_WEIGHT, OUTPUT_WEIGHT = 3, 1
+# 기준 시나리오: 판매처마다 입력/출력 단가 구조가 달라(입력만 싼 곳, 출력만 싼 곳) 어떤 사용 패턴을 가정하느냐에 따라
+# 최저가 판매처가 바뀜 -> 하나로 고정해서 모든 비교·변화 판정에 같은 값을 씀. 바꾸면 과거 이력도 이 값으로 다시 계산됨
+#   입력 3 : 출력 1, 캐시 미사용(캐시 단가는 판매처 절반 정도만 공개해 비교가 불공정), 기본 컨텍스트 구간, standard 요금
+# 입출력 비율 민감도(2026-10-29, 중국 모델 123개): 1:1 -> 6개, 10:1 -> 5개, 30:1 -> 7개 모델만 최저가 판매처가 달라짐
+SCENARIO = {"name": "3:1 입력 중심, 캐시 없음", "input": 3, "output": 1}
+INPUT_WEIGHT, OUTPUT_WEIGHT = SCENARIO["input"], SCENARIO["output"]
+# 중국 모델 이상 행 방어 (수집 오류·단위 오류가 최저가를 흔드는 것을 막음)
+CN_MIN_OUT_IN = 0.5      # 출력 단가가 입력 단가의 절반 미만이면 오류로 봄 (예: streamlake MiniMax-M3 입력 512.0 / 출력 2.4)
+CN_MIN_VS_MEDIAN = 0.02  # 같은 모델 다른 판매처 입력 단가 중앙값의 2% 미만이면 단위 오류·프로모션으로 보고 제외
+CN_MIN_PEERS = 3         # 중앙값 비교는 판매처가 이 수 이상일 때만
 MIN_PLAUSIBLE = 0.005   # USD/1M 입력 토큰. 이보다 싼 값은 단위 오류로 간주
 MAX_AGE = timedelta(hours=48)   # 사이트 수집이 계속 실패해 오래 묵은 가격은 비교에서 제외
 OK_CTX = {None, "short"}
@@ -121,7 +135,7 @@ def canonical_china(raw):
     s = re.sub(r"-(0[1-9]|1[0-2])-([0-3]\d)(?=-|$)", r"-\1\2", s)  # -02-23 -> -0223
     s = re.sub(r"^qwen-(?=\d)", "qwen", s)                    # qwen-3-14b -> qwen3-14b
     s = re.sub(r"^minimax-m(\d)(\d)(?=-|$)", r"minimax-m\1.\2", s)   # minimax-m25 -> minimax-m2.5
-    s = re.sub(r"(?<![\d.])(\d)-(\d)(?=$|-)", r"\1.\2", s)    # v4-1 / k2-5 / glm-5-3 -> v4.1 / k2.5 / glm-5.3
+    s = re.sub(r"(?<![\d.])(\d)-(\d)(?=t?(?:$|-))", r"\1.\2", s)  # v4-1 / k2-5 / glm-5-3 / 2-4t -> v4.1 / k2.5 / glm-5.3 / 2.4t
     s = re.sub(r"^(deepseek|kimi|minimax|mimo|glm)(?=[a-z]?\d)", r"\1-", s)   # glm5.3 -> glm-5.3
     s = re.sub(r"-+", "-", s).strip("-")
     if s in _CN_ALIAS or not re.search(r"\d", s) or (s.startswith("deepseek") and "turbo" in s):
@@ -146,6 +160,16 @@ def seller_of(m):
     if src == "litellm":
         return f"litellm:{(m.get('model_provider') or 'unknown').split('-')[0]}"
     return src
+
+
+def drop_implausible(offs):
+    """중국 모델 한 개(cid)의 판매 행 중 입출력 단가가 말이 안 되는 행을 제외."""
+    offs = [o for o in offs if o["output"] >= o["input"] * CN_MIN_OUT_IN]
+    if len(offs) >= CN_MIN_PEERS:
+        ins = sorted(o["input"] for o in offs)
+        med = ins[len(ins) // 2]
+        offs = [o for o in offs if o["input"] >= med * CN_MIN_VS_MEDIAN]
+    return offs
 
 
 def offers(models, now):
@@ -190,7 +214,10 @@ def offers(models, now):
             "blended": round(blended, 6), "region": (m.get("meta") or {}).get("region") or (m.get("meta") or {}).get("deployment"),
             "collected_at": m["collected_at"],
         })
-    return out
+    for cid in out:
+        if group(cid) == "china":
+            out[cid] = drop_implausible(out[cid])
+    return {cid: offs for cid, offs in out.items() if offs}
 
 
 def build(models, now):
@@ -206,41 +233,80 @@ def build(models, now):
     return res
 
 
-def diff(old, new, at):
-    ev = []
+MAX_POINTS = 200   # 모델당 시계열 보관 상한 (값이 바뀔 때만 쌓이므로 보통 한참 남음)
+
+
+def _t(iso):
+    return datetime.fromisoformat(iso)
+
+
+def update_series(state, new, now):
+    """이번 수집의 최저가를 시계열 상태에 반영하고, 새로 '확정'된 변화 이벤트를 돌려줌.
+
+    state = {cid: {"points": [[iso, blended, seller]...], "last_seen": iso, "gone": bool, "logged": [at...]}}
+    같은 값이 이어지면 점을 추가하지 않음. 한두 번 수집에서만 보였다 사라지는 값은 changes.detect 가 '일시적'으로 걸러냄.
+    """
+    events, first_run = [], not state
     for cid, n in new.items():
-        o = old.get(cid)
         nl = n["lowest"]
-        if o is None:
-            ev.append({"at": at, "model": cid, "event": "new_model", "new": nl})
+        st = state.get(cid)
+        if st is None:
+            state[cid] = {"points": [[now.isoformat(), nl["blended"], nl["seller"]]], "last_seen": now.isoformat(),
+                          "gone": False, "logged": []}
+            if not first_run:
+                events.append({"at": now.isoformat(), "model": cid, "event": "new_model", "new": nl})
             continue
-        ol = o["lowest"]
-        if abs(ol["blended"] - nl["blended"]) > 1e-9 or ol["seller"] != nl["seller"]:
-            kind = "seller_change" if ol["seller"] != nl["seller"] else "price_change"
-            ev.append({"at": at, "model": cid, "event": kind, "old": ol, "new": nl,
-                       "blended_change_pct": round((nl["blended"] / ol["blended"] - 1) * 100, 2)})
-    for cid, o in old.items():
-        if cid not in new:
-            ev.append({"at": at, "model": cid, "event": "gone", "old": o["lowest"]})
-    return ev
+        st["last_seen"], st["gone"] = now.isoformat(), False
+        last = st["points"][-1]
+        if abs(last[1] / nl["blended"] - 1) * 100 >= 1e-6:
+            st["points"].append([now.isoformat(), nl["blended"], nl["seller"]])
+            del st["points"][:-MAX_POINTS]
+    hold = timedelta(hours=CONFIRM_HOURS)
+    for cid, st in state.items():
+        pts = [(_t(t), v) for t, v, _ in st["points"]]
+        for e in detect(pts, now):
+            at = e["at"].isoformat()
+            if e["status"] != "confirmed" or at in st["logged"]:
+                continue
+            prev = [p for p in st["points"] if _t(p[0]) < e["at"]]
+            sellers = {p[0]: p[2] for p in st["points"]}
+            events.append({
+                "at": at, "confirmed_at": e["confirmed_at"].isoformat(), "model": cid,
+                "event": "price_change", "old": e["old"], "new": e["new"],
+                "change_pct": round((e["new"] / e["old"] - 1) * 100, 2),
+                "old_seller": prev[-1][2] if prev else None, "new_seller": sellers.get(at),
+            })
+            st["logged"].append(at)
+            del st["logged"][:-MAX_POINTS]
+        # 목록에서 사라진 모델도 CONFIRM_HOURS 이상 안 보일 때만 '삭제'로 확정 (사이트 일시 장애·파싱 누락 구분)
+        if cid not in new and not st["gone"] and now - _t(st["last_seen"]) >= hold:
+            st["gone"] = True
+            events.append({"at": st["last_seen"], "confirmed_at": now.isoformat(), "model": cid, "event": "gone",
+                           "old": st["points"][-1][1], "old_seller": st["points"][-1][2]})
+    return events
 
 
 def main():
     latest = json.loads((OUT / "latest.json").read_text(encoding="utf-8"))
-    now = datetime.fromisoformat(latest["collected_at"])
+    now = _t(latest["collected_at"])
+    lr = OUT / "last_run.json"
+    if lr.exists():                              # 변동 없는 실행은 latest.json 이 갱신되지 않으므로 실제 마지막 실행 시각을 사용
+        now = max(now, _t(json.loads(lr.read_text(encoding="utf-8"))["collected_at"]))
     new = build(latest["models"], now)
-    lp = OUT / "lowest_latest.json"
-    old = json.loads(lp.read_text(encoding="utf-8"))["models"] if lp.exists() else None
-    events = diff(old, new, latest["collected_at"]) if old is not None else []
+    sp = OUT / "lowest_series.json"
+    state = json.loads(sp.read_text(encoding="utf-8")) if sp.exists() else {}
+    baseline = not state
+    events = update_series(state, new, now)
+    sp.write_text(json.dumps(state, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
     payload = {"collected_at": latest["collected_at"],
-               "weights": {"input": INPUT_WEIGHT, "output": OUTPUT_WEIGHT},
+               "scenario": SCENARIO, "weights": {"input": INPUT_WEIGHT, "output": OUTPUT_WEIGHT},
                "model_count": len(new), "models": new}
-    lp.write_text(json.dumps(payload, ensure_ascii=False, indent=1), encoding="utf-8")
+    (OUT / "lowest_latest.json").write_text(json.dumps(payload, ensure_ascii=False, indent=1), encoding="utf-8")
     if events:
-        with (OUT / "lowest_changes.jsonl").open("a", encoding="utf-8") as f:
+        with (OUT / "price_changes.jsonl").open("a", encoding="utf-8") as f:
             for e in events:
                 f.write(json.dumps(e, ensure_ascii=False) + "\n")
-    print(f"최저가 추적: 모델 {len(new)}개, 이번 변화 {len(events)}건" + (" (최초 기준선)" if old is None else ""))
+    print(f"최저가 추적: 모델 {len(new)}개, 확정된 변화 {len(events)}건" + (" (최초 기준선)" if baseline else ""))
 
 
 if __name__ == "__main__":

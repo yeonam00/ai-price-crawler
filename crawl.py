@@ -107,11 +107,16 @@ _OPEN_MODEL = re.compile(r"deepseek|qwen|glm|kimi|minimax|mimo", re.I)
 async def _openrouter_endpoints(client, model, sem):
     """오픈 웨이트 모델의 업체별 가격·양자화. 목록 가격은 그 순간 한 업체(때로 fp4) 가격이라 크게 출렁임."""
     async with sem:
-        try:
-            r = await client.get(f"https://openrouter.ai/api/v1/models/{model['id']}/endpoints")
-            eps = r.json()["data"]["endpoints"]
-        except Exception:
-            return None
+        for attempt in range(3):   # 일시 오류·속도 제한 재시도 (실패하면 목록가로 대체되어 가격이 출렁이던 원인)
+            try:
+                r = await client.get(f"https://openrouter.ai/api/v1/models/{model['id']}/endpoints")
+                r.raise_for_status()
+                eps = r.json()["data"]["endpoints"]
+                break
+            except Exception:
+                if attempt == 2:
+                    return None
+                await asyncio.sleep(1 + attempt)
     recs = []
     for e in eps:
         pr = e.get("pricing") or {}
@@ -136,6 +141,9 @@ async def adapter_openrouter(client, site):
     for m in data:
         if per_ep.get(m.get("id")):          # 업체별 가격을 받은 오픈 모델은 목록 가격 대신 업체별 행 사용
             recs.extend(per_ep[m["id"]])
+            continue
+        if m.get("id") in per_ep:            # 업체별 조회 실패 -> 그 순간 한 업체 가격인 목록가는 쓰지 않고 이번 회차만 건너뜀
+            print(f"  openrouter endpoints 조회 실패, 건너뜀: {m['id']}", flush=True)
             continue
         pr = m.get("pricing") or {}
         pricing = {k: _p(_per_m(pr.get(src))) for k, src in
@@ -618,10 +626,10 @@ async def main():
     }
     if "--ci" in sys.argv:  # 자동 실행용: 변경이 있을 때만 latest/history 갱신
         from persist import save_ci
-        for s in statuses:  # 실패 사이트를 Actions 실행 요약에 경고로 표시 (작업 자체는 성공 처리)
+        changed = save_ci(payload, OUT_DIR, stamp)
+        for s in statuses:  # 실패 사이트를 Actions 실행 요약에 경고로 표시 (작업 자체는 성공 처리). save_ci 가 급감 사이트도 실패로 바꿈
             if not s["ok"]:
                 print(f"::warning title=수집 실패: {s['id']}::{s['error']}")
-        changed = save_ci(payload, OUT_DIR, stamp)
         print(f"\n완료(CI): 사이트 {payload['success_count']}/{payload['site_count']} 성공, "
               f"모델 {payload['model_count']}건, 가격 변경 {'있음' if changed else '없음'}")
         return

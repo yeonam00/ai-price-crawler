@@ -6,26 +6,21 @@
 
 비교 조건은 track.py 와 동일 (USD, 100만 토큰당, standard tier, 기본 컨텍스트, 텍스트, 가중 평균 입력3:출력1).
 
-반영할 변화 판정 (판매처별·모델 최저가별 시계열에 동일 적용)
-  - 기준가 = 마지막으로 '확정'된 가격 (직전 수집값이 아니라 마지막 알림값 기준 -> 작은 변화의 누적도 잡힘)
-  - 기준가 대비 MIN_PCT 이상 벗어난 상태가 CONFIRM_HOURS 이상 유지되면 '확정' -> 알림, 기준가 갱신
-  - 그 전에 기준가 근처로 돌아오면 '일시적' -> 알림하지 않고 기록만
-  - 아직 CONFIRM_HOURS 가 지나지 않았으면 '관찰 중'
+변화 판정 규칙(확정/일시적/관찰 중)은 changes.py 참고 (track.py 의 변화 로그와 공용).
 """
 import gzip
 import json
 import re
 import sys
-from datetime import datetime, timedelta
+from datetime import datetime
 from pathlib import Path
 
 import track
+from changes import CONFIRM_HOURS, MIN_PCT, detect
 
 ROOT = Path(__file__).parent
 OUT = ROOT / "output"
 TEMPLATE = ROOT / "dashboard_template.html"
-MIN_PCT = 1.0                       # 이보다 작은 변동은 같은 가격으로 봄
-CONFIRM_HOURS = 24                  # 이 시간 이상 유지돼야 반영할 변화로 확정
 # 수집 방식을 바꾼 판매처는 그 이전 이력과 새 값이 같은 기준이 아니라 가짜 '가격 변화'로 잡힘 -> 바꾼 시점 이후만 사용
 #   2026-10-27: Eden AI 대표가 -> 연결 업체별 가격(압축 모델 제외), 중국 제조사 공식 페이지 파서 수정,
 #               OpenRouter 중국 모델 목록가 -> 업체별 가격(저정밀 양자화 제외)
@@ -85,46 +80,6 @@ def best_per_seller(offs):
         if o["seller"] not in best or o["blended"] < best[o["seller"]]["blended"]:
             best[o["seller"]] = o
     return best
-
-
-def runs_of(points, now):
-    """[(t, v)] -> 같은 값이 이어진 구간 [(시작, 끝, v)]. 끝 = 다음 값이 관측된 시각(마지막은 now)."""
-    runs = []
-    for t, v in points:
-        if runs and abs(v / runs[-1][2] - 1) * 100 < 1e-6:
-            continue
-        runs.append([t, None, v])
-    for i, r in enumerate(runs):
-        r[1] = runs[i + 1][0] if i + 1 < len(runs) else now
-    return runs
-
-
-def detect(points, now):
-    """기준가(마지막 확정값) 대비 변화를 확정/일시적/관찰 중 으로 분류."""
-    runs = runs_of(points, now)
-    if not runs:
-        return []
-    events, base, pend = [], runs[0][2], None
-    hold = timedelta(hours=CONFIRM_HOURS)
-    for start, end, v in runs[1:]:
-        dev = (v / base - 1) * 100
-        if abs(dev) < MIN_PCT:
-            if pend:
-                events.append({**pend, "status": "transient", "until": start})
-            pend = None
-            continue
-        if pend and (dev > 0) != (pend["new"] > base):
-            events.append({**pend, "status": "transient", "until": start})
-            pend = None
-        if not pend:
-            pend = {"at": start, "old": base, "new": v}
-        pend["new"] = v
-        if end - pend["at"] >= hold:
-            events.append({**pend, "status": "confirmed", "confirmed_at": pend["at"] + hold})
-            base, pend = v, None
-    if pend:
-        events.append({**pend, "status": "watching", "hours": round((now - pend["at"]).total_seconds() / 3600, 1)})
-    return events
 
 
 def scheduled_changes(models, cid, seller):
@@ -228,6 +183,8 @@ def build(extra=None):
             "sellers": sellers,
         })
 
+    # 반영 검토 대상은 모델 최저가를 바꾼 변화뿐: 최저가가 아닌 판매처만 움직인 변화는 제외
+    alerts = [a for a in alerts if a.get("affects_lowest")]
     alerts.sort(key=lambda a: a["at"], reverse=True)
     for a in alerts:
         for k in ("at", "until", "confirmed_at"):
@@ -238,7 +195,7 @@ def build(extra=None):
         "now": iso(now),
         "times": [iso(t) for t in times],
         "rules": {"min_pct": MIN_PCT, "confirm_hours": CONFIRM_HOURS,
-                  "weights": {"input": track.INPUT_WEIGHT, "output": track.OUTPUT_WEIGHT}},
+                  "weights": {"input": track.INPUT_WEIGHT, "output": track.OUTPUT_WEIGHT}, "scenario": track.SCENARIO["name"]},
         "run": {k: last_run[k] for k in ("collected_at", "site_count", "success_count")} |
                {"failed": [s["name"] for s in last_run["sites"] if not s["ok"]]},
         "models": sorted(models, key=lambda m: (not m["active"], m["family"], m["id"])),
