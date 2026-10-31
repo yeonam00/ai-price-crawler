@@ -5,3 +5,4 @@
 {"at": "2026-10-29T17:39:21+00:00", "confirmed_at": "2026-10-30T17:39:21+00:00", "model": "kimi-k3", "event": "price_change", "old": 3.9, "new": 3.625, "change_pct": -7.05, "old_seller": "edenai", "new_seller": "makora"}
 {"at": "2026-10-29T17:39:21+00:00", "confirmed_at": "2026-10-30T17:39:21+00:00", "model": "glm-5.2", "event": "price_change", "old": 0.7215, "new": 0.4145, "change_pct": -42.55, "old_seller": "openrouter", "new_seller": "openrouter"}
 {"at": "2026-10-29T17:39:21+00:00", "confirmed_at": "2026-10-30T17:39:21+00:00", "model": "qwen3-8b", "event": "price_change", "old": 0.4465, "new": 0.1225, "change_pct": -72.56, "old_seller": "edenai", "new_seller": "edenai"}
+{"at": "2026-10-29T22:04:18+00:00", "confirmed_at": "2026-10-30T22:04:18+00:00", "model": "minimax-m3.1-flash", "event": "price_change", "old": 0.23625, "new": 0.0875, "change_pct": -62.96, "old_seller": "openrouter", "new_seller": "openrouter"}

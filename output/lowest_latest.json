@@ -1,5 +1,5 @@
 {
- "collected_at": "2026-10-30T21:43:50+00:00",
+ "collected_at": "2026-10-31T02:52:09+00:00",
  "scenario": {
   "name": "3:1 입력 중심, 캐시 없음",
   "input": 3,
@@ -25,7 +25,7 @@
     "cache_read": 0.25,
     "blended": 20.0,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": {
     "via": null,
@@ -37,7 +37,7 @@
     "cache_read": 0.25,
     "blended": 20.0,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "next_best": [
     {
@@ -50,7 +50,7 @@
      "cache_read": 0.25,
      "blended": 20.0,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": "anthropic",
@@ -62,7 +62,7 @@
      "cache_read": 0.25,
      "blended": 20.0,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -89,7 +89,7 @@
     "cache_read": 0.5,
     "blended": 10.0,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": {
     "via": null,
@@ -101,7 +101,7 @@
     "cache_read": 0.5,
     "blended": 10.0,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "next_best": [
     {
@@ -114,7 +114,7 @@
      "cache_read": 0.5,
      "blended": 10.0,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": null,
@@ -126,7 +126,7 @@
      "cache_read": null,
      "blended": 10.0,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -155,7 +155,7 @@
     "cache_read": 0.2,
     "blended": 4.0,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": {
     "via": null,
@@ -167,7 +167,7 @@
     "cache_read": 0.2,
     "blended": 4.0,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "next_best": [
     {
@@ -180,7 +180,7 @@
      "cache_read": 0.2,
      "blended": 4.0,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": "databricks",
@@ -192,7 +192,7 @@
      "cache_read": 0.2,
      "blended": 4.0,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -220,7 +220,7 @@
     "cache_read": 0.1,
     "blended": 2.0,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": {
     "via": null,
@@ -232,7 +232,7 @@
     "cache_read": 0.1,
     "blended": 2.0,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "next_best": [
     {
@@ -245,7 +245,7 @@
      "cache_read": 0.1,
      "blended": 2.0,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": null,
@@ -257,7 +257,7 @@
      "cache_read": null,
      "blended": 2.0,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -285,7 +285,7 @@
     "cache_read": 1.0,
     "blended": 20.0,
     "region": "Global",
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [
@@ -299,7 +299,7 @@
      "cache_read": null,
      "blended": 20.0,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": "databricks",
@@ -311,7 +311,7 @@
      "cache_read": 1.0,
      "blended": 20.0,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -339,7 +339,7 @@
     "cache_read": 0.4,
     "blended": 8.0,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": {
     "via": null,
@@ -351,7 +351,7 @@
     "cache_read": 0.4,
     "blended": 8.0,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "next_best": [
     {
@@ -364,7 +364,7 @@
      "cache_read": 0.4,
      "blended": 8.0,
      "region": "Global",
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": "OpenAI",
@@ -376,7 +376,7 @@
      "cache_read": null,
      "blended": 8.0,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -405,7 +405,7 @@
     "cache_read": 0.2,
     "blended": 4.5,
     "region": "Global",
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [
@@ -419,7 +419,7 @@
      "cache_read": null,
      "blended": 4.5,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": "azure",
@@ -431,7 +431,7 @@
      "cache_read": 0.2,
      "blended": 4.5,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -459,7 +459,7 @@
     "cache_read": 0.02,
     "blended": 0.45,
     "region": "Global",
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [
@@ -473,7 +473,7 @@
      "cache_read": null,
      "blended": 0.45,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": "azure",
@@ -485,7 +485,7 @@
      "cache_read": 0.02,
      "blended": 0.45,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -513,7 +513,7 @@
     "cache_read": 0.075,
     "blended": 1.5,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": {
     "via": null,
@@ -525,7 +525,7 @@
     "cache_read": 0.075,
     "blended": 1.5,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "next_best": [
     {
@@ -538,7 +538,7 @@
      "cache_read": 0.075,
      "blended": 1.5,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": "databricks",
@@ -550,7 +550,7 @@
      "cache_read": 0.075,
      "blended": 1.5,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -579,7 +579,7 @@
     "cache_read": 0.2,
     "blended": 4.5,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": {
     "via": null,
@@ -591,7 +591,7 @@
     "cache_read": 0.2,
     "blended": 4.5,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "next_best": [
     {
@@ -604,7 +604,7 @@
      "cache_read": null,
      "blended": 4.5,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": "google",
@@ -616,7 +616,7 @@
      "cache_read": 0.2,
      "blended": 4.5,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -635,7 +635,7 @@
   "glm-5.3": {
    "family": "zai",
    "group": "china",
-   "offers": 63,
+   "offers": 62,
    "lowest": {
     "via": "Morph",
     "seller": "openrouter",
@@ -646,7 +646,7 @@
     "cache_read": 0.069,
     "blended": 0.4145,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": {
     "via": null,
@@ -658,7 +658,7 @@
     "cache_read": 0.26,
     "blended": 2.15,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "next_best": [
     {
@@ -671,7 +671,7 @@
      "cache_read": 0.052,
      "blended": 0.43,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": "Reka",
@@ -683,7 +683,7 @@
      "cache_read": 0.105,
      "blended": 0.63,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -708,18 +708,18 @@
   "glm-5.3-flash": {
    "family": "zai",
    "group": "china",
-   "offers": 53,
+   "offers": 52,
    "lowest": {
-    "via": "Relace",
+    "via": "Morph",
     "seller": "openrouter",
     "source": "openrouter",
     "listed_as": "z-ai/glm-5.3-flash",
-    "input": 0.0197,
-    "output": 0.1324,
-    "cache_read": 0.0197,
-    "blended": 0.047875,
+    "input": 0.042,
+    "output": 0.3,
+    "cache_read": 0.018,
+    "blended": 0.1065,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": {
     "via": null,
@@ -731,20 +731,20 @@
     "cache_read": 0.03,
     "blended": 0.2375,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "next_best": [
     {
-     "via": "Morph",
-     "seller": "openrouter",
-     "source": "openrouter",
-     "listed_as": "z-ai/glm-5.3-flash",
-     "input": 0.042,
-     "output": 0.3,
-     "cache_read": 0.018,
-     "blended": 0.1065,
+     "via": null,
+     "seller": "gmicloud",
+     "source": "gmicloud",
+     "listed_as": "zai-org/GLM-5.3-Flash",
+     "input": 0.075,
+     "output": 0.25,
+     "cache_read": null,
+     "blended": 0.11875,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": null,
@@ -756,7 +756,7 @@
      "cache_read": null,
      "blended": 0.11875,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -792,7 +792,7 @@
     "cache_read": 0.2,
     "blended": 3.625,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [
@@ -806,7 +806,7 @@
      "cache_read": 0.195,
      "blended": 3.9,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": "Fireworks",
@@ -818,7 +818,7 @@
      "cache_read": 0.21,
      "blended": 4.2,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -839,7 +839,7 @@
   "deepseek-v4.1-flash": {
    "family": "deepseek",
    "group": "china",
-   "offers": 67,
+   "offers": 66,
    "lowest": {
     "via": "Morph",
     "seller": "openrouter",
@@ -850,7 +850,7 @@
     "cache_read": 0.004,
     "blended": 0.0645,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [
@@ -864,7 +864,7 @@
      "cache_read": 0.00336,
      "blended": 0.168,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": "qwen",
@@ -876,7 +876,7 @@
      "cache_read": 0.00975,
      "blended": 0.170625,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -913,7 +913,7 @@
     "cache_read": 0.022,
     "blended": 0.99,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [
@@ -927,7 +927,7 @@
      "cache_read": 0.022,
      "blended": 0.99,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": null,
@@ -939,7 +939,7 @@
      "cache_read": 0.022,
      "blended": 0.99,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -972,7 +972,7 @@
     "cache_read": null,
     "blended": 2.0,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [
@@ -986,7 +986,7 @@
      "cache_read": 0.05,
      "blended": 2.0,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": "databricks",
@@ -998,7 +998,7 @@
      "cache_read": 0.05,
      "blended": 2.0,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -1023,7 +1023,7 @@
     "cache_read": 0.1,
     "blended": 4.0,
     "region": "Global",
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [
@@ -1037,7 +1037,7 @@
      "cache_read": null,
      "blended": 4.0,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": "databricks",
@@ -1049,7 +1049,7 @@
      "cache_read": 0.2,
      "blended": 4.0,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -1077,7 +1077,7 @@
     "cache_read": 0.2,
     "blended": 4.0,
     "region": "Global",
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [
@@ -1091,7 +1091,7 @@
      "cache_read": null,
      "blended": 4.0,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": "databricks",
@@ -1103,7 +1103,7 @@
      "cache_read": 0.2,
      "blended": 4.0,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -1131,7 +1131,7 @@
     "cache_read": 0.01,
     "blended": 0.2,
     "region": "Global",
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [
@@ -1145,7 +1145,7 @@
      "cache_read": null,
      "blended": 0.2,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": "databricks",
@@ -1157,7 +1157,7 @@
      "cache_read": 0.01,
      "blended": 0.2,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -1185,7 +1185,7 @@
     "cache_read": 0.5,
     "blended": 11.25,
     "region": "Global",
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [
@@ -1199,7 +1199,7 @@
      "cache_read": null,
      "blended": 11.25,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": "azure",
@@ -1211,7 +1211,7 @@
      "cache_read": 0.5,
      "blended": 11.25,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -1239,7 +1239,7 @@
     "cache_read": null,
     "blended": 5.625,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [
@@ -1253,7 +1253,7 @@
      "cache_read": 0.25,
      "blended": 5.625,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": "databricks",
@@ -1265,7 +1265,7 @@
      "cache_read": 0.25,
      "blended": 5.625,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -1292,7 +1292,7 @@
     "cache_read": 0.08,
     "blended": 1.6875,
     "region": "Global",
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [
@@ -1306,7 +1306,7 @@
      "cache_read": 0.075,
      "blended": 1.6875,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": "azure",
@@ -1318,7 +1318,7 @@
      "cache_read": 0.075,
      "blended": 1.6875,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -1345,7 +1345,7 @@
     "cache_read": 0.18,
     "blended": 4.8125,
     "region": "Global",
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [
@@ -1359,7 +1359,7 @@
      "cache_read": 0.175,
      "blended": 4.8125,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": "databricks",
@@ -1371,7 +1371,7 @@
      "cache_read": 0.175,
      "blended": 4.8125,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -1397,7 +1397,7 @@
     "cache_read": 0.18,
     "blended": 3.6,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [
@@ -1411,7 +1411,7 @@
      "cache_read": 0.2,
      "blended": 4.0,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": "moonshot",
@@ -1423,7 +1423,7 @@
      "cache_read": 0.2,
      "blended": 4.0,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -1450,7 +1450,7 @@
     "cache_read": 0.2,
     "blended": 8.0,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": {
     "via": null,
@@ -1462,7 +1462,7 @@
     "cache_read": 0.2,
     "blended": 8.0,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "next_best": [
     {
@@ -1475,7 +1475,7 @@
      "cache_read": 0.2,
      "blended": 8.0,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": "databricks",
@@ -1487,7 +1487,7 @@
      "cache_read": 0.4,
      "blended": 8.0,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -1515,7 +1515,7 @@
     "cache_read": 1.0,
     "blended": 20.0,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": {
     "via": null,
@@ -1527,7 +1527,7 @@
     "cache_read": 1.0,
     "blended": 20.0,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "next_best": [
     {
@@ -1540,7 +1540,7 @@
      "cache_read": 1.0,
      "blended": 20.0,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": null,
@@ -1552,7 +1552,7 @@
      "cache_read": null,
      "blended": 20.0,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -1581,7 +1581,7 @@
     "cache_read": 0.5,
     "blended": 10.0,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": {
     "via": null,
@@ -1593,7 +1593,7 @@
     "cache_read": 0.5,
     "blended": 10.0,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "next_best": [
     {
@@ -1606,7 +1606,7 @@
      "cache_read": 0.5,
      "blended": 10.0,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": null,
@@ -1618,7 +1618,7 @@
      "cache_read": null,
      "blended": 10.0,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -1647,7 +1647,7 @@
     "cache_read": 0.3,
     "blended": 6.0,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": {
     "via": null,
@@ -1659,7 +1659,7 @@
     "cache_read": 0.3,
     "blended": 6.0,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "next_best": [
     {
@@ -1672,7 +1672,7 @@
      "cache_read": 0.3,
      "blended": 6.0,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": null,
@@ -1684,7 +1684,7 @@
      "cache_read": null,
      "blended": 6.0,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -1713,7 +1713,7 @@
     "cache_read": 0.1,
     "blended": 4.0,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": {
     "via": null,
@@ -1725,7 +1725,7 @@
     "cache_read": 0.1,
     "blended": 4.0,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "next_best": [
     {
@@ -1738,7 +1738,7 @@
      "cache_read": 0.1,
      "blended": 4.0,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": "databricks",
@@ -1750,7 +1750,7 @@
      "cache_read": 0.2,
      "blended": 4.0,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -1777,7 +1777,7 @@
     "cache_read": 0.01,
     "blended": 0.2,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": {
     "via": null,
@@ -1789,7 +1789,7 @@
     "cache_read": 0.01,
     "blended": 0.2,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "next_best": [
     {
@@ -1802,7 +1802,7 @@
      "cache_read": null,
      "blended": 0.2,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": "databricks",
@@ -1814,7 +1814,7 @@
      "cache_read": 0.01,
      "blended": 0.2,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -1841,7 +1841,7 @@
     "cache_read": 0.05,
     "blended": 1.125,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": {
     "via": null,
@@ -1853,7 +1853,7 @@
     "cache_read": 0.05,
     "blended": 1.125,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "next_best": [
     {
@@ -1866,7 +1866,7 @@
      "cache_read": 0.05,
      "blended": 1.125,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": "google",
@@ -1878,7 +1878,7 @@
      "cache_read": 0.05,
      "blended": 1.125,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -1906,7 +1906,7 @@
     "cache_read": 0.5,
     "blended": 3.0,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": {
     "via": null,
@@ -1918,7 +1918,7 @@
     "cache_read": 0.5,
     "blended": 3.0,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "next_best": [
     {
@@ -1931,7 +1931,7 @@
      "cache_read": null,
      "blended": 3.0,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": "databricks",
@@ -1943,7 +1943,7 @@
      "cache_read": 0.2,
      "blended": 3.0,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -1970,7 +1970,7 @@
     "cache_read": 0.5,
     "blended": 3.0,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": {
     "via": null,
@@ -1982,7 +1982,7 @@
     "cache_read": 0.5,
     "blended": 3.0,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "next_best": [
     {
@@ -1995,7 +1995,7 @@
      "cache_read": null,
      "blended": 3.0,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": "databricks",
@@ -2007,7 +2007,7 @@
      "cache_read": 0.2,
      "blended": 3.0,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -2036,7 +2036,7 @@
     "cache_read": 0.3,
     "blended": 3.0,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": {
     "via": null,
@@ -2048,7 +2048,7 @@
     "cache_read": 0.3,
     "blended": 3.0,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "next_best": [
     {
@@ -2061,7 +2061,7 @@
      "cache_read": null,
      "blended": 3.0,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": "xai",
@@ -2073,7 +2073,7 @@
      "cache_read": 0.3,
      "blended": 3.0,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -2102,7 +2102,7 @@
     "cache_read": 0.2,
     "blended": 1.5625,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": {
     "via": null,
@@ -2114,7 +2114,7 @@
     "cache_read": 0.2,
     "blended": 1.5625,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "next_best": [
     {
@@ -2127,7 +2127,7 @@
      "cache_read": null,
      "blended": 1.5625,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": "xai",
@@ -2139,7 +2139,7 @@
      "cache_read": 0.2,
      "blended": 1.5625,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -2166,7 +2166,7 @@
     "cache_read": null,
     "blended": 1.5625,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [
@@ -2180,7 +2180,7 @@
      "cache_read": 0.2,
      "blended": 1.5625,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": null,
@@ -2192,7 +2192,7 @@
      "cache_read": 0.2,
      "blended": 1.5625,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -2217,7 +2217,7 @@
     "cache_read": 0.2,
     "blended": 1.5625,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": {
     "via": null,
@@ -2229,7 +2229,7 @@
     "cache_read": 0.2,
     "blended": 1.5625,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "next_best": [
     {
@@ -2242,7 +2242,7 @@
      "cache_read": 0.2,
      "blended": 1.5625,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": "xai",
@@ -2254,7 +2254,7 @@
      "cache_read": 0.2,
      "blended": 1.5625,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -2280,7 +2280,7 @@
     "cache_read": 0.2,
     "blended": 1.25,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": {
     "via": null,
@@ -2292,7 +2292,7 @@
     "cache_read": 0.2,
     "blended": 1.25,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "next_best": [
     {
@@ -2305,7 +2305,7 @@
      "cache_read": null,
      "blended": 1.25,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": "xai",
@@ -2317,7 +2317,7 @@
      "cache_read": 0.2,
      "blended": 1.25,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -2344,7 +2344,7 @@
     "cache_read": null,
     "blended": 0.4625,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [
@@ -2358,7 +2358,7 @@
      "cache_read": null,
      "blended": 0.4625,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": "deepinfra",
@@ -2370,7 +2370,7 @@
      "cache_read": null,
      "blended": 0.4625,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -2394,7 +2394,7 @@
     "cache_read": 0.0168,
     "blended": 0.105,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [
@@ -2408,7 +2408,7 @@
      "cache_read": null,
      "blended": 0.1125,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": null,
@@ -2420,7 +2420,7 @@
      "cache_read": null,
      "blended": 0.1125,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -2449,7 +2449,7 @@
     "cache_read": null,
     "blended": 0.234,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [
@@ -2463,7 +2463,7 @@
      "cache_read": 0.0216,
      "blended": 0.234,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": null,
@@ -2475,7 +2475,7 @@
      "cache_read": null,
      "blended": 0.29,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -2506,7 +2506,7 @@
     "cache_read": 0.075,
     "blended": 0.59,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": {
     "via": null,
@@ -2518,7 +2518,7 @@
     "cache_read": 0.075,
     "blended": 0.59,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "next_best": [
     {
@@ -2531,7 +2531,7 @@
      "cache_read": 0.075,
      "blended": 0.59,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": "zai",
@@ -2543,7 +2543,7 @@
      "cache_read": 0.09,
      "blended": 0.59,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -2568,7 +2568,7 @@
     "cache_read": 0.1625,
     "blended": 1.95,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": {
     "via": null,
@@ -2580,7 +2580,7 @@
     "cache_read": null,
     "blended": 3.0,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "next_best": [
     {
@@ -2593,7 +2593,7 @@
      "cache_read": null,
      "blended": 2.47525,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": null,
@@ -2605,7 +2605,7 @@
      "cache_read": null,
      "blended": 2.47525,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -2632,7 +2632,7 @@
     "cache_read": 0.295,
     "blended": 2.2125,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": {
     "via": null,
@@ -2644,7 +2644,7 @@
     "cache_read": null,
     "blended": 3.75,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "next_best": [
     {
@@ -2657,7 +2657,7 @@
      "cache_read": 0.5,
      "blended": 2.25,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": "qwen",
@@ -2669,7 +2669,7 @@
      "cache_read": 0.325,
      "blended": 2.4375,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -2697,7 +2697,7 @@
     "cache_read": 0.0039,
     "blended": 0.03575,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": {
     "via": null,
@@ -2709,7 +2709,7 @@
     "cache_read": null,
     "blended": 0.055,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "next_best": [
     {
@@ -2722,7 +2722,7 @@
      "cache_read": null,
      "blended": 0.055,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": "Alibaba",
@@ -2734,7 +2734,7 @@
      "cache_read": 0.006,
      "blended": 0.055,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -2759,7 +2759,7 @@
     "cache_read": 0.052,
     "blended": 0.455,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": {
     "via": null,
@@ -2771,7 +2771,7 @@
     "cache_read": null,
     "blended": 0.56,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "next_best": [
     {
@@ -2784,7 +2784,7 @@
      "cache_read": null,
      "blended": 0.56,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": "Alibaba",
@@ -2796,7 +2796,7 @@
      "cache_read": 0.064,
      "blended": 0.56,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -2823,7 +2823,7 @@
     "cache_read": 0.0104,
     "blended": 0.1495,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": {
     "via": null,
@@ -2835,7 +2835,7 @@
     "cache_read": null,
     "blended": 0.23,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "next_best": [
     {
@@ -2848,7 +2848,7 @@
      "cache_read": 0.0141,
      "blended": 0.18025,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": null,
@@ -2860,7 +2860,7 @@
      "cache_read": 0.014,
      "blended": 0.18025,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -2887,7 +2887,7 @@
     "cache_read": 0.0039,
     "blended": 0.34175,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": {
     "via": null,
@@ -2899,7 +2899,7 @@
     "cache_read": null,
     "blended": 1.125,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "next_best": [
     {
@@ -2912,7 +2912,7 @@
      "cache_read": null,
      "blended": 0.3625,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": "Near AI",
@@ -2924,7 +2924,7 @@
      "cache_read": 0.018,
      "blended": 0.3675,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -2956,7 +2956,7 @@
     "cache_read": null,
     "blended": 0.73125,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": {
     "via": null,
@@ -2968,7 +2968,7 @@
     "cache_read": null,
     "blended": 1.125,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "next_best": [
     {
@@ -2981,7 +2981,7 @@
      "cache_read": null,
      "blended": 0.73125,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": null,
@@ -2993,7 +2993,7 @@
      "cache_read": null,
      "blended": 1.125,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -3020,7 +3020,7 @@
     "cache_read": 0.1625,
     "blended": 1.95,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": {
     "via": null,
@@ -3032,7 +3032,7 @@
     "cache_read": null,
     "blended": 3.0,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "next_best": [
     {
@@ -3045,7 +3045,7 @@
      "cache_read": null,
      "blended": 2.47525,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": null,
@@ -3057,7 +3057,7 @@
      "cache_read": null,
      "blended": 3.0,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -3083,7 +3083,7 @@
     "cache_read": null,
     "blended": 0.274,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [
@@ -3097,7 +3097,7 @@
      "cache_read": null,
      "blended": 0.3425,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": null,
@@ -3109,7 +3109,7 @@
      "cache_read": null,
      "blended": 0.3425,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -3136,7 +3136,7 @@
     "cache_read": null,
     "blended": 0.11375,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": {
     "via": null,
@@ -3148,7 +3148,7 @@
     "cache_read": null,
     "blended": 0.175,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "next_best": [
     {
@@ -3161,7 +3161,7 @@
      "cache_read": null,
      "blended": 0.11375,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": null,
@@ -3173,7 +3173,7 @@
      "cache_read": null,
      "blended": 0.175,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -3197,7 +3197,7 @@
     "cache_read": null,
     "blended": 0.27,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [
@@ -3211,7 +3211,7 @@
      "cache_read": null,
      "blended": 0.4,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": null,
@@ -3223,7 +3223,7 @@
      "cache_read": null,
      "blended": 1.5725,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -3246,7 +3246,7 @@
     "cache_read": null,
     "blended": 0.37,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [
@@ -3260,7 +3260,7 @@
      "cache_read": null,
      "blended": 0.37,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": "deepinfra",
@@ -3272,7 +3272,7 @@
      "cache_read": 0.11,
      "blended": 0.37,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -3299,7 +3299,7 @@
     "cache_read": 0.05,
     "blended": 0.3,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": {
     "via": null,
@@ -3311,7 +3311,7 @@
     "cache_read": null,
     "blended": 0.84375,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "next_best": [
     {
@@ -3324,7 +3324,7 @@
      "cache_read": 0.025,
      "blended": 0.3,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": null,
@@ -3336,7 +3336,7 @@
      "cache_read": null,
      "blended": 0.3125,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -3367,7 +3367,7 @@
     "cache_read": 0.075,
     "blended": 0.45,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": {
     "via": null,
@@ -3379,7 +3379,7 @@
     "cache_read": null,
     "blended": 1.35,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "next_best": [
     {
@@ -3392,7 +3392,7 @@
      "cache_read": 0.025,
      "blended": 0.6875,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": "qwen",
@@ -3404,7 +3404,7 @@
      "cache_read": null,
      "blended": 0.8775,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -3434,7 +3434,7 @@
     "cache_read": null,
     "blended": 0.355,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": {
     "via": null,
@@ -3446,7 +3446,7 @@
     "cache_read": null,
     "blended": 0.6875,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "next_best": [
     {
@@ -3459,7 +3459,7 @@
      "cache_read": null,
      "blended": 0.355,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": "deepinfra",
@@ -3471,7 +3471,7 @@
      "cache_read": 0.05,
      "blended": 0.355,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -3499,7 +3499,7 @@
     "cache_read": null,
     "blended": 0.53625,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": {
     "via": null,
@@ -3511,7 +3511,7 @@
     "cache_read": null,
     "blended": 0.825,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "next_best": [
     {
@@ -3524,7 +3524,7 @@
      "cache_read": null,
      "blended": 0.53625,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": "SiliconFlow",
@@ -3536,7 +3536,7 @@
      "cache_read": null,
      "blended": 0.6875,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -3564,7 +3564,7 @@
     "cache_read": 0.022,
     "blended": 0.715,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": {
     "via": null,
@@ -3576,7 +3576,7 @@
     "cache_read": null,
     "blended": 1.1,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "next_best": [
     {
@@ -3589,7 +3589,7 @@
      "cache_read": 0.022,
      "blended": 0.715,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": "qwen",
@@ -3601,7 +3601,7 @@
      "cache_read": null,
      "blended": 0.715,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -3628,7 +3628,7 @@
     "cache_read": null,
     "blended": 0.8775,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": {
     "via": null,
@@ -3640,7 +3640,7 @@
     "cache_read": null,
     "blended": 1.35,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "next_best": [
     {
@@ -3653,7 +3653,7 @@
      "cache_read": null,
      "blended": 0.8775,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": null,
@@ -3665,7 +3665,7 @@
      "cache_read": null,
      "blended": 1.0875,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -3694,7 +3694,7 @@
     "cache_read": 0.07,
     "blended": 0.29,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [
@@ -3708,7 +3708,7 @@
      "cache_read": null,
      "blended": 0.349125,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": null,
@@ -3720,7 +3720,7 @@
      "cache_read": 0.06,
      "blended": 0.6,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -3746,7 +3746,7 @@
     "cache_read": 0.039,
     "blended": 0.39,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": {
     "via": null,
@@ -3758,7 +3758,7 @@
     "cache_read": null,
     "blended": 0.6,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "next_best": [
     {
@@ -3771,7 +3771,7 @@
      "cache_read": 0.039,
      "blended": 0.39,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": null,
@@ -3783,7 +3783,7 @@
      "cache_read": null,
      "blended": 0.6,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -3807,7 +3807,7 @@
     "cache_read": 0.069,
     "blended": 0.4145,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": {
     "via": null,
@@ -3819,7 +3819,7 @@
     "cache_read": 0.26,
     "blended": 2.15,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "next_best": [
     {
@@ -3832,7 +3832,7 @@
      "cache_read": 0.103168,
      "blended": 0.85312,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": "Ambient",
@@ -3844,7 +3844,7 @@
      "cache_read": 0.15,
      "blended": 0.95,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -3878,7 +3878,7 @@
     "cache_read": 0.169,
     "blended": 1.3975,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": {
     "via": null,
@@ -3890,7 +3890,7 @@
     "cache_read": 0.26,
     "blended": 2.15,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "next_best": [
     {
@@ -3903,7 +3903,7 @@
      "cache_read": 0.09,
      "blended": 1.4,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": "StreamLake",
@@ -3915,7 +3915,7 @@
      "cache_read": 0.1794,
      "blended": 1.4835,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -3947,7 +3947,7 @@
     "cache_read": null,
     "blended": 0.93,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": {
     "via": null,
@@ -3959,7 +3959,7 @@
     "cache_read": 0.2,
     "blended": 1.55,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "next_best": [
     {
@@ -3972,7 +3972,7 @@
      "cache_read": null,
      "blended": 0.93,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": "StreamLake",
@@ -3984,7 +3984,7 @@
      "cache_read": 0.12,
      "blended": 0.93,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -4015,7 +4015,7 @@
     "cache_read": 0.1,
     "blended": 0.875,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": {
     "via": null,
@@ -4027,7 +4027,7 @@
     "cache_read": 0.11,
     "blended": 1.0,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "next_best": [
     {
@@ -4040,7 +4040,7 @@
      "cache_read": null,
      "blended": 0.875,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": null,
@@ -4052,7 +4052,7 @@
      "cache_read": null,
      "blended": 0.95,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -4079,7 +4079,7 @@
     "cache_read": 0.08,
     "blended": 0.7375,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": {
     "via": null,
@@ -4091,7 +4091,7 @@
     "cache_read": 0.11,
     "blended": 1.0,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "next_best": [
     {
@@ -4104,7 +4104,7 @@
      "cache_read": null,
      "blended": 0.7375,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": "Novita",
@@ -4116,7 +4116,7 @@
      "cache_read": 0.099,
      "blended": 0.9,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -4144,7 +4144,7 @@
     "cache_read": 0.025,
     "blended": 0.31,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": {
     "via": null,
@@ -4156,7 +4156,7 @@
     "cache_read": 0.03,
     "blended": 0.425,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "next_best": [
     {
@@ -4169,7 +4169,7 @@
      "cache_read": 0.021,
      "blended": 0.32,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": "SiliconFlow",
@@ -4181,7 +4181,7 @@
      "cache_read": null,
      "blended": 0.32,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -4207,7 +4207,7 @@
     "cache_read": 0.11,
     "blended": 0.9,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": {
     "via": null,
@@ -4219,7 +4219,7 @@
     "cache_read": 0.11,
     "blended": 0.9,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "next_best": [
     {
@@ -4232,7 +4232,7 @@
      "cache_read": 0.11,
      "blended": 0.9,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": "Novita",
@@ -4244,7 +4244,7 @@
      "cache_read": 0.11,
      "blended": 0.9,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -4269,7 +4269,7 @@
     "cache_read": 0.45,
     "blended": 3.875,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": {
     "via": null,
@@ -4281,7 +4281,7 @@
     "cache_read": 0.45,
     "blended": 3.875,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "next_best": [
     {
@@ -4294,7 +4294,7 @@
      "cache_read": 0.45,
      "blended": 3.875,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -4316,7 +4316,7 @@
     "cache_read": 0.22,
     "blended": 1.95,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": {
     "via": null,
@@ -4328,7 +4328,7 @@
     "cache_read": 0.22,
     "blended": 1.95,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "next_best": [
     {
@@ -4341,7 +4341,7 @@
      "cache_read": 0.22,
      "blended": 1.95,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -4363,7 +4363,7 @@
     "cache_read": null,
     "blended": 0.1,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": {
     "via": null,
@@ -4375,7 +4375,7 @@
     "cache_read": null,
     "blended": 0.1,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "next_best": [
     {
@@ -4388,7 +4388,7 @@
      "cache_read": null,
      "blended": 0.1,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -4410,7 +4410,7 @@
     "cache_read": 0.0448,
     "blended": 0.388,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": {
     "via": null,
@@ -4422,7 +4422,7 @@
     "cache_read": 0.06,
     "blended": 0.525,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "next_best": [
     {
@@ -4435,7 +4435,7 @@
      "cache_read": 0.05,
      "blended": 0.4125,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": null,
@@ -4447,7 +4447,7 @@
      "cache_read": null,
      "blended": 0.42,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -4476,7 +4476,7 @@
     "cache_read": 0.03,
     "blended": 0.4,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [
@@ -4490,7 +4490,7 @@
      "cache_read": 0.03,
      "blended": 0.44,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": null,
@@ -4502,7 +4502,7 @@
      "cache_read": 0.03,
      "blended": 0.44,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -4529,7 +4529,7 @@
     "cache_read": 0.005,
     "blended": 0.0875,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": {
     "via": null,
@@ -4541,21 +4541,9 @@
     "cache_read": 0.015,
     "blended": 0.2625,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "next_best": [
-    {
-     "via": "SambaNova",
-     "seller": "openrouter",
-     "source": "openrouter",
-     "listed_as": "minimax/minimax-m3.1-flash",
-     "input": 0.06,
-     "output": 0.24,
-     "cache_read": 0.006,
-     "blended": 0.105,
-     "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
-    },
     {
      "via": "minimax",
      "seller": "edenai",
@@ -4566,7 +4554,19 @@
      "cache_read": 0.0075,
      "blended": 0.13125,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
+    },
+    {
+     "via": null,
+     "seller": "gmicloud",
+     "source": "gmicloud",
+     "listed_as": "MiniMaxAI/MiniMax-M3.1-Flash",
+     "input": 0.1125,
+     "output": 0.45,
+     "cache_read": null,
+     "blended": 0.196875,
+     "region": null,
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -4595,7 +4595,7 @@
     "cache_read": 0.075,
     "blended": 1.5,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": {
     "via": null,
@@ -4607,7 +4607,7 @@
     "cache_read": 0.075,
     "blended": 1.5,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "next_best": [
     {
@@ -4620,7 +4620,7 @@
      "cache_read": 0.075,
      "blended": 1.5,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": "google",
@@ -4632,7 +4632,7 @@
      "cache_read": 0.075,
      "blended": 1.5,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -4662,7 +4662,7 @@
     "cache_read": 0.075,
     "blended": 1.5,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [
@@ -4676,7 +4676,7 @@
      "cache_read": 0.075,
      "blended": 1.5,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": "databricks",
@@ -4688,7 +4688,7 @@
      "cache_read": 0.075,
      "blended": 1.5,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -4717,7 +4717,7 @@
     "cache_read": 0.15,
     "blended": 3.375,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [
@@ -4731,7 +4731,7 @@
      "cache_read": null,
      "blended": 3.375,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": null,
@@ -4743,7 +4743,7 @@
      "cache_read": null,
      "blended": 3.375,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -4773,7 +4773,7 @@
     "cache_read": 0.03,
     "blended": 0.85,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": {
     "via": null,
@@ -4785,7 +4785,7 @@
     "cache_read": 0.03,
     "blended": 0.85,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "next_best": [
     {
@@ -4798,7 +4798,7 @@
      "cache_read": 0.03,
      "blended": 0.85,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": "google",
@@ -4810,7 +4810,7 @@
      "cache_read": 0.03,
      "blended": 0.85,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -4840,7 +4840,7 @@
     "cache_read": 0.025,
     "blended": 0.5625,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": {
     "via": null,
@@ -4852,7 +4852,7 @@
     "cache_read": 0.025,
     "blended": 0.5625,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "next_best": [
     {
@@ -4865,7 +4865,7 @@
      "cache_read": 0.025,
      "blended": 0.5625,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": null,
@@ -4877,7 +4877,7 @@
      "cache_read": null,
      "blended": 0.5625,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -4906,7 +4906,7 @@
     "cache_read": 0.125,
     "blended": 3.4375,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": {
     "via": null,
@@ -4918,7 +4918,7 @@
     "cache_read": 0.125,
     "blended": 3.4375,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "next_best": [
     {
@@ -4931,7 +4931,7 @@
      "cache_read": null,
      "blended": 3.4375,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": null,
@@ -4943,7 +4943,7 @@
      "cache_read": null,
      "blended": 3.4375,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -4971,7 +4971,7 @@
     "cache_read": 0.03,
     "blended": 0.85,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": {
     "via": null,
@@ -4983,7 +4983,7 @@
     "cache_read": 0.03,
     "blended": 0.85,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "next_best": [
     {
@@ -4996,7 +4996,7 @@
      "cache_read": null,
      "blended": 0.85,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": null,
@@ -5008,7 +5008,7 @@
      "cache_read": null,
      "blended": 0.85,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -5036,7 +5036,7 @@
     "cache_read": null,
     "blended": 0.153125,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [
@@ -5050,7 +5050,7 @@
      "cache_read": null,
      "blended": 0.153125,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": "GMICloud",
@@ -5062,7 +5062,7 @@
      "cache_read": 0.0175,
      "blended": 0.153125,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -5090,7 +5090,7 @@
     "cache_read": null,
     "blended": 0.9125,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [
@@ -5104,7 +5104,7 @@
      "cache_read": null,
      "blended": 0.9125,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": "deepinfra",
@@ -5116,7 +5116,7 @@
      "cache_read": 0.35,
      "blended": 0.9125,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -5142,7 +5142,7 @@
     "cache_read": null,
     "blended": 0.13,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [
@@ -5156,7 +5156,7 @@
      "cache_read": null,
      "blended": 0.13,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": "deepinfra",
@@ -5168,7 +5168,7 @@
      "cache_read": null,
      "blended": 0.13,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -5195,7 +5195,7 @@
     "cache_read": null,
     "blended": 0.37,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [
@@ -5209,7 +5209,7 @@
      "cache_read": null,
      "blended": 0.37,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": "deepinfra",
@@ -5221,7 +5221,7 @@
      "cache_read": null,
      "blended": 0.37,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -5245,7 +5245,7 @@
     "cache_read": 0.114,
     "blended": 1.0275,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [
@@ -5259,7 +5259,7 @@
      "cache_read": 0.1008,
      "blended": 1.078875,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": null,
@@ -5271,7 +5271,7 @@
      "cache_read": 0.15,
      "blended": 1.34,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -5304,7 +5304,7 @@
     "cache_read": 0.0429,
     "blended": 0.6435,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": {
     "via": null,
@@ -5316,21 +5316,9 @@
     "cache_read": 0.044,
     "blended": 1.98,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "next_best": [
-    {
-     "via": "Alibaba",
-     "seller": "openrouter",
-     "source": "openrouter",
-     "listed_as": "deepseek/deepseek-v4-pro-0813",
-     "input": 0.5808,
-     "output": 1.7424,
-     "cache_read": 0.05808,
-     "blended": 0.8712,
-     "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
-    },
     {
      "via": "tencent",
      "seller": "edenai",
@@ -5341,7 +5329,19 @@
      "cache_read": 0.022,
      "blended": 0.99,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
+    },
+    {
+     "via": "StreamLake",
+     "seller": "openrouter",
+     "source": "openrouter",
+     "listed_as": "deepseek/deepseek-v4-pro-0813",
+     "input": 0.66,
+     "output": 1.98,
+     "cache_read": 0.022,
+     "blended": 0.99,
+     "region": null,
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -5376,7 +5376,7 @@
     "cache_read": 0.5,
     "blended": 10.0,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": {
     "via": null,
@@ -5388,7 +5388,7 @@
     "cache_read": 0.5,
     "blended": 10.0,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "next_best": [
     {
@@ -5401,7 +5401,7 @@
      "cache_read": 0.5,
      "blended": 10.0,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": null,
@@ -5413,7 +5413,7 @@
      "cache_read": null,
      "blended": 10.0,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -5442,7 +5442,7 @@
     "cache_read": 0.5,
     "blended": 10.0,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": {
     "via": null,
@@ -5454,7 +5454,7 @@
     "cache_read": 0.5,
     "blended": 10.0,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "next_best": [
     {
@@ -5467,7 +5467,7 @@
      "cache_read": 0.5,
      "blended": 10.0,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": "amazon",
@@ -5479,7 +5479,7 @@
      "cache_read": 0.5,
      "blended": 10.0,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -5507,7 +5507,7 @@
     "cache_read": 0.5,
     "blended": 10.0,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": {
     "via": null,
@@ -5519,7 +5519,7 @@
     "cache_read": 0.5,
     "blended": 10.0,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "next_best": [
     {
@@ -5532,7 +5532,7 @@
      "cache_read": 0.5,
      "blended": 10.0,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": "amazon",
@@ -5544,7 +5544,7 @@
      "cache_read": 0.5,
      "blended": 10.0,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -5571,7 +5571,7 @@
     "cache_read": null,
     "blended": 0.7,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": {
     "via": null,
@@ -5583,7 +5583,7 @@
     "cache_read": 0.11,
     "blended": 1.0,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "next_best": [
     {
@@ -5596,7 +5596,7 @@
      "cache_read": 0.11,
      "blended": 1.0,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": "zai",
@@ -5608,7 +5608,7 @@
      "cache_read": 0.11,
      "blended": 1.0,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -5634,7 +5634,7 @@
     "cache_read": 0.3,
     "blended": 1.9,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [
@@ -5648,7 +5648,7 @@
      "cache_read": 0.24,
      "blended": 1.9,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": "Z.AI",
@@ -5660,7 +5660,7 @@
      "cache_read": 0.24,
      "blended": 1.9,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -5685,7 +5685,7 @@
     "cache_read": 0.01,
     "blended": 0.145,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": {
     "via": null,
@@ -5697,7 +5697,7 @@
     "cache_read": 0.01,
     "blended": 0.1525,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "next_best": [
     {
@@ -5710,7 +5710,7 @@
      "cache_read": 0.01,
      "blended": 0.1525,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": null,
@@ -5722,7 +5722,7 @@
      "cache_read": 0.01,
      "blended": 0.1525,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -5745,7 +5745,7 @@
     "cache_read": 0.05,
     "blended": 0.45,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": {
     "via": null,
@@ -5757,7 +5757,7 @@
     "cache_read": 0.05,
     "blended": 0.45,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "next_best": [
     {
@@ -5770,7 +5770,7 @@
      "cache_read": 0.05,
      "blended": 0.45,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": "Novita",
@@ -5782,7 +5782,7 @@
      "cache_read": 0.055,
      "blended": 0.45,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -5806,7 +5806,7 @@
     "cache_read": 0.004,
     "blended": 0.13,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": {
     "via": null,
@@ -5818,7 +5818,7 @@
     "cache_read": 0.004,
     "blended": 0.13,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "next_best": [
     {
@@ -5831,7 +5831,7 @@
      "cache_read": 0.004,
      "blended": 0.13,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -5853,7 +5853,7 @@
     "cache_read": 0.1235,
     "blended": 1.113125,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [
@@ -5867,7 +5867,7 @@
      "cache_read": 0.1425,
      "blended": 1.284375,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": "deepinfra",
@@ -5879,7 +5879,7 @@
      "cache_read": 0.136,
      "blended": 1.36,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -5910,7 +5910,7 @@
     "cache_read": null,
     "blended": 0.425,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [
@@ -5924,7 +5924,7 @@
      "cache_read": null,
      "blended": 0.425,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": "deepinfra",
@@ -5936,7 +5936,7 @@
      "cache_read": 0.13,
      "blended": 0.425,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -5964,7 +5964,7 @@
     "cache_read": 0.038,
     "blended": 0.114,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [
@@ -5978,7 +5978,7 @@
      "cache_read": null,
      "blended": 0.15,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": null,
@@ -5990,7 +5990,7 @@
      "cache_read": null,
      "blended": 0.15,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -6016,7 +6016,7 @@
     "cache_read": null,
     "blended": 0.475,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [
@@ -6030,7 +6030,7 @@
      "cache_read": null,
      "blended": 0.475,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": "deepinfra",
@@ -6042,7 +6042,7 @@
      "cache_read": 0.1,
      "blended": 0.475,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -6066,7 +6066,7 @@
     "cache_read": null,
     "blended": 0.2625,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [
@@ -6080,7 +6080,7 @@
      "cache_read": null,
      "blended": 0.2625,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": "deepinfra",
@@ -6092,7 +6092,7 @@
      "cache_read": null,
      "blended": 0.2625,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -6117,7 +6117,7 @@
     "cache_read": 0.02,
     "blended": 0.04625,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [
@@ -6131,7 +6131,7 @@
      "cache_read": null,
      "blended": 0.1125,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": null,
@@ -6143,7 +6143,7 @@
      "cache_read": null,
      "blended": 0.1125,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -6168,7 +6168,7 @@
     "cache_read": null,
     "blended": 0.585,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": {
     "via": null,
@@ -6180,7 +6180,7 @@
     "cache_read": null,
     "blended": 0.9,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "next_best": [
     {
@@ -6193,7 +6193,7 @@
      "cache_read": null,
      "blended": 0.9,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": null,
@@ -6205,7 +6205,7 @@
      "cache_read": null,
      "blended": 0.9,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -6229,7 +6229,7 @@
     "cache_read": null,
     "blended": 0.365625,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": {
     "via": null,
@@ -6241,7 +6241,7 @@
     "cache_read": null,
     "blended": 0.5625,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "next_best": [
     {
@@ -6254,7 +6254,7 @@
      "cache_read": null,
      "blended": 0.421875,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": null,
@@ -6266,7 +6266,7 @@
      "cache_read": null,
      "blended": 0.5625,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -6290,7 +6290,7 @@
     "cache_read": 0.026,
     "blended": 0.3575,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": {
     "via": null,
@@ -6302,7 +6302,7 @@
     "cache_read": null,
     "blended": 0.55,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "next_best": [
     {
@@ -6315,7 +6315,7 @@
      "cache_read": 0.026,
      "blended": 0.3575,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": null,
@@ -6327,7 +6327,7 @@
      "cache_read": null,
      "blended": 0.55,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -6350,7 +6350,7 @@
     "cache_read": null,
     "blended": 0.09,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [
@@ -6364,7 +6364,7 @@
      "cache_read": null,
      "blended": 0.09,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": "deepinfra",
@@ -6376,7 +6376,7 @@
      "cache_read": 0.015,
      "blended": 0.09,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -6413,7 +6413,7 @@
     "cache_read": 0.1625,
     "blended": 1.95,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": {
     "via": null,
@@ -6425,7 +6425,7 @@
     "cache_read": null,
     "blended": 3.0,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "next_best": [
     {
@@ -6438,7 +6438,7 @@
      "cache_read": null,
      "blended": 3.0,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": "deepinfra",
@@ -6450,7 +6450,7 @@
      "cache_read": 0.2,
      "blended": 3.0,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -6467,7 +6467,7 @@
   "deepseek-v4.1-flash-1017": {
    "family": "deepseek",
    "group": "china",
-   "offers": 62,
+   "offers": 61,
    "lowest": {
     "via": "Morph",
     "seller": "openrouter",
@@ -6478,7 +6478,7 @@
     "cache_read": 0.004,
     "blended": 0.0645,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": {
     "via": null,
@@ -6490,7 +6490,7 @@
     "cache_read": 0.006,
     "blended": 0.525,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "next_best": [
     {
@@ -6503,7 +6503,7 @@
      "cache_read": 0.002352,
      "blended": 0.1176,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": "DeepInfra",
@@ -6515,7 +6515,7 @@
      "cache_read": 0.00294,
      "blended": 0.147,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -6550,7 +6550,7 @@
     "cache_read": null,
     "blended": 0.125,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [
@@ -6564,7 +6564,7 @@
      "cache_read": 0.0225,
      "blended": 0.23,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": "tensorx",
@@ -6576,7 +6576,7 @@
      "cache_read": 0.05,
      "blended": 0.275,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -6599,7 +6599,7 @@
     "cache_read": null,
     "blended": 0.1375,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": {
     "via": null,
@@ -6611,7 +6611,7 @@
     "cache_read": 0.0028,
     "blended": 0.175,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "next_best": [
     {
@@ -6624,7 +6624,7 @@
      "cache_read": 0.003,
      "blended": 0.145,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": null,
@@ -6636,7 +6636,7 @@
      "cache_read": null,
      "blended": 0.14875,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -6664,7 +6664,7 @@
     "cache_read": null,
     "blended": 0.462188,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": {
     "via": null,
@@ -6676,7 +6676,7 @@
     "cache_read": 0.0036,
     "blended": 0.54375,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "next_best": [
     {
@@ -6689,7 +6689,7 @@
      "cache_read": 0.0034,
      "blended": 0.462188,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": "DeepInfra",
@@ -6701,7 +6701,7 @@
      "cache_read": 0.00324,
      "blended": 0.486,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -6728,7 +6728,7 @@
     "cache_read": null,
     "blended": 2.4375,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": {
     "via": null,
@@ -6740,7 +6740,7 @@
     "cache_read": null,
     "blended": 3.75,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "next_best": [
     {
@@ -6753,7 +6753,7 @@
      "cache_read": null,
      "blended": 3.75,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": null,
@@ -6765,7 +6765,7 @@
      "cache_read": null,
      "blended": 3.75,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -6788,7 +6788,7 @@
     "cache_read": 0.08,
     "blended": 3.2,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": {
     "via": null,
@@ -6800,7 +6800,7 @@
     "cache_read": 0.1,
     "blended": 4.0,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "next_best": [
     {
@@ -6813,7 +6813,7 @@
      "cache_read": 0.1,
      "blended": 4.0,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": "Gemini",
@@ -6825,7 +6825,7 @@
      "cache_read": 0.1,
      "blended": 4.0,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -6855,7 +6855,7 @@
     "cache_read": null,
     "blended": 67.5,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [
@@ -6869,7 +6869,7 @@
      "cache_read": 3.0,
      "blended": 67.5,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": "databricks",
@@ -6881,7 +6881,7 @@
      "cache_read": 3.0,
      "blended": 67.5,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -6905,7 +6905,7 @@
     "cache_read": null,
     "blended": 67.5,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [
@@ -6919,7 +6919,7 @@
      "cache_read": 3.0,
      "blended": 67.5,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": "openai",
@@ -6931,7 +6931,7 @@
      "cache_read": null,
      "blended": 67.5,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -6956,7 +6956,7 @@
     "cache_read": 0.02,
     "blended": 0.4625,
     "region": "Global",
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [
@@ -6970,7 +6970,7 @@
      "cache_read": 0.02,
      "blended": 0.4625,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": "azure",
@@ -6982,7 +6982,7 @@
      "cache_read": 0.02,
      "blended": 0.4625,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -7008,7 +7008,7 @@
     "cache_read": 0.175,
     "blended": 4.8125,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": {
     "via": null,
@@ -7020,7 +7020,7 @@
     "cache_read": 0.175,
     "blended": 4.8125,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "next_best": [
     {
@@ -7033,7 +7033,7 @@
      "cache_read": 0.18,
      "blended": 4.8125,
      "region": "Global",
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": "OpenAI",
@@ -7045,7 +7045,7 @@
      "cache_read": 0.175,
      "blended": 4.8125,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -7071,7 +7071,7 @@
     "cache_read": null,
     "blended": 57.75,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [
@@ -7085,7 +7085,7 @@
      "cache_read": null,
      "blended": 57.75,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": "openai",
@@ -7097,7 +7097,7 @@
      "cache_read": null,
      "blended": 57.75,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -7121,7 +7121,7 @@
     "cache_read": 0.13,
     "blended": 3.4375,
     "region": "Global",
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [
@@ -7135,7 +7135,7 @@
      "cache_read": 0.125,
      "blended": 3.4375,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": "azure",
@@ -7147,7 +7147,7 @@
      "cache_read": 0.125,
      "blended": 3.4375,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -7171,7 +7171,7 @@
     "cache_read": null,
     "blended": 41.25,
     "region": "Global",
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [
@@ -7185,7 +7185,7 @@
      "cache_read": null,
      "blended": 41.25,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": "azure",
@@ -7197,7 +7197,7 @@
      "cache_read": null,
      "blended": 41.25,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -7222,7 +7222,7 @@
     "cache_read": 0.13,
     "blended": 3.4375,
     "region": "Global",
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [
@@ -7236,7 +7236,7 @@
      "cache_read": 0.125,
      "blended": 3.4375,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": "azure",
@@ -7248,7 +7248,7 @@
      "cache_read": 0.125,
      "blended": 3.4375,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -7273,7 +7273,7 @@
     "cache_read": 0.03,
     "blended": 0.6875,
     "region": "Global",
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [
@@ -7287,7 +7287,7 @@
      "cache_read": 0.025,
      "blended": 0.6875,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": "azure",
@@ -7299,7 +7299,7 @@
      "cache_read": 0.025,
      "blended": 0.6875,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -7325,7 +7325,7 @@
     "cache_read": 0.01,
     "blended": 0.1375,
     "region": "Global",
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [
@@ -7339,7 +7339,7 @@
      "cache_read": 0.005,
      "blended": 0.1375,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": "azure",
@@ -7351,7 +7351,7 @@
      "cache_read": 0.005,
      "blended": 0.1375,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -7377,7 +7377,7 @@
     "cache_read": 0.5,
     "blended": 3.5,
     "region": "Global",
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [
@@ -7391,7 +7391,7 @@
      "cache_read": 0.5,
      "blended": 3.5,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": "azure",
@@ -7403,7 +7403,7 @@
      "cache_read": 0.5,
      "blended": 3.5,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -7428,7 +7428,7 @@
     "cache_read": null,
     "blended": 35.0,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [
@@ -7442,7 +7442,7 @@
      "cache_read": null,
      "blended": 35.0,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": "openai",
@@ -7454,7 +7454,7 @@
      "cache_read": null,
      "blended": 35.0,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -7478,7 +7478,7 @@
     "cache_read": 0.3,
     "blended": 6.0,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": {
     "via": null,
@@ -7490,7 +7490,7 @@
     "cache_read": 0.3,
     "blended": 6.0,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "next_best": [
     {
@@ -7503,7 +7503,7 @@
      "cache_read": 0.3,
      "blended": 6.0,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": "amazon",
@@ -7515,7 +7515,7 @@
      "cache_read": 0.3,
      "blended": 6.0,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -7540,7 +7540,7 @@
     "cache_read": null,
     "blended": 0.3675,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [
@@ -7554,7 +7554,7 @@
      "cache_read": 0.042,
      "blended": 0.3675,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": "Novita",
@@ -7566,7 +7566,7 @@
      "cache_read": 0.054,
      "blended": 0.4725,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -7592,7 +7592,7 @@
     "cache_read": 0.05,
     "blended": 2.0,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [],
@@ -7614,7 +7614,7 @@
     "cache_read": 0.1,
     "blended": 4.0,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [],
@@ -7636,7 +7636,7 @@
     "cache_read": 0.364,
     "blended": 2.795,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [
@@ -7650,7 +7650,7 @@
      "cache_read": 0.56,
      "blended": 4.3,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -7672,7 +7672,7 @@
     "cache_read": 0.5,
     "blended": 6.0,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [
@@ -7686,7 +7686,7 @@
      "cache_read": 0.5,
      "blended": 6.0,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -7708,7 +7708,7 @@
     "cache_read": 0.01,
     "blended": 0.2,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [],
@@ -7730,7 +7730,7 @@
     "cache_read": 0.2,
     "blended": 4.0,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [],
@@ -7752,7 +7752,7 @@
     "cache_read": 1.0,
     "blended": 20.0,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [],
@@ -7774,7 +7774,7 @@
     "cache_read": 0.003,
     "blended": 0.2625,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [
@@ -7788,7 +7788,7 @@
      "cache_read": 0.00686,
      "blended": 0.3234,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": null,
@@ -7800,7 +7800,7 @@
      "cache_read": 0.0068,
      "blended": 0.3234,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -7825,7 +7825,7 @@
     "cache_read": 0.02,
     "blended": 0.45,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [],
@@ -7847,7 +7847,7 @@
     "cache_read": 0.2,
     "blended": 4.5,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [],
@@ -7869,7 +7869,7 @@
     "cache_read": 0.4,
     "blended": 8.0,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [],
@@ -7891,7 +7891,7 @@
     "cache_read": null,
     "blended": 0.585,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": {
     "via": null,
@@ -7903,7 +7903,7 @@
     "cache_read": null,
     "blended": 0.9,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "next_best": [
     {
@@ -7916,7 +7916,7 @@
      "cache_read": null,
      "blended": 0.675,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": null,
@@ -7928,7 +7928,7 @@
      "cache_read": null,
      "blended": 0.9,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -7951,7 +7951,7 @@
     "cache_read": null,
     "blended": 0.380625,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [
@@ -7965,7 +7965,7 @@
      "cache_read": 0.0028,
      "blended": 0.380625,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": null,
@@ -7977,7 +7977,7 @@
      "cache_read": 0.0028,
      "blended": 0.380625,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -8002,7 +8002,7 @@
     "cache_read": null,
     "blended": 0.14875,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [
@@ -8016,7 +8016,7 @@
      "cache_read": 0.00255,
      "blended": 0.14875,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": null,
@@ -8028,7 +8028,7 @@
      "cache_read": 0.0025,
      "blended": 0.14875,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -8054,7 +8054,7 @@
     "cache_read": 0.3,
     "blended": 1.9,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [
@@ -8068,7 +8068,7 @@
      "cache_read": 0.24,
      "blended": 1.9,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": "Z.AI",
@@ -8080,7 +8080,7 @@
      "cache_read": 0.24,
      "blended": 1.9,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -8104,7 +8104,7 @@
     "cache_read": 0.025,
     "blended": 0.5625,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [
@@ -8118,7 +8118,7 @@
      "cache_read": null,
      "blended": 0.5625,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": null,
@@ -8130,7 +8130,7 @@
      "cache_read": 0.025,
      "blended": 0.5625,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -8153,7 +8153,7 @@
     "cache_read": null,
     "blended": 0.11375,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": {
     "via": null,
@@ -8165,7 +8165,7 @@
     "cache_read": null,
     "blended": 0.175,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "next_best": [
     {
@@ -8178,7 +8178,7 @@
      "cache_read": null,
      "blended": 0.11375,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": "Alibaba",
@@ -8190,7 +8190,7 @@
      "cache_read": null,
      "blended": 0.11375,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -8213,7 +8213,7 @@
     "cache_read": null,
     "blended": 0.585,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": {
     "via": null,
@@ -8225,7 +8225,7 @@
     "cache_read": null,
     "blended": 0.9,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "next_best": [
     {
@@ -8238,7 +8238,7 @@
      "cache_read": null,
      "blended": 0.585,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": null,
@@ -8250,7 +8250,7 @@
      "cache_read": null,
      "blended": 0.9,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -8273,7 +8273,7 @@
     "cache_read": 0.07,
     "blended": 0.9,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [
@@ -8287,7 +8287,7 @@
      "cache_read": 0.07,
      "blended": 0.9,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": "tensorx",
@@ -8299,7 +8299,7 @@
      "cache_read": 0.125,
      "blended": 1.075,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -8329,7 +8329,7 @@
     "cache_read": 0.03,
     "blended": 0.525,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [],
@@ -8351,7 +8351,7 @@
     "cache_read": null,
     "blended": 0.145,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [
@@ -8365,7 +8365,7 @@
      "cache_read": 0.01,
      "blended": 0.145,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": "cloudflare",
@@ -8377,7 +8377,7 @@
      "cache_read": null,
      "blended": 0.145375,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -8403,7 +8403,7 @@
     "cache_read": 0.18,
     "blended": 4.8125,
     "region": "Global",
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [
@@ -8417,7 +8417,7 @@
      "cache_read": 0.175,
      "blended": 4.8125,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": null,
@@ -8429,7 +8429,7 @@
      "cache_read": 0.175,
      "blended": 4.8125,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -8453,7 +8453,7 @@
     "cache_read": null,
     "blended": 0.525,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [
@@ -8467,7 +8467,7 @@
      "cache_read": 0.03,
      "blended": 0.525,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": null,
@@ -8479,7 +8479,7 @@
      "cache_read": null,
      "blended": 0.525,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -8504,7 +8504,7 @@
     "cache_read": 0.175,
     "blended": 4.8125,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [
@@ -8518,7 +8518,7 @@
      "cache_read": 0.2,
      "blended": 5.2975,
      "region": "Data Zone",
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -8540,7 +8540,7 @@
     "cache_read": 0.13,
     "blended": 3.4375,
     "region": "Global",
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [
@@ -8554,7 +8554,7 @@
      "cache_read": 0.125,
      "blended": 3.4375,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": null,
@@ -8566,7 +8566,7 @@
      "cache_read": 0.125,
      "blended": 3.4375,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -8590,7 +8590,7 @@
     "cache_read": 0.13,
     "blended": 3.4375,
     "region": "Global",
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [
@@ -8604,7 +8604,7 @@
      "cache_read": 0.125,
      "blended": 3.4375,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": null,
@@ -8616,7 +8616,7 @@
      "cache_read": 0.13,
      "blended": 3.4375,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -8640,7 +8640,7 @@
     "cache_read": 0.03,
     "blended": 0.6875,
     "region": "Global",
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [
@@ -8654,7 +8654,7 @@
      "cache_read": 0.025,
      "blended": 0.6875,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": null,
@@ -8666,7 +8666,7 @@
      "cache_read": 0.03,
      "blended": 0.6875,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -8690,7 +8690,7 @@
     "cache_read": null,
     "blended": 0.9,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [
@@ -8704,7 +8704,7 @@
      "cache_read": null,
      "blended": 1.075,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": "amazon",
@@ -8716,7 +8716,7 @@
      "cache_read": null,
      "blended": 1.075,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -8740,7 +8740,7 @@
     "cache_read": null,
     "blended": 0.44625,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [
@@ -8754,7 +8754,7 @@
      "cache_read": null,
      "blended": 0.525,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": "amazon",
@@ -8766,7 +8766,7 @@
      "cache_read": null,
      "blended": 0.525,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -8791,7 +8791,7 @@
     "cache_read": 0.12,
     "blended": 0.375,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [],
@@ -8813,7 +8813,7 @@
     "cache_read": null,
     "blended": 0.4675,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [],
@@ -8835,7 +8835,7 @@
     "cache_read": null,
     "blended": 0.305,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [
@@ -8849,7 +8849,7 @@
      "cache_read": null,
      "blended": 0.305,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": null,
@@ -8861,7 +8861,7 @@
      "cache_read": 0.0286,
      "blended": 0.32175,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -8884,7 +8884,7 @@
     "cache_read": 0.13,
     "blended": 0.44,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [
@@ -8898,7 +8898,7 @@
      "cache_read": null,
      "blended": 0.4525,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": "SiliconFlow",
@@ -8910,7 +8910,7 @@
      "cache_read": null,
      "blended": 0.4525,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -8934,7 +8934,7 @@
     "cache_read": 0.4,
     "blended": 0.875,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [
@@ -8948,7 +8948,7 @@
      "cache_read": 0.143,
      "blended": 0.99975,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": null,
@@ -8960,7 +8960,7 @@
      "cache_read": null,
      "blended": 1.0,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -8984,7 +8984,7 @@
     "cache_read": null,
     "blended": 0.4525,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [
@@ -8998,7 +8998,7 @@
      "cache_read": 0.55,
      "blended": 0.825,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": "SambaNova",
@@ -9010,7 +9010,7 @@
      "cache_read": null,
      "blended": 0.8625,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -9031,7 +9031,7 @@
     "cache_read": 1.5,
     "blended": 30.0,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": {
     "via": null,
@@ -9043,7 +9043,7 @@
     "cache_read": 1.5,
     "blended": 30.0,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "next_best": [
     {
@@ -9056,7 +9056,7 @@
      "cache_read": 1.5,
      "blended": 30.0,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": null,
@@ -9068,7 +9068,7 @@
      "cache_read": 1.5,
      "blended": 30.0,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -9091,7 +9091,7 @@
     "cache_read": 0.0105,
     "blended": 0.1225,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [
@@ -9105,7 +9105,7 @@
      "cache_read": null,
      "blended": 0.1225,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": "amazon",
@@ -9117,7 +9117,7 @@
      "cache_read": null,
      "blended": 0.2625,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -9141,7 +9141,7 @@
     "cache_read": null,
     "blended": 0.1425,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [
@@ -9155,7 +9155,7 @@
      "cache_read": null,
      "blended": 0.1425,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": "nebius",
@@ -9167,7 +9167,7 @@
      "cache_read": 0.1,
      "blended": 0.15,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -9190,7 +9190,7 @@
     "cache_read": 0.2,
     "blended": 0.7475,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [
@@ -9204,7 +9204,7 @@
      "cache_read": null,
      "blended": 1.2125,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": null,
@@ -9216,7 +9216,7 @@
      "cache_read": null,
      "blended": 1.2125,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -9241,7 +9241,7 @@
     "cache_read": 0.022,
     "blended": 0.615,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [
@@ -9255,7 +9255,7 @@
      "cache_read": 0.04,
      "blended": 0.6375,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -9277,7 +9277,7 @@
     "cache_read": 0.01,
     "blended": 0.175,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": {
     "via": null,
@@ -9289,7 +9289,7 @@
     "cache_read": 0.01,
     "blended": 0.175,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "next_best": [
     {
@@ -9302,7 +9302,7 @@
      "cache_read": 0.01,
      "blended": 0.175,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": "vertex",
@@ -9314,7 +9314,7 @@
      "cache_read": 0.01,
      "blended": 0.175,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -9340,7 +9340,7 @@
     "cache_read": null,
     "blended": 0.875,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [
@@ -9354,7 +9354,7 @@
      "cache_read": null,
      "blended": 1.0025,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": null,
@@ -9366,7 +9366,7 @@
      "cache_read": null,
      "blended": 1.0025,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -9389,7 +9389,7 @@
     "cache_read": null,
     "blended": 0.85,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [
@@ -9403,7 +9403,7 @@
      "cache_read": null,
      "blended": 0.85,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": "Novita",
@@ -9415,7 +9415,7 @@
      "cache_read": null,
      "blended": 0.9625,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -9437,7 +9437,7 @@
     "cache_read": 0.125,
     "blended": 3.4375,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [],
@@ -9459,7 +9459,7 @@
     "cache_read": null,
     "blended": 0.121925,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [
@@ -9473,7 +9473,7 @@
      "cache_read": null,
      "blended": 0.122,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": null,
@@ -9485,7 +9485,7 @@
      "cache_read": null,
      "blended": 0.1225,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -9512,7 +9512,7 @@
     "cache_read": 0.5,
     "blended": 3.5,
     "region": "Global",
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [
@@ -9526,7 +9526,7 @@
      "cache_read": 0.5,
      "blended": 3.5,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": null,
@@ -9538,7 +9538,7 @@
      "cache_read": 0.5,
      "blended": 3.5,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -9563,7 +9563,7 @@
     "cache_read": 0.1,
     "blended": 0.7,
     "region": "Global",
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [
@@ -9577,7 +9577,7 @@
      "cache_read": 0.1,
      "blended": 0.7,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": null,
@@ -9589,7 +9589,7 @@
      "cache_read": 0.1,
      "blended": 0.7,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -9614,7 +9614,7 @@
     "cache_read": 0.03,
     "blended": 0.175,
     "region": "Global",
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [
@@ -9628,7 +9628,7 @@
      "cache_read": 0.025,
      "blended": 0.175,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": null,
@@ -9640,7 +9640,7 @@
      "cache_read": 0.025,
      "blended": 0.175,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -9665,7 +9665,7 @@
     "cache_read": null,
     "blended": 0.4375,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [
@@ -9679,7 +9679,7 @@
      "cache_read": 0.11,
      "blended": 0.5025,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -9700,7 +9700,7 @@
     "cache_read": 0.4,
     "blended": 0.85,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [
@@ -9714,7 +9714,7 @@
      "cache_read": null,
      "blended": 1.01,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -9736,7 +9736,7 @@
     "cache_read": null,
     "blended": 0.425,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [],
@@ -9758,7 +9758,7 @@
     "cache_read": 1.25,
     "blended": 4.375,
     "region": "Global",
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [
@@ -9772,7 +9772,7 @@
      "cache_read": 1.25,
      "blended": 4.375,
      "region": "Global",
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": "azure",
@@ -9784,7 +9784,7 @@
      "cache_read": 1.25,
      "blended": 4.375,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -9809,7 +9809,7 @@
     "cache_read": null,
     "blended": 0.745,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [
@@ -9823,7 +9823,7 @@
      "cache_read": null,
      "blended": 0.745,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": "Cloudflare",
@@ -9835,7 +9835,7 @@
      "cache_read": null,
      "blended": 0.745,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -9858,7 +9858,7 @@
     "cache_read": null,
     "blended": 0.055,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [
@@ -9872,7 +9872,7 @@
      "cache_read": null,
      "blended": 0.125,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": null,
@@ -9884,7 +9884,7 @@
      "cache_read": null,
      "blended": 0.125,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -9907,7 +9907,7 @@
     "cache_read": 0.075,
     "blended": 0.2625,
     "region": "Global",
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [
@@ -9921,7 +9921,7 @@
      "cache_read": 0.075,
      "blended": 0.2625,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": "openai",
@@ -9933,7 +9933,7 @@
      "cache_read": 0.075,
      "blended": 0.2625,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -9958,7 +9958,7 @@
     "cache_read": null,
     "blended": 0.75,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [
@@ -9972,7 +9972,7 @@
      "cache_read": null,
      "blended": 1.25,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -9994,7 +9994,7 @@
     "cache_read": null,
     "blended": 3.25,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [
@@ -10008,7 +10008,7 @@
      "cache_read": null,
      "blended": 3.25,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -10030,7 +10030,7 @@
     "cache_read": null,
     "blended": 37.5,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [
@@ -10044,7 +10044,7 @@
      "cache_read": null,
      "blended": 37.5,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -10066,7 +10066,7 @@
     "cache_read": null,
     "blended": 0.385,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [],
@@ -10088,7 +10088,7 @@
     "cache_read": null,
     "blended": 0.215,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [],
@@ -10110,7 +10110,7 @@
     "cache_read": 0.24,
     "blended": 2.4,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [
@@ -10124,7 +10124,7 @@
      "cache_read": 0.24,
      "blended": 2.4,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -10146,7 +10146,7 @@
     "cache_read": null,
     "blended": 0.4125,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [
@@ -10160,7 +10160,7 @@
      "cache_read": null,
      "blended": 0.4875,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": null,
@@ -10172,7 +10172,7 @@
      "cache_read": null,
      "blended": 0.4875,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -10194,7 +10194,7 @@
     "cache_read": 0.11,
     "blended": 0.37,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [],
@@ -10216,7 +10216,7 @@
     "cache_read": null,
     "blended": 0.92,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [
@@ -10230,7 +10230,7 @@
      "cache_read": null,
      "blended": 1.125,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": "amazon",
@@ -10242,7 +10242,7 @@
      "cache_read": null,
      "blended": 2.3625,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -10265,7 +10265,7 @@
     "cache_read": null,
     "blended": 0.9275,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [],
@@ -10287,7 +10287,7 @@
     "cache_read": 0.05,
     "blended": 1.125,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [],
@@ -10309,7 +10309,7 @@
     "cache_read": 0.13,
     "blended": 3.4375,
     "region": "Global",
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [
@@ -10323,7 +10323,7 @@
      "cache_read": 0.125,
      "blended": 3.4375,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": null,
@@ -10335,7 +10335,7 @@
      "cache_read": 0.13,
      "blended": 3.4375,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -10358,7 +10358,7 @@
     "cache_read": 7.5,
     "blended": 26.25,
     "region": "Global",
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [
@@ -10372,7 +10372,7 @@
      "cache_read": 7.5,
      "blended": 26.25,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": null,
@@ -10384,7 +10384,7 @@
      "cache_read": 8.25,
      "blended": 28.875,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -10406,7 +10406,7 @@
     "cache_read": 0.55,
     "blended": 1.925,
     "region": "Global",
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [
@@ -10420,7 +10420,7 @@
      "cache_read": 0.55,
      "blended": 1.925,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": null,
@@ -10432,7 +10432,7 @@
      "cache_read": 0.55,
      "blended": 1.925,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -10455,7 +10455,7 @@
     "cache_read": 0.28,
     "blended": 1.925,
     "region": "Global",
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [
@@ -10469,7 +10469,7 @@
      "cache_read": null,
      "blended": 1.925,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": null,
@@ -10481,7 +10481,7 @@
      "cache_read": 0.275,
      "blended": 1.925,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -10503,7 +10503,7 @@
     "cache_read": 0.2,
     "blended": 1.5625,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": {
     "via": null,
@@ -10515,7 +10515,7 @@
     "cache_read": 0.2,
     "blended": 1.5625,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "next_best": [
     {
@@ -10528,7 +10528,7 @@
      "cache_read": 0.2,
      "blended": 1.5625,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": null,
@@ -10540,7 +10540,7 @@
      "cache_read": 0.2,
      "blended": 1.5625,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -10563,7 +10563,7 @@
     "cache_read": 0.2,
     "blended": 1.5625,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": {
     "via": null,
@@ -10575,7 +10575,7 @@
     "cache_read": 0.2,
     "blended": 1.5625,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "next_best": [
     {
@@ -10588,7 +10588,7 @@
      "cache_read": 0.2,
      "blended": 1.5625,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": null,
@@ -10600,7 +10600,7 @@
      "cache_read": 0.2,
      "blended": 1.5625,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -10623,7 +10623,7 @@
     "cache_read": null,
     "blended": 0.27,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [
@@ -10637,7 +10637,7 @@
      "cache_read": null,
      "blended": 0.6,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": null,
@@ -10649,7 +10649,7 @@
      "cache_read": null,
      "blended": 1.593,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -10672,7 +10672,7 @@
     "cache_read": 0.0042,
     "blended": 0.3675,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [],
@@ -10694,7 +10694,7 @@
     "cache_read": 0.0042,
     "blended": 0.3675,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [],
@@ -10716,7 +10716,7 @@
     "cache_read": 0.182,
     "blended": 1.505,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [],
@@ -10738,7 +10738,7 @@
     "cache_read": 0.21,
     "blended": 4.2,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [],
@@ -10760,7 +10760,7 @@
     "cache_read": 0.04,
     "blended": 0.45,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [],
@@ -10782,7 +10782,7 @@
     "cache_read": 0.04,
     "blended": 0.1225,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [],
@@ -10804,7 +10804,7 @@
     "cache_read": 0.25,
     "blended": 1.75,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [],
@@ -10826,7 +10826,7 @@
     "cache_read": 0.03,
     "blended": 0.75,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [
@@ -10840,7 +10840,7 @@
      "cache_read": 0.04,
      "blended": 0.75,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -10862,7 +10862,7 @@
     "cache_read": null,
     "blended": 0.7,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [
@@ -10876,7 +10876,7 @@
      "cache_read": null,
      "blended": 0.7875,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": null,
@@ -10888,7 +10888,7 @@
      "cache_read": null,
      "blended": 1.8,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -10911,7 +10911,7 @@
     "cache_read": null,
     "blended": 0.089375,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": {
     "via": null,
@@ -10923,7 +10923,7 @@
     "cache_read": null,
     "blended": 0.1375,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "next_best": [
     {
@@ -10936,7 +10936,7 @@
      "cache_read": null,
      "blended": 0.1375,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -10958,7 +10958,7 @@
     "cache_read": 0.0039,
     "blended": 0.03575,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": {
     "via": null,
@@ -10970,7 +10970,7 @@
     "cache_read": null,
     "blended": 0.055,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "next_best": [
     {
@@ -10983,7 +10983,7 @@
      "cache_read": null,
      "blended": 0.055,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -11005,7 +11005,7 @@
     "cache_read": null,
     "blended": 4.5,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [
@@ -11019,7 +11019,7 @@
      "cache_read": null,
      "blended": 4.5,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": "deepinfra",
@@ -11031,7 +11031,7 @@
      "cache_read": null,
      "blended": 4.5,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -11053,7 +11053,7 @@
     "cache_read": 0.07,
     "blended": 0.71,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [],
@@ -11075,7 +11075,7 @@
     "cache_read": 0.24,
     "blended": 2.4,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [],
@@ -11097,7 +11097,7 @@
     "cache_read": null,
     "blended": 0.1,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [],
@@ -11119,7 +11119,7 @@
     "cache_read": 0.052,
     "blended": 0.455,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": {
     "via": null,
@@ -11131,7 +11131,7 @@
     "cache_read": null,
     "blended": 0.7,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "next_best": [
     {
@@ -11144,7 +11144,7 @@
      "cache_read": null,
      "blended": 0.7,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -11166,7 +11166,7 @@
     "cache_read": null,
     "blended": 2.4375,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": {
     "via": null,
@@ -11178,7 +11178,7 @@
     "cache_read": null,
     "blended": 3.75,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "next_best": [
     {
@@ -11191,7 +11191,7 @@
      "cache_read": null,
      "blended": 3.75,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -11213,7 +11213,7 @@
     "cache_read": null,
     "blended": 2.4375,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": {
     "via": null,
@@ -11225,7 +11225,7 @@
     "cache_read": null,
     "blended": 3.75,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "next_best": [
     {
@@ -11238,7 +11238,7 @@
      "cache_read": null,
      "blended": 3.75,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -11260,7 +11260,7 @@
     "cache_read": 0.325,
     "blended": 2.4375,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": {
     "via": null,
@@ -11272,7 +11272,7 @@
     "cache_read": null,
     "blended": 3.75,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "next_best": [
     {
@@ -11285,7 +11285,7 @@
      "cache_read": null,
      "blended": 3.75,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -11307,7 +11307,7 @@
     "cache_read": null,
     "blended": 0.365625,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": {
     "via": null,
@@ -11319,7 +11319,7 @@
     "cache_read": null,
     "blended": 0.5625,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "next_best": [
     {
@@ -11332,7 +11332,7 @@
      "cache_read": null,
      "blended": 0.5625,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -11354,7 +11354,7 @@
     "cache_read": null,
     "blended": 0.73125,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": {
     "via": null,
@@ -11366,7 +11366,7 @@
     "cache_read": null,
     "blended": 1.125,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "next_best": [
     {
@@ -11379,7 +11379,7 @@
      "cache_read": null,
      "blended": 1.125,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": null,
@@ -11391,7 +11391,7 @@
      "cache_read": null,
      "blended": 1.125,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -11414,7 +11414,7 @@
     "cache_read": 1.5,
     "blended": 30.0,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": {
     "via": null,
@@ -11426,7 +11426,7 @@
     "cache_read": 1.5,
     "blended": 30.0,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "next_best": [
     {
@@ -11439,7 +11439,7 @@
      "cache_read": null,
      "blended": 33.0,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -11461,7 +11461,7 @@
     "cache_read": 0.3,
     "blended": 6.0,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": {
     "via": null,
@@ -11473,7 +11473,7 @@
     "cache_read": 0.3,
     "blended": 6.0,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "next_best": [
     {
@@ -11486,7 +11486,7 @@
      "cache_read": null,
      "blended": 6.6,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -11508,7 +11508,7 @@
     "cache_read": 0.135,
     "blended": 0.405,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [
@@ -11522,7 +11522,7 @@
      "cache_read": null,
      "blended": 0.5025,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -11544,7 +11544,7 @@
     "cache_read": null,
     "blended": 6.0,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [
@@ -11558,7 +11558,7 @@
      "cache_read": null,
      "blended": 6.0,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -11579,7 +11579,7 @@
     "cache_read": 0.55,
     "blended": 1.925,
     "region": "Global",
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [
@@ -11593,7 +11593,7 @@
      "cache_read": 0.605,
      "blended": 2.1175,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": null,
@@ -11605,7 +11605,7 @@
      "cache_read": 0.605,
      "blended": 2.1175,
      "region": "Regional",
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -11627,7 +11627,7 @@
     "cache_read": null,
     "blended": 0.3,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [],
@@ -11649,7 +11649,7 @@
     "cache_read": null,
     "blended": 0.39,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": {
     "via": null,
@@ -11661,7 +11661,7 @@
     "cache_read": null,
     "blended": 0.6,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "next_best": [
     {
@@ -11674,7 +11674,7 @@
      "cache_read": null,
      "blended": 0.6,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -11696,7 +11696,7 @@
     "cache_read": 0.75,
     "blended": 6.0,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [],
@@ -11718,7 +11718,7 @@
     "cache_read": null,
     "blended": 0.39,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": {
     "via": null,
@@ -11730,7 +11730,7 @@
     "cache_read": null,
     "blended": 0.6,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "next_best": [
     {
@@ -11743,7 +11743,7 @@
      "cache_read": null,
      "blended": 0.6,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -11765,7 +11765,7 @@
     "cache_read": null,
     "blended": 0.39,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": {
     "via": null,
@@ -11777,7 +11777,7 @@
     "cache_read": null,
     "blended": 0.6,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "next_best": [
     {
@@ -11790,7 +11790,7 @@
      "cache_read": null,
      "blended": 0.6,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -11812,7 +11812,7 @@
     "cache_read": null,
     "blended": 0.39,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": {
     "via": null,
@@ -11824,7 +11824,7 @@
     "cache_read": null,
     "blended": 0.6,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "next_best": [
     {
@@ -11837,7 +11837,7 @@
      "cache_read": null,
      "blended": 0.6,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -11859,7 +11859,7 @@
     "cache_read": null,
     "blended": 0.39,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": {
     "via": null,
@@ -11871,7 +11871,7 @@
     "cache_read": null,
     "blended": 0.6,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "next_best": [
     {
@@ -11884,7 +11884,7 @@
      "cache_read": null,
      "blended": 0.39,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     },
     {
      "via": null,
@@ -11896,7 +11896,7 @@
      "cache_read": null,
      "blended": 0.6,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -11918,7 +11918,7 @@
     "cache_read": null,
     "blended": 0.375,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [
@@ -11932,7 +11932,7 @@
      "cache_read": null,
      "blended": 0.725,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -11954,7 +11954,7 @@
     "cache_read": 0.05,
     "blended": 2.0,
     "region": "Global",
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [
@@ -11968,7 +11968,7 @@
      "cache_read": 0.06,
      "blended": 2.2,
      "region": "Data Zone",
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -11989,7 +11989,7 @@
     "cache_read": 0.18,
     "blended": 4.8125,
     "region": "Global",
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [],
@@ -12011,7 +12011,7 @@
     "cache_read": 0.13,
     "blended": 3.4375,
     "region": "Global",
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [],
@@ -12033,7 +12033,7 @@
     "cache_read": 0.13,
     "blended": 3.4375,
     "region": "Global",
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [],
@@ -12055,7 +12055,7 @@
     "cache_read": 8.25,
     "blended": 28.875,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [],
@@ -12077,7 +12077,7 @@
     "cache_read": null,
     "blended": 0.2625,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [],
@@ -12099,7 +12099,7 @@
     "cache_read": null,
     "blended": 0.13125,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [],
@@ -12121,7 +12121,7 @@
     "cache_read": 0.1,
     "blended": 2.0,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [
@@ -12135,7 +12135,7 @@
      "cache_read": 0.2,
      "blended": 4.0,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -12156,7 +12156,7 @@
     "cache_read": 1.5,
     "blended": 30.0,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": {
     "via": null,
@@ -12168,7 +12168,7 @@
     "cache_read": 1.5,
     "blended": 30.0,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "next_best": [],
    "sellers": [
@@ -12189,7 +12189,7 @@
     "cache_read": 0.25,
     "blended": 20.0,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": {
     "via": null,
@@ -12201,7 +12201,7 @@
     "cache_read": 0.25,
     "blended": 20.0,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "next_best": [],
    "sellers": [
@@ -12222,7 +12222,7 @@
     "cache_read": 1.0,
     "blended": 20.0,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": {
     "via": null,
@@ -12234,7 +12234,7 @@
     "cache_read": 1.0,
     "blended": 20.0,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "next_best": [],
    "sellers": [
@@ -12255,7 +12255,7 @@
     "cache_read": 0.08,
     "blended": 1.6,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": {
     "via": null,
@@ -12267,7 +12267,7 @@
     "cache_read": 0.08,
     "blended": 1.6,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "next_best": [],
    "sellers": [
@@ -12288,7 +12288,7 @@
     "cache_read": 0.075,
     "blended": 0.59,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": {
     "via": null,
@@ -12300,7 +12300,7 @@
     "cache_read": 0.075,
     "blended": 0.59,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "next_best": [],
    "sellers": [
@@ -12321,7 +12321,7 @@
     "cache_read": 0.132,
     "blended": 1.98,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [],
@@ -12343,7 +12343,7 @@
     "cache_read": null,
     "blended": 1.3,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [],
@@ -12365,7 +12365,7 @@
     "cache_read": null,
     "blended": 0.31,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [
@@ -12379,7 +12379,7 @@
      "cache_read": 0.0286,
      "blended": 0.32175,
      "region": null,
-     "collected_at": "2026-10-30T21:43:50+00:00"
+     "collected_at": "2026-10-31T02:52:09+00:00"
     }
    ],
    "sellers": [
@@ -12401,7 +12401,7 @@
     "cache_read": 0.06,
     "blended": 2.4,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [],
@@ -12423,7 +12423,7 @@
     "cache_read": null,
     "blended": 0.92,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [],
@@ -12445,7 +12445,7 @@
     "cache_read": null,
     "blended": 0.2025,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [],
@@ -12467,7 +12467,7 @@
     "cache_read": null,
     "blended": 0.2,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [],
@@ -12489,7 +12489,7 @@
     "cache_read": null,
     "blended": 0.125,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [],
@@ -12511,7 +12511,7 @@
     "cache_read": null,
     "blended": 0.7375,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [],
@@ -12533,7 +12533,7 @@
     "cache_read": 0.06,
     "blended": 0.525,
     "region": null,
-    "collected_at": "2026-10-30T21:43:50+00:00"
+    "collected_at": "2026-10-31T02:52:09+00:00"
    },
    "direct": null,
    "next_best": [],
