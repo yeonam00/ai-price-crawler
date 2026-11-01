@@ -1,5 +1,5 @@
 {
- "collected_at": "2026-11-01T12:58:48+00:00",
+ "collected_at": "2026-11-01T13:30:41+00:00",
  "site_count": 50,
  "success_count": 49,
  "model_count": 11929,
@@ -12,7 +12,7 @@
    "ok": true,
    "model_count": 279,
    "error": null,
-   "seconds": 1.0
+   "seconds": 1.1
   },
   {
    "id": "gabia_aihub",
@@ -32,7 +32,7 @@
    "ok": true,
    "model_count": 113,
    "error": null,
-   "seconds": 1.5
+   "seconds": 1.3
   },
   {
    "id": "openrouter",
@@ -42,7 +42,7 @@
    "ok": true,
    "model_count": 981,
    "error": null,
-   "seconds": 1.7
+   "seconds": 1.5
   },
   {
    "id": "vercel",
@@ -72,7 +72,7 @@
    "ok": true,
    "model_count": 54,
    "error": null,
-   "seconds": 3.3
+   "seconds": 3.2
   },
   {
    "id": "requesty",
@@ -82,7 +82,7 @@
    "ok": true,
    "model_count": 809,
    "error": null,
-   "seconds": 0.2
+   "seconds": 0.1
   },
   {
    "id": "edenai",
@@ -102,7 +102,7 @@
    "ok": true,
    "model_count": 771,
    "error": null,
-   "seconds": 11.3
+   "seconds": 11.0
   },
   {
    "id": "replicate",
@@ -112,7 +112,7 @@
    "ok": true,
    "model_count": 19,
    "error": null,
-   "seconds": 3.5
+   "seconds": 3.4
   },
   {
    "id": "azure",
@@ -122,7 +122,7 @@
    "ok": true,
    "model_count": 190,
    "error": null,
-   "seconds": 15.4
+   "seconds": 14.8
   },
   {
    "id": "bedrock",
@@ -132,7 +132,7 @@
    "ok": true,
    "model_count": 192,
    "error": null,
-   "seconds": 6.0
+   "seconds": 5.8
   },
   {
    "id": "google_cloud",
@@ -142,7 +142,7 @@
    "ok": true,
    "model_count": 132,
    "error": null,
-   "seconds": 8.5
+   "seconds": 8.2
   },
   {
    "id": "openai",
@@ -152,7 +152,7 @@
    "ok": true,
    "model_count": 54,
    "error": null,
-   "seconds": 3.3
+   "seconds": 3.4
   },
   {
    "id": "anthropic",
@@ -162,7 +162,7 @@
    "ok": true,
    "model_count": 23,
    "error": null,
-   "seconds": 6.5
+   "seconds": 6.6
   },
   {
    "id": "google",
@@ -172,7 +172,7 @@
    "ok": true,
    "model_count": 64,
    "error": null,
-   "seconds": 5.2
+   "seconds": 5.5
   },
   {
    "id": "deepseek",
@@ -182,7 +182,7 @@
    "ok": true,
    "model_count": 4,
    "error": null,
-   "seconds": 5.8
+   "seconds": 4.4
   },
   {
    "id": "xai",
@@ -192,7 +192,7 @@
    "ok": true,
    "model_count": 35,
    "error": null,
-   "seconds": 5.6
+   "seconds": 17.7
   },
   {
    "id": "zai",
@@ -212,7 +212,7 @@
    "ok": true,
    "model_count": 5,
    "error": null,
-   "seconds": 17.6
+   "seconds": 17.4
   },
   {
    "id": "alibaba_qwen",
@@ -222,7 +222,7 @@
    "ok": true,
    "model_count": 94,
    "error": null,
-   "seconds": 9.4
+   "seconds": 10.4
   },
   {
    "id": "kling",
@@ -232,7 +232,7 @@
    "ok": true,
    "model_count": 24,
    "error": null,
-   "seconds": 6.2
+   "seconds": 5.9
   },
   {
    "id": "bfl_flux",
@@ -242,7 +242,7 @@
    "ok": true,
    "model_count": 2,
    "error": null,
-   "seconds": 4.1
+   "seconds": 3.7
   },
   {
    "id": "minimax",
@@ -252,7 +252,7 @@
    "ok": true,
    "model_count": 5,
    "error": null,
-   "seconds": 17.7
+   "seconds": 17.5
   },
   {
    "id": "seedance",
@@ -262,7 +262,7 @@
    "ok": true,
    "model_count": 144,
    "error": null,
-   "seconds": 18.3
+   "seconds": 14.9
   },
   {
    "id": "elevenlabs",
@@ -272,7 +272,7 @@
    "ok": true,
    "model_count": 16,
    "error": null,
-   "seconds": 7.4
+   "seconds": 8.0
   },
   {
    "id": "ideogram",
@@ -282,7 +282,7 @@
    "ok": false,
    "model_count": 0,
    "error": "가격 표를 찾지 못함 (raw 파일의 page_text/unparsed_tables 확인 -> 전용 파서 필요)",
-   "seconds": 2.9,
+   "seconds": 3.1,
    "carried_over": 189
   },
   {
@@ -293,7 +293,7 @@
    "ok": true,
    "model_count": 10,
    "error": null,
-   "seconds": 3.4
+   "seconds": 3.8
   },
   {
    "id": "inference_net",
@@ -303,7 +303,7 @@
    "ok": true,
    "model_count": 81,
    "error": null,
-   "seconds": 0.2
+   "seconds": 0.6
   },
   {
    "id": "sailresearch",
@@ -313,7 +313,7 @@
    "ok": true,
    "model_count": 35,
    "error": null,
-   "seconds": 3.5
+   "seconds": 4.0
   },
   {
    "id": "decart",
@@ -323,7 +323,7 @@
    "ok": true,
    "model_count": 2,
    "error": null,
-   "seconds": 3.8
+   "seconds": 4.0
   },
   {
    "id": "deepinfra",
@@ -333,7 +333,7 @@
    "ok": true,
    "model_count": 171,
    "error": null,
-   "seconds": 2.8
+   "seconds": 2.9
   },
   {
    "id": "streamlake",
@@ -343,7 +343,7 @@
    "ok": true,
    "model_count": 50,
    "error": null,
-   "seconds": 6.8
+   "seconds": 8.3
   },
   {
    "id": "atlascloud",
@@ -353,7 +353,7 @@
    "ok": true,
    "model_count": 19,
    "error": null,
-   "seconds": 18.5
+   "seconds": 18.6
   },
   {
    "id": "digitalocean",
@@ -363,7 +363,7 @@
    "ok": true,
    "model_count": 145,
    "error": null,
-   "seconds": 17.8
+   "seconds": 17.5
   },
   {
    "id": "gmicloud",
@@ -383,7 +383,7 @@
    "ok": true,
    "model_count": 20,
    "error": null,
-   "seconds": 6.1
+   "seconds": 5.9
   },
   {
    "id": "nextbit",
@@ -393,7 +393,7 @@
    "ok": true,
    "model_count": 11,
    "error": null,
-   "seconds": 0.4
+   "seconds": 0.6
   },
   {
    "id": "phala",
@@ -403,7 +403,7 @@
    "ok": true,
    "model_count": 22,
    "error": null,
-   "seconds": 0.5
+   "seconds": 0.4
   },
   {
    "id": "novita",
@@ -433,7 +433,7 @@
    "ok": true,
    "model_count": 24,
    "error": null,
-   "seconds": 12.5
+   "seconds": 19.4
   },
   {
    "id": "baseten",
@@ -443,7 +443,7 @@
    "ok": true,
    "model_count": 19,
    "error": null,
-   "seconds": 4.7
+   "seconds": 7.8
   },
   {
    "id": "together",
@@ -453,7 +453,7 @@
    "ok": true,
    "model_count": 135,
    "error": null,
-   "seconds": 18.3
+   "seconds": 18.9
   },
   {
    "id": "siliconflow",
@@ -463,7 +463,7 @@
    "ok": true,
    "model_count": 27,
    "error": null,
-   "seconds": 4.7
+   "seconds": 6.4
   },
   {
    "id": "parasail",
@@ -473,7 +473,7 @@
    "ok": true,
    "model_count": 75,
    "error": null,
-   "seconds": 4.9
+   "seconds": 5.4
   },
   {
    "id": "fireworks",
@@ -483,7 +483,7 @@
    "ok": true,
    "model_count": 9,
    "error": null,
-   "seconds": 5.6
+   "seconds": 7.2
   },
   {
    "id": "venice",
@@ -493,7 +493,7 @@
    "ok": true,
    "model_count": 140,
    "error": null,
-   "seconds": 0.3
+   "seconds": 0.2
   },
   {
    "id": "friendli",
@@ -503,7 +503,7 @@
    "ok": true,
    "model_count": 5,
    "error": null,
-   "seconds": 18.4
+   "seconds": 18.9
   }
  ],
  "changed": true
