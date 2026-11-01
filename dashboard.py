@@ -116,6 +116,54 @@ def scheduled_for(models, cid, lowest, direct):
     return []
 
 
+def lowest_track(by_time):
+    """[(t, {판매처: 가격})] -> (최저가 시계열, 기준가 재설정 시점, 새 판매처 [(t, 이전 최저가, 새 최저가, 판매처)]).
+
+    판매처가 새로 잡히거나 빠져 최저가가 바뀐 시점은 가격 변화가 아니므로 기준가를 새로 잡음.
+    새로 확인된 더 싼 판매처는 시장 가격 변화는 아니지만 조달 후보로 의미 있어 따로 돌려줌.
+    """
+    pts, rebase, found, prev = [], [], [], None     # prev = (최저가, 판매처, 그때 수집된 판매처 집합)
+    for t, prices in by_time:
+        if not prices:
+            continue
+        v, s = min((p, x) for x, p in prices.items())
+        pts.append((t, v))
+        if prev and abs(v / prev[0] - 1) * 100 >= MIN_PCT:
+            entered, exited = s not in prev[2], prev[1] not in prices
+            if entered or exited:
+                rebase.append(t)
+            if entered and v < prev[0]:
+                found.append((t, prev[0], v, s))
+        prev = (v, s, set(prices))
+    return pts, rebase, found
+
+
+def merge_items(alerts):
+    """같은 시각의 입력·출력 변화가 기준 시나리오 변화와 함께 나면 한 줄로 합침 (같은 변화가 세 줄로 뜨지 않게)."""
+    main = {(a["model"], a["at"], a["status"]): a for a in alerts if "item" not in a}
+    out = [a for a in alerts if "item" not in a]
+    for a in alerts:
+        if "item" not in a:
+            continue
+        hit = main.get((a["model"], a["at"], a["status"]))
+        if hit:
+            hit.setdefault("items", []).append({"item": a["item"], "old": a["old"], "new": a["new"]})
+        else:
+            out.append(a)
+    return out
+
+
+def load_notices(models, now):
+    """notices.py 가 공식 페이지에서 모은 예고. 지난 날짜와 가격표의 예정 변경과 겹치는 항목은 뺌."""
+    p = OUT / "notices.json"
+    if not p.exists():
+        return []
+    today = now.date().isoformat()
+    until = {(m["id"], s["current_until"]) for m in models for s in m["scheduled"]}
+    return [n for n in json.loads(p.read_text(encoding="utf-8"))["notices"]
+            if n["date"] >= today and (n["model"], n["date"]) not in until]
+
+
 def iso(t):
     return t.isoformat() if isinstance(t, datetime) else t
 
@@ -129,16 +177,25 @@ def build(extra=None):
     times = [t for t, _, _ in snaps]
     latest_t, latest_models, latest_offs = snaps[-1]
 
+    def usable(seller, cid, t):
+        since = SELLER_SINCE.get((seller, None)) or SELLER_SINCE.get((seller, track.group(cid)))
+        return not since or t >= since
+
     series = {}          # cid -> seller -> [(t, offer)]
+    item_prices = {}     # 중국 모델: cid -> item -> t -> {seller: 판매처 내 항목별 최저가}
     for t, _, offs in snaps:
         for cid, lst in offs.items():
             if not track.family(cid):
                 continue
             for seller, o in best_per_seller(lst).items():
-                since = SELLER_SINCE.get((seller, None)) or SELLER_SINCE.get((seller, track.group(cid)))
-                if since and t < since:
-                    continue
-                series.setdefault(cid, {}).setdefault(seller, []).append((t, o))
+                if usable(seller, cid, t):
+                    series.setdefault(cid, {}).setdefault(seller, []).append((t, o))
+            if track.group(cid) == "china":
+                for o in lst:
+                    if usable(o["seller"], cid, t):
+                        for item in track.ITEMS:
+                            d = item_prices.setdefault(cid, {}).setdefault(item, {}).setdefault(t, {})
+                            d[o["seller"]] = min(d.get(o["seller"], o[item]), o[item])
 
     models, alerts = [], []
     for cid, by_seller in series.items():
@@ -155,24 +212,23 @@ def build(extra=None):
             for e in detect([(t, o["blended"]) for t, o in pts], now):
                 alerts.append({"model": cid, "family": fam, "scope": "seller", "seller": seller, **e})
 
-        # 최저가 시계열 + 판매처가 새로 잡히거나 빠져 최저가가 바뀐 시점(가격 변화가 아니므로 기준가 재설정)
-        lowest_pts, rebase_at, prev = [], [], None     # prev = (최저가, 판매처, 그때 수집된 판매처 집합)
-        for i, t in enumerate(times):
-            present = {s for s, r in sellers.items() if r[i]}
-            if not present:
-                continue
-            v, s = min((sellers[x][i][2], x) for x in present)
-            lowest_pts.append((t, v))
-            if prev and abs(v / prev[0] - 1) * 100 >= MIN_PCT:
-                entered, exited = s not in prev[2], prev[1] not in present
-                if entered or exited:
-                    rebase_at.append(t)
-                if entered and v < prev[0]:
-                    # 새로 확인된 더 싼 판매처: 시장 가격 변화는 아니지만 조달 후보로 의미 있는 정보
-                    alerts.append({"model": cid, "family": fam, "scope": "lowest", "seller": s, "status": "new_seller",
-                                   "affects_lowest": True, "at": t, "old": prev[0], "new": v,
-                                   "still_lowest": False})
-            prev = (v, s, present)
+        by_time = [(t, {s: r[i][2] for s, r in sellers.items() if r[i]}) for i, t in enumerate(times)]
+        lowest_pts, rebase_at, found = lowest_track(by_time)
+        for t, old, v, s in found:
+            alerts.append({"model": cid, "family": fam, "scope": "lowest", "seller": s, "status": "new_seller",
+                           "affects_lowest": True, "at": t, "old": old, "new": v, "still_lowest": False})
+        # 중국 모델: 입력·출력 최저가도 같은 규칙으로 판정
+        for item, prices in item_prices.get(cid, {}).items():
+            ordered = sorted(prices.items())
+            pts, rebase, found = lowest_track(ordered)
+            now_low = min((v, s) for s, v in prices[latest_t].items())[1] if latest_t in prices else None
+            for t, old, v, s in found:
+                alerts.append({"model": cid, "family": fam, "scope": "lowest", "seller": s, "status": "new_seller",
+                               "item": item, "affects_lowest": True, "at": t, "old": old, "new": v,
+                               "still_lowest": s == now_low})
+            for e in detect(pts, now, rebase):
+                alerts.append({"model": cid, "family": fam, "scope": "lowest", "item": item, "affects_lowest": True,
+                               "seller": min((v, s) for s, v in prices[e["at"]].items())[1], **e})
         for e in detect(lowest_pts, now, rebase_at):
             # 판매처 변화가 그대로 최저가 변화인 경우 같은 알림을 두 번 내지 않고 판매처 알림에 표시만 함
             same = next((a for a in alerts if a["model"] == cid and a["scope"] == "seller" and a["at"] == e["at"]
@@ -186,7 +242,7 @@ def build(extra=None):
         direct = next((x for x in cur if x["source"] == fam), None)
         lo = cur[0] if cur else None
         for a in alerts:   # '새 판매처' 알림은 그 판매처가 지금도 최저가일 때만 보여줌 (지난 정보로 목록이 쌓이지 않게)
-            if a["model"] == cid and a["status"] == "new_seller":
+            if a["model"] == cid and a["status"] == "new_seller" and "item" not in a:
                 a["still_lowest"] = bool(lo) and a["seller"] == lo["seller"]
         first = lowest_pts[0][1] if lowest_pts else None
         models.append({
@@ -200,8 +256,8 @@ def build(extra=None):
         })
 
     # 반영 검토 대상은 모델 최저가를 바꾼 변화뿐: 최저가가 아닌 판매처만 움직인 변화는 제외
-    alerts = [a for a in alerts if a.get("affects_lowest")
-              and (a["status"] != "new_seller" or a["still_lowest"])]
+    alerts = merge_items([a for a in alerts if a.get("affects_lowest")
+                          and (a["status"] != "new_seller" or a["still_lowest"])])
     alerts.sort(key=lambda a: a["at"], reverse=True)
     for a in alerts:
         for k in ("at", "until", "confirmed_at"):
@@ -217,6 +273,7 @@ def build(extra=None):
                {"failed": [s["name"] for s in last_run["sites"] if not s["ok"]]},
         "models": sorted(models, key=lambda m: (not m["active"], m["family"], m["id"])),
         "alerts": alerts,
+        "notices": load_notices(models, now),
     }
 
 

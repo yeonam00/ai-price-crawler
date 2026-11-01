@@ -33,6 +33,10 @@ jobs:
       - name: Track lowest prices (closed models)
         run: python track.py
 
+      - name: Collect official notices (Claude, Gemini, OpenAI)
+        run: python notices.py
+        continue-on-error: true   # 예고 수집이 실패해도 가격 수집 결과는 저장
+
       - name: Build dashboard
         run: python dashboard.py   # output/dashboard.html
 

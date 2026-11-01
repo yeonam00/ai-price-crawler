@@ -230,65 +230,98 @@ def build(models, now):
         direct = next((x for x in offs if x["source"] == fam), None)
         res[cid] = {"family": fam, "group": group(cid), "offers": len(offs), "lowest": offs[0], "direct": direct,
                     "next_best": offs[1:3], "sellers": sorted({x["seller"] for x in offs})}
+        if res[cid]["group"] == "china":    # 입력·출력은 쓰는 비중이 모델마다 달라 항목별 최저가도 따로 추적
+            res[cid]["item_lowest"] = {k: item_lowest(offs, k) for k in ITEMS}
     return res
 
 
+ITEMS = ("input", "output")
 MAX_POINTS = 200   # 모델당 시계열 보관 상한 (값이 바뀔 때만 쌓이므로 보통 한참 남음)
+
+
+def item_lowest(offs, key):
+    o = min(offs, key=lambda x: (x[key], x["seller"]))
+    return {"value": o[key], "seller": o["seller"]}
 
 
 def _t(iso):
     return datetime.fromisoformat(iso)
 
 
+def _advance(st, value, seller, sellers, now, cid, item=None):
+    """시계열 st 에 이번 최저가를 반영. 새로 수집된 판매처가 더 싸서 바뀐 경우 new_seller 이벤트를 돌려줌."""
+    last, prev_sellers, event = st["points"][-1], st.get("sellers"), None
+    if abs(last[1] / value - 1) * 100 >= 1e-6:
+        entered = prev_sellers is not None and seller not in prev_sellers
+        exited = last[2] not in sellers
+        st["points"].append([now.isoformat(), value, seller] + ([1] if entered or exited else []))
+        del st["points"][:-MAX_POINTS]
+        if entered and value < last[1]:
+            event = {"at": now.isoformat(), "model": cid, "event": "new_seller", "old": last[1], "new": value,
+                     "change_pct": round((value / last[1] - 1) * 100, 2), "old_seller": last[2], "new_seller": seller}
+            if item:
+                event["item"] = item
+    st["sellers"] = sellers
+    return event
+
+
+def _confirmed(st, cid, now, item=None):
+    """시계열 st 에서 새로 확정된 가격 변화 이벤트."""
+    pts = [(_t(p[0]), p[1]) for p in st["points"]]
+    rebase = [_t(p[0]) for p in st["points"] if len(p) > 3 and p[3]]
+    events = []
+    for e in detect(pts, now, rebase):
+        at = e["at"].isoformat()
+        if e["status"] != "confirmed" or at in st["logged"]:
+            continue
+        prev = [p for p in st["points"] if _t(p[0]) < e["at"]]
+        sellers = {p[0]: p[2] for p in st["points"]}
+        events.append({"at": at, "confirmed_at": e["confirmed_at"].isoformat(), "model": cid,
+                       "event": "price_change", "old": e["old"], "new": e["new"],
+                       "change_pct": round((e["new"] / e["old"] - 1) * 100, 2),
+                       "old_seller": prev[-1][2] if prev else None, "new_seller": sellers.get(at)})
+        if item:
+            events[-1]["item"] = item
+        st["logged"].append(at)
+        del st["logged"][:-MAX_POINTS]
+    return events
+
+
 def update_series(state, new, now):
     """이번 수집의 최저가를 시계열 상태에 반영하고, 새로 '확정'된 변화 이벤트를 돌려줌.
 
     state = {cid: {"points": [[iso, blended, seller, (rebase)]...], "sellers": [...], "last_seen": iso,
-                   "gone": bool, "logged": [at...]}}
+                   "gone": bool, "logged": [at...], "items": {input/output: {points, sellers, logged}}}}
     같은 값이 이어지면 점을 추가하지 않음. 한두 번 수집에서만 보였다 사라지는 값은 changes.detect 가 '일시적'으로 걸러냄.
     최저가 판매처가 이번에 새로 수집됐거나 직전 최저가 판매처가 빠져서 바뀐 점은 4번째 값을 1 로 표시해
     기준가를 새로 잡음 (수집 범위 변화가 가격 변화로 확정되지 않게). 새로 확인된 더 싼 판매처는 'new_seller' 로 기록.
+    중국 모델은 기준 시나리오(최상위 points)에 더해 입력·출력 최저가(items)도 같은 규칙으로 추적. 항목별 이벤트에는 item 이 붙음.
     """
     events, first_run = [], not state
     for cid, n in new.items():
         nl = n["lowest"]
         st = state.get(cid)
         if st is None:
-            state[cid] = {"points": [[now.isoformat(), nl["blended"], nl["seller"]]], "sellers": n["sellers"],
-                          "last_seen": now.isoformat(), "gone": False, "logged": []}
+            st = state[cid] = {"points": [[now.isoformat(), nl["blended"], nl["seller"]]], "sellers": n["sellers"],
+                               "last_seen": now.isoformat(), "gone": False, "logged": []}
             if not first_run:
                 events.append({"at": now.isoformat(), "model": cid, "event": "new_model", "new": nl})
-            continue
-        st["last_seen"], st["gone"] = now.isoformat(), False
-        last, prev_sellers = st["points"][-1], st.get("sellers")
-        if abs(last[1] / nl["blended"] - 1) * 100 >= 1e-6:
-            entered = prev_sellers is not None and nl["seller"] not in prev_sellers
-            exited = last[2] not in n["sellers"]
-            st["points"].append([now.isoformat(), nl["blended"], nl["seller"]] + ([1] if entered or exited else []))
-            del st["points"][:-MAX_POINTS]
-            if entered and nl["blended"] < last[1]:
-                events.append({"at": now.isoformat(), "model": cid, "event": "new_seller", "old": last[1],
-                               "new": nl["blended"], "change_pct": round((nl["blended"] / last[1] - 1) * 100, 2),
-                               "old_seller": last[2], "new_seller": nl["seller"]})
-        st["sellers"] = n["sellers"]
+        else:
+            st["last_seen"], st["gone"] = now.isoformat(), False
+            events.append(_advance(st, nl["blended"], nl["seller"], n["sellers"], now, cid))
+        for item, low in (n.get("item_lowest") or {}).items():
+            items = st.setdefault("items", {})
+            if item in items:
+                events.append(_advance(items[item], low["value"], low["seller"], n["sellers"], now, cid, item))
+            else:                                   # 항목 추적 시작점 (변화로 기록하지 않음)
+                items[item] = {"points": [[now.isoformat(), low["value"], low["seller"]]], "sellers": n["sellers"],
+                               "logged": []}
+    events = [e for e in events if e]
     hold = timedelta(hours=CONFIRM_HOURS)
     for cid, st in state.items():
-        pts = [(_t(p[0]), p[1]) for p in st["points"]]
-        rebase = [_t(p[0]) for p in st["points"] if len(p) > 3 and p[3]]
-        for e in detect(pts, now, rebase):
-            at = e["at"].isoformat()
-            if e["status"] != "confirmed" or at in st["logged"]:
-                continue
-            prev = [p for p in st["points"] if _t(p[0]) < e["at"]]
-            sellers = {p[0]: p[2] for p in st["points"]}
-            events.append({
-                "at": at, "confirmed_at": e["confirmed_at"].isoformat(), "model": cid,
-                "event": "price_change", "old": e["old"], "new": e["new"],
-                "change_pct": round((e["new"] / e["old"] - 1) * 100, 2),
-                "old_seller": prev[-1][2] if prev else None, "new_seller": sellers.get(at),
-            })
-            st["logged"].append(at)
-            del st["logged"][:-MAX_POINTS]
+        events += _confirmed(st, cid, now)
+        for item, sub in (st.get("items") or {}).items():
+            events += _confirmed(sub, cid, now, item)
         # 목록에서 사라진 모델도 CONFIRM_HOURS 이상 안 보일 때만 '삭제'로 확정 (사이트 일시 장애·파싱 누락 구분)
         if cid not in new and not st["gone"] and now - _t(st["last_seen"]) >= hold:
             st["gone"] = True
