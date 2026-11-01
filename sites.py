@@ -2,6 +2,8 @@
 
 adapter: 공개 JSON API가 있는 사이트는 API로 수집(정확/빠름), 없으면 None -> Playwright 렌더링 + 표 파싱.
 currency: 사이트가 기본으로 쓰는 통화 힌트 (표 안에서 기호가 감지되면 그 값이 우선).
+
+시트에서 제외 (2026-11): modal, dekallm(모델별 공개 단가 없음), morph(GitHub Actions 에서 93회 모두 수집 실패).
 """
 
 # (id, name, category, url, note, adapter, currency)
@@ -14,7 +16,7 @@ _ROWS = [
     ("vercel", "vercel", "router", "https://vercel.com/ai-gateway/models", "", "vercel", "USD"),
     ("litellm", "lite llm", "router", "https://models.litellm.ai/", "", "litellm", "USD"),
     ("cloudflare", "cloudflare", "router", "https://developers.cloudflare.com/workers-ai/platform/pricing/", "모델 카탈로그(/ai/models/)에는 가격이 없어 Workers AI 가격 페이지로 대체", None, "USD"),
-    ("requesty", "requesty", "router", "https://www.requesty.ai/models", "", None, "USD"),
+    ("requesty", "requesty", "router", "https://www.requesty.ai/models", "", "requesty", "USD"),
     ("edenai", "eden ai", "router", "https://app.edenai.run/models", "", "edenai", "USD"),
     # --- 영상/이미지 위주 라우터 ---
     ("fal", "fal", "media_router", "https://fal.ai/pricing", "영상, 이미지위주 라우터", "fal", "USD"),
@@ -44,8 +46,6 @@ _ROWS = [
     ("inference_net", "inference.net", "other", "https://inference.net/models/", "시트에 'open inference'와 중복", "inference_net", "USD"),
     ("sailresearch", "sail research", "other", "https://docs.sailresearch.com/pricing", "", None, "USD"),
     ("decart", "decart", "other", "https://cogito.decart.ai/models", "", None, "USD"),
-    ("morph", "morph", "other", "https://www.morphllm.com/models", "", None, "USD"),
-    ("dekallm", "deka llm", "other", "https://www.cloudeka.id/en/products/deka-llm-en/", "", None, "USD"),
     ("deepinfra", "deepinfra", "other", "https://deepinfra.com/pricing", "", None, "USD"),
     ("streamlake", "streamlake", "other", "https://www.streamlake.ai/document/DOC/mgrnm4xm362hvp5wyce", "", None, "USD"),
     ("atlascloud", "atlas cloud", "other", "https://www.atlascloud.ai/pricing", "시트의 URL이 deepinfra와 동일(오타 추정) -> atlascloud.ai/pricing으로 대체 (/models 에는 단가 표 없음)", None, "USD"),
@@ -60,7 +60,6 @@ _ROWS = [
     ("baseten", "Baseten", "other", "https://www.baseten.co/pricing/", "모델 라이브러리(/library/)에는 가격이 없어 /pricing/ 으로 대체", None, "USD"),
     ("together", "Together", "other", "https://www.together.ai/pricing", "", None, "USD"),
     ("siliconflow", "SiliconFlow", "other", "https://www.siliconflow.com/pricing", "", None, "USD"),
-    ("modal", "Modal", "other", "https://modal.com/library", "", None, "USD"),
     ("parasail", "parasail", "other", "https://www.parasail.io/pricing", "모델 목록(/models)에는 가격이 없어 /pricing 으로 대체", None, "USD"),
     ("fireworks", "fireworks", "other", "https://fireworks.ai/models", "", None, "USD"),
     ("venice", "venice", "other", "https://docs.venice.ai/models/overview", "", "venice", "USD"),

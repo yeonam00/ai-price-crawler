@@ -15,6 +15,7 @@
   - 최저가 = 가중 평균가 (입력*3 + 출력*1) / 4 -> 기준 시나리오 SCENARIO 참고
 
 중국 오픈 웨이트 모델(DeepSeek, Qwen, GLM, Kimi, MiniMax, MiMo) 추가 조건 (canonical_china)
+  - 사용 조건 3개(기준 시나리오, CHINA_SCENARIOS)의 최저가가 각각 바뀔 때만 변화로 감지
   - 스냅샷 날짜까지 같은 버전끼리만 비교 (v4-flash-0731 != v4-flash). 날짜 표기는 MMDD 로 통일
   - 속도 등급(fast/highspeed/ultraspeed), 파생 모델(uncensored, RL 튜닝 등), 저정밀 양자화(fp4/int4/int8/AWQ),
     별칭(deepseek-chat, *-latest)은 제외. fp8/bf16 은 같은 모델로 봄
@@ -35,6 +36,10 @@ OUT = Path(__file__).parent / "output"
 # 입출력 비율 민감도(2026-10-29, 중국 모델 123개): 1:1 -> 6개, 10:1 -> 5개, 30:1 -> 7개 모델만 최저가 판매처가 달라짐
 SCENARIO = {"name": "3:1 입력 중심, 캐시 없음", "input": 3, "output": 1}
 INPUT_WEIGHT, OUTPUT_WEIGHT = SCENARIO["input"], SCENARIO["output"]
+# 중국 모델은 사용 조건별 최저가를 따로 추적 (기준 시나리오 + 아래 2개). cached = 입력 중 캐시 적중 비율
+CHINA_SCENARIOS = {"output_heavy": {"name": "출력 중심 1:3", "input": 1, "output": 3, "cached": 0},
+                   "cached": {"name": "캐시 활용 3:1, 입력 70% 캐시 적중", "input": 3, "output": 1, "cached": 0.7}}
+ITEMS = tuple(CHINA_SCENARIOS)
 # 중국 모델 이상 행 방어 (수집 오류·단위 오류가 최저가를 흔드는 것을 막음)
 CN_MIN_OUT_IN = 0.5      # 출력 단가가 입력 단가의 절반 미만이면 오류로 봄 (예: streamlake MiniMax-M3 입력 512.0 / 출력 2.4)
 CN_MIN_VS_MEDIAN = 0.02  # 같은 모델 다른 판매처 입력 단가 중앙값의 2% 미만이면 단위 오류·프로모션으로 보고 제외
@@ -107,7 +112,7 @@ CHINA_FAMILIES = {"deepseek": "deepseek", "qwen": "alibaba_qwen", "glm": "zai", 
 _CN_KEY = re.compile(r"deepseek|qwen|glm|kimi|minimax|mimo")
 # 같은 조건 비교에서 빼는 변형: 속도 등급, 파생(튜닝) 모델, 저정밀 양자화, 별칭, 배치·무료·캐시 할인 행, 비텍스트
 _CN_EXCLUDE = re.compile(
-    r"\bfast\b|-fast|highspeed|ultraspeed|lightning|express|uncensored|heretic|abliterated|caveman|honey|ponytail|"
+    r"\bfast\b|-fast|highspeed|ultraspeed|lightning|express|priority|uncensored|heretic|abliterated|caveman|honey|ponytail|"
     r"-rl\b|fp4|int4|int8|awq|gptq|nvfp4|w4a|latest|e2ee|:free|:batch|batch|context cach|"
     r"embed|rerank|ocr|asr|tts|image|audio|omni|realtime|guard|search")
 _CN_ALIAS = {"deepseek-chat", "deepseek-reasoner", "deepseek-flash", "deepseek-pro"}
@@ -122,7 +127,7 @@ def canonical_china(raw):
     s = raw.lower().strip().lstrip("~")
     if _CN_EXCLUDE.search(s):
         return None
-    s = s.replace("(", "-").replace(")", "")
+    s = re.sub(r"@.*$", "", s.replace("(", "-").replace(")", ""))   # 'kimi-k2.5@eu-north-1' -> 리전은 같은 모델
     seg = next((x for x in reversed(re.split(r"/", s)) if _CN_KEY.search(x)), None)
     if not seg:
         return None
@@ -160,6 +165,13 @@ def seller_of(m):
     if src == "litellm":
         return f"litellm:{(m.get('model_provider') or 'unknown').split('-')[0]}"
     return src
+
+
+def scenario_cost(i, o, cache, c):
+    """사용 조건의 100만 토큰당 단가. 캐시 가격이 없는 판매처는 입력가로 계산."""
+    hit = c["cached"]
+    effective = (1 - hit) * i + hit * (cache or i)
+    return round((c["input"] * effective + c["output"] * o) / (c["input"] + c["output"]), 6)
 
 
 def drop_implausible(offs):
@@ -205,13 +217,16 @@ def offers(models, now):
         if not cid:
             continue
         blended = (INPUT_WEIGHT * i["value"] + OUTPUT_WEIGHT * o["value"]) / (INPUT_WEIGHT + OUTPUT_WEIGHT)
+        cr_value = (p.get("cache_read") or {}).get("value")
         cr = p.get("cache_read")
         up = (m.get("meta") or {}).get("upstream")
         out.setdefault(cid, []).append({
             "via": up if isinstance(up, str) else None,   # 라우터가 실제로 연결하는 업체 (Eden AI, BizRouter)
             "seller": seller_of(m), "source": m["provider"]["id"], "listed_as": m.get("model_id") or m["model"],
             "input": i["value"], "output": o["value"], "cache_read": cr["value"] if cr else None,
-            "blended": round(blended, 6), "region": (m.get("meta") or {}).get("region") or (m.get("meta") or {}).get("deployment"),
+            "blended": round(blended, 6),
+            **{k: scenario_cost(i["value"], o["value"], cr_value, c) for k, c in CHINA_SCENARIOS.items()},
+            "region": (m.get("meta") or {}).get("region") or (m.get("meta") or {}).get("deployment"),
             "collected_at": m["collected_at"],
         })
     for cid in out:
@@ -230,12 +245,11 @@ def build(models, now):
         direct = next((x for x in offs if x["source"] == fam), None)
         res[cid] = {"family": fam, "group": group(cid), "offers": len(offs), "lowest": offs[0], "direct": direct,
                     "next_best": offs[1:3], "sellers": sorted({x["seller"] for x in offs})}
-        if res[cid]["group"] == "china":    # 입력·출력은 쓰는 비중이 모델마다 달라 항목별 최저가도 따로 추적
+        if res[cid]["group"] == "china":    # 사용 조건마다 최저가 판매처가 다를 수 있어 조건별로 따로 추적
             res[cid]["item_lowest"] = {k: item_lowest(offs, k) for k in ITEMS}
     return res
 
 
-ITEMS = ("input", "output")
 MAX_POINTS = 200   # 모델당 시계열 보관 상한 (값이 바뀔 때만 쌓이므로 보통 한참 남음)
 
 
@@ -291,11 +305,12 @@ def update_series(state, new, now):
     """이번 수집의 최저가를 시계열 상태에 반영하고, 새로 '확정'된 변화 이벤트를 돌려줌.
 
     state = {cid: {"points": [[iso, blended, seller, (rebase)]...], "sellers": [...], "last_seen": iso,
-                   "gone": bool, "logged": [at...], "items": {input/output: {points, sellers, logged}}}}
+                   "gone": bool, "logged": [at...], "items": {사용 조건: {points, sellers, logged}}}}
     같은 값이 이어지면 점을 추가하지 않음. 한두 번 수집에서만 보였다 사라지는 값은 changes.detect 가 '일시적'으로 걸러냄.
     최저가 판매처가 이번에 새로 수집됐거나 직전 최저가 판매처가 빠져서 바뀐 점은 4번째 값을 1 로 표시해
     기준가를 새로 잡음 (수집 범위 변화가 가격 변화로 확정되지 않게). 새로 확인된 더 싼 판매처는 'new_seller' 로 기록.
-    중국 모델은 기준 시나리오(최상위 points)에 더해 입력·출력 최저가(items)도 같은 규칙으로 추적. 항목별 이벤트에는 item 이 붙음.
+    중국 모델은 기준 시나리오(최상위 points)에 더해 CHINA_SCENARIOS 조건별 최저가(items)도 같은 규칙으로 추적.
+    조건별 이벤트에는 item 이 붙음.
     """
     events, first_run = [], not state
     for cid, n in new.items():
@@ -311,6 +326,8 @@ def update_series(state, new, now):
             events.append(_advance(st, nl["blended"], nl["seller"], n["sellers"], now, cid))
         for item, low in (n.get("item_lowest") or {}).items():
             items = st.setdefault("items", {})
+            for old in set(items) - set(ITEMS):     # 이전 추적 항목(입력·출력별)은 더 판정하지 않음
+                del items[old]
             if item in items:
                 events.append(_advance(items[item], low["value"], low["seller"], n["sellers"], now, cid, item))
             else:                                   # 항목 추적 시작점 (변화로 기록하지 않음)
@@ -343,7 +360,7 @@ def main():
     events = update_series(state, new, now)
     sp.write_text(json.dumps(state, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
     payload = {"collected_at": latest["collected_at"],
-               "scenario": SCENARIO, "weights": {"input": INPUT_WEIGHT, "output": OUTPUT_WEIGHT},
+               "scenario": SCENARIO, "china_scenarios": CHINA_SCENARIOS, "weights": {"input": INPUT_WEIGHT, "output": OUTPUT_WEIGHT},
                "model_count": len(new), "models": new}
     (OUT / "lowest_latest.json").write_text(json.dumps(payload, ensure_ascii=False, indent=1), encoding="utf-8")
     if events:

@@ -962,12 +962,19 @@ def _ali_price(cell):
     return out
 
 
+def _scaled(p, ratio):
+    return {"raw": f"{p['raw']} x {ratio:g} (모델 셀의 배치 할인)", "value": round(p["value"] * ratio, 6), "currency": p["currency"]}
+
+
 def parse_alibaba_qwen(data, site):
     """Alibaba Model Studio. 배포 지역 'International' 행만 사용 (지역마다 가격이 다름).
 
     - 모델 ID 셀 꼬리의 'context caching discount', 'Currently equivalent to ...' 등 안내 문구 제거
     - 입력 길이 구간('0<Token≤32K')은 context_tier 로 보관, 첫 구간이 기본 가격
     - 출력 가격이 Non-Thinking / Thinking 으로 나뉘면 Non-Thinking 을 출력 가격으로 씀
+    - 캐시 읽기는 'Cache-hit input price' 열이 있는 표만 값으로 저장. 없는 표는 페이지의 10%가 예시 문구라
+      계산하지 않고 meta.context_cache 로 지원 여부만 남김
+    - 배치는 모델 셀의 'N% batch inference discount' 문구로 계산
     """
     recs = []
     for t in data["tables"]:
@@ -980,6 +987,7 @@ def parse_alibaba_qwen(data, site):
             rows = rows[1:]
         cs, ct, ci = head.index("Deployment scope"), _col(head, "input tok"), _col(head, "input price")
         co = _col(head, "non-thinking") or _col(head, "output price")
+        cc = _col(head, "cache-hit")
         if ci is None or co is None:
             continue
         for r in rows[1:]:
@@ -989,12 +997,22 @@ def parse_alibaba_qwen(data, site):
             i, o = _ali_price(r[ci]), _ali_price(r[co])
             if not mid or not i or not o:
                 continue
+            pricing = {"input": i, "output": o}
+            hit = _ali_price(r[cc]) if cc is not None and cc < len(r) else None
+            if hit:
+                pricing["cache_read"] = hit
+            off = re.search(r"(\d+)%\s*batch inference discount", r[0], re.I)
+            if off:
+                ratio = 1 - int(off.group(1)) / 100
+                pricing.update(batch_input=_scaled(i, ratio), batch_output=_scaled(o, ratio))
             tier_txt = r[ct] if ct is not None else ""
             first = tier_txt.startswith("0<") or "No tiered" in tier_txt
-            recs.append({"model": mid, "model_id": mid, "pricing": {"input": i, "output": o},
+            recs.append({"model": mid, "model_id": mid, "pricing": pricing,
                          "unit": "per_1m_tokens", "tier": "batch" if "batch" in t["heading"].lower() else None,
                          "context_tier": "short" if first else clean(tier_txt) or None,
-                         "section": clean(t["heading"]), "meta": {"input_range": clean(tier_txt) or None}})
+                         "section": clean(t["heading"]),
+                         "meta": {"input_range": clean(tier_txt) or None,
+                                  "context_cache": "context cach" in r[0].lower() or None}})
     return recs
 
 

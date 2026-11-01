@@ -420,6 +420,24 @@ async def adapter_fal(client, site):
     return recs
 
 
+async def adapter_requesty(client, site):
+    """업체별 가격 API. 페이지의 'From' 가격은 ':flex' 요금까지 포함한 최저가라 표준가 비교에 쓸 수 없음."""
+    data = (await client.get("https://router.requesty.ai/v1/models")).json()["data"]
+    recs = []
+    for m in data:
+        upstream = m["id"].split("/")[0]
+        rec = _rec(m["id"], m["id"], {
+            "input": _p(_per_m(m.get("input_price"))), "output": _p(_per_m(m.get("output_price"))),
+            "cache_read": _p(_per_m(m.get("cached_price"))), "cache_write": _p(_per_m(m.get("caching_price")))},
+            provider=m.get("model_lab"), section=upstream,
+            meta={"upstream": upstream, "context_length": m.get("context_window"),
+                  "region": m.get("geolocation"), "open_weights": m.get("open_weights")})
+        if m["id"].endswith(":flex"):
+            rec["tier"] = "flex"
+        recs.append(rec)
+    return recs
+
+
 async def adapter_makora(client, site):
     data = (await client.get("https://app.makora.com/api/v1/credits/default-rates")).json()["models"]
     return [_rec(m["model"], m["model"], {
@@ -430,7 +448,8 @@ async def adapter_makora(client, site):
 ADAPTERS = {"openrouter": adapter_openrouter, "vercel": adapter_vercel, "litellm": adapter_litellm,
             "pleum": adapter_pleum, "bizrouter": adapter_bizrouter, "edenai": adapter_edenai,
             "inference_net": adapter_inference_net, "gmicloud": adapter_gmicloud, "venice": adapter_venice,
-            "makora": adapter_makora, "phala": adapter_phala, "nextbit": adapter_nextbit, "fal": adapter_fal}
+            "makora": adapter_makora, "phala": adapter_phala, "nextbit": adapter_nextbit, "fal": adapter_fal,
+            "requesty": adapter_requesty}
 
 
 # ───────────────────────── 브라우저 크롤링 ─────────────────────────

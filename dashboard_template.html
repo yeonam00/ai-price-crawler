@@ -166,7 +166,7 @@ const FAM = { openai: "OpenAI", anthropic: "Anthropic", google: "Google", xai: "
   deepseek: "DeepSeek", alibaba_qwen: "Qwen (Alibaba)", zai: "GLM (Z.ai)", moonshot: "Kimi (Moonshot)",
   minimax: "MiniMax", xiaomi_mimo: "MiMo (Xiaomi)" };
 const GROUP = { closed: "글로벌", china: "중국 오픈" };
-const ITEM = { input: "입력", output: "출력" };
+const ITEM = DATA.rules.conditions;   // 중국 모델 사용 조건
 const sellerName = (o) => o ? (o.via ? `${o.seller} (via ${o.via})` : o.seller) : "";
 const STATUS = {
   confirmed: ["반영 검토", "b-confirmed"], scheduled: ["예정 변경", "b-scheduled"],
@@ -250,7 +250,7 @@ function noticeLine(a) {
 function alertLine(a) {
   if (a.notice) return noticeLine(a);
   const ch = (a.new / a.old - 1) * 100;
-  const who = (a.item ? `${ITEM[a.item]} 최저가 · ` : "") + (a.seller ? esc(a.seller) : "최저가");
+  const who = (a.item ? `${ITEM[a.item]} · ` : "") + (a.seller ? esc(a.seller) : "최저가");
   let when, extra = "";
   if (a.status === "scheduled") {
     when = `${a.at}부터`;
@@ -265,7 +265,7 @@ function alertLine(a) {
   } else {
     when = `${kst(a.at)} ~ ${kst(a.until)} 후 복귀`;
   }
-  if (a.items) extra = a.items.map((x) => `${ITEM[x.item]} 최저가 ${usd(x.old)} → ${usd(x.new)}`).join(" · ");
+  if (a.items) extra = a.items.map((x) => `${ITEM[x.item]} ${usd(x.old)} → ${usd(x.new)}`).join(" · ");
   const lowestTag = a.affects_lowest && a.seller && a.status !== "new_seller" && !a.item ? " · 모델 최저가에 영향" : "";
   return `<button class="alert" type="button" data-model="${esc(a.model)}">
     <span class="badge ${STATUS[a.status][1]}">${STATUS[a.status][0]}</span>
@@ -279,7 +279,7 @@ function renderAlerts() {
   renderAlertTabs();
   const list = ALERTS[alertTab];
   const help = {
-    confirmed: `모델 최저가를 바꾼 변화 중, 기준가 대비 ${DATA.rules.min_pct}% 이상 변한 가격이 ${DATA.rules.confirm_hours}시간 이상 유지된 것입니다. 중국 모델은 입력·출력 최저가가 바뀐 경우도 포함합니다.`,
+    confirmed: `모델 최저가를 바꾼 변화 중, 기준가 대비 ${DATA.rules.min_pct}% 이상 변한 가격이 ${DATA.rules.confirm_hours}시간 이상 유지된 것입니다. 중국 모델은 사용 조건별 최저가가 바뀐 경우도 포함합니다.`,
     scheduled: "Claude, Gemini, OpenAI 공식 가격표와 변경 이력에 공지된 가격 변경·할인 종료입니다. 할인 종료 전에 판매가·조달 경로를 점검하세요.",
     retire: "Claude, Gemini, OpenAI 공식 페이지에 날짜가 확정된 지원 종료 예고입니다. 해당 모델을 쓰는 경로는 대체 모델로 옮겨야 합니다.",
     watching: `변했지만 아직 ${DATA.rules.confirm_hours}시간이 지나지 않아 확정하지 않은 변화입니다.`,
@@ -388,7 +388,7 @@ function renderDetail() {
     <div class="chart-box"><canvas id="cv" aria-label="${esc(m.id)} 판매처별 가격 추이"></canvas></div>
     ${sched ? `<div class="note warn"><b>예정 변경</b> · ${esc(sched.seller)} 공식가가 ${sched.at}부터 입력 ${usd(sched.newIO[0])} / 출력 ${usd(sched.newIO[1])}로 바뀝니다 (현재 ${usd(sched.oldIO[0])} / ${usd(sched.oldIO[1])}${sched.until ? `, ${sched.until}까지` : ""}).</div>` : ""}
     ${noticesOf(m.id).map((n) => `<div class="note warn"><b>${STATUS[n.status][0]} ${n.at} (${dDay(n.at)})</b>${n.replacement ? ` · 대체: ${esc(n.replacement)}` : ""}${n.text ? ` · ${esc(n.text)}` : ""} <a href="${esc(n.url)}" target="_blank" rel="noopener">공식 출처</a></div>`).join("")}
-    ${events.length ? `<div class="note">${events.map((a) => `<span class="badge ${STATUS[a.status][1]}">${STATUS[a.status][0]}</span> ${a.item ? `${ITEM[a.item]} 최저가 · ` : ""}${a.seller ? esc(a.seller) : "최저가"} ${usd(a.old)} → ${usd(a.new)} (${pct((a.new / a.old - 1) * 100)}) · ${kst(a.at)}`).join("<br>")}</div>` : ""}
+    ${events.length ? `<div class="note">${events.map((a) => `<span class="badge ${STATUS[a.status][1]}">${STATUS[a.status][0]}</span> ${a.item ? `${ITEM[a.item]} · ` : ""}${a.seller ? esc(a.seller) : "최저가"} ${usd(a.old)} → ${usd(a.new)} (${pct((a.new / a.old - 1) * 100)}) · ${kst(a.at)}`).join("<br>")}</div>` : ""}
     <details style="margin-top:10px"><summary>현재 판매처 순위 (표로 보기)</summary>
       <div class="tbl-wrap" style="margin-top:6px"><table><thead><tr><th>#</th><th>판매처</th><th>표기명</th><th class="r">입력</th><th class="r">출력</th><th class="r">가중 평균</th><th class="r">최저가 대비</th></tr></thead><tbody>
       ${m.ranking.map((r, i) => `<tr><td>${i + 1}</td><td>${esc(sellerName(r))}${r.region ? ` <span class="muted">${esc(r.region)}</span>` : ""}</td><td class="muted">${esc(r.listed_as)}</td>
@@ -459,7 +459,7 @@ $("#rules").innerHTML = [
   `<b>중국 오픈 모델</b>(DeepSeek, Qwen, GLM, Kimi, MiniMax, MiMo) 추가 조건: 스냅샷 날짜까지 같은 버전끼리만 비교(예: v4-flash-0731 ≠ v4-flash). 속도 등급(fast·highspeed·ultraspeed), 파생 모델(uncensored·RL 튜닝 등), 저정밀 양자화(fp4·int4·int8·AWQ), 압축 모델(CompactifAI), 별칭(deepseek-chat, *-latest)은 제외. fp8·bf16은 같은 모델로 봄. 출력 단가가 입력 단가의 절반 미만인 행(단위·파싱 오류)과 입력 단가가 다른 판매처 중앙값의 2% 미만인 행은 제외. DeepSeek은 피크 요금, Qwen 공식가는 International 배포 기준. 라우터는 실제 연결 업체를 (via …)로 표시.`,
   `<b>반영 검토</b>: 모델 최저가를 바꾼 변화만 대상입니다(최저가가 아닌 판매처의 가격 변동은 제외). 마지막으로 확정된 가격(기준가) 대비 ${DATA.rules.min_pct}% 이상 변한 상태가 ${DATA.rules.confirm_hours}시간 이상 유지되면 확정하고 기준가를 갱신합니다. 직전 수집값이 아니라 기준가와 비교하므로 작은 변화가 누적돼도 잡힙니다.`,
   `<b>일시적</b>: ${DATA.rules.confirm_hours}시간 안에 기준가로 돌아온 변화. <b>관찰 중</b>: 아직 ${DATA.rules.confirm_hours}시간이 지나지 않은 변화.`,
-  `<b>대시보드에 올리는 변화</b>: 글로벌 모델은 기준 시나리오 최저가에 영향을 준 변화만, 중국 오픈 모델은 입력 최저가·출력 최저가·기준 시나리오 최저가 중 하나라도 바뀐 변화를 보여줍니다. 항목별 최저가는 판매처가 서로 다를 수 있습니다.`,
+  `<b>대시보드에 올리는 변화</b>: 글로벌 모델은 기준 시나리오 최저가에 영향을 준 변화만, 중국 오픈 모델은 사용 조건 3개(${DATA.rules.scenario} / ${Object.values(DATA.rules.conditions).join(" / ")}) 중 하나의 최저가라도 바뀐 변화를 보여줍니다. 캐시 가격이 없는 판매처는 입력 가격으로 계산하며, 조건마다 최저가 판매처가 다를 수 있습니다.`,
   `<b>예정 변경·지원 종료</b>: Claude, Gemini, OpenAI 공식 가격표·변경 이력·지원 종료 페이지에 날짜와 함께 공지된 내용입니다. 'Not sooner than'처럼 확정되지 않은 날짜는 제외합니다. 공지되지 않은 변경은 잡을 수 없습니다.`,
   `<b>새 판매처</b>: 판매처가 새로 수집되거나 빠져서 최저가가 바뀐 것은 가격 변화가 아니므로 그 시점부터 기준가를 새로 잡고, 새로 확인된 더 싼 판매처는 '새 판매처' 탭에 따로 보여줍니다.`,
   `가격은 공개 가격표 기준이며 실제 청구액·계약 단가·고객 판매가와 다를 수 있습니다. 수집 실패 사이트(${run.failed.length}곳)는 이 비교에 포함되지 않습니다.`,

@@ -139,7 +139,7 @@ def lowest_track(by_time):
 
 
 def merge_items(alerts):
-    """같은 시각의 입력·출력 변화가 기준 시나리오 변화와 함께 나면 한 줄로 합침 (같은 변화가 세 줄로 뜨지 않게)."""
+    """같은 시각의 사용 조건별 변화가 기준 시나리오 변화와 함께 나면 한 줄로 합침 (같은 변화가 세 줄로 뜨지 않게)."""
     main = {(a["model"], a["at"], a["status"]): a for a in alerts if "item" not in a}
     out = [a for a in alerts if "item" not in a]
     for a in alerts:
@@ -182,7 +182,7 @@ def build(extra=None):
         return not since or t >= since
 
     series = {}          # cid -> seller -> [(t, offer)]
-    item_prices = {}     # 중국 모델: cid -> item -> t -> {seller: 판매처 내 항목별 최저가}
+    item_prices = {}     # 중국 모델: cid -> 사용 조건 -> t -> {seller: 판매처 내 조건별 최저가}
     for t, _, offs in snaps:
         for cid, lst in offs.items():
             if not track.family(cid):
@@ -217,7 +217,7 @@ def build(extra=None):
         for t, old, v, s in found:
             alerts.append({"model": cid, "family": fam, "scope": "lowest", "seller": s, "status": "new_seller",
                            "affects_lowest": True, "at": t, "old": old, "new": v, "still_lowest": False})
-        # 중국 모델: 입력·출력 최저가도 같은 규칙으로 판정
+        # 중국 모델: 사용 조건별 최저가도 같은 규칙으로 판정
         for item, prices in item_prices.get(cid, {}).items():
             ordered = sorted(prices.items())
             pts, rebase, found = lowest_track(ordered)
@@ -268,7 +268,8 @@ def build(extra=None):
         "now": iso(now),
         "times": [iso(t) for t in times],
         "rules": {"min_pct": MIN_PCT, "confirm_hours": CONFIRM_HOURS,
-                  "weights": {"input": track.INPUT_WEIGHT, "output": track.OUTPUT_WEIGHT}, "scenario": track.SCENARIO["name"]},
+                  "weights": {"input": track.INPUT_WEIGHT, "output": track.OUTPUT_WEIGHT}, "scenario": track.SCENARIO["name"],
+                  "conditions": {k: c["name"] for k, c in track.CHINA_SCENARIOS.items()}},
         "run": {k: last_run[k] for k in ("collected_at", "site_count", "success_count")} |
                {"failed": [s["name"] for s in last_run["sites"] if not s["ok"]]},
         "models": sorted(models, key=lambda m: (not m["active"], m["family"], m["id"])),
