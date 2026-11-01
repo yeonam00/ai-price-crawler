@@ -347,13 +347,16 @@ for (const id of ["#q", "#grp", "#fam", "#act"]) $(id).addEventListener("input",
 $("#tbody").addEventListener("click", (e) => { const tr = e.target.closest("tr[data-model]"); if (tr) select(tr.dataset.model, false); });
 
 // ---------- 상세 + 차트 ----------
-let chart = null, metric = store.get("metric") || "blended", hidden = new Set();
-const METRIC = { input: [0, "입력"], output: [1, "출력"], blended: [2, "가중 평균"] };
+const METRIC = { input: [0, "입력"], output: [1, "출력"] };
+const COND = { blended: DATA.rules.scenario, ...ITEM };   // 판매처 순위의 사용 조건
+let chart = null, hidden = new Set();
+let metric = METRIC[store.get("metric")] ? store.get("metric") : "input";
+let cond = COND[store.get("cond")] ? store.get("cond") : "blended";
 
 function sellerColors(m) {
   // 색은 8개뿐이라 최저가 판매처와 현재 싼 순서로 8곳만 그림 (판매처가 16곳씩인 중국 모델에서 최저가가 빠지지 않게).
   // 고른 8곳 안에서는 이름 순으로 색을 고정해, 순위가 바뀌어도 같은 판매처는 같은 색
-  const shown = [...new Set([m.lowest?.seller, ...m.ranking.map((r) => r.seller), ...Object.keys(m.sellers)]
+  const shown = [...new Set([...m.ranking[cond].map((r) => r.seller), ...Object.keys(m.sellers)]
     .filter((s) => s && m.sellers[s]))].slice(0, 8).sort();
   return Object.fromEntries(shown.map((s, i) => [s, `--s${i + 1}`]));
 }
@@ -368,7 +371,7 @@ function select(id, scroll) {
 function renderDetail() {
   const m = byId[selected];
   if (!m) { $("#detail").innerHTML = `<div class="empty">모델을 선택하세요.</div>`; return; }
-  const lo = m.lowest, colors = sellerColors(m);
+  const rank = m.ranking[cond], lo = rank[0], colors = sellerColors(m);
   const sellers = Object.keys(m.sellers).sort().filter((s) => colors[s]);
   const events = DATA.alerts.filter((a) => a.model === m.id);
   const sched = scheduled.find((s) => s.model === m.id);
@@ -376,7 +379,7 @@ function renderDetail() {
     <div class="detail-head">
       <div><div class="sub">${FAM[m.family] || m.family} · 판매처 ${m.offers}곳</div><div class="big">${esc(m.id)}</div></div>
       <div style="text-align:right">${lo ? `<div class="sub">최저가 · ${esc(sellerName(lo))}</div>
-        <div class="big num">${usd(lo.blended)} <span class="sub">/1M 가중 평균</span></div>
+        <div class="big num">${usd(lo.cost)} <span class="sub">/1M · ${COND[cond]}</span></div>
         <div class="sub num">입력 ${usd(lo.input)} · 출력 ${usd(lo.output)}${lo.cache_read ? ` · 캐시 ${usd(lo.cache_read)}` : ""}</div>` :
         `<div class="sub">현재 수집되는 판매처 없음</div>`}</div>
     </div>
@@ -389,13 +392,17 @@ function renderDetail() {
     ${sched ? `<div class="note warn"><b>예정 변경</b> · ${esc(sched.seller)} 공식가가 ${sched.at}부터 입력 ${usd(sched.newIO[0])} / 출력 ${usd(sched.newIO[1])}로 바뀝니다 (현재 ${usd(sched.oldIO[0])} / ${usd(sched.oldIO[1])}${sched.until ? `, ${sched.until}까지` : ""}).</div>` : ""}
     ${noticesOf(m.id).map((n) => `<div class="note warn"><b>${STATUS[n.status][0]} ${n.at} (${dDay(n.at)})</b>${n.replacement ? ` · 대체: ${esc(n.replacement)}` : ""}${n.text ? ` · ${esc(n.text)}` : ""} <a href="${esc(n.url)}" target="_blank" rel="noopener">공식 출처</a></div>`).join("")}
     ${events.length ? `<div class="note">${events.map((a) => `<span class="badge ${STATUS[a.status][1]}">${STATUS[a.status][0]}</span> ${a.item ? `${ITEM[a.item]} · ` : ""}${a.seller ? esc(a.seller) : "최저가"} ${usd(a.old)} → ${usd(a.new)} (${pct((a.new / a.old - 1) * 100)}) · ${kst(a.at)}`).join("<br>")}</div>` : ""}
-    <details style="margin-top:10px"><summary>현재 판매처 순위 (표로 보기)</summary>
-      <div class="tbl-wrap" style="margin-top:6px"><table><thead><tr><th>#</th><th>판매처</th><th>표기명</th><th class="r">입력</th><th class="r">출력</th><th class="r">가중 평균</th><th class="r">최저가 대비</th></tr></thead><tbody>
-      ${m.ranking.map((r, i) => `<tr><td>${i + 1}</td><td>${esc(sellerName(r))}${r.region ? ` <span class="muted">${esc(r.region)}</span>` : ""}</td><td class="muted">${esc(r.listed_as)}</td>
-        <td class="r num">${usd(r.input)}</td><td class="r num">${usd(r.output)}</td><td class="r num">${usd(r.blended)}</td>
-        <td class="r num">${i === 0 ? "–" : pct((r.blended / m.ranking[0].blended - 1) * 100)}</td></tr>`).join("")}
-      </tbody></table></div></details>`;
+    <div class="sub" style="margin:14px 0 6px">현재 판매처 순위 · 사용 조건 선택</div>
+    <div class="tabs" id="condTabs">${Object.entries(COND).map(([k, l]) =>
+      `<button class="chip" type="button" data-cond="${k}" aria-pressed="${k === cond}">${l}</button>`).join("")}</div>
+    <div class="tbl-wrap"><table><thead><tr><th>#</th><th>판매처</th><th class="r">입력</th><th class="r">출력</th><th class="r">캐시</th><th class="r">조건 단가</th><th class="r">최저가 대비</th></tr></thead><tbody>
+      ${rank.map((r, i) => `<tr><td>${i + 1}</td><td title="표기명: ${esc(r.listed_as)}">${esc(sellerName(r))}${r.region ? ` <span class="muted">${esc(r.region)}</span>` : ""}</td>
+        <td class="r num">${usd(r.input)}</td><td class="r num">${usd(r.output)}</td><td class="r num">${usd(r.cache_read)}</td><td class="r num"><b>${usd(r.cost)}</b></td>
+        <td class="r num">${i === 0 ? "–" : pct((r.cost / lo.cost - 1) * 100)}</td></tr>`).join("")}
+      </tbody></table></div>
+    ${cond === "cached" ? `<div class="note">캐시 칸이 비어 있는 판매처는 캐시 가격을 공개하지 않은 곳으로, 입력 가격으로 계산했습니다.</div>` : ""}`;
   $("#metricTabs").onclick = (e) => { const b = e.target.closest("[data-metric]"); if (!b) return; metric = b.dataset.metric; store.set("metric", metric); renderDetail(); };
+  $("#condTabs").onclick = (e) => { const b = e.target.closest("[data-cond]"); if (!b) return; cond = b.dataset.cond; store.set("cond", cond); renderDetail(); };
   $("#legend").onclick = (e) => {
     const b = e.target.closest("[data-seller]"); if (!b) return;
     const s = b.dataset.seller; hidden.has(s) ? hidden.delete(s) : hidden.add(s); renderDetail();
@@ -415,7 +422,7 @@ function drawChart(m, sellers, colors) {
     if (row[row.length - 1] && nowMs > times[times.length - 1]) {   // 마지막 값을 현재까지 연장
       pts.push({ x: nowMs, y: row[row.length - 1][mi] }); lone.push(false);
     }
-    const c = cssVar(colors[s]), isLow = s === m.lowest?.seller;
+    const c = cssVar(colors[s]), isLow = s === m.ranking[cond][0]?.seller;
     return { label: s, data: pts, borderColor: c, backgroundColor: c, stepped: "after", spanGaps: false,
              // 최저가 판매처는 굵은 실선으로 아래에, 나머지는 점선으로 위에 그려 같은 가격이어도 겹쳐 보이게 함
              borderWidth: isLow ? 4 : 2, borderDash: isLow ? [] : [6, 4], pointRadius: (ctx) => lone[ctx.dataIndex] ? 4 : 0,
@@ -459,9 +466,9 @@ $("#rules").innerHTML = [
   `<b>중국 오픈 모델</b>(DeepSeek, Qwen, GLM, Kimi, MiniMax, MiMo) 추가 조건: 스냅샷 날짜까지 같은 버전끼리만 비교(예: v4-flash-0731 ≠ v4-flash). 속도 등급(fast·highspeed·ultraspeed), 파생 모델(uncensored·RL 튜닝 등), 저정밀 양자화(fp4·int4·int8·AWQ), 압축 모델(CompactifAI), 별칭(deepseek-chat, *-latest)은 제외. fp8·bf16은 같은 모델로 봄. 출력 단가가 입력 단가의 절반 미만인 행(단위·파싱 오류)과 입력 단가가 다른 판매처 중앙값의 2% 미만인 행은 제외. DeepSeek은 피크 요금, Qwen 공식가는 International 배포 기준. 라우터는 실제 연결 업체를 (via …)로 표시.`,
   `<b>반영 검토</b>: 모델 최저가를 바꾼 변화만 대상입니다(최저가가 아닌 판매처의 가격 변동은 제외). 마지막으로 확정된 가격(기준가) 대비 ${DATA.rules.min_pct}% 이상 변한 상태가 ${DATA.rules.confirm_hours}시간 이상 유지되면 확정하고 기준가를 갱신합니다. 직전 수집값이 아니라 기준가와 비교하므로 작은 변화가 누적돼도 잡힙니다.`,
   `<b>일시적</b>: ${DATA.rules.confirm_hours}시간 안에 기준가로 돌아온 변화. <b>관찰 중</b>: 아직 ${DATA.rules.confirm_hours}시간이 지나지 않은 변화.`,
-  `<b>대시보드에 올리는 변화</b>: 글로벌 모델은 기준 시나리오 최저가에 영향을 준 변화만, 중국 오픈 모델은 사용 조건 3개(${DATA.rules.scenario} / ${Object.values(DATA.rules.conditions).join(" / ")}) 중 하나의 최저가라도 바뀐 변화를 보여줍니다. 캐시 가격이 없는 판매처는 입력 가격으로 계산하며, 조건마다 최저가 판매처가 다를 수 있습니다.`,
+  `<b>대시보드에 올리는 변화</b>: 글로벌 모델은 기준 시나리오 최저가에 영향을 준 변화만, 중국 오픈 모델은 사용 조건 3개(${DATA.rules.scenario} / ${Object.values(DATA.rules.conditions).join(" / ")}) 중 하나의 최저가라도 바뀐 변화를 보여줍니다. 캐시 가격이 없는 판매처는 입력 가격으로 계산하며, 조건마다 최저가 판매처가 다를 수 있습니다. 모델 상세의 판매처 순위는 모든 모델을 세 조건으로 바꿔 볼 수 있지만, 글로벌 모델의 변화 감지는 기준 시나리오만 사용합니다.`,
   `<b>예정 변경·지원 종료</b>: Claude, Gemini, OpenAI 공식 가격표·변경 이력·지원 종료 페이지에 날짜와 함께 공지된 내용입니다. 'Not sooner than'처럼 확정되지 않은 날짜는 제외합니다. 공지되지 않은 변경은 잡을 수 없습니다.`,
-  `<b>새 판매처</b>: 판매처가 새로 수집되거나 빠져서 최저가가 바뀐 것은 가격 변화가 아니므로 그 시점부터 기준가를 새로 잡고, 새로 확인된 더 싼 판매처는 '새 판매처' 탭에 따로 보여줍니다.`,
+  `<b>새 판매처</b>: 판매처가 새로 수집되거나 빠져서 최저가가 바뀐 것은 가격 변화가 아니므로 그 시점부터 기준가를 새로 잡고, 새로 확인된 더 싼 판매처는 '새 판매처' 탭에 따로 보여줍니다. 2026-11-01까지 수집기 수리로 드러난 판매처는 최저가에 반영된 상태이며 이 탭에는 표시하지 않습니다.`,
   `가격은 공개 가격표 기준이며 실제 청구액·계약 단가·고객 판매가와 다를 수 있습니다. 수집 실패 사이트(${run.failed.length}곳)는 이 비교에 포함되지 않습니다.`,
 ].map((x) => `<li>${x}</li>`).join("");
 

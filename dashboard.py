@@ -28,6 +28,8 @@ TEMPLATE = ROOT / "dashboard_template.html"
 _CHANGED = datetime.fromisoformat("2026-10-27T12:00:00+00:00")
 SELLER_SINCE = {(s, None): _CHANGED for s in ("edenai", "alibaba_qwen", "deepseek", "zai", "minimax", "xiaomi_mimo")}
 SELLER_SINCE[("openrouter", "china")] = _CHANGED
+# 이 시각까지 잡힌 새 판매처는 수집기 수리로 드러난 것이라 최저가에 반영된 상태로 두고 알림에서는 뺌 (2026-11-01 기준 88건)
+NEW_SELLER_ACCEPTED = datetime.fromisoformat("2026-11-01T13:00:00+00:00")
 _SCHEDULED = re.compile(r"\$([\d.,]+)[^$]*?starting\s+([A-Z][a-z]+ \d{1,2}, \d{4})")
 _UNTIL = re.compile(r"through\s+([A-Z][a-z]+ \d{1,2}, \d{4})")
 
@@ -74,12 +76,19 @@ def load_snapshots(extra=None):
     return snaps
 
 
-def best_per_seller(offs):
+def best_per_seller(offs, key="blended"):
     best = {}
     for o in offs:
-        if o["seller"] not in best or o["blended"] < best[o["seller"]]["blended"]:
+        if o["seller"] not in best or o[key] < best[o["seller"]][key]:
             best[o["seller"]] = o
     return best
+
+
+def seller_ranking(offs, key, fam):
+    """사용 조건별 판매처 순위. 한 판매처에 경로가 여럿이면 조건마다 가장 싼 경로가 다를 수 있어 따로 고름."""
+    ranked = sorted(best_per_seller(offs, key).values(), key=lambda x: (x[key], x["source"] != fam, x["seller"]))
+    return [{"cost": x[key], **{k: x.get(k) for k in ("seller", "via", "input", "output", "cache_read", "listed_as", "region")}}
+            for x in ranked]
 
 
 def scheduled_changes(models, cid, seller):
@@ -248,16 +257,15 @@ def build(extra=None):
         models.append({
             "id": cid, "family": fam, "group": track.group(cid), "active": bool(cur),
             "offers": len(cur), "lowest": lo, "direct": direct,
-            "ranking": [{k: x.get(k) for k in ("seller", "via", "input", "output", "blended", "cache_read", "listed_as", "region")}
-                        for x in cur],
+            "ranking": {key: seller_ranking(latest_offs.get(cid, []), key, fam) for key in ("blended", *track.ITEMS)},
             "change_since_first_pct": round((lowest_pts[-1][1] / first - 1) * 100, 2) if first else None,
             "scheduled": scheduled_for(latest_models, cid, lo, direct),
-            "sellers": sellers,
+            "sellers": {s: [v and v[:2] for v in row] for s, row in sellers.items()},   # 그래프는 입력·출력만 표시
         })
 
     # 반영 검토 대상은 모델 최저가를 바꾼 변화뿐: 최저가가 아닌 판매처만 움직인 변화는 제외
     alerts = merge_items([a for a in alerts if a.get("affects_lowest")
-                          and (a["status"] != "new_seller" or a["still_lowest"])])
+                          and (a["status"] != "new_seller" or (a["still_lowest"] and a["at"] > NEW_SELLER_ACCEPTED))])
     alerts.sort(key=lambda a: a["at"], reverse=True)
     for a in alerts:
         for k in ("at", "until", "confirmed_at"):
