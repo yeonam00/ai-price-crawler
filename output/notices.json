@@ -1,5 +1,5 @@
 {
- "collected_at": "2026-11-01T21:26:01+00:00",
+ "collected_at": "2026-11-02T02:54:34+00:00",
  "sources": [
   {
    "id": "anthropic_deprecations",
@@ -47,7 +47,7 @@
    "id": "openai_pricing",
    "url": "https://developers.openai.com/api/docs/pricing",
    "ok": true,
-   "count": 3,
+   "count": 2,
    "error": null
   },
   {
@@ -59,18 +59,6 @@
   }
  ],
  "notices": [
-  {
-   "vendor": "openai",
-   "kind": "price",
-   "date": "2026-11-01",
-   "label": "Starting Nov 1, 2026, FedRAMP endpoints ",
-   "model": null,
-   "text": "Starting Nov 1, 2026, FedRAMP endpoints are also charged a 10% uplift.",
-   "source": "openai_pricing",
-   "url": "https://developers.openai.com/api/docs/pricing",
-   "replacement": null,
-   "first_seen": "2026-11-01T21:00:58+09:00"
-  },
   {
    "vendor": "google",
    "kind": "retire",
