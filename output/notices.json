@@ -1,5 +1,5 @@
 {
- "collected_at": "2026-11-02T13:57:52+00:00",
+ "collected_at": "2026-11-03T00:07:29+00:00",
  "sources": [
   {
    "id": "anthropic_deprecations",
@@ -26,7 +26,7 @@
    "id": "google_deprecations",
    "url": "https://ai.google.dev/gemini-api/docs/deprecations",
    "ok": true,
-   "count": 8,
+   "count": 20,
    "error": null
   },
   {
@@ -154,6 +154,30 @@
    "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
    "replacement": "claude-sonnet-5-5",
    "first_seen": "2026-11-01T21:00:58+09:00"
+  },
+  {
+   "vendor": "google",
+   "kind": "retire",
+   "date": "2026-12-01",
+   "label": "gemini-2.5-flash",
+   "model": "gemini-2.5-flash",
+   "text": null,
+   "source": "google_deprecations",
+   "url": "https://ai.google.dev/gemini-api/docs/deprecations",
+   "replacement": "gemini-3.5-flash-lite (gemini-2.5-flash is no longer available in Google AI Studio; effective December 1, 2026, API requests to gemini-2.5-flash will automatically route to gemini-3.5-flash-lite)",
+   "first_seen": "2026-11-03T00:07:29+00:00"
+  },
+  {
+   "vendor": "google",
+   "kind": "retire",
+   "date": "2026-12-01",
+   "label": "gemini-2.5-pro",
+   "model": "gemini-2.5-pro",
+   "text": null,
+   "source": "google_deprecations",
+   "url": "https://ai.google.dev/gemini-api/docs/deprecations",
+   "replacement": "gemini-3.8-flash (gemini-2.5-pro is no longer available in Google AI Studio; effective December 1, 2026, API requests to gemini-2.5-pro will automatically route to gemini-3.8-flash)",
+   "first_seen": "2026-11-03T00:07:29+00:00"
   },
   {
    "vendor": "openai",
