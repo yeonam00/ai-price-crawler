@@ -1,5 +1,5 @@
 {
- "collected_at": "2026-11-04T13:22:34+00:00",
+ "collected_at": "2026-11-04T22:58:27+00:00",
  "sources": [
   {
    "id": "anthropic_deprecations",
@@ -126,8 +126,8 @@
    "label": "GPT-5.6 Sol",
    "model": "gpt-5.6-sol",
    "text": "GPT-5.6 Sol’s promotional pricing is available at least through November 21, 2026.",
-   "source": "openai_pricing",
-   "url": "https://developers.openai.com/api/docs/pricing",
+   "source": "openai_changelog",
+   "url": "https://developers.openai.com/api/docs/changelog",
    "replacement": null,
    "first_seen": "2026-11-01T21:00:58+09:00"
   },
@@ -154,6 +154,18 @@
    "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
    "replacement": "claude-sonnet-5-5",
    "first_seen": "2026-11-01T21:00:58+09:00"
+  },
+  {
+   "vendor": "openai",
+   "kind": "price",
+   "date": "2026-11-30",
+   "label": "GPT-5.6 Sol",
+   "model": "gpt-5.6-sol",
+   "text": "GPT-5.6 Sol’s promotional pricing is available until November 30, 2026.",
+   "source": "openai_pricing",
+   "url": "https://developers.openai.com/api/docs/pricing",
+   "replacement": null,
+   "first_seen": "2026-11-04T22:58:27+00:00"
   },
   {
    "vendor": "google",
