@@ -1,5 +1,5 @@
 {
- "collected_at": "2026-11-06T03:48:02+00:00",
+ "collected_at": "2026-11-06T13:18:12+00:00",
  "scenario": {
   "name": "3:1 입력 중심, 캐시 없음",
   "input": 3,
@@ -41,7 +41,7 @@
     "output_heavy": 40.0,
     "cached": 14.88125,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": {
     "via": null,
@@ -55,7 +55,7 @@
     "output_heavy": 40.0,
     "cached": 14.88125,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "next_best": [
     {
@@ -70,7 +70,7 @@
      "output_heavy": 40.0,
      "cached": 14.88125,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": "anthropic",
@@ -84,7 +84,7 @@
      "output_heavy": 40.0,
      "cached": 14.88125,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -114,7 +114,7 @@
     "output_heavy": 20.0,
     "cached": 7.6375,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": {
     "via": null,
@@ -128,7 +128,7 @@
     "output_heavy": 20.0,
     "cached": 7.6375,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "next_best": [
     {
@@ -143,7 +143,7 @@
      "output_heavy": 20.0,
      "cached": 7.6375,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": null,
@@ -157,7 +157,7 @@
      "output_heavy": 20.0,
      "cached": 10.0,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -189,7 +189,7 @@
     "output_heavy": 8.0,
     "cached": 3.055,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": {
     "via": null,
@@ -203,7 +203,7 @@
     "output_heavy": 8.0,
     "cached": 3.055,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "next_best": [
     {
@@ -218,7 +218,7 @@
      "output_heavy": 8.0,
      "cached": 3.055,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": "databricks",
@@ -232,7 +232,7 @@
      "output_heavy": 8.0,
      "cached": 3.055,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -263,7 +263,7 @@
     "output_heavy": 4.0,
     "cached": 1.5275,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": {
     "via": null,
@@ -277,7 +277,7 @@
     "output_heavy": 4.0,
     "cached": 1.5275,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "next_best": [
     {
@@ -292,7 +292,7 @@
      "output_heavy": 4.0,
      "cached": 1.5275,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": null,
@@ -306,7 +306,7 @@
      "output_heavy": 4.0,
      "cached": 2.0,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -337,7 +337,7 @@
     "output_heavy": 40.0,
     "cached": 15.275,
     "region": "Global",
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -353,7 +353,7 @@
      "output_heavy": 40.0,
      "cached": 20.0,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": "databricks",
@@ -367,7 +367,7 @@
      "output_heavy": 40.0,
      "cached": 15.275,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -398,7 +398,7 @@
     "output_heavy": 16.0,
     "cached": 6.11,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": {
     "via": null,
@@ -412,7 +412,7 @@
     "output_heavy": 16.0,
     "cached": 6.11,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "next_best": [
     {
@@ -427,7 +427,7 @@
      "output_heavy": 16.0,
      "cached": 6.11,
      "region": "Global",
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": "OpenAI",
@@ -441,7 +441,7 @@
      "output_heavy": 16.0,
      "cached": 8.0,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -473,7 +473,7 @@
     "output_heavy": 9.5,
     "cached": 3.555,
     "region": "Global",
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -489,7 +489,7 @@
      "output_heavy": 9.5,
      "cached": 4.5,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": "azure",
@@ -503,7 +503,7 @@
      "output_heavy": 9.5,
      "cached": 3.555,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -534,7 +534,7 @@
     "output_heavy": 0.95,
     "cached": 0.3555,
     "region": "Global",
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -550,7 +550,7 @@
      "output_heavy": 0.95,
      "cached": 0.45,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": "azure",
@@ -564,7 +564,7 @@
      "output_heavy": 0.95,
      "cached": 0.3555,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -595,7 +595,7 @@
     "output_heavy": 3.0,
     "cached": 1.145625,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -611,7 +611,7 @@
      "output_heavy": 3.0,
      "cached": 1.145625,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": "databricks",
@@ -625,7 +625,7 @@
      "output_heavy": 3.0,
      "cached": 1.145625,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -656,7 +656,7 @@
     "output_heavy": 9.5,
     "cached": 4.5,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -672,7 +672,7 @@
      "output_heavy": 9.5,
      "cached": 3.555,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": "vertex",
@@ -686,7 +686,7 @@
      "output_heavy": 9.5,
      "cached": 3.555,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -705,7 +705,7 @@
   "glm-5.3": {
    "family": "zai",
    "group": "china",
-   "offers": 69,
+   "offers": 68,
    "lowest": {
     "via": "Baidu",
     "seller": "openrouter",
@@ -718,7 +718,7 @@
     "output_heavy": 0.73,
     "cached": 0.3103,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": {
     "via": null,
@@ -732,7 +732,7 @@
     "output_heavy": 3.65,
     "cached": 1.5515,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "next_best": [
     {
@@ -747,7 +747,7 @@
      "output_heavy": 1.61,
      "cached": 0.611625,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": "DekaLLM",
@@ -761,7 +761,7 @@
      "output_heavy": 2.2575,
      "cached": 0.85675,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -795,20 +795,20 @@
   "glm-5.3-flash": {
    "family": "zai",
    "group": "china",
-   "offers": 63,
+   "offers": 62,
    "lowest": {
-    "via": "Morph",
-    "seller": "openrouter",
-    "source": "openrouter",
-    "listed_as": "z-ai/glm-5.3-flash",
-    "input": 0.062,
-    "output": 0.248,
-    "cache_read": 0.027,
-    "blended": 0.1085,
-    "output_heavy": 0.2015,
-    "cached": 0.090125,
+    "via": null,
+    "seller": "gmicloud",
+    "source": "gmicloud",
+    "listed_as": "zai-org/GLM-5.3-Flash",
+    "input": 0.075,
+    "output": 0.25,
+    "cache_read": null,
+    "blended": 0.11875,
+    "output_heavy": 0.20625,
+    "cached": 0.11875,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": {
     "via": null,
@@ -822,7 +822,7 @@
     "output_heavy": 0.4125,
     "cached": 0.1745,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "next_best": [
     {
@@ -837,21 +837,21 @@
      "output_heavy": 0.20625,
      "cached": 0.11875,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
-     "via": null,
-     "seller": "gmicloud",
-     "source": "gmicloud",
-     "listed_as": "zai-org/GLM-5.3-Flash",
+     "via": "GMICloud",
+     "seller": "openrouter",
+     "source": "openrouter",
+     "listed_as": "z-ai/glm-5.3-flash",
      "input": 0.075,
      "output": 0.25,
-     "cache_read": null,
+     "cache_read": 0.015,
      "blended": 0.11875,
      "output_heavy": 0.20625,
-     "cached": 0.11875,
+     "cached": 0.08725,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -874,8 +874,8 @@
    ],
    "item_lowest": {
     "output_heavy": {
-     "value": 0.2015,
-     "seller": "openrouter"
+     "value": 0.20625,
+     "seller": "gmicloud"
     },
     "cached": {
      "value": 0.08725,
@@ -899,7 +899,7 @@
     "output_heavy": 9.09,
     "cached": 3.165,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -915,7 +915,7 @@
      "output_heavy": 8.6875,
      "cached": 3.155625,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": "qwen",
@@ -929,7 +929,7 @@
      "output_heavy": 7.8,
      "cached": 2.978625,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -973,7 +973,7 @@
     "output_heavy": 0.3055,
     "cached": 0.10705,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -989,7 +989,7 @@
      "output_heavy": 0.28,
      "cached": 0.110964,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": "qwen",
@@ -1003,7 +1003,7 @@
      "output_heavy": 0.316875,
      "cached": 0.124556,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -1052,7 +1052,7 @@
     "output_heavy": 1.65,
     "cached": 0.65505,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -1068,7 +1068,7 @@
      "output_heavy": 1.65,
      "cached": 0.65505,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": null,
@@ -1082,7 +1082,7 @@
      "output_heavy": 1.65,
      "cached": 0.65505,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -1128,7 +1128,7 @@
     "output_heavy": 4.0,
     "cached": 2.0,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -1144,7 +1144,7 @@
      "output_heavy": 4.0,
      "cached": 1.5275,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": "databricks",
@@ -1158,7 +1158,7 @@
      "output_heavy": 4.0,
      "cached": 1.5275,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -1186,7 +1186,7 @@
     "output_heavy": 8.0,
     "cached": 3.0025,
     "region": "Global",
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -1202,7 +1202,7 @@
      "output_heavy": 8.0,
      "cached": 4.0,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": "databricks",
@@ -1216,7 +1216,7 @@
      "output_heavy": 8.0,
      "cached": 3.055,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -1247,7 +1247,7 @@
     "output_heavy": 8.0,
     "cached": 3.055,
     "region": "Global",
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -1263,7 +1263,7 @@
      "output_heavy": 8.0,
      "cached": 4.0,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": "databricks",
@@ -1277,7 +1277,7 @@
      "output_heavy": 8.0,
      "cached": 3.055,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -1308,7 +1308,7 @@
     "output_heavy": 0.4,
     "cached": 0.15275,
     "region": "Global",
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -1324,7 +1324,7 @@
      "output_heavy": 0.4,
      "cached": 0.2,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": "databricks",
@@ -1338,7 +1338,7 @@
      "output_heavy": 0.4,
      "cached": 0.15275,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -1369,7 +1369,7 @@
     "output_heavy": 23.75,
     "cached": 8.8875,
     "region": "Global",
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -1385,7 +1385,7 @@
      "output_heavy": 23.75,
      "cached": 11.25,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": "azure",
@@ -1399,7 +1399,7 @@
      "output_heavy": 23.75,
      "cached": 8.8875,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -1430,7 +1430,7 @@
     "output_heavy": 11.875,
     "cached": 5.625,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -1446,7 +1446,7 @@
      "output_heavy": 11.875,
      "cached": 4.44375,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": "databricks",
@@ -1460,7 +1460,7 @@
      "output_heavy": 11.875,
      "cached": 4.44375,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -1490,7 +1490,7 @@
     "output_heavy": 3.5625,
     "cached": 1.33575,
     "region": "Global",
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -1506,7 +1506,7 @@
      "output_heavy": 3.5625,
      "cached": 1.333125,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": "azure",
@@ -1520,7 +1520,7 @@
      "output_heavy": 3.5625,
      "cached": 1.333125,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -1550,7 +1550,7 @@
     "output_heavy": 10.9375,
     "cached": 3.98825,
     "region": "Global",
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -1566,7 +1566,7 @@
      "output_heavy": 10.9375,
      "cached": 3.985625,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": "databricks",
@@ -1580,7 +1580,7 @@
      "output_heavy": 10.9375,
      "cached": 3.985625,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -1609,7 +1609,7 @@
     "output_heavy": 5.2,
     "cached": 1.98575,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -1625,7 +1625,7 @@
      "output_heavy": 7.6,
      "cached": 2.90225,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": null,
@@ -1639,7 +1639,7 @@
      "output_heavy": 8.0,
      "cached": 4.0,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -1682,7 +1682,7 @@
     "output_heavy": 16.0,
     "cached": 6.005,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": {
     "via": null,
@@ -1696,7 +1696,7 @@
     "output_heavy": 16.0,
     "cached": 6.005,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "next_best": [
     {
@@ -1711,7 +1711,7 @@
      "output_heavy": 16.0,
      "cached": 6.005,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": "databricks",
@@ -1725,7 +1725,7 @@
      "output_heavy": 16.0,
      "cached": 6.11,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -1756,7 +1756,7 @@
     "output_heavy": 40.0,
     "cached": 15.275,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": {
     "via": null,
@@ -1770,7 +1770,7 @@
     "output_heavy": 40.0,
     "cached": 15.275,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "next_best": [
     {
@@ -1785,7 +1785,7 @@
      "output_heavy": 40.0,
      "cached": 15.275,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": null,
@@ -1799,7 +1799,7 @@
      "output_heavy": 40.0,
      "cached": 20.0,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -1831,7 +1831,7 @@
     "output_heavy": 20.0,
     "cached": 7.6375,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": {
     "via": null,
@@ -1845,7 +1845,7 @@
     "output_heavy": 20.0,
     "cached": 7.6375,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "next_best": [
     {
@@ -1860,7 +1860,7 @@
      "output_heavy": 20.0,
      "cached": 7.6375,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": null,
@@ -1874,7 +1874,7 @@
      "output_heavy": 20.0,
      "cached": 10.0,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -1906,7 +1906,7 @@
     "output_heavy": 12.0,
     "cached": 4.5825,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": {
     "via": null,
@@ -1920,7 +1920,7 @@
     "output_heavy": 12.0,
     "cached": 4.5825,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "next_best": [
     {
@@ -1935,7 +1935,7 @@
      "output_heavy": 12.0,
      "cached": 4.5825,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": null,
@@ -1949,7 +1949,7 @@
      "output_heavy": 12.0,
      "cached": 6.0,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -1981,7 +1981,7 @@
     "output_heavy": 8.0,
     "cached": 3.0025,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": {
     "via": null,
@@ -1995,7 +1995,7 @@
     "output_heavy": 8.0,
     "cached": 3.0025,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "next_best": [
     {
@@ -2010,7 +2010,7 @@
      "output_heavy": 8.0,
      "cached": 3.0025,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": "databricks",
@@ -2024,7 +2024,7 @@
      "output_heavy": 8.0,
      "cached": 3.055,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -2054,7 +2054,7 @@
     "output_heavy": 0.4,
     "cached": 0.15275,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": {
     "via": null,
@@ -2068,7 +2068,7 @@
     "output_heavy": 0.4,
     "cached": 0.15275,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "next_best": [
     {
@@ -2083,7 +2083,7 @@
      "output_heavy": 0.4,
      "cached": 0.2,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": "databricks",
@@ -2097,7 +2097,7 @@
      "output_heavy": 0.4,
      "cached": 0.15275,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -2127,7 +2127,7 @@
     "output_heavy": 2.375,
     "cached": 0.88875,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -2143,7 +2143,7 @@
      "output_heavy": 2.375,
      "cached": 0.88875,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": "vertex",
@@ -2157,7 +2157,7 @@
      "output_heavy": 2.375,
      "cached": 0.88875,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -2187,7 +2187,7 @@
     "output_heavy": 5.0,
     "cached": 2.2125,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": {
     "via": null,
@@ -2201,7 +2201,7 @@
     "output_heavy": 5.0,
     "cached": 2.2125,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "next_best": [
     {
@@ -2216,7 +2216,7 @@
      "output_heavy": 5.0,
      "cached": 3.0,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": "databricks",
@@ -2230,7 +2230,7 @@
      "output_heavy": 5.0,
      "cached": 2.055,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -2260,7 +2260,7 @@
     "output_heavy": 5.0,
     "cached": 2.2125,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": {
     "via": null,
@@ -2274,7 +2274,7 @@
     "output_heavy": 5.0,
     "cached": 2.2125,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "next_best": [
     {
@@ -2289,7 +2289,7 @@
      "output_heavy": 5.0,
      "cached": 3.0,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": "databricks",
@@ -2303,7 +2303,7 @@
      "output_heavy": 5.0,
      "cached": 2.055,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -2335,7 +2335,7 @@
     "output_heavy": 5.0,
     "cached": 2.1075,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": {
     "via": null,
@@ -2349,7 +2349,7 @@
     "output_heavy": 5.0,
     "cached": 2.1075,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "next_best": [
     {
@@ -2364,7 +2364,7 @@
      "output_heavy": 5.0,
      "cached": 3.0,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": "xai",
@@ -2378,7 +2378,7 @@
      "output_heavy": 5.0,
      "cached": 2.1075,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -2410,7 +2410,7 @@
     "output_heavy": 2.1875,
     "cached": 1.01125,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": {
     "via": null,
@@ -2424,7 +2424,7 @@
     "output_heavy": 2.1875,
     "cached": 1.01125,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "next_best": [
     {
@@ -2439,7 +2439,7 @@
      "output_heavy": 2.1875,
      "cached": 1.5625,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": "xai",
@@ -2453,7 +2453,7 @@
      "output_heavy": 2.1875,
      "cached": 1.01125,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -2483,7 +2483,7 @@
     "output_heavy": 2.1875,
     "cached": 1.5625,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -2499,7 +2499,7 @@
      "output_heavy": 2.1875,
      "cached": 1.01125,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": null,
@@ -2513,7 +2513,7 @@
      "output_heavy": 2.1875,
      "cached": 1.01125,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -2540,7 +2540,7 @@
     "output_heavy": 2.1875,
     "cached": 1.01125,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": {
     "via": null,
@@ -2554,7 +2554,7 @@
     "output_heavy": 2.1875,
     "cached": 1.01125,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "next_best": [
     {
@@ -2569,7 +2569,7 @@
      "output_heavy": 2.1875,
      "cached": 1.01125,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": "xai",
@@ -2583,7 +2583,7 @@
      "output_heavy": 2.1875,
      "cached": 1.01125,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -2611,7 +2611,7 @@
     "output_heavy": 1.75,
     "cached": 0.83,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": {
     "via": null,
@@ -2625,7 +2625,7 @@
     "output_heavy": 1.75,
     "cached": 0.83,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "next_best": [
     {
@@ -2640,7 +2640,7 @@
      "output_heavy": 1.75,
      "cached": 1.25,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": "xai",
@@ -2654,7 +2654,7 @@
      "output_heavy": 1.75,
      "cached": 0.83,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -2684,7 +2684,7 @@
     "output_heavy": 0.7475,
     "cached": 0.4625,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -2700,7 +2700,7 @@
      "output_heavy": 0.7475,
      "cached": 0.4625,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": "deepinfra",
@@ -2714,7 +2714,7 @@
      "output_heavy": 0.7475,
      "cached": 0.4625,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -2738,7 +2738,7 @@
   "deepseek-v4-flash": {
    "family": "deepseek",
    "group": "china",
-   "offers": 27,
+   "offers": 26,
    "lowest": {
     "via": "StreamLake",
     "seller": "openrouter",
@@ -2751,7 +2751,7 @@
     "output_heavy": 0.14455,
     "cached": 0.068558,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -2767,7 +2767,7 @@
      "output_heavy": 0.1575,
      "cached": 0.1125,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": null,
@@ -2781,7 +2781,7 @@
      "output_heavy": 0.1575,
      "cached": 0.1125,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -2822,7 +2822,7 @@
     "output_heavy": 0.2844,
     "cached": 0.234,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -2838,7 +2838,7 @@
      "output_heavy": 0.2844,
      "cached": 0.13572,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": null,
@@ -2852,7 +2852,7 @@
      "output_heavy": 0.35,
      "cached": 0.29,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -2895,7 +2895,7 @@
     "output_heavy": 1.03,
     "cached": 0.435125,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": {
     "via": null,
@@ -2909,7 +2909,7 @@
     "output_heavy": 1.03,
     "cached": 0.435125,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "next_best": [
     {
@@ -2924,7 +2924,7 @@
      "output_heavy": 1.03,
      "cached": 0.435125,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": "zai",
@@ -2938,7 +2938,7 @@
      "output_heavy": 1.03,
      "cached": 0.435125,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -2976,7 +2976,7 @@
     "output_heavy": 3.25,
     "cached": 1.352812,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": {
     "via": null,
@@ -2990,7 +2990,7 @@
     "output_heavy": 5.0,
     "cached": 3.0,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "next_best": [
     {
@@ -3005,7 +3005,7 @@
      "output_heavy": 4.12575,
      "cached": 2.47525,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": null,
@@ -3019,7 +3019,7 @@
      "output_heavy": 4.12575,
      "cached": 2.47525,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -3059,7 +3059,7 @@
     "output_heavy": 3.6875,
     "cached": 1.593,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": {
     "via": null,
@@ -3073,7 +3073,7 @@
     "output_heavy": 6.25,
     "cached": 3.75,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "next_best": [
     {
@@ -3088,7 +3088,7 @@
      "output_heavy": 3.75,
      "cached": 1.725,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": "qwen",
@@ -3102,7 +3102,7 @@
      "output_heavy": 4.0625,
      "cached": 1.755,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -3143,7 +3143,7 @@
     "output_heavy": 0.06825,
     "cached": 0.02756,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": {
     "via": null,
@@ -3157,7 +3157,7 @@
     "output_heavy": 0.105,
     "cached": 0.055,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "next_best": [
     {
@@ -3172,7 +3172,7 @@
      "output_heavy": 0.105,
      "cached": 0.055,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": "Alibaba",
@@ -3186,7 +3186,7 @@
      "output_heavy": 0.105,
      "cached": 0.0424,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -3223,7 +3223,7 @@
     "output_heavy": 0.845,
     "cached": 0.3458,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": {
     "via": null,
@@ -3237,7 +3237,7 @@
     "output_heavy": 1.04,
     "cached": 0.56,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "next_best": [
     {
@@ -3252,7 +3252,7 @@
      "output_heavy": 1.04,
      "cached": 0.56,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": "Alibaba",
@@ -3266,7 +3266,7 @@
      "output_heavy": 1.04,
      "cached": 0.4256,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -3306,7 +3306,7 @@
     "output_heavy": 0.2535,
     "cached": 0.103773,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": {
     "via": null,
@@ -3320,7 +3320,7 @@
     "output_heavy": 0.39,
     "cached": 0.23,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "next_best": [
     {
@@ -3335,7 +3335,7 @@
      "output_heavy": 0.31475,
      "cached": 0.128328,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": null,
@@ -3349,7 +3349,7 @@
      "output_heavy": 0.31475,
      "cached": 0.128275,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -3389,7 +3389,7 @@
     "output_heavy": 0.94725,
     "cached": 0.323323,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": {
     "via": null,
@@ -3403,7 +3403,7 @@
     "output_heavy": 2.375,
     "cached": 1.125,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "next_best": [
     {
@@ -3418,7 +3418,7 @@
      "output_heavy": 0.7875,
      "cached": 0.3625,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": "Near AI",
@@ -3432,7 +3432,7 @@
      "output_heavy": 1.0225,
      "cached": 0.35595,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -3476,7 +3476,7 @@
     "output_heavy": 1.54375,
     "cached": 0.73125,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": {
     "via": null,
@@ -3490,7 +3490,7 @@
     "output_heavy": 2.375,
     "cached": 1.125,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "next_best": [
     {
@@ -3505,7 +3505,7 @@
      "output_heavy": 1.54375,
      "cached": 0.73125,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": null,
@@ -3519,7 +3519,7 @@
      "output_heavy": 2.375,
      "cached": 1.125,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -3559,7 +3559,7 @@
     "output_heavy": 3.25,
     "cached": 1.352812,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": {
     "via": null,
@@ -3573,7 +3573,7 @@
     "output_heavy": 5.0,
     "cached": 3.0,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "next_best": [
     {
@@ -3588,7 +3588,7 @@
      "output_heavy": 4.12575,
      "cached": 2.47525,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": null,
@@ -3602,7 +3602,7 @@
      "output_heavy": 5.0,
      "cached": 3.0,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -3640,7 +3640,7 @@
     "output_heavy": 0.678,
     "cached": 0.274,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -3656,7 +3656,7 @@
      "output_heavy": 0.8475,
      "cached": 0.3425,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": null,
@@ -3670,7 +3670,7 @@
      "output_heavy": 0.8475,
      "cached": 0.3425,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -3709,7 +3709,7 @@
     "output_heavy": 0.21125,
     "cached": 0.11375,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": {
     "via": null,
@@ -3723,7 +3723,7 @@
     "output_heavy": 0.325,
     "cached": 0.175,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "next_best": [
     {
@@ -3738,7 +3738,7 @@
      "output_heavy": 0.21125,
      "cached": 0.11375,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": null,
@@ -3752,7 +3752,7 @@
      "output_heavy": 0.325,
      "cached": 0.175,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -3788,7 +3788,7 @@
     "output_heavy": 0.45,
     "cached": 0.27,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -3804,7 +3804,7 @@
      "output_heavy": 0.5,
      "cached": 0.3,
      "region": "global",
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": "novita",
@@ -3818,7 +3818,7 @@
      "output_heavy": 0.65,
      "cached": 0.35,
      "region": "global",
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -3854,7 +3854,7 @@
     "output_heavy": 0.71,
     "cached": 0.37,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -3870,7 +3870,7 @@
      "output_heavy": 0.71,
      "cached": 0.37,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": "deepinfra",
@@ -3884,7 +3884,7 @@
      "output_heavy": 0.71,
      "cached": 0.32275,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -3915,14 +3915,14 @@
     "seller": "openrouter",
     "source": "openrouter",
     "listed_as": "qwen/qwen3.6-35b-a3b",
-    "input": 0.064,
-    "output": 0.586,
-    "cache_read": 0.057,
-    "blended": 0.1945,
-    "output_heavy": 0.4555,
-    "cached": 0.190825,
+    "input": 0.01,
+    "output": 0.092,
+    "cache_read": 0.009,
+    "blended": 0.0305,
+    "output_heavy": 0.0715,
+    "cached": 0.029975,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": {
     "via": null,
@@ -3936,7 +3936,7 @@
     "output_heavy": 1.78125,
     "cached": 0.84375,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "next_best": [
     {
@@ -3951,7 +3951,7 @@
      "output_heavy": 0.7,
      "cached": 0.27375,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": "Parasail",
@@ -3965,7 +3965,7 @@
      "output_heavy": 0.7,
      "cached": 0.260625,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -3983,11 +3983,11 @@
    ],
    "item_lowest": {
     "output_heavy": {
-     "value": 0.4555,
+     "value": 0.0715,
      "seller": "openrouter"
     },
     "cached": {
-     "value": 0.190825,
+     "value": 0.029975,
      "seller": "openrouter"
     }
    }
@@ -4008,7 +4008,7 @@
     "output_heavy": 1.05,
     "cached": 0.410625,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": {
     "via": null,
@@ -4022,7 +4022,7 @@
     "output_heavy": 2.85,
     "cached": 1.35,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "next_best": [
     {
@@ -4037,7 +4037,7 @@
      "output_heavy": 1.5625,
      "cached": 0.569375,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": "qwen",
@@ -4051,7 +4051,7 @@
      "output_heavy": 1.8525,
      "cached": 0.8775,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -4093,7 +4093,7 @@
     "output_heavy": 0.785,
     "cached": 0.355,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": {
     "via": null,
@@ -4107,7 +4107,7 @@
     "output_heavy": 1.5625,
     "cached": 0.6875,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "next_best": [
     {
@@ -4122,7 +4122,7 @@
      "output_heavy": 0.785,
      "cached": 0.355,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": "deepinfra",
@@ -4136,7 +4136,7 @@
      "output_heavy": 0.785,
      "cached": 0.30775,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -4176,7 +4176,7 @@
     "output_heavy": 1.21875,
     "cached": 0.53625,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": {
     "via": null,
@@ -4190,7 +4190,7 @@
     "output_heavy": 1.875,
     "cached": 0.825,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "next_best": [
     {
@@ -4205,7 +4205,7 @@
      "output_heavy": 1.21875,
      "cached": 0.53625,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": "SiliconFlow",
@@ -4219,7 +4219,7 @@
      "output_heavy": 1.5625,
      "cached": 0.6875,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -4259,7 +4259,7 @@
     "output_heavy": 1.705,
     "cached": 0.61105,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": {
     "via": null,
@@ -4273,7 +4273,7 @@
     "output_heavy": 2.5,
     "cached": 1.1,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "next_best": [
     {
@@ -4288,7 +4288,7 @@
      "output_heavy": 1.705,
      "cached": 0.61105,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": "qwen",
@@ -4302,7 +4302,7 @@
      "output_heavy": 1.625,
      "cached": 0.715,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -4340,7 +4340,7 @@
     "output_heavy": 1.8525,
     "cached": 0.8775,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": {
     "via": null,
@@ -4354,7 +4354,7 @@
     "output_heavy": 2.85,
     "cached": 1.35,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "next_best": [
     {
@@ -4369,7 +4369,7 @@
      "output_heavy": 1.8525,
      "cached": 0.8775,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": null,
@@ -4383,7 +4383,7 @@
      "output_heavy": 2.3625,
      "cached": 1.0875,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -4425,7 +4425,7 @@
     "output_heavy": 0.63,
     "cached": 0.26375,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -4441,7 +4441,7 @@
      "output_heavy": 0.71553,
      "cached": 0.35075,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": null,
@@ -4455,7 +4455,7 @@
      "output_heavy": 1.025,
      "cached": 0.675,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -4492,7 +4492,7 @@
     "output_heavy": 0.78,
     "cached": 0.3081,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": {
     "via": null,
@@ -4506,7 +4506,7 @@
     "output_heavy": 1.2,
     "cached": 0.6,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "next_best": [
     {
@@ -4521,7 +4521,7 @@
      "output_heavy": 0.78,
      "cached": 0.3081,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": null,
@@ -4535,7 +4535,7 @@
      "output_heavy": 1.2,
      "cached": 0.6,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -4572,7 +4572,7 @@
     "output_heavy": 1.46,
     "cached": 0.6206,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": {
     "via": null,
@@ -4586,7 +4586,7 @@
     "output_heavy": 3.65,
     "cached": 1.5515,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "next_best": [
     {
@@ -4601,7 +4601,7 @@
      "output_heavy": 1.65,
      "cached": 0.71375,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": "Novita",
@@ -4615,7 +4615,7 @@
      "output_heavy": 1.6936,
      "cached": 0.719896,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -4660,7 +4660,7 @@
     "output_heavy": 2.3725,
     "cached": 1.008475,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": {
     "via": null,
@@ -4674,7 +4674,7 @@
     "output_heavy": 3.65,
     "cached": 1.5515,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "next_best": [
     {
@@ -4689,7 +4689,7 @@
      "output_heavy": 2.4,
      "cached": 0.97475,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": "StreamLake",
@@ -4703,7 +4703,7 @@
      "output_heavy": 2.5185,
      "cached": 1.070535,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -4748,7 +4748,7 @@
     "output_heavy": 1.59,
     "cached": 0.93,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": {
     "via": null,
@@ -4762,7 +4762,7 @@
     "output_heavy": 2.65,
     "cached": 1.13,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "next_best": [
     {
@@ -4777,7 +4777,7 @@
      "output_heavy": 1.59,
      "cached": 0.93,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": "StreamLake",
@@ -4791,7 +4791,7 @@
      "output_heavy": 1.59,
      "cached": 0.678,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -4835,7 +4835,7 @@
     "output_heavy": 1.625,
     "cached": 0.875,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": {
     "via": null,
@@ -4849,7 +4849,7 @@
     "output_heavy": 1.8,
     "cached": 0.74275,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "next_best": [
     {
@@ -4864,7 +4864,7 @@
      "output_heavy": 1.625,
      "cached": 0.875,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": "deepinfra",
@@ -4878,7 +4878,7 @@
      "output_heavy": 1.625,
      "cached": 0.665,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -4918,7 +4918,7 @@
     "output_heavy": 1.4125,
     "cached": 0.7375,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": {
     "via": null,
@@ -4932,7 +4932,7 @@
     "output_heavy": 1.8,
     "cached": 0.74275,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "next_best": [
     {
@@ -4947,7 +4947,7 @@
      "output_heavy": 1.4125,
      "cached": 0.7375,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": "deepinfra",
@@ -4961,7 +4961,7 @@
      "output_heavy": 1.4125,
      "cached": 0.5695,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -5002,7 +5002,7 @@
     "output_heavy": 0.67,
     "cached": 0.254875,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": {
     "via": null,
@@ -5016,7 +5016,7 @@
     "output_heavy": 0.875,
     "cached": 0.33575,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "next_best": [
     {
@@ -5031,7 +5031,7 @@
      "output_heavy": 0.68,
      "cached": 0.257525,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": "SiliconFlow",
@@ -5045,7 +5045,7 @@
      "output_heavy": 0.68,
      "cached": 0.32,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -5084,7 +5084,7 @@
     "output_heavy": 1.5,
     "cached": 0.64275,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": {
     "via": null,
@@ -5098,7 +5098,7 @@
     "output_heavy": 1.5,
     "cached": 0.64275,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "next_best": [
     {
@@ -5113,7 +5113,7 @@
      "output_heavy": 1.5,
      "cached": 0.64275,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": "Novita",
@@ -5127,7 +5127,7 @@
      "output_heavy": 1.5,
      "cached": 0.64275,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -5164,7 +5164,7 @@
     "output_heavy": 7.225,
     "cached": 2.95625,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": {
     "via": null,
@@ -5178,7 +5178,7 @@
     "output_heavy": 7.225,
     "cached": 2.95625,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "next_best": [
     {
@@ -5193,7 +5193,7 @@
      "output_heavy": 7.225,
      "cached": 2.95625,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -5227,7 +5227,7 @@
     "output_heavy": 3.65,
     "cached": 1.488,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": {
     "via": null,
@@ -5241,7 +5241,7 @@
     "output_heavy": 3.65,
     "cached": 1.488,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "next_best": [
     {
@@ -5256,7 +5256,7 @@
      "output_heavy": 3.65,
      "cached": 1.488,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -5290,7 +5290,7 @@
     "output_heavy": 0.1,
     "cached": 0.1,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": {
     "via": null,
@@ -5304,7 +5304,7 @@
     "output_heavy": 0.1,
     "cached": 0.1,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "next_best": [
     {
@@ -5319,7 +5319,7 @@
      "output_heavy": 0.1,
      "cached": 0.1,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -5353,7 +5353,7 @@
     "output_heavy": 0.716,
     "cached": 0.29392,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": {
     "via": null,
@@ -5367,7 +5367,7 @@
     "output_heavy": 0.975,
     "cached": 0.399,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "next_best": [
     {
@@ -5382,7 +5382,7 @@
      "output_heavy": 0.7775,
      "cached": 0.318,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": null,
@@ -5396,7 +5396,7 @@
      "output_heavy": 0.78,
      "cached": 0.42,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -5438,7 +5438,7 @@
     "output_heavy": 0.9,
     "cached": 0.337,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -5454,7 +5454,7 @@
      "output_heavy": 0.78,
      "cached": 0.314,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": null,
@@ -5468,7 +5468,7 @@
      "output_heavy": 0.78,
      "cached": 0.314,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -5497,18 +5497,18 @@
    "group": "china",
    "offers": 25,
    "lowest": {
-    "via": "minimax",
-    "seller": "edenai",
-    "source": "edenai",
-    "listed_as": "minimax-m3.1-flash",
-    "input": 0.075,
-    "output": 0.3,
-    "cache_read": 0.0075,
-    "blended": 0.13125,
-    "output_heavy": 0.24375,
-    "cached": 0.095812,
+    "via": null,
+    "seller": "gmicloud",
+    "source": "gmicloud",
+    "listed_as": "MiniMaxAI/MiniMax-M3.1-Flash",
+    "input": 0.1125,
+    "output": 0.45,
+    "cache_read": null,
+    "blended": 0.196875,
+    "output_heavy": 0.365625,
+    "cached": 0.196875,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": {
     "via": null,
@@ -5522,23 +5522,9 @@
     "output_heavy": 0.4875,
     "cached": 0.191625,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "next_best": [
-    {
-     "via": null,
-     "seller": "gmicloud",
-     "source": "gmicloud",
-     "listed_as": "MiniMaxAI/MiniMax-M3.1-Flash",
-     "input": 0.1125,
-     "output": 0.45,
-     "cache_read": null,
-     "blended": 0.196875,
-     "output_heavy": 0.365625,
-     "cached": 0.196875,
-     "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
-    },
     {
      "via": "GMICloud",
      "seller": "openrouter",
@@ -5551,7 +5537,21 @@
      "output_heavy": 0.365625,
      "cached": 0.143719,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
+    },
+    {
+     "via": "StreamLake",
+     "seller": "openrouter",
+     "source": "openrouter",
+     "listed_as": "minimax/minimax-m3.1-flash",
+     "input": 0.135,
+     "output": 0.54,
+     "cache_read": 0.0135,
+     "blended": 0.23625,
+     "output_heavy": 0.43875,
+     "cached": 0.172463,
+     "region": null,
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -5569,12 +5569,12 @@
    ],
    "item_lowest": {
     "output_heavy": {
-     "value": 0.24375,
-     "seller": "edenai"
+     "value": 0.365625,
+     "seller": "gmicloud"
     },
     "cached": {
-     "value": 0.095812,
-     "seller": "edenai"
+     "value": 0.143719,
+     "seller": "openrouter"
     }
    }
   },
@@ -5594,7 +5594,7 @@
     "output_heavy": 3.0,
     "cached": 1.145625,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -5610,7 +5610,7 @@
      "output_heavy": 3.0,
      "cached": 1.145625,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": "databricks",
@@ -5624,7 +5624,7 @@
      "output_heavy": 3.0,
      "cached": 1.145625,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -5656,7 +5656,7 @@
     "output_heavy": 3.0,
     "cached": 1.145625,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -5672,7 +5672,7 @@
      "output_heavy": 3.0,
      "cached": 1.145625,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": "databricks",
@@ -5686,7 +5686,7 @@
      "output_heavy": 3.0,
      "cached": 1.145625,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -5718,7 +5718,7 @@
     "output_heavy": 7.125,
     "cached": 2.66625,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -5734,7 +5734,7 @@
      "output_heavy": 7.125,
      "cached": 3.375,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": null,
@@ -5748,7 +5748,7 @@
      "output_heavy": 7.125,
      "cached": 3.375,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -5781,7 +5781,7 @@
     "output_heavy": 1.95,
     "cached": 0.70825,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -5797,7 +5797,7 @@
      "output_heavy": 1.95,
      "cached": 0.70825,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": "vertex",
@@ -5811,7 +5811,7 @@
      "output_heavy": 1.95,
      "cached": 0.70825,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -5843,7 +5843,7 @@
     "output_heavy": 1.1875,
     "cached": 0.444375,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -5859,7 +5859,7 @@
      "output_heavy": 1.1875,
      "cached": 0.5625,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": null,
@@ -5873,7 +5873,7 @@
      "output_heavy": 1.1875,
      "cached": 0.5625,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -5904,7 +5904,7 @@
     "output_heavy": 7.8125,
     "cached": 3.4375,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -5920,7 +5920,7 @@
      "output_heavy": 7.8125,
      "cached": 3.4375,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": null,
@@ -5934,7 +5934,7 @@
      "output_heavy": 7.8125,
      "cached": 3.4375,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -5965,7 +5965,7 @@
     "output_heavy": 1.95,
     "cached": 0.70825,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -5981,7 +5981,7 @@
      "output_heavy": 1.95,
      "cached": 0.85,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": null,
@@ -5995,7 +5995,7 @@
      "output_heavy": 1.95,
      "cached": 0.85,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -6026,7 +6026,7 @@
     "output_heavy": 0.09275,
     "cached": 0.07825,
     "region": "global",
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -6042,7 +6042,7 @@
      "output_heavy": 0.284375,
      "cached": 0.153125,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": null,
@@ -6056,7 +6056,7 @@
      "output_heavy": 0.284375,
      "cached": 0.153125,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -6096,7 +6096,7 @@
     "output_heavy": 1.7375,
     "cached": 0.9125,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -6112,7 +6112,7 @@
      "output_heavy": 1.7375,
      "cached": 0.9125,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": "deepinfra",
@@ -6126,7 +6126,7 @@
      "output_heavy": 1.7375,
      "cached": 0.83375,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -6164,7 +6164,7 @@
     "output_heavy": 0.23,
     "cached": 0.13,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -6180,7 +6180,7 @@
      "output_heavy": 0.23,
      "cached": 0.13,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": "deepinfra",
@@ -6194,7 +6194,7 @@
      "output_heavy": 0.23,
      "cached": 0.13,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -6234,7 +6234,7 @@
     "output_heavy": 0.3575,
     "cached": 0.2725,
     "region": "global",
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -6250,7 +6250,7 @@
      "output_heavy": 0.39,
      "cached": 0.37,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": null,
@@ -6264,7 +6264,7 @@
      "output_heavy": 0.39,
      "cached": 0.37,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -6301,7 +6301,7 @@
     "output_heavy": 1.9425,
     "cached": 0.7881,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -6317,7 +6317,7 @@
      "output_heavy": 2.039625,
      "cached": 0.817583,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": null,
@@ -6331,7 +6331,7 @@
      "output_heavy": 2.72,
      "cached": 1.0775,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -6363,7 +6363,7 @@
   "deepseek-v4-pro-0813": {
    "family": "deepseek",
    "group": "china",
-   "offers": 46,
+   "offers": 45,
    "lowest": {
     "via": "qwen",
     "seller": "edenai",
@@ -6376,7 +6376,7 @@
     "output_heavy": 1.0725,
     "cached": 0.440797,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": {
     "via": null,
@@ -6390,7 +6390,7 @@
     "output_heavy": 3.3,
     "cached": 1.3101,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "next_best": [
     {
@@ -6405,7 +6405,7 @@
      "output_heavy": 1.65,
      "cached": 0.65505,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": "StreamLake",
@@ -6419,7 +6419,7 @@
      "output_heavy": 1.65,
      "cached": 0.65505,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -6466,7 +6466,7 @@
     "output_heavy": 20.0,
     "cached": 7.6375,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": {
     "via": null,
@@ -6480,7 +6480,7 @@
     "output_heavy": 20.0,
     "cached": 7.6375,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "next_best": [
     {
@@ -6495,7 +6495,7 @@
      "output_heavy": 20.0,
      "cached": 7.6375,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": null,
@@ -6509,7 +6509,7 @@
      "output_heavy": 20.0,
      "cached": 10.0,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -6541,7 +6541,7 @@
     "output_heavy": 20.0,
     "cached": 7.6375,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": {
     "via": null,
@@ -6555,7 +6555,7 @@
     "output_heavy": 20.0,
     "cached": 7.6375,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "next_best": [
     {
@@ -6570,7 +6570,7 @@
      "output_heavy": 20.0,
      "cached": 7.6375,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": "amazon",
@@ -6584,7 +6584,7 @@
      "output_heavy": 20.0,
      "cached": 7.6375,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -6615,7 +6615,7 @@
     "output_heavy": 20.0,
     "cached": 7.6375,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": {
     "via": null,
@@ -6629,7 +6629,7 @@
     "output_heavy": 20.0,
     "cached": 7.6375,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "next_best": [
     {
@@ -6644,7 +6644,7 @@
      "output_heavy": 20.0,
      "cached": 7.6375,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": "amazon",
@@ -6658,7 +6658,7 @@
      "output_heavy": 20.0,
      "cached": 7.6375,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -6688,7 +6688,7 @@
     "output_heavy": 1.3,
     "cached": 0.7,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": {
     "via": null,
@@ -6702,7 +6702,7 @@
     "output_heavy": 1.8,
     "cached": 0.74275,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "next_best": [
     {
@@ -6717,7 +6717,7 @@
      "output_heavy": 1.8,
      "cached": 0.74275,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": "zai",
@@ -6731,7 +6731,7 @@
      "output_heavy": 1.8,
      "cached": 0.74275,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -6770,7 +6770,7 @@
     "output_heavy": 3.3,
     "cached": 1.4275,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -6786,7 +6786,7 @@
      "output_heavy": 3.3,
      "cached": 1.396,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": "Z.AI",
@@ -6800,7 +6800,7 @@
      "output_heavy": 3.3,
      "cached": 1.396,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -6837,7 +6837,7 @@
     "output_heavy": 0.315,
     "cached": 0.11875,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": {
     "via": null,
@@ -6851,7 +6851,7 @@
     "output_heavy": 0.3175,
     "cached": 0.121,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "next_best": [
     {
@@ -6866,7 +6866,7 @@
      "output_heavy": 0.3175,
      "cached": 0.121,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": null,
@@ -6880,7 +6880,7 @@
      "output_heavy": 0.3175,
      "cached": 0.121,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -6915,7 +6915,7 @@
     "output_heavy": 0.75,
     "cached": 0.31875,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": {
     "via": null,
@@ -6929,7 +6929,7 @@
     "output_heavy": 0.75,
     "cached": 0.31875,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "next_best": [
     {
@@ -6944,7 +6944,7 @@
      "output_heavy": 0.75,
      "cached": 0.31875,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": "Novita",
@@ -6958,7 +6958,7 @@
      "output_heavy": 0.75,
      "cached": 0.321375,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -6994,7 +6994,7 @@
     "output_heavy": 0.31,
     "cached": 0.1111,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": {
     "via": null,
@@ -7008,7 +7008,7 @@
     "output_heavy": 0.31,
     "cached": 0.1111,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "next_best": [
     {
@@ -7023,7 +7023,7 @@
      "output_heavy": 0.31,
      "cached": 0.1111,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -7057,7 +7057,7 @@
     "output_heavy": 2.104375,
     "cached": 0.853775,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -7073,7 +7073,7 @@
      "output_heavy": 2.428125,
      "cached": 0.985125,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": "deepinfra",
@@ -7087,7 +7087,7 @@
      "output_heavy": 2.72,
      "cached": 1.0744,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -7130,7 +7130,7 @@
     "output_heavy": 0.775,
     "cached": 0.425,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -7146,7 +7146,7 @@
      "output_heavy": 0.775,
      "cached": 0.425,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": "deepinfra",
@@ -7160,7 +7160,7 @@
      "output_heavy": 0.775,
      "cached": 0.362,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -7200,7 +7200,7 @@
     "output_heavy": 0.19,
     "cached": 0.09405,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -7216,7 +7216,7 @@
      "output_heavy": 0.21,
      "cached": 0.15,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": null,
@@ -7230,7 +7230,7 @@
      "output_heavy": 0.21,
      "cached": 0.15,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -7268,7 +7268,7 @@
     "output_heavy": 0.825,
     "cached": 0.475,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -7284,7 +7284,7 @@
      "output_heavy": 0.825,
      "cached": 0.475,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": "deepinfra",
@@ -7298,7 +7298,7 @@
      "output_heavy": 0.825,
      "cached": 0.37,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -7335,7 +7335,7 @@
     "output_heavy": 0.4875,
     "cached": 0.2625,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -7351,7 +7351,7 @@
      "output_heavy": 0.4875,
      "cached": 0.2625,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": "deepinfra",
@@ -7365,7 +7365,7 @@
      "output_heavy": 0.4875,
      "cached": 0.2625,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -7402,10 +7402,24 @@
     "output_heavy": 0.05875,
     "cached": 0.03575,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
+    {
+     "via": "PrimeIntellect",
+     "seller": "openrouter",
+     "source": "openrouter",
+     "listed_as": "qwen/qwen3.5-9b",
+     "input": 0.05,
+     "output": 0.074,
+     "cache_read": 0.045,
+     "blended": 0.056,
+     "output_heavy": 0.068,
+     "cached": 0.053375,
+     "region": null,
+     "collected_at": "2026-11-06T13:18:12+00:00"
+    },
     {
      "via": "runware",
      "seller": "requesty",
@@ -7418,21 +7432,7 @@
      "output_heavy": 0.12,
      "cached": 0.057475,
      "region": "global",
-     "collected_at": "2026-11-06T03:48:02+00:00"
-    },
-    {
-     "via": null,
-     "seller": "deepinfra",
-     "source": "deepinfra",
-     "listed_as": "Qwen3.5-9B",
-     "input": 0.1,
-     "output": 0.15,
-     "cache_read": null,
-     "blended": 0.1125,
-     "output_heavy": 0.1375,
-     "cached": 0.1125,
-     "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -7470,7 +7470,7 @@
     "output_heavy": 1.235,
     "cached": 0.585,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": {
     "via": null,
@@ -7484,7 +7484,7 @@
     "output_heavy": 1.9,
     "cached": 0.9,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "next_best": [
     {
@@ -7499,7 +7499,7 @@
      "output_heavy": 1.9,
      "cached": 0.9,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": null,
@@ -7513,7 +7513,7 @@
      "output_heavy": 1.9,
      "cached": 0.9,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -7549,7 +7549,7 @@
     "output_heavy": 0.771875,
     "cached": 0.365625,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": {
     "via": null,
@@ -7563,7 +7563,7 @@
     "output_heavy": 1.1875,
     "cached": 0.5625,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "next_best": [
     {
@@ -7578,7 +7578,7 @@
      "output_heavy": 0.890625,
      "cached": 0.421875,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": null,
@@ -7592,7 +7592,7 @@
      "output_heavy": 1.1875,
      "cached": 0.5625,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -7628,7 +7628,7 @@
     "output_heavy": 0.8125,
     "cached": 0.3029,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": {
     "via": null,
@@ -7642,7 +7642,7 @@
     "output_heavy": 1.25,
     "cached": 0.55,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "next_best": [
     {
@@ -7657,7 +7657,7 @@
      "output_heavy": 0.8125,
      "cached": 0.3029,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": null,
@@ -7671,7 +7671,7 @@
      "output_heavy": 1.25,
      "cached": 0.55,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -7693,7 +7693,7 @@
   "deepseek-v4-flash-0731": {
    "family": "deepseek",
    "group": "china",
-   "offers": 61,
+   "offers": 60,
    "lowest": {
     "via": null,
     "seller": "deepinfra",
@@ -7706,7 +7706,7 @@
     "output_heavy": 0.15,
     "cached": 0.09,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -7722,7 +7722,7 @@
      "output_heavy": 0.15,
      "cached": 0.09,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": "deepinfra",
@@ -7736,7 +7736,7 @@
      "output_heavy": 0.15,
      "cached": 0.066375,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -7784,7 +7784,7 @@
     "output_heavy": 3.25,
     "cached": 1.352812,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": {
     "via": null,
@@ -7798,7 +7798,7 @@
     "output_heavy": 5.0,
     "cached": 3.0,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "next_best": [
     {
@@ -7813,7 +7813,7 @@
      "output_heavy": 5.0,
      "cached": 3.0,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": "deepinfra",
@@ -7827,7 +7827,7 @@
      "output_heavy": 5.0,
      "cached": 2.055,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -7855,7 +7855,7 @@
   "deepseek-v4.1-flash-1017": {
    "family": "deepseek",
    "group": "china",
-   "offers": 75,
+   "offers": 74,
    "lowest": {
     "via": "Particle AI",
     "seller": "openrouter",
@@ -7868,7 +7868,7 @@
     "output_heavy": 0.19375,
     "cached": 0.068913,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": {
     "via": null,
@@ -7882,7 +7882,7 @@
     "output_heavy": 0.975,
     "cached": 0.37065,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "next_best": [
     {
@@ -7897,7 +7897,7 @@
      "output_heavy": 0.3055,
      "cached": 0.10705,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": "DeepInfra",
@@ -7911,7 +7911,7 @@
      "output_heavy": 0.196,
      "cached": 0.077675,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -7957,7 +7957,7 @@
     "output_heavy": 0.175,
     "cached": 0.125,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -7973,7 +7973,7 @@
      "output_heavy": 0.39,
      "cached": 0.163062,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": "tensorx",
@@ -7987,7 +7987,7 @@
      "output_heavy": 0.425,
      "cached": 0.19625,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -8022,7 +8022,7 @@
     "output_heavy": 0.2125,
     "cached": 0.1375,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": {
     "via": null,
@@ -8036,7 +8036,7 @@
     "output_heavy": 0.245,
     "cached": 0.10297,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "next_best": [
     {
@@ -8051,7 +8051,7 @@
      "output_heavy": 0.196,
      "cached": 0.14,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": "GMICloud",
@@ -8065,7 +8065,7 @@
      "output_heavy": 0.196,
      "cached": 0.08246,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -8093,7 +8093,7 @@
   "mimo-v2.6-pro": {
    "family": "xiaomi_mimo",
    "group": "china",
-   "offers": 16,
+   "offers": 15,
    "lowest": {
     "via": null,
     "seller": "gmicloud",
@@ -8106,7 +8106,7 @@
     "output_heavy": 0.570937,
     "cached": 0.407813,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": {
     "via": null,
@@ -8120,7 +8120,7 @@
     "output_heavy": 0.76125,
     "cached": 0.317265,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "next_best": [
     {
@@ -8135,7 +8135,7 @@
      "output_heavy": 0.570937,
      "cached": 0.238106,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": "DeepInfra",
@@ -8149,7 +8149,7 @@
      "output_heavy": 0.684,
      "cached": 0.284526,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -8189,7 +8189,7 @@
     "output_heavy": 4.0625,
     "cached": 2.4375,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": {
     "via": null,
@@ -8203,7 +8203,7 @@
     "output_heavy": 6.25,
     "cached": 3.75,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "next_best": [
     {
@@ -8218,7 +8218,7 @@
      "output_heavy": 6.25,
      "cached": 3.75,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": null,
@@ -8232,7 +8232,7 @@
      "output_heavy": 6.25,
      "cached": 3.75,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -8267,7 +8267,7 @@
     "output_heavy": 6.4,
     "cached": 2.402,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -8283,7 +8283,7 @@
      "output_heavy": 8.0,
      "cached": 3.0025,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": "google",
@@ -8297,7 +8297,7 @@
      "output_heavy": 8.0,
      "cached": 3.0025,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -8329,7 +8329,7 @@
     "output_heavy": 1.03,
     "cached": 0.435125,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": {
     "via": null,
@@ -8343,7 +8343,7 @@
     "output_heavy": 1.03,
     "cached": 0.435125,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "next_best": [
     {
@@ -8358,7 +8358,7 @@
      "output_heavy": 1.03,
      "cached": 0.435125,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": "Z.AI",
@@ -8372,7 +8372,7 @@
      "output_heavy": 1.03,
      "cached": 0.435125,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -8409,7 +8409,7 @@
     "output_heavy": 142.5,
     "cached": 67.5,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -8425,7 +8425,7 @@
      "output_heavy": 142.5,
      "cached": 53.325,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": "databricks",
@@ -8439,7 +8439,7 @@
      "output_heavy": 142.5,
      "cached": 53.325,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -8466,7 +8466,7 @@
     "output_heavy": 142.5,
     "cached": 67.5,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -8482,7 +8482,7 @@
      "output_heavy": 142.5,
      "cached": 53.325,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": "openai",
@@ -8496,7 +8496,7 @@
      "output_heavy": 142.5,
      "cached": 67.5,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -8524,7 +8524,7 @@
     "output_heavy": 0.9875,
     "cached": 0.368,
     "region": "Global",
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -8540,7 +8540,7 @@
      "output_heavy": 0.9875,
      "cached": 0.368,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": "azure",
@@ -8554,7 +8554,7 @@
      "output_heavy": 0.9875,
      "cached": 0.368,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -8583,7 +8583,7 @@
     "output_heavy": 10.9375,
     "cached": 3.985625,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": {
     "via": null,
@@ -8597,7 +8597,7 @@
     "output_heavy": 10.9375,
     "cached": 3.985625,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "next_best": [
     {
@@ -8612,7 +8612,7 @@
      "output_heavy": 10.9375,
      "cached": 3.98825,
      "region": "Global",
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": "OpenAI",
@@ -8626,7 +8626,7 @@
      "output_heavy": 10.9375,
      "cached": 3.985625,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -8655,7 +8655,7 @@
     "output_heavy": 131.25,
     "cached": 57.75,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -8671,7 +8671,7 @@
      "output_heavy": 131.25,
      "cached": 57.75,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": "openai",
@@ -8685,7 +8685,7 @@
      "output_heavy": 131.25,
      "cached": 57.75,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -8711,7 +8711,7 @@
     "output_heavy": 7.8125,
     "cached": 2.8495,
     "region": "Global",
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -8727,7 +8727,7 @@
      "output_heavy": 7.8125,
      "cached": 2.846875,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": "azure",
@@ -8741,7 +8741,7 @@
      "output_heavy": 7.8125,
      "cached": 2.846875,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -8768,7 +8768,7 @@
     "output_heavy": 93.75,
     "cached": 41.25,
     "region": "Global",
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -8784,7 +8784,7 @@
      "output_heavy": 93.75,
      "cached": 41.25,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": "azure",
@@ -8798,7 +8798,7 @@
      "output_heavy": 93.75,
      "cached": 41.25,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -8826,7 +8826,7 @@
     "output_heavy": 7.8125,
     "cached": 2.8495,
     "region": "Global",
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -8842,7 +8842,7 @@
      "output_heavy": 7.8125,
      "cached": 2.846875,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": "azure",
@@ -8856,7 +8856,7 @@
      "output_heavy": 7.8125,
      "cached": 2.846875,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -8884,7 +8884,7 @@
     "output_heavy": 1.5625,
     "cached": 0.572,
     "region": "Global",
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -8900,7 +8900,7 @@
      "output_heavy": 1.5625,
      "cached": 0.569375,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": "azure",
@@ -8914,7 +8914,7 @@
      "output_heavy": 1.5625,
      "cached": 0.569375,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -8943,7 +8943,7 @@
     "output_heavy": 0.3125,
     "cached": 0.1165,
     "region": "Global",
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -8959,7 +8959,7 @@
      "output_heavy": 0.3125,
      "cached": 0.113875,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": "azure",
@@ -8973,7 +8973,7 @@
      "output_heavy": 0.3125,
      "cached": 0.113875,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -9002,7 +9002,7 @@
     "output_heavy": 6.5,
     "cached": 2.7125,
     "region": "Global",
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -9018,7 +9018,7 @@
      "output_heavy": 6.5,
      "cached": 2.7125,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": "azure",
@@ -9032,7 +9032,7 @@
      "output_heavy": 6.5,
      "cached": 2.7125,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -9060,7 +9060,7 @@
     "output_heavy": 65.0,
     "cached": 35.0,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -9076,7 +9076,7 @@
      "output_heavy": 65.0,
      "cached": 35.0,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": "openai",
@@ -9090,7 +9090,7 @@
      "output_heavy": 65.0,
      "cached": 35.0,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -9117,7 +9117,7 @@
     "output_heavy": 12.0,
     "cached": 4.5825,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": {
     "via": null,
@@ -9131,7 +9131,7 @@
     "output_heavy": 12.0,
     "cached": 4.5825,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "next_best": [
     {
@@ -9146,7 +9146,7 @@
      "output_heavy": 12.0,
      "cached": 4.5825,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": "amazon",
@@ -9160,7 +9160,7 @@
      "output_heavy": 12.0,
      "cached": 4.5825,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -9188,7 +9188,7 @@
     "output_heavy": 0.6825,
     "cached": 0.3675,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -9204,7 +9204,7 @@
      "output_heavy": 0.6825,
      "cached": 0.2793,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": "Novita",
@@ -9218,7 +9218,7 @@
      "output_heavy": 0.8775,
      "cached": 0.3591,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -9257,7 +9257,7 @@
     "output_heavy": 4.0,
     "cached": 1.50125,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [],
@@ -9281,7 +9281,7 @@
     "output_heavy": 8.0,
     "cached": 3.0025,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [],
@@ -9305,7 +9305,7 @@
     "output_heavy": 4.745,
     "cached": 2.0306,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -9321,7 +9321,7 @@
      "output_heavy": 7.3,
      "cached": 3.124,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -9355,7 +9355,7 @@
     "output_heavy": 10.0,
     "cached": 4.1625,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -9371,7 +9371,7 @@
      "output_heavy": 10.0,
      "cached": 4.1625,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -9405,7 +9405,7 @@
     "output_heavy": 0.4,
     "cached": 0.15275,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [],
@@ -9429,7 +9429,7 @@
     "output_heavy": 8.0,
     "cached": 3.055,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [],
@@ -9453,7 +9453,7 @@
     "output_heavy": 40.0,
     "cached": 15.275,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [],
@@ -9477,7 +9477,7 @@
     "output_heavy": 0.4875,
     "cached": 0.185325,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -9493,7 +9493,7 @@
      "output_heavy": 0.539,
      "cached": 0.213812,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": null,
@@ -9507,7 +9507,7 @@
      "output_heavy": 0.539,
      "cached": 0.21378,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -9545,7 +9545,7 @@
     "output_heavy": 0.95,
     "cached": 0.3555,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [],
@@ -9569,7 +9569,7 @@
     "output_heavy": 9.5,
     "cached": 3.555,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [],
@@ -9593,7 +9593,7 @@
     "output_heavy": 16.0,
     "cached": 6.11,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [],
@@ -9617,7 +9617,7 @@
     "output_heavy": 1.235,
     "cached": 0.585,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": {
     "via": null,
@@ -9631,7 +9631,7 @@
     "output_heavy": 1.9,
     "cached": 0.9,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "next_best": [
     {
@@ -9646,7 +9646,7 @@
      "output_heavy": 1.425,
      "cached": 0.675,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": null,
@@ -9660,7 +9660,7 @@
      "output_heavy": 1.9,
      "cached": 0.9,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -9695,7 +9695,7 @@
     "output_heavy": 0.532875,
     "cached": 0.380625,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -9711,7 +9711,7 @@
      "output_heavy": 0.532875,
      "cached": 0.222232,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": "tencent",
@@ -9725,7 +9725,7 @@
      "output_heavy": 0.76125,
      "cached": 0.317265,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -9761,7 +9761,7 @@
     "output_heavy": 0.20825,
     "cached": 0.14875,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -9777,7 +9777,7 @@
      "output_heavy": 0.245,
      "cached": 0.10297,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": "xiaomi",
@@ -9791,7 +9791,7 @@
      "output_heavy": 0.245,
      "cached": 0.10297,
      "region": "global",
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -9828,7 +9828,7 @@
     "output_heavy": 3.3,
     "cached": 1.4275,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -9844,7 +9844,7 @@
      "output_heavy": 3.3,
      "cached": 1.396,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": "Z.AI",
@@ -9858,7 +9858,7 @@
      "output_heavy": 3.3,
      "cached": 1.396,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -9894,7 +9894,7 @@
     "output_heavy": 1.1875,
     "cached": 0.444375,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -9910,7 +9910,7 @@
      "output_heavy": 1.1875,
      "cached": 0.5625,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": null,
@@ -9924,7 +9924,7 @@
      "output_heavy": 1.1875,
      "cached": 0.444375,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -9949,7 +9949,7 @@
     "output_heavy": 0.21125,
     "cached": 0.11375,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": {
     "via": null,
@@ -9963,7 +9963,7 @@
     "output_heavy": 0.325,
     "cached": 0.175,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "next_best": [
     {
@@ -9978,7 +9978,7 @@
      "output_heavy": 0.21125,
      "cached": 0.11375,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": "Alibaba",
@@ -9992,7 +9992,7 @@
      "output_heavy": 0.21125,
      "cached": 0.11375,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -10027,7 +10027,7 @@
     "output_heavy": 1.235,
     "cached": 0.585,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": {
     "via": null,
@@ -10041,7 +10041,7 @@
     "output_heavy": 1.9,
     "cached": 0.9,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "next_best": [
     {
@@ -10056,7 +10056,7 @@
      "output_heavy": 1.235,
      "cached": 0.585,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": null,
@@ -10070,7 +10070,7 @@
      "output_heavy": 1.9,
      "cached": 0.9,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -10105,7 +10105,7 @@
     "output_heavy": 1.8,
     "cached": 0.7005,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -10121,7 +10121,7 @@
      "output_heavy": 1.8,
      "cached": 0.7005,
      "region": "global",
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": null,
@@ -10135,7 +10135,7 @@
      "output_heavy": 1.8,
      "cached": 0.7005,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -10176,7 +10176,7 @@
     "output_heavy": 0.315,
     "cached": 0.11875,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -10192,7 +10192,7 @@
      "output_heavy": 0.315125,
      "cached": 0.145375,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": "Cloudflare",
@@ -10206,7 +10206,7 @@
      "output_heavy": 0.315125,
      "cached": 0.145375,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -10243,7 +10243,7 @@
     "output_heavy": 10.9375,
     "cached": 3.98825,
     "region": "Global",
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -10259,7 +10259,7 @@
      "output_heavy": 10.9375,
      "cached": 3.985625,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": null,
@@ -10273,7 +10273,7 @@
      "output_heavy": 10.9375,
      "cached": 3.985625,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -10300,7 +10300,7 @@
     "output_heavy": 10.9375,
     "cached": 3.985625,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -10316,7 +10316,7 @@
      "output_heavy": 12.0325,
      "cached": 4.38925,
      "region": "Data Zone",
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -10340,7 +10340,7 @@
     "output_heavy": 7.8125,
     "cached": 2.8495,
     "region": "Global",
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -10356,7 +10356,7 @@
      "output_heavy": 7.8125,
      "cached": 2.846875,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": null,
@@ -10370,7 +10370,7 @@
      "output_heavy": 7.8125,
      "cached": 2.846875,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -10396,7 +10396,7 @@
     "output_heavy": 7.8125,
     "cached": 2.8495,
     "region": "Global",
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -10412,7 +10412,7 @@
      "output_heavy": 7.8125,
      "cached": 2.846875,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": null,
@@ -10426,7 +10426,7 @@
      "output_heavy": 7.8125,
      "cached": 2.8495,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -10452,7 +10452,7 @@
     "output_heavy": 1.5625,
     "cached": 0.572,
     "region": "Global",
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -10468,7 +10468,7 @@
      "output_heavy": 1.5625,
      "cached": 0.569375,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": null,
@@ -10482,7 +10482,7 @@
      "output_heavy": 1.5625,
      "cached": 0.572,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -10508,7 +10508,7 @@
     "output_heavy": 1.1,
     "cached": 0.9,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -10524,7 +10524,7 @@
      "output_heavy": 2.025,
      "cached": 1.075,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": "amazon",
@@ -10538,7 +10538,7 @@
      "output_heavy": 2.025,
      "cached": 1.075,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -10574,7 +10574,7 @@
     "output_heavy": 0.625,
     "cached": 0.30675,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [],
@@ -10608,7 +10608,7 @@
     "output_heavy": 0.8225,
     "cached": 0.4675,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [],
@@ -10642,7 +10642,7 @@
     "output_heavy": 0.375,
     "cached": 0.305,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -10658,7 +10658,7 @@
      "output_heavy": 0.375,
      "cached": 0.305,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -10692,7 +10692,7 @@
     "output_heavy": 0.78,
     "cached": 0.3665,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -10708,7 +10708,7 @@
      "output_heavy": 0.8175,
      "cached": 0.4525,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": "SiliconFlow",
@@ -10722,7 +10722,7 @@
      "output_heavy": 0.8175,
      "cached": 0.4525,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -10757,7 +10757,7 @@
     "output_heavy": 1.625,
     "cached": 0.8225,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -10773,7 +10773,7 @@
      "output_heavy": 1.85725,
      "cached": 0.77505,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": null,
@@ -10787,7 +10787,7 @@
      "output_heavy": 1.86,
      "cached": 1.0,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -10823,7 +10823,7 @@
     "output_heavy": 0.8175,
     "cached": 0.4525,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -10839,7 +10839,7 @@
      "output_heavy": 1.375,
      "cached": 0.825,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": "SambaNova",
@@ -10853,7 +10853,7 @@
      "output_heavy": 1.2875,
      "cached": 0.8625,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -10886,7 +10886,7 @@
     "output_heavy": 60.0,
     "cached": 22.9125,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": {
     "via": null,
@@ -10900,7 +10900,7 @@
     "output_heavy": 60.0,
     "cached": 22.9125,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "next_best": [
     {
@@ -10915,7 +10915,7 @@
      "output_heavy": 60.0,
      "cached": 22.9125,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": null,
@@ -10929,7 +10929,7 @@
      "output_heavy": 60.0,
      "cached": 22.9125,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -10955,7 +10955,7 @@
     "output_heavy": 0.2275,
     "cached": 0.091263,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -10971,7 +10971,7 @@
      "output_heavy": 0.2275,
      "cached": 0.1225,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": "amazon",
@@ -10985,7 +10985,7 @@
      "output_heavy": 0.4875,
      "cached": 0.2625,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -11021,7 +11021,7 @@
     "output_heavy": 0.2475,
     "cached": 0.1425,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -11037,7 +11037,7 @@
      "output_heavy": 0.2475,
      "cached": 0.1425,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": "nebius",
@@ -11051,7 +11051,7 @@
      "output_heavy": 0.25,
      "cached": 0.15,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -11086,7 +11086,7 @@
     "output_heavy": 1.7825,
     "cached": 0.73175,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -11102,7 +11102,7 @@
      "output_heavy": 1.7825,
      "cached": 0.73175,
      "region": "global",
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": "Venice",
@@ -11116,7 +11116,7 @@
      "output_heavy": 2.7375,
      "cached": 1.2125,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -11153,7 +11153,7 @@
     "output_heavy": 1.405,
     "cached": 0.51105,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -11169,7 +11169,7 @@
      "output_heavy": 1.2125,
      "cached": 0.47475,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -11203,7 +11203,7 @@
     "output_heavy": 0.325,
     "cached": 0.12775,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -11219,7 +11219,7 @@
      "output_heavy": 0.325,
      "cached": 0.12775,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": "vertex",
@@ -11233,7 +11233,7 @@
      "output_heavy": 0.325,
      "cached": 0.12775,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -11261,7 +11261,7 @@
     "output_heavy": 1.625,
     "cached": 0.875,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -11277,7 +11277,7 @@
      "output_heavy": 1.8675,
      "cached": 1.0025,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": "novita",
@@ -11291,7 +11291,7 @@
      "output_heavy": 1.8675,
      "cached": 1.0025,
      "region": "global",
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -11327,7 +11327,7 @@
     "output_heavy": 1.75,
     "cached": 0.85,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -11343,7 +11343,7 @@
      "output_heavy": 1.7875,
      "cached": 0.9625,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -11377,7 +11377,7 @@
     "output_heavy": 7.8125,
     "cached": 2.846875,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [],
@@ -11401,7 +11401,7 @@
     "output_heavy": 0.263975,
     "cached": 0.121925,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -11417,7 +11417,7 @@
      "output_heavy": 0.2075,
      "cached": 0.1225,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": "greenference",
@@ -11431,7 +11431,7 @@
      "output_heavy": 0.2375,
      "cached": 0.117562,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -11468,7 +11468,7 @@
     "output_heavy": 6.5,
     "cached": 2.7125,
     "region": "Global",
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": {
     "via": null,
@@ -11482,7 +11482,7 @@
     "output_heavy": 9.75,
     "cached": 4.06875,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "next_best": [
     {
@@ -11497,7 +11497,7 @@
      "output_heavy": 6.5,
      "cached": 2.7125,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": null,
@@ -11511,7 +11511,7 @@
      "output_heavy": 6.5,
      "cached": 2.7125,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -11540,7 +11540,7 @@
     "output_heavy": 1.3,
     "cached": 0.5425,
     "region": "Global",
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": {
     "via": null,
@@ -11554,7 +11554,7 @@
     "output_heavy": 2.6,
     "cached": 1.085,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "next_best": [
     {
@@ -11569,7 +11569,7 @@
      "output_heavy": 1.3,
      "cached": 0.5425,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": null,
@@ -11583,7 +11583,7 @@
      "output_heavy": 1.3,
      "cached": 0.5425,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -11612,7 +11612,7 @@
     "output_heavy": 0.325,
     "cached": 0.13825,
     "region": "Global",
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -11628,7 +11628,7 @@
      "output_heavy": 0.325,
      "cached": 0.135625,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": null,
@@ -11642,7 +11642,7 @@
      "output_heavy": 0.325,
      "cached": 0.135625,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -11670,7 +11670,7 @@
     "output_heavy": 0.8125,
     "cached": 0.4375,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -11686,7 +11686,7 @@
      "output_heavy": 0.9275,
      "cached": 0.408,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -11719,7 +11719,7 @@
     "output_heavy": 0.95,
     "cached": 0.64,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -11735,7 +11735,7 @@
      "output_heavy": 1.01,
      "cached": 1.01,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -11769,7 +11769,7 @@
     "output_heavy": 8.125,
     "cached": 3.71875,
     "region": "Global",
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -11785,7 +11785,7 @@
      "output_heavy": 8.125,
      "cached": 3.71875,
      "region": "Global",
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": "azure",
@@ -11799,7 +11799,7 @@
      "output_heavy": 8.125,
      "cached": 3.71875,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -11827,7 +11827,7 @@
     "output_heavy": 0.1375,
     "cached": 0.0925,
     "region": "global",
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -11843,7 +11843,7 @@
      "output_heavy": 0.915,
      "cached": 0.745,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": "Cloudflare",
@@ -11857,7 +11857,7 @@
      "output_heavy": 0.915,
      "cached": 0.745,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -11892,7 +11892,7 @@
     "output_heavy": 0.085,
     "cached": 0.055,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -11908,7 +11908,7 @@
      "output_heavy": 0.175,
      "cached": 0.125,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": null,
@@ -11922,7 +11922,7 @@
      "output_heavy": 0.175,
      "cached": 0.125,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -11957,7 +11957,7 @@
     "output_heavy": 0.4875,
     "cached": 0.223125,
     "region": "Global",
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -11973,7 +11973,7 @@
      "output_heavy": 0.4875,
      "cached": 0.223125,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": "openai",
@@ -11987,7 +11987,7 @@
      "output_heavy": 0.4875,
      "cached": 0.223125,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -12015,7 +12015,7 @@
     "output_heavy": 1.25,
     "cached": 0.75,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -12031,7 +12031,7 @@
      "output_heavy": 1.75,
      "cached": 1.25,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -12055,7 +12055,7 @@
     "output_heavy": 3.75,
     "cached": 3.25,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -12071,7 +12071,7 @@
      "output_heavy": 3.75,
      "cached": 3.25,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -12095,7 +12095,7 @@
     "output_heavy": 52.5,
     "cached": 37.5,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -12111,7 +12111,7 @@
      "output_heavy": 52.5,
      "cached": 37.5,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -12135,7 +12135,7 @@
     "output_heavy": 0.715,
     "cached": 0.385,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [],
@@ -12169,7 +12169,7 @@
     "output_heavy": 0.405,
     "cached": 0.215,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [],
@@ -12203,7 +12203,7 @@
     "output_heavy": 4.8,
     "cached": 1.896,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -12219,7 +12219,7 @@
      "output_heavy": 4.8,
      "cached": 1.896,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -12253,7 +12253,7 @@
     "output_heavy": 0.9375,
     "cached": 0.4125,
     "region": "eu",
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -12269,7 +12269,7 @@
      "output_heavy": 0.9375,
      "cached": 0.4125,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": null,
@@ -12283,7 +12283,7 @@
      "output_heavy": 1.1625,
      "cached": 0.4875,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -12318,7 +12318,7 @@
     "output_heavy": 0.71,
     "cached": 0.32275,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [],
@@ -12352,7 +12352,7 @@
     "output_heavy": 1.76,
     "cached": 0.92,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -12368,7 +12368,7 @@
      "output_heavy": 1.975,
      "cached": 1.125,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": "deepinfra",
@@ -12382,7 +12382,7 @@
      "output_heavy": 2.0875,
      "cached": 1.2625,
      "region": "global",
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -12418,7 +12418,7 @@
     "output_heavy": 1.5425,
     "cached": 0.9275,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [],
@@ -12452,7 +12452,7 @@
     "output_heavy": 2.375,
     "cached": 0.88875,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [],
@@ -12476,7 +12476,7 @@
     "output_heavy": 0.975,
     "cached": 0.525,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -12492,7 +12492,7 @@
      "output_heavy": 0.975,
      "cached": 0.525,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": "amazon",
@@ -12506,7 +12506,7 @@
      "output_heavy": 0.975,
      "cached": 0.525,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -12543,7 +12543,7 @@
     "output_heavy": 0.975,
     "cached": 0.525,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -12559,7 +12559,7 @@
      "output_heavy": 0.975,
      "cached": 0.38325,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": null,
@@ -12573,7 +12573,7 @@
      "output_heavy": 0.975,
      "cached": 0.525,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -12609,7 +12609,7 @@
     "output_heavy": 7.8125,
     "cached": 2.8495,
     "region": "Global",
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -12625,7 +12625,7 @@
      "output_heavy": 7.8125,
      "cached": 2.846875,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": null,
@@ -12639,7 +12639,7 @@
      "output_heavy": 7.8125,
      "cached": 2.8495,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -12664,7 +12664,7 @@
     "output_heavy": 48.75,
     "cached": 22.3125,
     "region": "Global",
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -12680,7 +12680,7 @@
      "output_heavy": 48.75,
      "cached": 22.3125,
      "region": "global",
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": null,
@@ -12694,7 +12694,7 @@
      "output_heavy": 48.75,
      "cached": 22.3125,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -12719,7 +12719,7 @@
     "output_heavy": 3.575,
     "cached": 1.63625,
     "region": "Global",
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -12735,7 +12735,7 @@
      "output_heavy": 3.575,
      "cached": 1.63625,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": "openai",
@@ -12749,7 +12749,7 @@
      "output_heavy": 3.575,
      "cached": 1.63625,
      "region": "global",
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -12775,7 +12775,7 @@
     "output_heavy": 3.575,
     "cached": 1.4945,
     "region": "Global",
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -12791,7 +12791,7 @@
      "output_heavy": 3.575,
      "cached": 1.925,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": null,
@@ -12805,7 +12805,7 @@
      "output_heavy": 3.575,
      "cached": 1.491875,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -12830,7 +12830,7 @@
     "output_heavy": 2.1875,
     "cached": 1.01125,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": {
     "via": null,
@@ -12844,7 +12844,7 @@
     "output_heavy": 2.1875,
     "cached": 1.01125,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "next_best": [
     {
@@ -12859,7 +12859,7 @@
      "output_heavy": 2.1875,
      "cached": 1.01125,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": null,
@@ -12873,7 +12873,7 @@
      "output_heavy": 2.1875,
      "cached": 1.01125,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -12898,7 +12898,7 @@
     "output_heavy": 2.1875,
     "cached": 1.01125,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": {
     "via": null,
@@ -12912,7 +12912,7 @@
     "output_heavy": 2.1875,
     "cached": 1.01125,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "next_best": [
     {
@@ -12927,7 +12927,7 @@
      "output_heavy": 2.1875,
      "cached": 1.01125,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": null,
@@ -12941,7 +12941,7 @@
      "output_heavy": 2.1875,
      "cached": 1.01125,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -12966,7 +12966,7 @@
     "output_heavy": 5.0,
     "cached": 2.055,
     "region": "global",
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -12982,7 +12982,7 @@
      "output_heavy": 5.125,
      "cached": 2.39325,
      "region": "eu",
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -13015,7 +13015,7 @@
     "output_heavy": 2.275,
     "cached": 0.995,
     "region": "global",
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -13031,7 +13031,7 @@
      "output_heavy": 3.045,
      "cached": 2.175,
      "region": "global",
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": "nebius",
@@ -13045,7 +13045,7 @@
      "output_heavy": 3.0625,
      "cached": 2.1875,
      "region": "uk",
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -13078,7 +13078,7 @@
     "output_heavy": 0.175,
     "cached": 0.083,
     "region": "global",
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -13094,7 +13094,7 @@
      "output_heavy": 0.245,
      "cached": 0.175,
      "region": "global",
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": "novita",
@@ -13108,7 +13108,7 @@
      "output_heavy": 0.245,
      "cached": 0.175,
      "region": "global",
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -13141,7 +13141,7 @@
     "output_heavy": 0.08,
     "cached": 0.04,
     "region": "global",
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [],
@@ -13175,7 +13175,7 @@
     "output_heavy": 0.065,
     "cached": 0.031375,
     "region": "global",
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [],
@@ -13209,7 +13209,7 @@
     "output_heavy": 9.5,
     "cached": 3.555,
     "region": "global",
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -13225,7 +13225,7 @@
      "output_heavy": 9.5,
      "cached": 3.555,
      "region": "global",
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -13248,7 +13248,7 @@
     "output_heavy": 2.796,
     "cached": 1.506,
     "region": "global",
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -13264,7 +13264,7 @@
      "output_heavy": 4.8,
      "cached": 1.896,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": "deepinfra",
@@ -13278,7 +13278,7 @@
      "output_heavy": 4.8,
      "cached": 1.896,
      "region": "global",
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -13312,7 +13312,7 @@
     "output_heavy": 4.0,
     "cached": 2.0,
     "region": "global",
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [],
@@ -13346,7 +13346,7 @@
     "output_heavy": 1.3,
     "cached": 0.7,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -13362,7 +13362,7 @@
      "output_heavy": 1.3,
      "cached": 0.7,
      "region": "global",
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": "amazon",
@@ -13376,7 +13376,7 @@
      "output_heavy": 1.4625,
      "cached": 0.7875,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -13411,7 +13411,7 @@
     "output_heavy": 12.0,
     "cached": 6.0,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -13427,7 +13427,7 @@
      "output_heavy": 12.0,
      "cached": 6.0,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": "xai",
@@ -13441,7 +13441,7 @@
      "output_heavy": 12.0,
      "cached": 4.81875,
      "region": "global",
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -13465,7 +13465,7 @@
     "output_heavy": 60.0,
     "cached": 22.9125,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": {
     "via": null,
@@ -13479,7 +13479,7 @@
     "output_heavy": 60.0,
     "cached": 22.9125,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "next_best": [
     {
@@ -13494,7 +13494,7 @@
      "output_heavy": 60.0,
      "cached": 22.9125,
      "region": "us",
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": "vertex",
@@ -13508,7 +13508,7 @@
      "output_heavy": 60.0,
      "cached": 22.9125,
      "region": "us",
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -13533,7 +13533,7 @@
     "output_heavy": 12.0,
     "cached": 4.5825,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": {
     "via": null,
@@ -13547,7 +13547,7 @@
     "output_heavy": 12.0,
     "cached": 4.5825,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "next_best": [
     {
@@ -13562,7 +13562,7 @@
      "output_heavy": 12.0,
      "cached": 4.5825,
      "region": "global",
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": "vertex",
@@ -13576,7 +13576,7 @@
      "output_heavy": 12.0,
      "cached": 4.5825,
      "region": "eu",
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -13601,7 +13601,7 @@
     "output_heavy": 0.735,
     "cached": 0.349875,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -13617,7 +13617,7 @@
      "output_heavy": 0.9275,
      "cached": 0.5025,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": "novita",
@@ -13631,7 +13631,7 @@
      "output_heavy": 1.075,
      "cached": 0.625,
      "region": "global",
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -13666,7 +13666,7 @@
     "output_heavy": 12.0,
     "cached": 4.81875,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -13682,7 +13682,7 @@
      "output_heavy": 20.0,
      "cached": 10.0,
      "region": "global",
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -13706,7 +13706,7 @@
     "output_heavy": 0.45,
     "cached": 0.35,
     "region": "global",
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [],
@@ -13730,7 +13730,7 @@
     "output_heavy": 0.7,
     "cached": 0.7,
     "region": "global",
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [],
@@ -13764,7 +13764,7 @@
     "output_heavy": 0.575,
     "cached": 0.345,
     "region": "global",
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -13780,7 +13780,7 @@
      "output_heavy": 0.625,
      "cached": 0.375,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": "deepinfra",
@@ -13794,7 +13794,7 @@
      "output_heavy": 0.775,
      "cached": 0.725,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -13829,7 +13829,7 @@
     "output_heavy": 7.8,
     "cached": 2.9652,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -13845,7 +13845,7 @@
      "output_heavy": 9.75,
      "cached": 3.7065,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -13879,7 +13879,7 @@
     "output_heavy": 0.6825,
     "cached": 0.259455,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [],
@@ -13913,7 +13913,7 @@
     "output_heavy": 0.6825,
     "cached": 0.259455,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [],
@@ -13947,7 +13947,7 @@
     "output_heavy": 2.555,
     "cached": 1.08605,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [],
@@ -13981,7 +13981,7 @@
     "output_heavy": 8.4,
     "cached": 3.20775,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [],
@@ -14015,7 +14015,7 @@
     "output_heavy": 1.15,
     "cached": 0.4185,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [],
@@ -14049,7 +14049,7 @@
     "output_heavy": 0.2075,
     "cached": 0.1015,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [],
@@ -14083,7 +14083,7 @@
     "output_heavy": 3.25,
     "cached": 1.35625,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [],
@@ -14117,7 +14117,7 @@
     "output_heavy": 1.85,
     "cached": 0.66075,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [],
@@ -14151,7 +14151,7 @@
     "output_heavy": 0.203125,
     "cached": 0.089375,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": {
     "via": null,
@@ -14165,7 +14165,7 @@
     "output_heavy": 0.3125,
     "cached": 0.1375,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "next_best": [
     {
@@ -14180,7 +14180,7 @@
      "output_heavy": 0.3125,
      "cached": 0.1375,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -14214,7 +14214,7 @@
     "output_heavy": 0.06825,
     "cached": 0.02756,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": {
     "via": null,
@@ -14228,7 +14228,7 @@
     "output_heavy": 0.105,
     "cached": 0.055,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "next_best": [
     {
@@ -14243,7 +14243,7 @@
      "output_heavy": 0.105,
      "cached": 0.055,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -14277,7 +14277,7 @@
     "output_heavy": 0.27,
     "cached": 0.27,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -14293,7 +14293,7 @@
      "output_heavy": 0.8,
      "cached": 0.6,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": "cloudflare",
@@ -14307,7 +14307,7 @@
      "output_heavy": 3.785,
      "cached": 1.593,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -14341,7 +14341,7 @@
     "output_heavy": 9.5,
     "cached": 4.5,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -14357,7 +14357,7 @@
      "output_heavy": 9.5,
      "cached": 4.5,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": "deepinfra",
@@ -14371,7 +14371,7 @@
      "output_heavy": 9.5,
      "cached": 4.5,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -14395,7 +14395,7 @@
     "output_heavy": 1.37,
     "cached": 0.54725,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [],
@@ -14429,7 +14429,7 @@
     "output_heavy": 0.1,
     "cached": 0.1,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [],
@@ -14463,7 +14463,7 @@
     "output_heavy": 0.845,
     "cached": 0.3458,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": {
     "via": null,
@@ -14477,7 +14477,7 @@
     "output_heavy": 1.3,
     "cached": 0.7,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "next_best": [
     {
@@ -14492,7 +14492,7 @@
      "output_heavy": 1.3,
      "cached": 0.7,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -14526,7 +14526,7 @@
     "output_heavy": 4.0625,
     "cached": 2.4375,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": {
     "via": null,
@@ -14540,7 +14540,7 @@
     "output_heavy": 6.25,
     "cached": 3.75,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "next_best": [
     {
@@ -14555,7 +14555,7 @@
      "output_heavy": 6.25,
      "cached": 3.75,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -14589,7 +14589,7 @@
     "output_heavy": 4.0625,
     "cached": 2.4375,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": {
     "via": null,
@@ -14603,7 +14603,7 @@
     "output_heavy": 6.25,
     "cached": 3.75,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "next_best": [
     {
@@ -14618,7 +14618,7 @@
      "output_heavy": 6.25,
      "cached": 3.75,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -14652,7 +14652,7 @@
     "output_heavy": 4.0625,
     "cached": 1.755,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": {
     "via": null,
@@ -14666,7 +14666,7 @@
     "output_heavy": 6.25,
     "cached": 3.75,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "next_best": [
     {
@@ -14681,7 +14681,7 @@
      "output_heavy": 6.25,
      "cached": 3.75,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -14715,7 +14715,7 @@
     "output_heavy": 0.771875,
     "cached": 0.365625,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": {
     "via": null,
@@ -14729,7 +14729,7 @@
     "output_heavy": 1.1875,
     "cached": 0.5625,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "next_best": [
     {
@@ -14744,7 +14744,7 @@
      "output_heavy": 1.1875,
      "cached": 0.5625,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -14778,7 +14778,7 @@
     "output_heavy": 1.54375,
     "cached": 0.73125,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": {
     "via": null,
@@ -14792,7 +14792,7 @@
     "output_heavy": 2.375,
     "cached": 1.125,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "next_best": [
     {
@@ -14807,7 +14807,7 @@
      "output_heavy": 2.375,
      "cached": 1.125,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": null,
@@ -14821,7 +14821,7 @@
      "output_heavy": 2.375,
      "cached": 1.125,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -14856,7 +14856,7 @@
     "output_heavy": 3.575,
     "cached": 1.63625,
     "region": "Global",
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -14872,7 +14872,7 @@
      "output_heavy": 3.9325,
      "cached": 1.799875,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": null,
@@ -14886,7 +14886,7 @@
      "output_heavy": 3.9325,
      "cached": 1.799875,
      "region": "Regional",
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -14910,7 +14910,7 @@
     "output_heavy": 0.5,
     "cached": 0.3,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [],
@@ -14944,7 +14944,7 @@
     "output_heavy": 0.78,
     "cached": 0.39,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": {
     "via": null,
@@ -14958,7 +14958,7 @@
     "output_heavy": 1.2,
     "cached": 0.6,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "next_best": [
     {
@@ -14973,7 +14973,7 @@
      "output_heavy": 1.2,
      "cached": 0.6,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -15007,7 +15007,7 @@
     "output_heavy": 0.65,
     "cached": 0.39,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": {
     "via": null,
@@ -15021,7 +15021,7 @@
     "output_heavy": 1.0,
     "cached": 0.6,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "next_best": [
     {
@@ -15036,7 +15036,7 @@
      "output_heavy": 1.0,
      "cached": 0.6,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -15070,7 +15070,7 @@
     "output_heavy": 0.65,
     "cached": 0.39,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": {
     "via": null,
@@ -15084,7 +15084,7 @@
     "output_heavy": 1.0,
     "cached": 0.6,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "next_best": [
     {
@@ -15099,7 +15099,7 @@
      "output_heavy": 1.0,
      "cached": 0.6,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -15133,7 +15133,7 @@
     "output_heavy": 0.65,
     "cached": 0.39,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": {
     "via": null,
@@ -15147,7 +15147,7 @@
     "output_heavy": 1.0,
     "cached": 0.6,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "next_best": [
     {
@@ -15162,7 +15162,7 @@
      "output_heavy": 1.0,
      "cached": 0.6,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -15196,7 +15196,7 @@
     "output_heavy": 0.65,
     "cached": 0.39,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": {
     "via": null,
@@ -15210,7 +15210,7 @@
     "output_heavy": 1.0,
     "cached": 0.6,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "next_best": [
     {
@@ -15225,7 +15225,7 @@
      "output_heavy": 0.65,
      "cached": 0.39,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     },
     {
      "via": null,
@@ -15239,7 +15239,7 @@
      "output_heavy": 1.0,
      "cached": 0.6,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -15273,7 +15273,7 @@
     "output_heavy": 4.0,
     "cached": 1.50125,
     "region": "Global",
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -15289,7 +15289,7 @@
      "output_heavy": 4.4,
      "cached": 1.654,
      "region": "Data Zone",
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -15312,7 +15312,7 @@
     "output_heavy": 10.9375,
     "cached": 3.98825,
     "region": "Global",
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [],
@@ -15336,7 +15336,7 @@
     "output_heavy": 7.8125,
     "cached": 2.8495,
     "region": "Global",
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [],
@@ -15360,7 +15360,7 @@
     "output_heavy": 7.8125,
     "cached": 2.8495,
     "region": "Global",
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [],
@@ -15384,7 +15384,7 @@
     "output_heavy": 53.625,
     "cached": 24.54375,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [],
@@ -15408,7 +15408,7 @@
     "output_heavy": 0.4875,
     "cached": 0.2625,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [],
@@ -15432,7 +15432,7 @@
     "output_heavy": 0.24375,
     "cached": 0.13125,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [],
@@ -15456,7 +15456,7 @@
     "output_heavy": 4.0,
     "cached": 1.5275,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -15472,7 +15472,7 @@
      "output_heavy": 8.0,
      "cached": 3.055,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -15495,7 +15495,7 @@
     "output_heavy": 60.0,
     "cached": 22.9125,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": {
     "via": null,
@@ -15509,7 +15509,7 @@
     "output_heavy": 60.0,
     "cached": 22.9125,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "next_best": [],
    "sellers": [
@@ -15532,7 +15532,7 @@
     "output_heavy": 40.0,
     "cached": 15.275,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": {
     "via": null,
@@ -15546,7 +15546,7 @@
     "output_heavy": 40.0,
     "cached": 15.275,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "next_best": [],
    "sellers": [
@@ -15569,7 +15569,7 @@
     "output_heavy": 40.0,
     "cached": 14.88125,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": {
     "via": null,
@@ -15583,7 +15583,7 @@
     "output_heavy": 40.0,
     "cached": 14.88125,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "next_best": [],
    "sellers": [
@@ -15606,7 +15606,7 @@
     "output_heavy": 40.0,
     "cached": 15.275,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": {
     "via": null,
@@ -15620,7 +15620,7 @@
     "output_heavy": 40.0,
     "cached": 15.275,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "next_best": [],
    "sellers": [
@@ -15643,7 +15643,7 @@
     "output_heavy": 8.0,
     "cached": 3.0025,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": {
     "via": null,
@@ -15657,7 +15657,7 @@
     "output_heavy": 8.0,
     "cached": 3.0025,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "next_best": [
     {
@@ -15672,7 +15672,7 @@
      "output_heavy": 8.0,
      "cached": 3.0025,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -15695,7 +15695,7 @@
     "output_heavy": 3.0,
     "cached": 1.145625,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": {
     "via": null,
@@ -15709,7 +15709,7 @@
     "output_heavy": 3.0,
     "cached": 1.145625,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "next_best": [
     {
@@ -15724,7 +15724,7 @@
      "output_heavy": 3.0,
      "cached": 1.145625,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -15747,7 +15747,7 @@
     "output_heavy": 3.0,
     "cached": 1.145625,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": {
     "via": null,
@@ -15761,7 +15761,7 @@
     "output_heavy": 3.0,
     "cached": 1.145625,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "next_best": [
     {
@@ -15776,7 +15776,7 @@
      "output_heavy": 3.0,
      "cached": 1.145625,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -15799,7 +15799,7 @@
     "output_heavy": 1.95,
     "cached": 0.70825,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": {
     "via": null,
@@ -15813,7 +15813,7 @@
     "output_heavy": 1.95,
     "cached": 0.70825,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "next_best": [
     {
@@ -15828,7 +15828,7 @@
      "output_heavy": 1.95,
      "cached": 0.70825,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -15851,7 +15851,7 @@
     "output_heavy": 1.1875,
     "cached": 0.444375,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": {
     "via": null,
@@ -15865,7 +15865,7 @@
     "output_heavy": 1.1875,
     "cached": 0.444375,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "next_best": [
     {
@@ -15880,7 +15880,7 @@
      "output_heavy": 1.1875,
      "cached": 0.444375,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -15903,7 +15903,7 @@
     "output_heavy": 9.5,
     "cached": 3.555,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": {
     "via": null,
@@ -15917,7 +15917,7 @@
     "output_heavy": 9.5,
     "cached": 3.555,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "next_best": [
     {
@@ -15932,7 +15932,7 @@
      "output_heavy": 9.5,
      "cached": 3.555,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -15955,7 +15955,7 @@
     "output_heavy": 2.375,
     "cached": 0.88875,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": {
     "via": null,
@@ -15969,7 +15969,7 @@
     "output_heavy": 2.375,
     "cached": 0.88875,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "next_best": [
     {
@@ -15984,7 +15984,7 @@
      "output_heavy": 2.375,
      "cached": 0.88875,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -16007,7 +16007,7 @@
     "output_heavy": 7.8125,
     "cached": 2.846875,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": {
     "via": null,
@@ -16021,7 +16021,7 @@
     "output_heavy": 7.8125,
     "cached": 2.846875,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "next_best": [
     {
@@ -16036,7 +16036,7 @@
      "output_heavy": 7.8125,
      "cached": 2.846875,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -16059,7 +16059,7 @@
     "output_heavy": 1.95,
     "cached": 0.70825,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": {
     "via": null,
@@ -16073,7 +16073,7 @@
     "output_heavy": 1.95,
     "cached": 0.70825,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "next_best": [
     {
@@ -16088,7 +16088,7 @@
      "output_heavy": 1.95,
      "cached": 0.70825,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -16111,7 +16111,7 @@
     "output_heavy": 0.325,
     "cached": 0.12775,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": {
     "via": null,
@@ -16125,7 +16125,7 @@
     "output_heavy": 0.325,
     "cached": 0.12775,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "next_best": [
     {
@@ -16140,7 +16140,7 @@
      "output_heavy": 0.325,
      "cached": 0.12775,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -16163,7 +16163,7 @@
     "output_heavy": 0.5,
     "cached": 0.3,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -16179,7 +16179,7 @@
      "output_heavy": 0.5,
      "cached": 0.3,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -16212,7 +16212,7 @@
     "output_heavy": 0.5,
     "cached": 0.3,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -16228,7 +16228,7 @@
      "output_heavy": 0.5,
      "cached": 0.3,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -16261,7 +16261,7 @@
     "output_heavy": 1.1,
     "cached": 0.66,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -16277,7 +16277,7 @@
      "output_heavy": 1.1,
      "cached": 0.66,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -16310,7 +16310,7 @@
     "output_heavy": 3.225,
     "cached": 1.675,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -16326,7 +16326,7 @@
      "output_heavy": 3.225,
      "cached": 1.675,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -16359,7 +16359,7 @@
     "output_heavy": 1.9875,
     "cached": 1.1625,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [
@@ -16375,7 +16375,7 @@
      "output_heavy": 1.9875,
      "cached": 1.1625,
      "region": null,
-     "collected_at": "2026-11-06T03:48:02+00:00"
+     "collected_at": "2026-11-06T13:18:12+00:00"
     }
    ],
    "sellers": [
@@ -16408,7 +16408,7 @@
     "output_heavy": 1.1375,
     "cached": 0.4655,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [],
@@ -16442,7 +16442,7 @@
     "output_heavy": 3.2375,
     "cached": 1.3125,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [],
@@ -16476,7 +16476,7 @@
     "output_heavy": 0.3485,
     "cached": 0.142875,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [],
@@ -16510,7 +16510,7 @@
     "output_heavy": 0.83,
     "cached": 0.3144,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [],
@@ -16544,7 +16544,7 @@
     "output_heavy": 1.1375,
     "cached": 0.458675,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [],
@@ -16578,7 +16578,7 @@
     "output_heavy": 3.6,
     "cached": 1.422,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [],
@@ -16612,7 +16612,7 @@
     "output_heavy": 1.85,
     "cached": 0.666,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [],
@@ -16646,7 +16646,7 @@
     "output_heavy": 3.1,
     "cached": 1.3,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [],
@@ -16680,7 +16680,7 @@
     "output_heavy": 1.2,
     "cached": 0.474,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [],
@@ -16714,7 +16714,7 @@
     "output_heavy": 2.5,
     "cached": 0.932,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [],
@@ -16748,7 +16748,7 @@
     "output_heavy": 1.875,
     "cached": 0.699,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [],
@@ -16782,7 +16782,7 @@
     "output_heavy": 1.5625,
     "cached": 0.5825,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [],
@@ -16816,7 +16816,7 @@
     "output_heavy": 1.42825,
     "cached": 0.6772,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [],
@@ -16850,7 +16850,7 @@
     "output_heavy": 0.39325,
     "cached": 0.186615,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [],
@@ -16884,7 +16884,7 @@
     "output_heavy": 0.39325,
     "cached": 0.186615,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [],
@@ -16918,7 +16918,7 @@
     "output_heavy": 0.39325,
     "cached": 0.186615,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [],
@@ -16952,7 +16952,7 @@
     "output_heavy": 1.42825,
     "cached": 0.6772,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [],
@@ -16986,7 +16986,7 @@
     "output_heavy": 1.8,
     "cached": 0.74275,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [],
@@ -17020,7 +17020,7 @@
     "output_heavy": 1.8,
     "cached": 0.74275,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [],
@@ -17054,7 +17054,7 @@
     "output_heavy": 2.4,
     "cached": 0.9375,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [],
@@ -17088,7 +17088,7 @@
     "output_heavy": 0.76125,
     "cached": 0.317265,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [],
@@ -17122,7 +17122,7 @@
     "output_heavy": 0.245,
     "cached": 0.10297,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [],
@@ -17156,7 +17156,7 @@
     "output_heavy": 4.8,
     "cached": 1.8015,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [],
@@ -17180,7 +17180,7 @@
     "output_heavy": 0.37,
     "cached": 0.31,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [],
@@ -17214,7 +17214,7 @@
     "output_heavy": 1.76,
     "cached": 0.92,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [],
@@ -17248,7 +17248,7 @@
     "output_heavy": 0.3275,
     "cached": 0.2025,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [],
@@ -17282,7 +17282,7 @@
     "output_heavy": 0.2,
     "cached": 0.2,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [],
@@ -17316,7 +17316,7 @@
     "output_heavy": 0.175,
     "cached": 0.125,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [],
@@ -17350,7 +17350,7 @@
     "output_heavy": 1.5125,
     "cached": 0.7375,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [],
@@ -17384,7 +17384,7 @@
     "output_heavy": 0.975,
     "cached": 0.399,
     "region": null,
-    "collected_at": "2026-11-06T03:48:02+00:00"
+    "collected_at": "2026-11-06T13:18:12+00:00"
    },
    "direct": null,
    "next_best": [],
