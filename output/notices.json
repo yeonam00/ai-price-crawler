@@ -1,5 +1,5 @@
 {
- "collected_at": "2026-11-06T13:19:50+00:00",
+ "collected_at": "2026-11-06T22:37:37+00:00",
  "sources": [
   {
    "id": "anthropic_deprecations",
@@ -26,14 +26,14 @@
    "id": "google_deprecations",
    "url": "https://ai.google.dev/gemini-api/docs/deprecations",
    "ok": true,
-   "count": 22,
+   "count": 24,
    "error": null
   },
   {
    "id": "google_changelog",
    "url": "https://ai.google.dev/gemini-api/docs/changelog",
    "ok": true,
-   "count": 1,
+   "count": 2,
    "error": null
   },
   {
@@ -59,6 +59,18 @@
   }
  ],
  "notices": [
+  {
+   "vendor": "google",
+   "kind": "retire",
+   "date": "2026-11-06",
+   "label": "gemini-embedding-2-preview",
+   "model": null,
+   "text": null,
+   "source": "google_deprecations",
+   "url": "https://ai.google.dev/gemini-api/docs/deprecations",
+   "replacement": "gemini-embedding-2 (effective November 6, 2026, API requests to gemini-embedding-2-preview route to gemini-embedding-2)",
+   "first_seen": "2026-11-06T22:37:37+00:00"
+  },
   {
    "vendor": "google",
    "kind": "retire",
