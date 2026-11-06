@@ -1,5 +1,5 @@
 {
- "collected_at": "2026-11-05T22:58:47+00:00",
+ "collected_at": "2026-11-06T03:49:38+00:00",
  "sources": [
   {
    "id": "anthropic_deprecations",
@@ -33,7 +33,7 @@
    "id": "google_changelog",
    "url": "https://ai.google.dev/gemini-api/docs/changelog",
    "ok": true,
-   "count": 2,
+   "count": 1,
    "error": null
   },
   {
@@ -59,18 +59,6 @@
   }
  ],
  "notices": [
-  {
-   "vendor": "google",
-   "kind": "price",
-   "date": "2026-11-05",
-   "label": "gemini-omni-1.2-flash",
-   "model": null,
-   "text": "…5, 2026 link Gemini Omni 1.2 Flash generally available (GA): Releas…",
-   "source": "google_changelog",
-   "url": "https://ai.google.dev/gemini-api/docs/changelog",
-   "replacement": null,
-   "first_seen": "2026-11-05T22:58:47+00:00"
-  },
   {
    "vendor": "google",
    "kind": "retire",
