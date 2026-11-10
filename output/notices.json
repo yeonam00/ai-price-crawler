@@ -1,5 +1,5 @@
 {
- "collected_at": "2026-11-10T00:55:21+00:00",
+ "collected_at": "2026-11-10T13:51:59+00:00",
  "sources": [
   {
    "id": "anthropic_deprecations",
@@ -40,7 +40,7 @@
    "id": "openai_deprecations",
    "url": "https://developers.openai.com/api/docs/deprecations",
    "ok": true,
-   "count": 35,
+   "count": 36,
    "error": null
   },
   {
@@ -550,6 +550,18 @@
    "url": "https://developers.openai.com/api/docs/deprecations",
    "replacement": "The most capable cyber model available to you.",
    "first_seen": "2026-11-05T22:58:47+00:00"
+  },
+  {
+   "vendor": "openai",
+   "kind": "retire",
+   "date": "2027-02-10",
+   "label": "gpt-image-2 | gpt-image-2-2026-04-21",
+   "model": null,
+   "text": null,
+   "source": "openai_deprecations",
+   "url": "https://developers.openai.com/api/docs/deprecations",
+   "replacement": "gpt-image-2.6-sunburst or gpt-image-2.6-flare",
+   "first_seen": "2026-11-10T13:51:59+00:00"
   },
   {
    "vendor": "openai",
