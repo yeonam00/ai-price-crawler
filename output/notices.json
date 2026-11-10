@@ -1,5 +1,5 @@
 {
- "collected_at": "2026-11-10T13:51:59+00:00",
+ "collected_at": "2026-11-10T22:37:31+00:00",
  "sources": [
   {
    "id": "anthropic_deprecations",
@@ -33,7 +33,7 @@
    "id": "google_changelog",
    "url": "https://ai.google.dev/gemini-api/docs/changelog",
    "ok": true,
-   "count": 1,
+   "count": 2,
    "error": null
   },
   {
@@ -59,6 +59,18 @@
   }
  ],
  "notices": [
+  {
+   "vendor": "google",
+   "kind": "price",
+   "date": "2026-11-10",
+   "label": "Gemini 4 Carbon",
+   "model": "gemini-4-carbon",
+   "text": "…10, 2026 link Gemini 4 Carbon (gemini-4-carbon) generally available …",
+   "source": "google_changelog",
+   "url": "https://ai.google.dev/gemini-api/docs/changelog",
+   "replacement": null,
+   "first_seen": "2026-11-10T22:37:31+00:00"
+  },
   {
    "vendor": "google",
    "kind": "retire",
