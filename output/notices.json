@@ -1,5 +1,5 @@
 {
- "collected_at": "2026-11-09T14:29:14+00:00",
+ "collected_at": "2026-11-10T00:55:21+00:00",
  "sources": [
   {
    "id": "anthropic_deprecations",
@@ -327,13 +327,13 @@
    "vendor": "openai",
    "kind": "price",
    "date": "2026-12-31",
-   "label": "gpt-6-astra-law",
-   "model": "gpt-6-astra-law",
-   "text": "Model configuration Input Output Cached input gpt-6-astra-law $10.00 $50.00 $1.00 GPT-6 Astra for Law promotional pricing is available at least through December 31, 2026.",
+   "label": "gpt-6-cyber",
+   "model": null,
+   "text": "…gpt-6-astra-law $10.00 $50.00 $1.00 - - ChatGPT chat-latest $5.00 $30.00 $0.50 - - All models GPT-6 Astra for Law promotional pricing is available at least through December 31, 2026.…",
    "source": "openai_pricing",
    "url": "https://developers.openai.com/api/docs/pricing",
    "replacement": null,
-   "first_seen": "2026-11-01T21:00:58+09:00"
+   "first_seen": "2026-11-10T00:55:21+00:00"
   },
   {
    "vendor": "openai",
