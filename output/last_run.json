@@ -1,8 +1,8 @@
 {
- "collected_at": "2026-11-12T14:02:36+00:00",
+ "collected_at": "2026-11-12T22:55:31+00:00",
  "site_count": 50,
  "success_count": 47,
- "model_count": 13326,
+ "model_count": 13385,
  "sites": [
   {
    "id": "pleum",
@@ -12,7 +12,7 @@
    "ok": true,
    "model_count": 285,
    "error": null,
-   "seconds": 0.9
+   "seconds": 1.1
   },
   {
    "id": "gabia_aihub",
@@ -22,7 +22,7 @@
    "ok": false,
    "model_count": 0,
    "error": "가격 표를 찾지 못함 (raw 파일의 page_text/unparsed_tables 확인 -> 전용 파서 필요)",
-   "seconds": 3.2,
+   "seconds": 2.9,
    "carried_over": 154
   },
   {
@@ -31,9 +31,9 @@
    "url": "https://bizrouter.ai/models",
    "method": "api:bizrouter",
    "ok": true,
-   "model_count": 127,
+   "model_count": 128,
    "error": null,
-   "seconds": 1.1
+   "seconds": 1.0
   },
   {
    "id": "openrouter",
@@ -41,9 +41,9 @@
    "url": "https://openrouter.ai/models",
    "method": "api:openrouter",
    "ok": true,
-   "model_count": 980,
+   "model_count": 990,
    "error": null,
-   "seconds": 0.8
+   "seconds": 0.7
   },
   {
    "id": "vercel",
@@ -51,7 +51,7 @@
    "url": "https://vercel.com/ai-gateway/models",
    "method": "api:vercel",
    "ok": true,
-   "model_count": 507,
+   "model_count": 509,
    "error": null,
    "seconds": 0.1
   },
@@ -61,7 +61,7 @@
    "url": "https://models.litellm.ai/",
    "method": "api:litellm",
    "ok": true,
-   "model_count": 5919,
+   "model_count": 5945,
    "error": null,
    "seconds": 0.1
   },
@@ -71,9 +71,9 @@
    "url": "https://developers.cloudflare.com/workers-ai/platform/pricing/",
    "method": "browser",
    "ok": true,
-   "model_count": 54,
+   "model_count": 56,
    "error": null,
-   "seconds": 3.3
+   "seconds": 3.2
   },
   {
    "id": "requesty",
@@ -81,7 +81,7 @@
    "url": "https://www.requesty.ai/models",
    "method": "api:requesty",
    "ok": true,
-   "model_count": 745,
+   "model_count": 750,
    "error": null,
    "seconds": 0.8
   },
@@ -91,9 +91,9 @@
    "url": "https://app.edenai.run/models",
    "method": "api:edenai",
    "ok": true,
-   "model_count": 1280,
+   "model_count": 1283,
    "error": null,
-   "seconds": 1.5
+   "seconds": 1.7
   },
   {
    "id": "fal",
@@ -103,7 +103,7 @@
    "ok": true,
    "model_count": 761,
    "error": null,
-   "seconds": 10.3
+   "seconds": 8.7
   },
   {
    "id": "replicate",
@@ -123,7 +123,7 @@
    "ok": true,
    "model_count": 190,
    "error": null,
-   "seconds": 17.7
+   "seconds": 16.8
   },
   {
    "id": "bedrock",
@@ -133,7 +133,7 @@
    "ok": true,
    "model_count": 198,
    "error": null,
-   "seconds": 6.7
+   "seconds": 5.3
   },
   {
    "id": "google_cloud",
@@ -141,9 +141,9 @@
    "url": "https://cloud.google.com/gemini-enterprise-agent-platform/generative-ai/pricing",
    "method": "browser",
    "ok": true,
-   "model_count": 139,
+   "model_count": 142,
    "error": null,
-   "seconds": 8.1
+   "seconds": 8.9
   },
   {
    "id": "openai",
@@ -153,7 +153,7 @@
    "ok": true,
    "model_count": 42,
    "error": null,
-   "seconds": 3.8
+   "seconds": 3.6
   },
   {
    "id": "anthropic",
@@ -163,7 +163,7 @@
    "ok": true,
    "model_count": 26,
    "error": null,
-   "seconds": 5.3
+   "seconds": 5.2
   },
   {
    "id": "google",
@@ -171,9 +171,9 @@
    "url": "https://ai.google.dev/gemini-api/docs/pricing",
    "method": "browser",
    "ok": true,
-   "model_count": 70,
+   "model_count": 72,
    "error": null,
-   "seconds": 7.2
+   "seconds": 8.2
   },
   {
    "id": "deepseek",
@@ -183,7 +183,7 @@
    "ok": true,
    "model_count": 4,
    "error": null,
-   "seconds": 4.0
+   "seconds": 3.6
   },
   {
    "id": "xai",
@@ -193,7 +193,7 @@
    "ok": true,
    "model_count": 32,
    "error": null,
-   "seconds": 7.6
+   "seconds": 18.2
   },
   {
    "id": "zai",
@@ -203,7 +203,7 @@
    "ok": true,
    "model_count": 22,
    "error": null,
-   "seconds": 3.5
+   "seconds": 3.4
   },
   {
    "id": "xiaomi_mimo",
@@ -213,7 +213,7 @@
    "ok": true,
    "model_count": 5,
    "error": null,
-   "seconds": 16.3
+   "seconds": 16.1
   },
   {
    "id": "alibaba_qwen",
@@ -223,7 +223,7 @@
    "ok": true,
    "model_count": 95,
    "error": null,
-   "seconds": 11.1
+   "seconds": 9.4
   },
   {
    "id": "kling",
@@ -233,7 +233,7 @@
    "ok": true,
    "model_count": 27,
    "error": null,
-   "seconds": 7.9
+   "seconds": 11.6
   },
   {
    "id": "bfl_flux",
@@ -243,7 +243,7 @@
    "ok": true,
    "model_count": 2,
    "error": null,
-   "seconds": 4.1
+   "seconds": 4.0
   },
   {
    "id": "minimax",
@@ -253,7 +253,7 @@
    "ok": true,
    "model_count": 5,
    "error": null,
-   "seconds": 18.0
+   "seconds": 18.1
   },
   {
    "id": "seedance",
@@ -261,9 +261,9 @@
    "url": "https://docs.byteplus.com/ko/docs/modelark/model-pricing",
    "method": "browser",
    "ok": true,
-   "model_count": 112,
+   "model_count": 113,
    "error": null,
-   "seconds": 19.2
+   "seconds": 18.8
   },
   {
    "id": "elevenlabs",
@@ -273,7 +273,7 @@
    "ok": true,
    "model_count": 18,
    "error": null,
-   "seconds": 7.4
+   "seconds": 7.1
   },
   {
    "id": "ideogram",
@@ -283,7 +283,7 @@
    "ok": false,
    "model_count": 0,
    "error": "가격 표를 찾지 못함 (raw 파일의 page_text/unparsed_tables 확인 -> 전용 파서 필요)",
-   "seconds": 3.3,
+   "seconds": 3.5,
    "carried_over": 221
   },
   {
@@ -294,7 +294,7 @@
    "ok": true,
    "model_count": 10,
    "error": null,
-   "seconds": 4.1
+   "seconds": 4.0
   },
   {
    "id": "inference_net",
@@ -304,7 +304,7 @@
    "ok": true,
    "model_count": 84,
    "error": null,
-   "seconds": 0.5
+   "seconds": 0.4
   },
   {
    "id": "sailresearch",
@@ -314,7 +314,7 @@
    "ok": true,
    "model_count": 36,
    "error": null,
-   "seconds": 4.3
+   "seconds": 3.8
   },
   {
    "id": "decart",
@@ -324,7 +324,7 @@
    "ok": true,
    "model_count": 2,
    "error": null,
-   "seconds": 4.3
+   "seconds": 4.1
   },
   {
    "id": "deepinfra",
@@ -334,7 +334,7 @@
    "ok": true,
    "model_count": 201,
    "error": null,
-   "seconds": 2.9
+   "seconds": 2.8
   },
   {
    "id": "streamlake",
@@ -344,7 +344,7 @@
    "ok": true,
    "model_count": 50,
    "error": null,
-   "seconds": 8.2
+   "seconds": 6.3
   },
   {
    "id": "atlascloud",
@@ -354,7 +354,7 @@
    "ok": true,
    "model_count": 20,
    "error": null,
-   "seconds": 18.7
+   "seconds": 18.2
   },
   {
    "id": "digitalocean",
@@ -374,7 +374,7 @@
    "ok": true,
    "model_count": 116,
    "error": null,
-   "seconds": 0.6
+   "seconds": 0.5
   },
   {
    "id": "coreweave",
@@ -384,7 +384,7 @@
    "ok": true,
    "model_count": 20,
    "error": null,
-   "seconds": 6.8
+   "seconds": 5.2
   },
   {
    "id": "nextbit",
@@ -404,7 +404,7 @@
    "ok": true,
    "model_count": 26,
    "error": null,
-   "seconds": 0.4
+   "seconds": 0.1
   },
   {
    "id": "novita",
@@ -414,7 +414,7 @@
    "ok": true,
    "model_count": 108,
    "error": null,
-   "seconds": 4.3
+   "seconds": 4.7
   },
   {
    "id": "makora",
@@ -424,7 +424,7 @@
    "ok": true,
    "model_count": 7,
    "error": null,
-   "seconds": 0.9
+   "seconds": 0.3
   },
   {
    "id": "baidu_qianfan",
@@ -434,7 +434,7 @@
    "ok": true,
    "model_count": 25,
    "error": null,
-   "seconds": 10.6
+   "seconds": 13.5
   },
   {
    "id": "baseten",
@@ -444,7 +444,7 @@
    "ok": false,
    "model_count": 0,
    "error": "가격 표를 찾지 못함 (raw 파일의 page_text/unparsed_tables 확인 -> 전용 파서 필요)",
-   "seconds": 5.9,
+   "seconds": 5.5,
    "carried_over": 19
   },
   {
@@ -453,9 +453,9 @@
    "url": "https://www.together.ai/pricing",
    "method": "browser",
    "ok": true,
-   "model_count": 151,
+   "model_count": 153,
    "error": null,
-   "seconds": 18.7
+   "seconds": 18.3
   },
   {
    "id": "siliconflow",
@@ -465,7 +465,7 @@
    "ok": true,
    "model_count": 27,
    "error": null,
-   "seconds": 5.6
+   "seconds": 4.7
   },
   {
    "id": "parasail",
@@ -475,7 +475,7 @@
    "ok": true,
    "model_count": 76,
    "error": null,
-   "seconds": 4.9
+   "seconds": 4.8
   },
   {
    "id": "fireworks",
@@ -485,7 +485,7 @@
    "ok": true,
    "model_count": 9,
    "error": null,
-   "seconds": 6.2
+   "seconds": 6.9
   },
   {
    "id": "venice",
@@ -493,9 +493,9 @@
    "url": "https://docs.venice.ai/models/overview",
    "method": "api:venice",
    "ok": true,
-   "model_count": 139,
+   "model_count": 141,
    "error": null,
-   "seconds": 0.3
+   "seconds": 0.2
   },
   {
    "id": "friendli",
@@ -505,7 +505,7 @@
    "ok": true,
    "model_count": 5,
    "error": null,
-   "seconds": 19.7
+   "seconds": 19.0
   }
  ],
  "changed": true
