@@ -333,3 +333,4 @@
 {"at": "2026-11-19T14:45:13+00:00", "confirmed_at": "2026-11-20T14:45:13+00:00", "model": "deepseek-v4-pro-0424", "event": "price_change", "old": 1.625, "new": 0.875, "change_pct": -46.15, "old_seller": "requesty", "new_seller": "requesty"}
 {"at": "2026-11-19T14:45:13+00:00", "confirmed_at": "2026-11-20T14:45:13+00:00", "model": "deepseek-v4-pro-0424", "event": "price_change", "old": 2.275, "new": 1.625, "change_pct": -28.57, "old_seller": "requesty", "new_seller": "requesty", "item": "output_heavy"}
 {"at": "2026-11-19T14:45:13+00:00", "confirmed_at": "2026-11-20T14:45:13+00:00", "model": "deepseek-v4-pro-0424", "event": "price_change", "old": 0.995, "new": 0.63875, "change_pct": -35.8, "old_seller": "requesty", "new_seller": "requesty", "item": "cached"}
+{"at": "2026-11-20T04:50:56+00:00", "confirmed_at": "2026-11-21T13:46:18+00:00", "model": "qwen-plus-0714", "event": "gone", "old": 0.39, "old_seller": "edenai"}
