@@ -1,8 +1,8 @@
 {
- "collected_at": "2026-11-24T03:30:07+00:00",
+ "collected_at": "2026-11-24T16:32:58+00:00",
  "site_count": 50,
- "success_count": 47,
- "model_count": 15023,
+ "success_count": 46,
+ "model_count": 15018,
  "sites": [
   {
    "id": "pleum",
@@ -10,9 +10,9 @@
    "url": "https://router.pleum.ai/models",
    "method": "api:pleum",
    "ok": true,
-   "model_count": 292,
+   "model_count": 297,
    "error": null,
-   "seconds": 2.0
+   "seconds": 2.4
   },
   {
    "id": "gabia_aihub",
@@ -22,7 +22,7 @@
    "ok": false,
    "model_count": 0,
    "error": "가격 표를 찾지 못함 (raw 파일의 page_text/unparsed_tables 확인 -> 전용 파서 필요)",
-   "seconds": 3.0,
+   "seconds": 3.4,
    "carried_over": 154
   },
   {
@@ -33,7 +33,7 @@
    "ok": true,
    "model_count": 129,
    "error": null,
-   "seconds": 1.0
+   "seconds": 1.3
   },
   {
    "id": "openrouter",
@@ -41,9 +41,9 @@
    "url": "https://openrouter.ai/models",
    "method": "api:openrouter",
    "ok": true,
-   "model_count": 988,
+   "model_count": 969,
    "error": null,
-   "seconds": 0.8
+   "seconds": 2.3
   },
   {
    "id": "vercel",
@@ -51,7 +51,7 @@
    "url": "https://vercel.com/ai-gateway/models",
    "method": "api:vercel",
    "ok": true,
-   "model_count": 519,
+   "model_count": 518,
    "error": null,
    "seconds": 0.1
   },
@@ -61,7 +61,7 @@
    "url": "https://models.litellm.ai/",
    "method": "api:litellm",
    "ok": true,
-   "model_count": 7151,
+   "model_count": 7157,
    "error": null,
    "seconds": 0.1
   },
@@ -73,7 +73,7 @@
    "ok": true,
    "model_count": 57,
    "error": null,
-   "seconds": 4.3
+   "seconds": 4.5
   },
   {
    "id": "requesty",
@@ -81,9 +81,9 @@
    "url": "https://www.requesty.ai/models",
    "method": "api:requesty",
    "ok": true,
-   "model_count": 783,
+   "model_count": 778,
    "error": null,
-   "seconds": 0.6
+   "seconds": 0.4
   },
   {
    "id": "edenai",
@@ -91,9 +91,9 @@
    "url": "https://app.edenai.run/models",
    "method": "api:edenai",
    "ok": true,
-   "model_count": 1422,
+   "model_count": 1424,
    "error": null,
-   "seconds": 1.4
+   "seconds": 1.2
   },
   {
    "id": "fal",
@@ -103,7 +103,7 @@
    "ok": true,
    "model_count": 763,
    "error": null,
-   "seconds": 7.5
+   "seconds": 10.1
   },
   {
    "id": "replicate",
@@ -113,7 +113,7 @@
    "ok": true,
    "model_count": 18,
    "error": null,
-   "seconds": 3.7
+   "seconds": 3.8
   },
   {
    "id": "azure",
@@ -123,7 +123,7 @@
    "ok": true,
    "model_count": 203,
    "error": null,
-   "seconds": 17.9
+   "seconds": 17.8
   },
   {
    "id": "bedrock",
@@ -133,7 +133,7 @@
    "ok": true,
    "model_count": 198,
    "error": null,
-   "seconds": 5.7
+   "seconds": 6.3
   },
   {
    "id": "google_cloud",
@@ -143,7 +143,7 @@
    "ok": true,
    "model_count": 148,
    "error": null,
-   "seconds": 6.2
+   "seconds": 8.2
   },
   {
    "id": "openai",
@@ -153,7 +153,7 @@
    "ok": true,
    "model_count": 54,
    "error": null,
-   "seconds": 3.2
+   "seconds": 3.9
   },
   {
    "id": "anthropic",
@@ -163,7 +163,7 @@
    "ok": true,
    "model_count": 26,
    "error": null,
-   "seconds": 4.1
+   "seconds": 4.5
   },
   {
    "id": "google",
@@ -173,7 +173,7 @@
    "ok": true,
    "model_count": 76,
    "error": null,
-   "seconds": 5.4
+   "seconds": 6.8
   },
   {
    "id": "deepseek",
@@ -183,7 +183,7 @@
    "ok": true,
    "model_count": 4,
    "error": null,
-   "seconds": 3.6
+   "seconds": 4.1
   },
   {
    "id": "xai",
@@ -193,7 +193,7 @@
    "ok": true,
    "model_count": 14,
    "error": null,
-   "seconds": 17.6
+   "seconds": 7.6
   },
   {
    "id": "zai",
@@ -203,7 +203,7 @@
    "ok": true,
    "model_count": 22,
    "error": null,
-   "seconds": 3.4
+   "seconds": 3.5
   },
   {
    "id": "xiaomi_mimo",
@@ -213,7 +213,7 @@
    "ok": true,
    "model_count": 5,
    "error": null,
-   "seconds": 15.9
+   "seconds": 17.2
   },
   {
    "id": "alibaba_qwen",
@@ -223,7 +223,7 @@
    "ok": false,
    "model_count": 0,
    "error": "가격 표를 찾지 못함 (raw 파일의 page_text/unparsed_tables 확인 -> 전용 파서 필요)",
-   "seconds": 9.4,
+   "seconds": 10.2,
    "carried_over": 99
   },
   {
@@ -234,7 +234,7 @@
    "ok": true,
    "model_count": 27,
    "error": null,
-   "seconds": 6.8
+   "seconds": 9.8
   },
   {
    "id": "bfl_flux",
@@ -244,7 +244,7 @@
    "ok": true,
    "model_count": 2,
    "error": null,
-   "seconds": 3.5
+   "seconds": 4.1
   },
   {
    "id": "minimax",
@@ -254,7 +254,7 @@
    "ok": true,
    "model_count": 5,
    "error": null,
-   "seconds": 17.9
+   "seconds": 17.6
   },
   {
    "id": "seedance",
@@ -264,7 +264,7 @@
    "ok": true,
    "model_count": 117,
    "error": null,
-   "seconds": 15.4
+   "seconds": 18.8
   },
   {
    "id": "elevenlabs",
@@ -274,7 +274,7 @@
    "ok": true,
    "model_count": 18,
    "error": null,
-   "seconds": 6.8
+   "seconds": 8.0
   },
   {
    "id": "ideogram",
@@ -284,7 +284,7 @@
    "ok": true,
    "model_count": 412,
    "error": null,
-   "seconds": 17.6
+   "seconds": 17.5
   },
   {
    "id": "relace",
@@ -294,7 +294,7 @@
    "ok": true,
    "model_count": 10,
    "error": null,
-   "seconds": 3.7
+   "seconds": 3.8
   },
   {
    "id": "inference_net",
@@ -304,7 +304,7 @@
    "ok": true,
    "model_count": 84,
    "error": null,
-   "seconds": 0.4
+   "seconds": 0.5
   },
   {
    "id": "sailresearch",
@@ -314,7 +314,7 @@
    "ok": true,
    "model_count": 33,
    "error": null,
-   "seconds": 4.2
+   "seconds": 4.1
   },
   {
    "id": "decart",
@@ -324,7 +324,7 @@
    "ok": true,
    "model_count": 2,
    "error": null,
-   "seconds": 4.1
+   "seconds": 4.9
   },
   {
    "id": "deepinfra",
@@ -334,7 +334,7 @@
    "ok": true,
    "model_count": 203,
    "error": null,
-   "seconds": 3.4
+   "seconds": 4.1
   },
   {
    "id": "streamlake",
@@ -344,7 +344,7 @@
    "ok": true,
    "model_count": 50,
    "error": null,
-   "seconds": 6.4
+   "seconds": 8.0
   },
   {
    "id": "atlascloud",
@@ -354,7 +354,7 @@
    "ok": true,
    "model_count": 20,
    "error": null,
-   "seconds": 18.2
+   "seconds": 18.9
   },
   {
    "id": "digitalocean",
@@ -364,7 +364,7 @@
    "ok": true,
    "model_count": 148,
    "error": null,
-   "seconds": 17.6
+   "seconds": 17.7
   },
   {
    "id": "gmicloud",
@@ -374,7 +374,7 @@
    "ok": true,
    "model_count": 112,
    "error": null,
-   "seconds": 0.6
+   "seconds": 0.5
   },
   {
    "id": "coreweave",
@@ -384,7 +384,7 @@
    "ok": true,
    "model_count": 24,
    "error": null,
-   "seconds": 5.1
+   "seconds": 6.2
   },
   {
    "id": "nextbit",
@@ -404,7 +404,7 @@
    "ok": true,
    "model_count": 33,
    "error": null,
-   "seconds": 0.2
+   "seconds": 0.3
   },
   {
    "id": "novita",
@@ -412,9 +412,9 @@
    "url": "https://novita.ai/pricing",
    "method": "browser",
    "ok": true,
-   "model_count": 111,
+   "model_count": 115,
    "error": null,
-   "seconds": 4.3
+   "seconds": 4.4
   },
   {
    "id": "makora",
@@ -434,7 +434,7 @@
    "ok": true,
    "model_count": 25,
    "error": null,
-   "seconds": 9.4
+   "seconds": 27.2
   },
   {
    "id": "baseten",
@@ -444,7 +444,7 @@
    "ok": false,
    "model_count": 0,
    "error": "가격 표를 찾지 못함 (raw 파일의 page_text/unparsed_tables 확인 -> 전용 파서 필요)",
-   "seconds": 5.3,
+   "seconds": 5.8,
    "carried_over": 19
   },
   {
@@ -455,7 +455,7 @@
    "ok": true,
    "model_count": 160,
    "error": null,
-   "seconds": 18.2
+   "seconds": 18.6
   },
   {
    "id": "siliconflow",
@@ -463,19 +463,21 @@
    "url": "https://www.siliconflow.com/pricing",
    "method": "browser",
    "ok": true,
-   "model_count": 27,
+   "model_count": 29,
    "error": null,
-   "seconds": 4.4
+   "seconds": 4.8
   },
   {
    "id": "parasail",
    "name": "parasail",
    "url": "https://www.parasail.io/pricing",
    "method": "browser",
-   "ok": true,
-   "model_count": 76,
-   "error": null,
-   "seconds": 5.1
+   "ok": false,
+   "model_count": 42,
+   "error": "행 수 급감 76 -> 42 (파싱 이상 의심), 직전 데이터 유지 (1/4회)",
+   "seconds": 5.9,
+   "degraded_runs": 1,
+   "carried_over": 76
   },
   {
    "id": "fireworks",
@@ -485,7 +487,7 @@
    "ok": true,
    "model_count": 9,
    "error": null,
-   "seconds": 6.1
+   "seconds": 4.3
   },
   {
    "id": "venice",
@@ -493,9 +495,9 @@
    "url": "https://docs.venice.ai/models/overview",
    "method": "api:venice",
    "ok": true,
-   "model_count": 147,
+   "model_count": 148,
    "error": null,
-   "seconds": 0.2
+   "seconds": 0.3
   },
   {
    "id": "friendli",
@@ -505,7 +507,7 @@
    "ok": true,
    "model_count": 4,
    "error": null,
-   "seconds": 18.4
+   "seconds": 19.5
   }
  ],
  "changed": true
