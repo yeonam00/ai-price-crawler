@@ -1,11 +1,11 @@
 {
- "collected_at": "2026-11-23T16:37:59+00:00",
+ "collected_at": "2026-11-24T03:31:39+00:00",
  "sources": [
   {
    "id": "anthropic_deprecations",
    "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
    "ok": true,
-   "count": 1,
+   "count": 2,
    "error": null
   },
   {
@@ -19,7 +19,7 @@
    "id": "anthropic_releases",
    "url": "https://platform.claude.com/docs/en/release-notes/overview",
    "ok": true,
-   "count": 2,
+   "count": 3,
    "error": null
   },
   {
@@ -202,6 +202,18 @@
    "url": "https://developers.openai.com/api/docs/pricing",
    "replacement": null,
    "first_seen": "2026-11-10T00:55:21+00:00"
+  },
+  {
+   "vendor": "anthropic",
+   "kind": "retire",
+   "date": "2027-01-22",
+   "label": "claude-opus-4-5-20251101",
+   "model": "claude-opus-4.5",
+   "text": null,
+   "source": "anthropic_deprecations",
+   "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+   "replacement": "claude-opus-5-5",
+   "first_seen": "2026-11-24T03:31:39+00:00"
   },
   {
    "vendor": "openai",
