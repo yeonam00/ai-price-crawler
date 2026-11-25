@@ -1,5 +1,5 @@
 {
- "collected_at": "2026-11-24T16:34:39+00:00",
+ "collected_at": "2026-11-25T01:41:54+00:00",
  "sources": [
   {
    "id": "anthropic_deprecations",
@@ -197,7 +197,7 @@
    "date": "2026-12-31",
    "label": "gpt-6-cyber",
    "model": null,
-   "text": "…- ChatGPT chat-latest $5.00 $30.00 $0.50 - - All models GPT-6 Astra for Law, GPT-6.2 Astra for Law, and GPT-6 Rosalind promotional pricing is available at least through December 31, 2026.…",
+   "text": "…GPT-6 Rosalind, GPT-6.2 Astra Healthcare, GPT-6.2 Sol Healthcare, GPT-6 Astra Healthcare, and GPT-6.1 Sol Healthcare promotional pricing is available at least through December 31, 2026.…",
    "source": "openai_pricing",
    "url": "https://developers.openai.com/api/docs/pricing",
    "replacement": null,
