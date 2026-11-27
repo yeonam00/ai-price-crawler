@@ -1,8 +1,8 @@
 {
- "collected_at": "2026-11-26T15:52:34+00:00",
+ "collected_at": "2026-11-27T01:11:55+00:00",
  "site_count": 50,
  "success_count": 47,
- "model_count": 15013,
+ "model_count": 15014,
  "sites": [
   {
    "id": "pleum",
@@ -10,9 +10,9 @@
    "url": "https://router.pleum.ai/models",
    "method": "api:pleum",
    "ok": true,
-   "model_count": 295,
+   "model_count": 294,
    "error": null,
-   "seconds": 1.6
+   "seconds": 1.4
   },
   {
    "id": "gabia_aihub",
@@ -22,7 +22,7 @@
    "ok": false,
    "model_count": 0,
    "error": "가격 표를 찾지 못함 (raw 파일의 page_text/unparsed_tables 확인 -> 전용 파서 필요)",
-   "seconds": 3.6,
+   "seconds": 2.9,
    "carried_over": 154
   },
   {
@@ -41,9 +41,9 @@
    "url": "https://openrouter.ai/models",
    "method": "api:openrouter",
    "ok": true,
-   "model_count": 977,
+   "model_count": 979,
    "error": null,
-   "seconds": 0.9
+   "seconds": 1.2
   },
   {
    "id": "vercel",
@@ -51,9 +51,9 @@
    "url": "https://vercel.com/ai-gateway/models",
    "method": "api:vercel",
    "ok": true,
-   "model_count": 518,
+   "model_count": 519,
    "error": null,
-   "seconds": 0.1
+   "seconds": 0.3
   },
   {
    "id": "litellm",
@@ -73,7 +73,7 @@
    "ok": true,
    "model_count": 57,
    "error": null,
-   "seconds": 3.2
+   "seconds": 4.2
   },
   {
    "id": "requesty",
@@ -81,9 +81,9 @@
    "url": "https://www.requesty.ai/models",
    "method": "api:requesty",
    "ok": true,
-   "model_count": 766,
+   "model_count": 760,
    "error": null,
-   "seconds": 0.4
+   "seconds": 0.2
   },
   {
    "id": "edenai",
@@ -93,7 +93,7 @@
    "ok": true,
    "model_count": 1447,
    "error": null,
-   "seconds": 2.1
+   "seconds": 1.1
   },
   {
    "id": "fal",
@@ -103,7 +103,7 @@
    "ok": true,
    "model_count": 767,
    "error": null,
-   "seconds": 9.0
+   "seconds": 12.3
   },
   {
    "id": "replicate",
@@ -113,7 +113,7 @@
    "ok": true,
    "model_count": 18,
    "error": null,
-   "seconds": 3.7
+   "seconds": 3.2
   },
   {
    "id": "azure",
@@ -123,7 +123,7 @@
    "ok": true,
    "model_count": 203,
    "error": null,
-   "seconds": 15.0
+   "seconds": 14.6
   },
   {
    "id": "bedrock",
@@ -133,7 +133,7 @@
    "ok": true,
    "model_count": 198,
    "error": null,
-   "seconds": 5.9
+   "seconds": 6.4
   },
   {
    "id": "google_cloud",
@@ -143,7 +143,7 @@
    "ok": true,
    "model_count": 148,
    "error": null,
-   "seconds": 6.7
+   "seconds": 7.9
   },
   {
    "id": "openai",
@@ -153,7 +153,7 @@
    "ok": true,
    "model_count": 58,
    "error": null,
-   "seconds": 3.4
+   "seconds": 3.3
   },
   {
    "id": "anthropic",
@@ -163,7 +163,7 @@
    "ok": true,
    "model_count": 26,
    "error": null,
-   "seconds": 4.6
+   "seconds": 3.9
   },
   {
    "id": "google",
@@ -173,7 +173,7 @@
    "ok": true,
    "model_count": 76,
    "error": null,
-   "seconds": 7.1
+   "seconds": 5.9
   },
   {
    "id": "deepseek",
@@ -183,7 +183,7 @@
    "ok": true,
    "model_count": 4,
    "error": null,
-   "seconds": 8.8
+   "seconds": 3.9
   },
   {
    "id": "xai",
@@ -193,7 +193,7 @@
    "ok": true,
    "model_count": 14,
    "error": null,
-   "seconds": 8.4
+   "seconds": 5.0
   },
   {
    "id": "zai",
@@ -213,7 +213,7 @@
    "ok": true,
    "model_count": 5,
    "error": null,
-   "seconds": 5.6
+   "seconds": 5.5
   },
   {
    "id": "alibaba_qwen",
@@ -223,7 +223,7 @@
    "ok": false,
    "model_count": 0,
    "error": "가격 표를 찾지 못함 (raw 파일의 page_text/unparsed_tables 확인 -> 전용 파서 필요)",
-   "seconds": 12.4,
+   "seconds": 10.2,
    "carried_over": 99
   },
   {
@@ -234,7 +234,7 @@
    "ok": true,
    "model_count": 27,
    "error": null,
-   "seconds": 9.0
+   "seconds": 6.1
   },
   {
    "id": "bfl_flux",
@@ -244,7 +244,7 @@
    "ok": true,
    "model_count": 2,
    "error": null,
-   "seconds": 4.2
+   "seconds": 3.8
   },
   {
    "id": "minimax",
@@ -254,7 +254,7 @@
    "ok": true,
    "model_count": 5,
    "error": null,
-   "seconds": 17.8
+   "seconds": 17.7
   },
   {
    "id": "seedance",
@@ -264,7 +264,7 @@
    "ok": true,
    "model_count": 117,
    "error": null,
-   "seconds": 17.7
+   "seconds": 18.2
   },
   {
    "id": "elevenlabs",
@@ -274,7 +274,7 @@
    "ok": true,
    "model_count": 18,
    "error": null,
-   "seconds": 8.5
+   "seconds": 7.6
   },
   {
    "id": "ideogram",
@@ -284,7 +284,7 @@
    "ok": true,
    "model_count": 412,
    "error": null,
-   "seconds": 17.6
+   "seconds": 3.9
   },
   {
    "id": "relace",
@@ -294,7 +294,7 @@
    "ok": true,
    "model_count": 10,
    "error": null,
-   "seconds": 3.8
+   "seconds": 3.7
   },
   {
    "id": "inference_net",
@@ -304,7 +304,7 @@
    "ok": true,
    "model_count": 84,
    "error": null,
-   "seconds": 0.3
+   "seconds": 0.4
   },
   {
    "id": "sailresearch",
@@ -314,7 +314,7 @@
    "ok": true,
    "model_count": 30,
    "error": null,
-   "seconds": 3.8
+   "seconds": 3.5
   },
   {
    "id": "decart",
@@ -324,7 +324,7 @@
    "ok": true,
    "model_count": 2,
    "error": null,
-   "seconds": 5.0
+   "seconds": 4.3
   },
   {
    "id": "deepinfra",
@@ -334,7 +334,7 @@
    "ok": true,
    "model_count": 209,
    "error": null,
-   "seconds": 2.9
+   "seconds": 3.5
   },
   {
    "id": "streamlake",
@@ -364,7 +364,7 @@
    "ok": true,
    "model_count": 148,
    "error": null,
-   "seconds": 17.6
+   "seconds": 3.7
   },
   {
    "id": "gmicloud",
@@ -384,7 +384,7 @@
    "ok": true,
    "model_count": 24,
    "error": null,
-   "seconds": 4.9
+   "seconds": 5.8
   },
   {
    "id": "nextbit",
@@ -412,9 +412,9 @@
    "url": "https://novita.ai/pricing",
    "method": "browser",
    "ok": true,
-   "model_count": 86,
+   "model_count": 87,
    "error": null,
-   "seconds": 4.8
+   "seconds": 5.0
   },
   {
    "id": "makora",
@@ -424,7 +424,7 @@
    "ok": true,
    "model_count": 8,
    "error": null,
-   "seconds": 0.3
+   "seconds": 0.1
   },
   {
    "id": "baidu_qianfan",
@@ -434,7 +434,7 @@
    "ok": true,
    "model_count": 25,
    "error": null,
-   "seconds": 13.8
+   "seconds": 10.0
   },
   {
    "id": "baseten",
@@ -444,7 +444,7 @@
    "ok": false,
    "model_count": 0,
    "error": "가격 표를 찾지 못함 (raw 파일의 page_text/unparsed_tables 확인 -> 전용 파서 필요)",
-   "seconds": 5.1,
+   "seconds": 5.4,
    "carried_over": 19
   },
   {
@@ -465,7 +465,7 @@
    "ok": true,
    "model_count": 29,
    "error": null,
-   "seconds": 4.8
+   "seconds": 4.5
   },
   {
    "id": "parasail",
@@ -475,7 +475,7 @@
    "ok": true,
    "model_count": 42,
    "error": null,
-   "seconds": 4.3
+   "seconds": 3.9
   },
   {
    "id": "fireworks",
@@ -485,7 +485,7 @@
    "ok": true,
    "model_count": 9,
    "error": null,
-   "seconds": 8.1
+   "seconds": 7.5
   },
   {
    "id": "venice",
@@ -493,9 +493,9 @@
    "url": "https://docs.venice.ai/models/overview",
    "method": "api:venice",
    "ok": true,
-   "model_count": 141,
+   "model_count": 145,
    "error": null,
-   "seconds": 0.1
+   "seconds": 0.2
   },
   {
    "id": "friendli",
@@ -505,7 +505,7 @@
    "ok": true,
    "model_count": 4,
    "error": null,
-   "seconds": 18.7
+   "seconds": 18.6
   }
  ],
  "changed": true
