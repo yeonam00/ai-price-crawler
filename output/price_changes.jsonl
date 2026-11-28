@@ -436,3 +436,4 @@
 {"at": "2026-11-25T16:15:30+00:00", "confirmed_at": "2026-11-26T16:15:30+00:00", "model": "mimo-v2.6-flash-mopd", "event": "price_change", "old": 0.14925, "new": 0.38875, "change_pct": 160.47, "old_seller": "openrouter", "new_seller": "openrouter", "item": "cached"}
 {"at": "2026-11-26T01:12:39+00:00", "confirmed_at": "2026-11-27T01:12:39+00:00", "model": "deepseek-v4-pro", "event": "price_change", "old": 1.378167, "new": 1.5, "change_pct": 8.84, "old_seller": "openrouter", "new_seller": "openrouter", "item": "output_heavy"}
 {"at": "2026-11-26T01:12:39+00:00", "confirmed_at": "2026-11-27T01:12:39+00:00", "model": "deepseek-v4-pro", "event": "price_change", "old": 0.605409, "new": 0.65505, "change_pct": 8.2, "old_seller": "openrouter", "new_seller": "edenai", "item": "cached"}
+{"at": "2026-11-26T15:52:34+00:00", "confirmed_at": "2026-11-28T00:44:52+00:00", "model": "gemini-3-pro-preview", "event": "gone", "old": 4.5, "old_seller": "requesty"}
